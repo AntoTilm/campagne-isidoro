@@ -14,21 +14,26 @@
 <header class="bandeau">
   <div class="bandeau__haut">
     <a class="marque" href="index.html"><span class="marque__soleil" aria-hidden="true"></span>Le Registre d'Isidoro</a>
-    <div class="recherche" role="search">
-      <label class="sr" for="recherche">Rechercher dans le registre</label>
-      <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
-      <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+    <div class="bandeau__outils">
+      <details class="vue">
+        <summary aria-label="Point de vue : quelles informations afficher"><span class="vue__titre">Point de vue</span> <b class="vue__courante">Isidoro</b><span class="vue__fleche" aria-hidden="true"></span></summary>
+        <div class="vue__panneau" role="group" aria-label="Point de vue">
+          <p class="vue__intro">Masque ce que le personnage choisi n’est pas censé savoir. Rien n’est supprimé.</p>
+          <button type="button" data-choisir-vue="isidoro" aria-pressed="false"><b>Isidoro</b><span>Ce que sait Isidoro : ses séances, son journal, ses visions.</span></button><button type="button" data-choisir-vue="theodoric" aria-pressed="false"><b>Théodoric</b><span>Ce que sait la table de Théodoric : ses séances et les documents trouvés.</span></button><button type="button" data-choisir-vue="monde" aria-pressed="false"><b>Monde</b><span>Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables.</span></button><button type="button" data-choisir-vue="tout" aria-pressed="false"><b>Tout</b><span>Tout afficher, avec la provenance de chaque information.</span></button>
+          <p class="vue__compte" aria-live="polite"></p>
+        </div>
+      </details>
+      <div class="recherche" role="search">
+        <label class="sr" for="recherche">Rechercher dans le registre</label>
+        <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
+        <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+      </div>
     </div>
   </div>
-  <div class="bandeau__bas">
-    <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="journal.html">Journal</a></li><li><a href="prochaine-seance.html">Prochaine séance</a></li><li><a href="seances.html">Séances</a></li><li><a href="personnages.html">Le monde</a></li><li><a href="isidoro.html" aria-current="page">Isidoro</a></li></ul></nav>
-    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
-      <span class="vue__titre" aria-hidden="true">Point de vue</span><button type="button" data-choisir-vue="isidoro" title="Ce que sait Isidoro : ses séances, son journal, ses visions." aria-pressed="false">Isidoro</button><button type="button" data-choisir-vue="theodoric" title="Ce que sait la table de Théodoric : ses séances et les documents trouvés." aria-pressed="false">Théodoric</button><button type="button" data-choisir-vue="monde" title="Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables." aria-pressed="false">Monde</button><button type="button" data-choisir-vue="tout" title="Tout afficher, avec la provenance de chaque information." aria-pressed="false">Tout</button>
-    </div>
-  </div>
+  <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="journal.html">Journal</a></li><li><a href="prochaine-seance.html">Prochaine séance</a></li><li><a href="seances.html">Séances</a></li><li><a href="personnages.html">Le monde</a></li><li><a href="isidoro.html" aria-current="page">Isidoro</a></li></ul></nav>
 </header>
 <main id="contenu">
-<nav class="onglets" aria-label="Isidoro"><ul><li><a href="isidoro.html">Fiche</a></li><li><a href="progression.html">Progression</a></li><li><a href="regles.html" aria-current="page">Règles</a></li></ul></nav><div class="avis-filtre" hidden></div>
+<nav class="onglets" aria-label="Isidoro"><ul><li><a href="isidoro.html">Fiche</a></li><li><a href="progression.html">Progression</a></li><li><a href="regles.html" aria-current="page">Règles</a></li></ul></nav>
 <div class="page"><div class="entete"><h1>Règles</h1><p class="entete__sous">Ce qui a été vérifié dans les livres, ce qui reste à trancher, et la bibliothèque d’Antoine.</p></div><p class="prose">Méthode de travail : chaque règle porte un statut. <span class="statut statut--verifie">vérifié</span> lu sur une photo du livre ; <span class="statut statut--verifier">à vérifier</span> page non vue ou ambiguë ; <span class="statut statut--maison">règle maison</span> décision du MJ ou contenu de campagne, jamais une base de recommandation. La terminologie est celle de la VF officielle.</p>
 <h2 id="le-moteur-du-build">Le moteur du build</h2>
 <ul><li><strong>Sort persistant</strong> (<em>Codex Profane</em> p. 83) : +6 niveaux, portée personnelle ou fixe.</li><li><strong>Métamagie divine</strong> (<em>Codex Divin</em> p. 82) : applique Sort persistant en dépensant 7 tentatives de renvoi par sort. L’économie des tentatives est le paramètre central de la montée en niveaux.</li><li><strong>Puissance divine</strong> (Prê 4, Guerre 4) : portée personnelle confirmée ; bonus de base à l’attaque égal au niveau de personnage, +6 en Force, +1 pv temporaire par niveau. Persistable.</li><li><strong>Force du colosse</strong> (Prê 5, Force 5) : portée personnelle confirmée ; taille G, +8 For, +4 Con, +4 armure naturelle, RD 5/Mal puis 10 et 15/Mal. Persistable.</li><li><strong>Prêtre cloîtré</strong> : trois domaines au total ; celui de la Connaissance est accordé d’office (+1 niveau de lanceur aux divinations, toutes les Connaissances en compétences de classe).</li><li><strong>Domaines retenus</strong> : Soleil (renvoi suprême, obligatoire pour le Serviteur radieux), Force (Force du colosse en sort de domaine 5), Connaissance (Localisation suprême en sort de domaine 8).</li></ul>

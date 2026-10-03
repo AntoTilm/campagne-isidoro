@@ -14,21 +14,26 @@
 <header class="bandeau">
   <div class="bandeau__haut">
     <a class="marque" href="index.html"><span class="marque__soleil" aria-hidden="true"></span>Le Registre d'Isidoro</a>
-    <div class="recherche" role="search">
-      <label class="sr" for="recherche">Rechercher dans le registre</label>
-      <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
-      <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+    <div class="bandeau__outils">
+      <details class="vue">
+        <summary aria-label="Point de vue : quelles informations afficher"><span class="vue__titre">Point de vue</span> <b class="vue__courante">Isidoro</b><span class="vue__fleche" aria-hidden="true"></span></summary>
+        <div class="vue__panneau" role="group" aria-label="Point de vue">
+          <p class="vue__intro">Masque ce que le personnage choisi n’est pas censé savoir. Rien n’est supprimé.</p>
+          <button type="button" data-choisir-vue="isidoro" aria-pressed="false"><b>Isidoro</b><span>Ce que sait Isidoro : ses séances, son journal, ses visions.</span></button><button type="button" data-choisir-vue="theodoric" aria-pressed="false"><b>Théodoric</b><span>Ce que sait la table de Théodoric : ses séances et les documents trouvés.</span></button><button type="button" data-choisir-vue="monde" aria-pressed="false"><b>Monde</b><span>Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables.</span></button><button type="button" data-choisir-vue="tout" aria-pressed="false"><b>Tout</b><span>Tout afficher, avec la provenance de chaque information.</span></button>
+          <p class="vue__compte" aria-live="polite"></p>
+        </div>
+      </details>
+      <div class="recherche" role="search">
+        <label class="sr" for="recherche">Rechercher dans le registre</label>
+        <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
+        <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+      </div>
     </div>
   </div>
-  <div class="bandeau__bas">
-    <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="journal.html">Journal</a></li><li><a href="prochaine-seance.html">Prochaine séance</a></li><li><a href="seances.html">Séances</a></li><li><a href="personnages.html">Le monde</a></li><li><a href="isidoro.html" aria-current="page">Isidoro</a></li></ul></nav>
-    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
-      <span class="vue__titre" aria-hidden="true">Point de vue</span><button type="button" data-choisir-vue="isidoro" title="Ce que sait Isidoro : ses séances, son journal, ses visions." aria-pressed="false">Isidoro</button><button type="button" data-choisir-vue="theodoric" title="Ce que sait la table de Théodoric : ses séances et les documents trouvés." aria-pressed="false">Théodoric</button><button type="button" data-choisir-vue="monde" title="Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables." aria-pressed="false">Monde</button><button type="button" data-choisir-vue="tout" title="Tout afficher, avec la provenance de chaque information." aria-pressed="false">Tout</button>
-    </div>
-  </div>
+  <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="journal.html">Journal</a></li><li><a href="prochaine-seance.html">Prochaine séance</a></li><li><a href="seances.html">Séances</a></li><li><a href="personnages.html">Le monde</a></li><li><a href="isidoro.html" aria-current="page">Isidoro</a></li></ul></nav>
 </header>
 <main id="contenu">
-<nav class="onglets" aria-label="Isidoro"><ul><li><a href="isidoro.html" aria-current="page">Fiche</a></li><li><a href="progression.html">Progression</a></li><li><a href="regles.html">Règles</a></li></ul></nav><div class="avis-filtre" hidden></div>
+<nav class="onglets" aria-label="Isidoro"><ul><li><a href="isidoro.html" aria-current="page">Fiche</a></li><li><a href="progression.html">Progression</a></li><li><a href="regles.html">Règles</a></li></ul></nav>
 <div class="page"><div class="entete"><h1>Isidoro</h1><p class="entete__sous">Prêtre cloîtré de Lathandre, fils du Père Théodoro de Derlusk.</p></div><p class="chapeau">Un érudit de 24 ans qui n’avait jamais quitté son monastère. Il corrige ce qui est inexact, sépare ce qu’on sait de ce qu’on suppose, et rêve depuis des années d’un elfe d’or qui relève les morts.</p>
 <h2 id="identite">Identité</h2>
 <div class="tableau"><table><tbody><tr><td>Joueur</td><td>Antoine</td></tr><tr><td>Race et alignement</td><td>Humain, neutre bon</td></tr><tr><td>Classe</td><td>Prêtre cloîtré (<em>Arcanes Exhumés</em> p. 56-57), niveau 2 ; environ 2 950 XP sur 3 000 pour le niveau 3</td></tr><tr><td>Âge</td><td>24 ans</td></tr><tr><td>Origine</td><td>Derlusk, Royaumes Frontaliers, rive sud-est du Lac de Vapeur</td></tr><tr><td>Divinité</td><td>Lathandre, au sein de la Confrérie du Soleil Glorieux, qui tient Lathandre pour Amaunator revenu</td></tr><tr><td>Domaines</td><td>Soleil, Force, Connaissance</td></tr><tr><td>Langues</td><td>Shaarien, néthérisien (appris de son père), chondathan</td></tr><tr><td>Compagnon</td><td><a href="personnages.html#la-compagnie-d-isidoro">Lucas « El Tiempo »</a>, joué par François</td></tr></tbody></table></div>

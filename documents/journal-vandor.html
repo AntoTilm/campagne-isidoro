@@ -14,21 +14,26 @@
 <header class="bandeau">
   <div class="bandeau__haut">
     <a class="marque" href="../index.html"><span class="marque__soleil" aria-hidden="true"></span>Le Registre d'Isidoro</a>
-    <div class="recherche" role="search">
-      <label class="sr" for="recherche">Rechercher dans le registre</label>
-      <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
-      <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+    <div class="bandeau__outils">
+      <details class="vue">
+        <summary aria-label="Point de vue : quelles informations afficher"><span class="vue__titre">Point de vue</span> <b class="vue__courante">Isidoro</b><span class="vue__fleche" aria-hidden="true"></span></summary>
+        <div class="vue__panneau" role="group" aria-label="Point de vue">
+          <p class="vue__intro">Masque ce que le personnage choisi n’est pas censé savoir. Rien n’est supprimé.</p>
+          <button type="button" data-choisir-vue="isidoro" aria-pressed="false"><b>Isidoro</b><span>Ce que sait Isidoro : ses séances, son journal, ses visions.</span></button><button type="button" data-choisir-vue="theodoric" aria-pressed="false"><b>Théodoric</b><span>Ce que sait la table de Théodoric : ses séances et les documents trouvés.</span></button><button type="button" data-choisir-vue="monde" aria-pressed="false"><b>Monde</b><span>Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables.</span></button><button type="button" data-choisir-vue="tout" aria-pressed="false"><b>Tout</b><span>Tout afficher, avec la provenance de chaque information.</span></button>
+          <p class="vue__compte" aria-live="polite"></p>
+        </div>
+      </details>
+      <div class="recherche" role="search">
+        <label class="sr" for="recherche">Rechercher dans le registre</label>
+        <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
+        <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+      </div>
     </div>
   </div>
-  <div class="bandeau__bas">
-    <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="../journal.html" aria-current="page">Journal</a></li><li><a href="../prochaine-seance.html">Prochaine séance</a></li><li><a href="../seances.html">Séances</a></li><li><a href="../personnages.html">Le monde</a></li><li><a href="../isidoro.html">Isidoro</a></li></ul></nav>
-    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
-      <span class="vue__titre" aria-hidden="true">Point de vue</span><button type="button" data-choisir-vue="isidoro" title="Ce que sait Isidoro : ses séances, son journal, ses visions." aria-pressed="false">Isidoro</button><button type="button" data-choisir-vue="theodoric" title="Ce que sait la table de Théodoric : ses séances et les documents trouvés." aria-pressed="false">Théodoric</button><button type="button" data-choisir-vue="monde" title="Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables." aria-pressed="false">Monde</button><button type="button" data-choisir-vue="tout" title="Tout afficher, avec la provenance de chaque information." aria-pressed="false">Tout</button>
-    </div>
-  </div>
+  <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="../journal.html" aria-current="page">Journal</a></li><li><a href="../prochaine-seance.html">Prochaine séance</a></li><li><a href="../seances.html">Séances</a></li><li><a href="../personnages.html">Le monde</a></li><li><a href="../isidoro.html">Isidoro</a></li></ul></nav>
 </header>
 <main id="contenu">
-<nav class="onglets" aria-label="Journal"><ul><li><a href="../journal.html">Journal d’Isidoro</a></li><li><a href="../documents.html" aria-current="page">Documents de Théodoric</a></li></ul></nav><div class="voile" role="note"><p class="voile__titre">Cette page relève de la table de Théodoric : Isidoro ne la connaît pas.</p><p>Le point de vue choisi masque cette page. Rien n’est supprimé : elle reste là, pour qui veut la lire.</p><p><button type="button" class="voile__bouton" data-choisir-vue="tout">Afficher en vue « Tout »</button></p></div><div class="avis-filtre" hidden></div>
+<nav class="onglets" aria-label="Journal"><ul><li><a href="../journal.html">Journal d’Isidoro</a></li><li><a href="../documents.html" aria-current="page">Documents de Théodoric</a></li></ul></nav><div class="voile" role="note"><p class="voile__titre">Cette page relève de la table de Théodoric : Isidoro ne la connaît pas.</p><p>Le point de vue choisi masque cette page. Rien n’est supprimé : elle reste là, pour qui veut la lire.</p><p><button type="button" class="voile__bouton" data-choisir-vue="tout">Afficher en vue « Tout »</button></p></div>
 <article class="lecture lecture--documents">
 <div class="entete"><p class="fil"><a href="../documents.html">Documents de Théodoric</a></p><h1>Le journal de Vandor</h1><p class="entete__sous">« Chroniques de l’Ombre et de la Cendre »</p></div>
 <div class="lecture__grille">

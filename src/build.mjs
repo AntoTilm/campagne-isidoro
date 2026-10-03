@@ -113,7 +113,7 @@ const AIDES = {
   note: '',
 };
 
-function markdown(source, titres, idsPris = new Set()) {
+function markdown(source, titres, idsPris = new Set(), herite = '') {
   const lignes = source.replace(/\r/g, '').split('\n');
   const out = [];
   let i = 0;
@@ -132,7 +132,7 @@ function markdown(source, titres, idsPris = new Set()) {
       i++;
       while (i < lignes.length && !/^:::\s*$/.test(lignes[i])) bloc.push(lignes[i++]);
       i++;
-      const interieur = markdown(bloc.join('\n'), titres, idsPris);
+      const interieur = markdown(bloc.join('\n'), titres, idsPris, savoir || herite);
       if (type === 'bloc') { out.push(`<div class="bloc-savoir"${attrSavoir(savoir)}>${interieur}</div>`); continue; }
       const aide = AIDES[type] ? `<p class="registre__aide">${typo(AIDES[type])}</p>` : '';
       out.push(`<aside class="registre registre--${type}"${attrSavoir(savoir)}><p class="registre__etiquette">${ETIQUETTES[type] || type}</p>${aide}${interieur}</aside>`);
@@ -149,7 +149,7 @@ function markdown(source, titres, idsPris = new Set()) {
       const { texte, savoir } = extraireSavoir(m[2]);
       const html = enLigne(texte);
       const id = unique(slug(texte));
-      if (titres && (niveau === 2 || niveau === 3)) titres.push({ niveau, id, texte: html.replace(/<[^>]+>/g, ''), savoir });
+      if (titres && (niveau === 2 || niveau === 3)) titres.push({ niveau, id, texte: html.replace(/<[^>]+>/g, ''), savoir: savoir || herite });
       const titre = `<h${niveau} id="${id}">${html}</h${niveau}>`;
       i++;
       if (!savoir) { out.push(titre); continue; }
@@ -163,7 +163,7 @@ function markdown(source, titres, idsPris = new Set()) {
         if (t && t[1].length <= niveau) break;
         section.push(s); i++;
       }
-      out.push(`<section class="section-savoir"${attrSavoir(savoir)}>${titre}\n${markdown(section.join('\n'), titres, idsPris)}</section>`);
+      out.push(`<section class="section-savoir"${attrSavoir(savoir)}>${titre}\n${markdown(section.join('\n'), titres, idsPris, savoir)}</section>`);
       continue;
     }
     if (/^(---|\*\*\*)\s*$/.test(l)) { out.push('<hr>'); i++; continue; }
@@ -263,7 +263,7 @@ function gabarit({ chemin, titre, description, corps, classe = '', rubrique = ''
   const nav = Object.entries(RUBRIQUES).map(([cle, rub]) =>
     `<li><a href="${r}${rub.lien}"${cle === rubrique ? ' aria-current="page"' : ''}>${typo(echapper(rub.titre))}</a></li>`).join('');
   const vues = VUES.map(([cle, label, aide]) =>
-    `<button type="button" data-choisir-vue="${cle}" title="${echapper(aide)}" aria-pressed="false">${label}</button>`).join('');
+    `<button type="button" data-choisir-vue="${cle}" aria-pressed="false"><b>${label}</b><span>${typo(echapper(aide))}</span></button>`).join('');
   return `<!doctype html>
 <html lang="fr" data-vue="isidoro">
 <head>
@@ -280,21 +280,26 @@ function gabarit({ chemin, titre, description, corps, classe = '', rubrique = ''
 <header class="bandeau">
   <div class="bandeau__haut">
     <a class="marque" href="${r}index.html"><span class="marque__soleil" aria-hidden="true"></span>Le Registre d'Isidoro</a>
-    <div class="recherche" role="search">
-      <label class="sr" for="recherche">Rechercher dans le registre</label>
-      <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
-      <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+    <div class="bandeau__outils">
+      <details class="vue">
+        <summary aria-label="Point de vue : quelles informations afficher"><span class="vue__titre">Point de vue</span> <b class="vue__courante">Isidoro</b><span class="vue__fleche" aria-hidden="true"></span></summary>
+        <div class="vue__panneau" role="group" aria-label="Point de vue">
+          <p class="vue__intro">Masque ce que le personnage choisi n’est pas censé savoir. Rien n’est supprimé.</p>
+          ${vues}
+          <p class="vue__compte" aria-live="polite"></p>
+        </div>
+      </details>
+      <div class="recherche" role="search">
+        <label class="sr" for="recherche">Rechercher dans le registre</label>
+        <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
+        <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+      </div>
     </div>
   </div>
-  <div class="bandeau__bas">
-    <nav class="nav" aria-label="Rubriques du registre"><ul>${nav}</ul></nav>
-    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
-      <span class="vue__titre" aria-hidden="true">Point de vue</span>${vues}
-    </div>
-  </div>
+  <nav class="nav" aria-label="Rubriques du registre"><ul>${nav}</ul></nav>
 </header>
 <main id="contenu">
-${onglets(rubrique, actif, r)}${voile(savoirPage)}<div class="avis-filtre" hidden></div>
+${onglets(rubrique, actif, r)}${voile(savoirPage)}
 ${corps}
 </main>
 <footer class="pied">
@@ -313,7 +318,7 @@ function enteteDePage({ rubrique, rubriqueHref, titre, sousTitre, r }) {
 
 function sommaire(titres) {
   if (titres.length < 3) return '';
-  const lis = titres.map((t) => `<li class="n${t.niveau}"><a href="#${t.id}">${t.texte}</a></li>`).join('');
+  const lis = titres.map((t) => `<li class="n${t.niveau}"${attrSavoir(t.savoir)}><a href="#${t.id}">${t.texte}</a></li>`).join('');
   return `<nav class="sommaire" aria-label="Sommaire"><details open><summary>Sommaire</summary><ol>${lis}</ol></details></nav>`;
 }
 

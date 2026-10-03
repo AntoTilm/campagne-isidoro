@@ -14,21 +14,26 @@
 <header class="bandeau">
   <div class="bandeau__haut">
     <a class="marque" href="index.html"><span class="marque__soleil" aria-hidden="true"></span>Le Registre d'Isidoro</a>
-    <div class="recherche" role="search">
-      <label class="sr" for="recherche">Rechercher dans le registre</label>
-      <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
-      <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+    <div class="bandeau__outils">
+      <details class="vue">
+        <summary aria-label="Point de vue : quelles informations afficher"><span class="vue__titre">Point de vue</span> <b class="vue__courante">Isidoro</b><span class="vue__fleche" aria-hidden="true"></span></summary>
+        <div class="vue__panneau" role="group" aria-label="Point de vue">
+          <p class="vue__intro">Masque ce que le personnage choisi n’est pas censé savoir. Rien n’est supprimé.</p>
+          <button type="button" data-choisir-vue="isidoro" aria-pressed="false"><b>Isidoro</b><span>Ce que sait Isidoro : ses séances, son journal, ses visions.</span></button><button type="button" data-choisir-vue="theodoric" aria-pressed="false"><b>Théodoric</b><span>Ce que sait la table de Théodoric : ses séances et les documents trouvés.</span></button><button type="button" data-choisir-vue="monde" aria-pressed="false"><b>Monde</b><span>Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables.</span></button><button type="button" data-choisir-vue="tout" aria-pressed="false"><b>Tout</b><span>Tout afficher, avec la provenance de chaque information.</span></button>
+          <p class="vue__compte" aria-live="polite"></p>
+        </div>
+      </details>
+      <div class="recherche" role="search">
+        <label class="sr" for="recherche">Rechercher dans le registre</label>
+        <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
+        <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+      </div>
     </div>
   </div>
-  <div class="bandeau__bas">
-    <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="journal.html">Journal</a></li><li><a href="prochaine-seance.html">Prochaine séance</a></li><li><a href="seances.html">Séances</a></li><li><a href="personnages.html">Le monde</a></li><li><a href="isidoro.html" aria-current="page">Isidoro</a></li></ul></nav>
-    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
-      <span class="vue__titre" aria-hidden="true">Point de vue</span><button type="button" data-choisir-vue="isidoro" title="Ce que sait Isidoro : ses séances, son journal, ses visions." aria-pressed="false">Isidoro</button><button type="button" data-choisir-vue="theodoric" title="Ce que sait la table de Théodoric : ses séances et les documents trouvés." aria-pressed="false">Théodoric</button><button type="button" data-choisir-vue="monde" title="Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables." aria-pressed="false">Monde</button><button type="button" data-choisir-vue="tout" title="Tout afficher, avec la provenance de chaque information." aria-pressed="false">Tout</button>
-    </div>
-  </div>
+  <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="journal.html">Journal</a></li><li><a href="prochaine-seance.html">Prochaine séance</a></li><li><a href="seances.html">Séances</a></li><li><a href="personnages.html">Le monde</a></li><li><a href="isidoro.html" aria-current="page">Isidoro</a></li></ul></nav>
 </header>
 <main id="contenu">
-<nav class="onglets" aria-label="Isidoro"><ul><li><a href="isidoro.html">Fiche</a></li><li><a href="progression.html" aria-current="page">Progression</a></li><li><a href="regles.html">Règles</a></li></ul></nav><div class="avis-filtre" hidden></div>
+<nav class="onglets" aria-label="Isidoro"><ul><li><a href="isidoro.html">Fiche</a></li><li><a href="progression.html" aria-current="page">Progression</a></li><li><a href="regles.html">Règles</a></li></ul></nav>
 <div class="page"><div class="entete"><h1>Progression</h1><p class="entete__sous">« Le Persistant » : un prêtre fragile qui devient, vers le niveau 9, un colosse permanent.</p></div><dl class="persistant-contexte">
   <div><dt>Le personnage</dt><dd>Humain, neutre bon, prêtre cloîtré de Lathandre.</dd></div>
   <div><dt>Le principe</dt><dd>Deux sorts rendus permanents chaque matin, payés en tentatives de renvoi.</dd></div>

@@ -18,46 +18,80 @@
     if (!savoir || vue === 'tout') return true;
     return (' ' + savoir + ' ').indexOf(' ' + ETIQUETTE_VUE[vue] + ' ') !== -1;
   }
-  function estCache(el) { return !el.getClientRects().length; }
+  var selecteur = document.querySelector('details.vue');
 
-  function majAvis() {
-    var vue = vueCourante();
-    var avis = document.querySelector('.avis-filtre');
-    // Le sommaire ne propose que les sections visibles.
-    document.querySelectorAll('.sommaire a').forEach(function (a) {
-      var cible = document.getElementById(decodeURIComponent(a.hash.slice(1)));
-      a.parentNode.hidden = !!(cible && vue !== 'tout' && estCache(cible));
-    });
-    if (!avis) return;
-    if (vue === 'tout' || document.body.hasAttribute('data-savoir-page') && !visiblePourVue(document.body.getAttribute('data-savoir-page'), vue)) {
-      avis.hidden = true; return;
-    }
-    var masques = 0;
+  // Compte discret, dans le menu « Point de vue » : jamais injecté au-dessus du contenu.
+  function compterMasques(vue) {
+    if (vue === 'tout') return 0;
+    var page = document.body.getAttribute('data-savoir-page');
+    if (page && !visiblePourVue(page, vue)) return -1;
+    var n = 0;
     document.querySelectorAll('#contenu [data-savoir]').forEach(function (el) {
-      if (visiblePourVue(el.getAttribute('data-savoir'), vue)) return;
+      if (el.closest('.sommaire') || visiblePourVue(el.getAttribute('data-savoir'), vue)) return;
       var parent = el.parentElement && el.parentElement.closest('[data-savoir]');
       if (parent && !visiblePourVue(parent.getAttribute('data-savoir'), vue)) return;
-      masques++;
+      n++;
     });
-    if (!masques) { avis.hidden = true; return; }
-    avis.innerHTML = '<p>Point de vue <b>' + NOMS[vue] + '</b> : ' + masques + (masques > 1 ? ' informations masquées' : ' information masquée') +
-      ' sur cette page. <button type="button" data-choisir-vue="tout">Tout afficher</button></p>';
-    avis.hidden = false;
+    return n;
+  }
+  function majCompte() {
+    var vue = vueCourante();
+    var courante = document.querySelector('.vue__courante');
+    if (courante) courante.textContent = NOMS[vue];
+    var compte = document.querySelector('.vue__compte');
+    if (!compte) return;
+    var n = compterMasques(vue);
+    compte.textContent = vue === 'tout' ? 'Tout est affiché ; la marge colorée indique qui connaît chaque information.'
+      : n === -1 ? 'Cette page entière est masquée dans ce point de vue.'
+      : n ? n + (n > 1 ? ' informations masquées' : ' information masquée') + ' sur cette page.'
+      : 'Rien n’est masqué sur cette page.';
   }
 
-  function choisirVue(v) {
+  // Lien vers une section masquée : un petit message flottant plutôt qu'une page qui ne bouge pas.
+  function signalerCibleMasquee() {
+    var ancien = document.querySelector('.cible-masquee');
+    if (ancien) ancien.remove();
+    if (!location.hash || vueCourante() === 'tout') return;
+    var cible = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (!cible || cible.getClientRects().length) return;
+    var boite = document.createElement('div');
+    boite.className = 'cible-masquee';
+    boite.setAttribute('role', 'status');
+    boite.innerHTML = '<p>Cette section est masquée en point de vue <b>' + NOMS[vueCourante()] + '</b>.</p>' +
+      '<button type="button" data-choisir-vue="tout" data-revenir>Tout afficher</button><button type="button" class="cible-masquee__fermer" aria-label="Fermer">×</button>';
+    document.body.appendChild(boite);
+  }
+  document.addEventListener('click', function (ev) {
+    var f = ev.target.closest && ev.target.closest('.cible-masquee__fermer');
+    if (f) f.parentNode.remove();
+  });
+  window.addEventListener('hashchange', signalerCibleMasquee);
+
+  function choisirVue(v, revenir) {
     if (!NOMS[v]) v = 'isidoro';
     html.setAttribute('data-vue', v);
     try { localStorage.setItem('registre-vue', v); } catch (e) { /* stockage indisponible : le choix vaut pour cette page */ }
     document.querySelectorAll('.vue [data-choisir-vue]').forEach(function (b) {
       b.setAttribute('aria-pressed', b.getAttribute('data-choisir-vue') === v ? 'true' : 'false');
     });
-    majAvis();
+    majCompte();
+    signalerCibleMasquee();
+    if (revenir && location.hash) {
+      var cible = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (cible) cible.scrollIntoView();
+    }
     if (champ && champ.value) chercher(champ.value);
   }
   document.addEventListener('click', function (ev) {
     var b = ev.target.closest && ev.target.closest('[data-choisir-vue]');
-    if (b) choisirVue(b.getAttribute('data-choisir-vue'));
+    if (b) {
+      choisirVue(b.getAttribute('data-choisir-vue'), b.hasAttribute('data-revenir'));
+      if (selecteur && selecteur.contains(b)) selecteur.removeAttribute('open');
+    }
+    if (selecteur && selecteur.open && !selecteur.contains(ev.target)) selecteur.removeAttribute('open');
+  });
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key === 'Escape' && selecteur && selecteur.open) { selecteur.removeAttribute('open'); selecteur.querySelector('summary').focus(); }
   });
 
   // ------------------------------------------------------------ sommaire
