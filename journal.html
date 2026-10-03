@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Journal d'Isidoro · Le Registre d'Isidoro</title>
+<meta name="description" content="Le journal d'Isidoro, prêtre cloîtré de Lathandre, aventure par aventure.">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="assets/img/soleil.svg" type="image/svg+xml">
+</head>
+<body class="page-journal" data-racine="">
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header class="bandeau">
+  <div class="bandeau__haut">
+    <a class="marque" href="index.html"><span class="marque__soleil" aria-hidden="true"></span>Le Registre d'Isidoro</a>
+    <div class="recherche" role="search">
+      <label class="sr" for="recherche">Rechercher dans le registre</label>
+      <input id="recherche" type="search" placeholder="Rechercher un nom, un lieu…" autocomplete="off" aria-controls="recherche-resultats">
+      <div id="recherche-resultats" class="recherche__resultats" hidden></div>
+    </div>
+  </div>
+  <nav class="nav" aria-label="Sections du registre"><ul><li><a href="chronologie.html">Chronologie</a></li><li><a href="seances.html">Séances</a></li><li><a href="journal.html" aria-current="page">Journal</a></li><li><a href="documents.html">Documents</a></li><li><a href="personnages.html">Personnages</a></li><li><a href="lieux.html">Lieux et cartes</a></li><li><a href="isidoro.html">Isidoro</a></li><li><a href="recoupements.html">Recoupements</a></li><li><a href="regles.html">Règles</a></li></ul></nav>
+</header>
+<main id="contenu">
+<div class="page"><div class="entete"><h1>Journal d’Isidoro</h1><p class="entete__sous">« J’inscris ici les événements tels qu’ils se sont produits, et non tels qu’on pourrait vouloir s’en souvenir plus tard. »</p></div><div class="prose">
+  <p>Le journal est écrit par Isidoro lui-même : il ne contient que ce qu’il a vu, vécu ou appris de vive voix. Pour le détail des jets, des sommes et des scènes vécues par Lucas seul, voir les <a href="seances.html">résumés de séance</a>.</p>
+</div>
+
+<ol class="registre-liste"><li><a href="journal/partie-1.html"><span class="registre-liste__titre">Journal d’Isidoro — Partie 1</span></a><span class="registre-liste__etiquette">Aventure 1</span><p class="registre-liste__resume">Le départ de Derlusk, la traversée du Lac de Vapeur, le contrat d’assassinat découvert à Ankhapur et la fuite vers le Clos.</p><p class="registre-liste__details"><span>Hiver 1372 CV</span></p></li><li><a href="journal/aventure-2.html"><span class="registre-liste__titre">Journal d’Isidoro — Aventure 2</span></a><span class="registre-liste__etiquette">Aventure 2</span><p class="registre-liste__resume">Glen, les orques, Fort Corner, l’abbaye et la vision d’Alcatar, l’hospice de Saelmur et le magicien de la rue des Tanneurs.</p><p class="registre-liste__details"><span>Fin d’hiver 1372 – 20 Ches 1373 CV</span></p></li></ol>
+</div>
+</main>
+<footer class="pied">
+  <p>Campagne D&amp;D 3.5 au Lac de Vapeur. Registre tenu pour Antoine et sa table ; généré par <code>src/build.mjs</code>.</p>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

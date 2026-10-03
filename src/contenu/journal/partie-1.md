@@ -1,0 +1,94 @@
+---
+titre: Journal d'Isidoro — Partie 1
+sous-titre: De Derlusk à la route de Saelmur, hiver de l'an 1372 des Vaux
+ordre: 1
+periode: Hiver 1372 CV
+aventure: Aventure 1
+resume: Le départ de Derlusk, la traversée du Lac de Vapeur, le contrat d'assassinat découvert à Ankhapur et la fuite vers le Clos.
+---
+
+**Prêtre cloîtré d'Amaunator-Lathandre, fils du Père Théodoro de Derlusk**
+
+*Hiver de l'an 1372 des Vaux — Tenu avec le plus grand soin, comme il se doit.*
+
+## Préambule — Pourquoi l'on m'envoie loin de chez moi
+
+J'inscris ici les événements tels qu'ils se sont produits, et non tels qu'on pourrait vouloir s'en souvenir plus tard.
+
+Depuis quatre années, je ne dors plus vraiment. Depuis l'ascension de Velsharoon, plus précisément — je note la coïncidence sans prétendre l'expliquer, car il ne m'appartient pas de trancher ce que je ne comprends pas encore. Les visions viennent la nuit : de la chair qui marche, des choses qui n'ont pas de souffle et qui avancent quand même. Mon père, le Père Théodoro, les a écoutées longtemps sans rien dire. Puis il a décidé.
+
+Il m'envoie à l'Abbaye du Cœur Radieux, près du Clos, pour qu'on y déchiffre ce que ces visions veulent me dire. J'emporte avec moi un ouvrage à déposer en chemin, au scriptorium d'Ankhapur : le récit véridique de la lignée d'Amaunator, dont Lathandre procède. Qu'on ne se méprenne pas sur la nature de ce livre — il ne s'agit en aucune façon d'une thèse parmi d'autres. C'est la vérité. Les Temps Sombres ont défiguré la mémoire des dieux ; ce texte rétablit ce qui a réellement eu lieu. Je ne laisserai personne, dans ces pages ni ailleurs, écrire que « certains le pensent ». On le sait.
+
+Antonio, le vieux compagnon de mon père — celui qui ravitaille notre temple en textes depuis vingt ans — a envoyé son fils m'accompagner. Il s'appelle Lucas, on le surnomme *El Tiempo*, et c'est un roublard. Nous ne nous connaissions pas avant ces derniers jours. Cela m'intrigue autant que cela m'inquiète un peu.
+
+## Premier jour — La dernière nuit à Derlusk
+
+C'est Lucas qui a voulu, avant même notre départ, m'emmener « découvrir un peu la ville » — un quartier de Derlusk où je n'avais jamais mis les pieds, pas même depuis la carriole qui me mène chaque matin au temple. Je ne m'attendais pas à une taverne.
+
+On m'a proposé de la bière ; je n'en voulais pas, la trouvant bien trop forte pour moi, et j'ai demandé s'il n'y avait pas de bière de table. N'en ayant pas, j'ai opté pour la solution la plus raisonnable : verser un peu de bière dans un verre d'eau, afin d'en atténuer la force. Je persiste à croire que c'était la bonne décision.
+
+Lucas avait fait venir à notre table une jeune femme du nom de Lily, qui travaillait dans cet établissement. J'étais, en toute honnêteté, fort impressionné et n'osais guère lui parler. Puis, sans que je sache très bien l'expliquer, quelque chose en moi a basculé d'un coup — j'étais soudain moins timide, presque assuré, convaincu de lui plaire. Je suis allé la retrouver au comptoir pour lui offrir un verre et faire sa connaissance. Mais j'ai vu, peu après, un homme poser la main sur elle sans qu'elle ne s'en offusque, et je me suis senti profondément désemparé. Lily m'a assuré que c'était chose normale dans son travail. Cela m'a laissé perplexe sur les usages de ce monde que je découvre à peine.
+
+Nous avons ensuite marché en ville, et j'ai proposé à Lucas de me suivre à mon tour. Nous avons traversé les bas quartiers — l'épreuve fut plus rude que je ne l'imaginais : des détritus au sol, une odeur infecte, une misère que je n'avais jamais vue de mes propres yeux, dans cette cité que mon père veut faire la Ville Lumière. Je l'admets sans honte, cela m'a secoué.
+
+Nous sommes arrivés au temple de Tymora, où je l'ai invité à entrer avec moi. J'y ai prié la Dame de la Chance de veiller sur notre voyage, qui s'annonce comme le plus grand que j'aie jamais entrepris.
+
+Nous sommes rentrés après dix heures du soir. Ma mère m'attendait, inquiète, et a remarqué que j'avais bu de la bière — ou du moins, ce qui y ressemblait. J'ai été grondé. Je le note aussi fidèlement que le reste, car ce journal se doit d'être exact en toute chose, même lorsque cela ne me met pas particulièrement à mon avantage.
+
+## Deuxième jour — La traversée du Lac de la Vapeur
+
+Nous avons embarqué ce matin à Derlusk, cap sur Ankhapur.
+
+Pendant la traversée, j'ai proposé à l'assemblée des passagers une prière commune, afin de porter chance à tous ceux qui voyageaient avec nous et, je l'avoue, de les instruire un peu de la vérité sur Lathandre et sa filiation d'Amaunator. J'en éprouve une fierté que j'espère mesurée : cette prière a rencontré un succès que je n'attendais pas. Les mots me sont venus avec une aisance inhabituelle, et j'ai senti que j'avais su toucher les personnes présentes. Rarement ai-je perçu la faveur de mon dieu aussi clairement.
+
+Plus tard, j'ai remarqué à la proue du bateau un homme à l'air tourmenté, visiblement partagé entre deux chemins — le bien et le mal, à ce qu'il m'a semblé. Je suis allé lui parler. Je lui ai conseillé de suivre son inclination vers le bien, mais, sentant qu'il n'arrivait pas à trancher par lui-même, je lui ai proposé une solution que je crois fidèle à l'enseignement de Tymora : lancer une pièce, et laisser la déesse elle-même désigner sa route. Je ne sais s'il a suivi mon conseil. J'espère que Tymora saura le guider.
+
+::: hors-jeu
+L'homme de la proue est le personnage de Thôn. Pour la table de Thôn et David, le MJ a réécrit cette scène : c'est le personnage de David, et non Isidoro, qui vient lui parler.
+:::
+
+## Troisième jour — Ankhapur
+
+Nous sommes arrivés à Ankhapur en fin de matinée, et la ville m'a saisi avant même que j'y pose le pied. Moi qui viens d'une cité tenue et prospère, je n'avais jamais contemplé une telle pauvreté, une telle puanteur. Lucas, lui, semblait n'en être guère affecté ; pour moi, ce fut une découverte aussi rude que nécessaire.
+
+Aux portes du port, les douaniers réclamaient un droit d'entrée : cinq pièces d'or pour Lucas, cinquante pour moi — une somme parfaitement disproportionnée et manifestement dirigée contre les prêtres, apparemment peu appréciés ici. Je n'avais que deux pièces d'or sur moi. J'ai tenté de discuter, sans grand succès.
+
+C'est Lucas qui a trouvé la solution : il a flairé l'entourloupe et s'est tourné vers des dockers à la solde du Trône de Fer, disposés à nous faire entrer clandestinement pour bien moins cher. Je ne suis pas certain que mon père eût approuvé le procédé ; je constate cependant que la taxe elle-même n'avait rien de légitime, et que sans Lucas je serais encore sur le quai. Ma reconnaissance est sincère.
+
+Le soir venu, nous sommes arrivés au scriptorium où je devais remettre le livre de mon père. J'espérais y rencontrer un ami éminent de sa jeunesse ; on m'a appris que celui-ci était mort il y a un an, et que c'est un jeune prêtre, le Frère Blaise, encore bien inexpérimenté, qui a repris sa charge.
+
+L'état des lieux m'a sincèrement troublé : des livres jetés sans ordre, rien de classé, rien de rangé. Je ne puis tolérer un tel désordre autour d'un savoir aussi précieux. Je remettais le livre tout en redressant, presque malgré moi, quelques piles autour de moi — je ne voulais pas m'imposer au Frère Blaise, mais je ne pouvais pas non plus m'en empêcher.
+
+Il nous a proposé de passer la nuit sur place. C'est en poursuivant mon rangement, un peu plus tard, que je suis tombé sur un document qui n'aurait jamais dû croupir ainsi parmi les papiers à traiter : un contrat d'assassinat, commandité par un haut représentant de la ville, visant le Père Pascal, un disciple de Lathandre. L'exécution était prévue pour cette nuit même, à minuit.
+
+L'effroi m'a saisi en comprenant que ce papier dormait là faute d'avoir été traité — que le Frère Blaise, débordé, n'avait pas même eu le temps de le lire. Il n'y avait plus une heure à perdre.
+
+## Quatrième jour — La nuit du sauvetage, et la fuite
+
+Ne sachant que faire, je me suis retiré dans la chapelle du scriptorium pour prier Lathandre, lui demandant sa bénédiction pour ce qui nous attendait. J'ai chargé Lucas, pendant ce temps, de trouver un plan — lui connaît ces choses bien mieux que moi. Il est revenu avec des informations utiles, mais aussi un avertissement : si nous faisions échouer le contrat, il nous faudrait quitter la ville sur-le-champ, sous peine de graves représailles. Il avait donc préparé, en plus, notre sortie : une tour abandonnée des remparts qu'il avait repérée.
+
+Nous avons gagné la demeure du Père Pascal par les ruelles sombres. Deux hommes s'y tenaient postés devant la porte. Je me suis avancé sans méfiance particulière pour leur demander de nous laisser entrer — Lucas, lui, a immédiatement compris qu'il s'agissait d'une embuscade. Le combat a éclaté aussitôt. J'ai eu la présence d'esprit de renforcer Lucas d'une bénédiction avant que les coups ne partent, puis j'ai reculé d'un pas. J'ai encaissé une attaque au premier round ; Lucas, de son côté, a mis son adversaire à terre. Nous avons abattu les deux tueurs.
+
+Nous n'avons pas cherché à entrer davantage. Nous avons crié au Père Pascal, à travers la porte, qu'il était en danger, lui avons laissé le contrat qui le nommait, et le conseil de se réfugier au temple de Lathandre. Puis nous avons fui.
+
+Restait le rempart. Lucas, avec son expérience, a grimpé sans peine à la corde. Moi, n'ayant jamais rien fait de tel, j'ai d'abord cru bon de simplement m'y accrocher et me laisser porter — jusqu'à ce qu'il me fasse comprendre, par de grands gestes exaspérés, que je devais grimper de mes propres mains. J'ai fini, non sans peine, par atteindre le sommet. La descente de l'autre côté fut nettement moins glorieuse : j'ai raté mon geste, basculé la tête la première, et heurté durement la paroi avant d'atterrir en contrebas. Je n'enjolive rien — la vérité avant l'orgueil.
+
+Il nous restait un cours d'eau à franchir. Contre toute attente, je m'en suis bien sorti, malgré mes talents fort limités en la matière.
+
+Nous avons quitté Ankhapur avant l'aube.
+
+## Cinquième jour — La route de Saelmur
+
+Nous avions rejoint un convoi sur la route de Saelmur. Ils sont venus du ciel.
+
+Des mages du Zhentarim, montés sur hippogriffes. Je consigne ce que j'ai vu, car je crois qu'il importe que cela soit écrit quelque part : les flèches de Lucas les atteignaient, et rebondissaient. Quelque chose autour d'eux les protégeait, quelque chose que ni lui ni moi ne savions percer. Nous n'avons pas gagné ce combat. Nous y avons survécu.
+
+J'ai soigné ceux qui pouvaient l'être. Ce fut la première fois que mes mains ont servi à cela pour de vrai, hors de l'infirmerie du temple, sur des gens que je ne connaissais pas, dans la poussière d'une route. Je ne saurais dire si j'ai bien fait les gestes. Je sais qu'ils respiraient encore quand nous sommes partis.
+
+Nous avons renoncé à Saelmur et bifurqué droit vers le nord-ouest, en direction du Clos. L'Abbaye du Cœur Radieux nous attend.
+
+---
+
+*Ainsi s'achève ce fragment. Je le relirai, et je le corrigerai s'il le faut, mais je n'en retrancherai rien.*
+
+*— Isidoro*

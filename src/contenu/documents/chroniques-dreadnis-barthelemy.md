@@ -1,0 +1,173 @@
+---
+titre: L'histoire d'Alcatar, par deux inquisiteurs
+sous-titre: « Les chroniques inquisitrices » des Pères Dreadnis et Barthélemy
+ordre: 5
+auteur: Père Dreadnis (vol. I), puis Père Barthélemy l'Austère (vol. II et III), inquisiteurs de Baine
+periode: 1355 – 1371 CV
+provenance: Rapports chiffrés envoyés à Château-Zhentil, puis transférés aux archives secrètes de Teldorn à Mintar.
+regard: Ennemis d'Alcatar puis alliés ; Barthélemy éprouve pour lui une amitié qu'il avoue.
+pdf: chroniques-dreadnis-barthelemy.pdf
+resume: D'où vient Alcatar, comment il est devenu l'Élu de Velsharoon et comment il a livré Manshoon à Fzoul.
+---
+
+## Volume I, par le Père Dreadnis — L'Infiltration de l'Elfe d'Or et la Falsification de la Sombre Académie (1355 - 1357 CV)
+
+*Rapport chiffré envoyé par messager clandestin à la Haute-Tour de Château-Zhentil, à l'attention du Conseil des Élus de la Main Noire.*
+
+### I. L’Arrivée de l’Exilé et les Faveurs de la Haute-Cité
+
+Par la Poigne Implacable du Maître Baine, j'écris ces lignes sous les voûtes humides de notre sanctuaire clandestin de Lunargent. Un serpent s'est glissé au cœur de la *Sombre Académie*, et le grand maître de notre cabale, l'Archimage Malekth le Blême, semble aveuglé par le miroitement de ses écailles.
+
+Son nom est Alcatar. C’est un elfe d'or au port altier, dont la simple présence ici est une insulte à l'ordre naturel. Mes premières investigations ont révélé qu’il n’est pas né sur ce continent. Il provient d’Éternelles-Rencontres, cette immense île-forteresse sainte où se réfugient tous les seigneurs elfiques qui ont choisi de délaisser la terre de Faerûn. Qu'un tel sang vienne s'enfoncer dans les ombres de la Marche du Nord aurait dû éveiller la méfiance immédiate de Malekth. Il n'en fut rien.
+
+Alcatar s'est d'abord présenté en grande pompe à la cour haute de Lunargent. Les espions que nous entretenons parmi les serviteurs du palais rapportent qu'il est venu apporter un présent d’une valeur inestimable à Dame Alustriel en personne. On murmure qu'il s'agissait d'un reliquaire d'orichalque contenant des parchemins de l'ère du Haut-Empire elfique. Ce cadeau a parfaitement fonctionné : Alustriel l'a immédiatement placé dans ses "petits papiers". Il bénéficie d'une liberté de mouvement et d'un sauf-conduit qui font grincer les dents de la noblesse locale.
+
+C'est précisément cette protection royale qui a semé la paranoïa au sein de la *Sombre Académie*. Lorsque Alcatar a franchi nos portes fortifiées pour exiger l'accès à nos cercles d'études nécromantiques, la majorité des grands maîtres ont crié à la trahison. Nous étions – et nous sommes toujours – convaincus qu'il s'agit d'un espion de haut rang à la solde des Ménestrels, envoyé par Alustriel pour cartographier nos réseaux et identifier les prêtres de la Main Noire qui financent la cabale. L'arrogance de cet elfe, qui déambule parmi nos autels de mort avec un sourire dédaigneux, ne fait qu'alimenter notre dégoût. Il pue la justice et le secret des harpes.
+
+### II. Le Compromis d'Aeloria et la Mort de la Pratique
+
+Pourtant, l'Archimage Malekth le Blême l'a reçu comme un prince. Pire encore, sous la direction d'Alcatar, les activités de la *Sombre Académie* subissent une régulation drastique et castratrice. L'elfe a imposé ses conditions, et Malekth les a signées. Désormais, les sacrifices humains du "bon peuple" de la vallée de la Surbin sont formellement interdits dans l'enceinte de l'école. L'arcaniste d'or prétend qu'éveiller la colère des paysans est une erreur stratégique, mais nous y voyons la main invisible de sa maîtresse de Lunargent.
+
+Plus intolérable encore : il faut désormais obtenir une autorisation écrite et justifiée de sa propre main pour créer le moindre mort-vivant, fût-ce un simple squelette de corvée. La *Sombre Académie*, jadis fière forge de terreur et de chair corrompue, est en train de devenir sous nos yeux une simple école de nécromancie théorique. L'étude des flux d'énergie négative et la lecture des grimoires anciens sont devenues la norme imposée, tandis que la pratique physique de notre art – l'exhumation, la profanation, l'expérimentation sur le sang chaud – est devenue quasi nulle.
+
+Ce favoritisme outrancier et cette dérive académique ont provoqué un profond mécontentement. Plusieurs de nos plus grands nécromanciens, des hommes rudes qui croient que la Main Noire s'impose par la terreur des armées de défunts, ont quitté l'Académie en signe de protestation. Ils ont tenté de fonder une *Sombre Académie Originelle* dans les cavernes des Pics des Crépuscules pour continuer les vrais rituels sacrificiels.
+
+Leur tentative fut brève et sanglante. Moins de deux lunes après leur départ, leurs corps ont été retrouvés alignés à l'entrée de leur défilé. Ils avaient tous été égorgés ou foudroyés par des magies de lumière. Plus terrifiant encore : chaque cadavre portait autour du cou un collier de cuir serti d'une harpe d'argent, le symbole infâme des Ménestrels. Malekth a balayé l'affaire en disant que ces dissidents avaient été imprudents.
+
+Mais moi, Dreadnis, je sais lire entre les lignes. Ces meurtres signés sont trop parfaits. Alcatar protège son monopole arcanique en utilisant les assassins d'Alustriel pour nettoyer ceux qui refusent sa doctrine théorique. C'est un dégoût profond qui me tord le ventre à chaque fois que je vois Malekth s'incliner devant lui.
+
+### III. Les Ombres des Monts Nétheres et le Visiteur de Minuit
+
+La méfiance est d'autant plus légitime qu'Alcatar a ordonné le creusement d'un immense complexe souterrain secret au cœur des Monts Nétheres. Il a baptisé ce sanctuaire la *Loge de l'Ossement*. Il y accueille uniquement des membres triés sur le volet, des érudits profanes soumis à ses règles d'acier.
+
+En tant que prêtre de Baine, j'ai exigé d'y être invité pour inspecter les autels au nom de nos accords financiers. La réponse d'Alcatar fut un refus poli mais glacial. On m'a formellement "déconseillé" d'approcher de la passe des monts, ses gardes ayant ordre d'abattre tout intrus. L'elfe a manifestement compris que je l'observais plus attentivement que les autres. Son regard s'attarde sur moi lors des assemblées, comme s'il mesurait le poids de ma haine.
+
+Pourtant, les secrets de sa Loge filtrent. Mes espions postés sur les sentiers de chèvres ont vu un visiteur de marque traverser la passe à la faveur de la nuit, avant d'être reçu à l'école par Malekth lui-même. Cet invité n'est pas vivant. Il s'agit d'un Vampire surpuissant se faisant nommer Vandor. Ce monstre de la nuit déambule dans les couloirs de la cabale avec l'assurance d'un seigneur en son domaine, escorté par Alcatar.
+
+J'ignore l'origine exacte et les termes de l'accord secret qui lie l'elfe d'or à ce mort-vivant ancestral, mais cela m'inquiète au plus haut point. Si Alcatar est un espion des Ménestrels, pourquoi fraye-t-il avec les maîtres du sang ? À moins que son ambition ne dépasse la simple politique de Lunargent.
+
+### IV. Le Don Prodigieux et le Mystère de l'Île Noire
+
+Malgré ma haine, je ne peux nier l'évidence : cet elfe possède un don inné, presque terrifiant, pour les arts de la magie, et plus particulièrement pour la nécromancie. Son esprit est d'une vivacité surhumaine — nos scribes estiment son Intelligence à un score de 21, un niveau qui dépasse la compréhension des mortels ordinaires.
+
+Il bénéficie manifestement d'un don de Prodigue Magique. Lorsqu'il manipule la trame, l'énergie coule en lui sans le moindre effort, sans les incantations fastidieuses des mages de Château-Zhentil. Il a obtenu une maîtrise absolue à travers ses dons d'École renforcée (Nécromancie) et d'École supérieure (Nécromancie). Ses sorts d'animation ou de flétrissure brisent les résistances naturelles des sujets comme s'ils n'étaient que de la paille.
+
+J'ai tenté de percer le mystère de l'origine de ses connaissances. Un elfe d'or élevé à Éternelles-Rencontres étudie la Haute-Magie ou les arts de la lumière, pas les secrets de la décomposition. D'où lui vient cette science maudite ? En interrogeant des marins de la Côte des Épées de passage à Sundabar, j'ai reconstitué une partie de sa traversée.
+
+Lors de son exode en mer entre l'île d'Éternelles-Rencontres et la cité d'Eauprofonde, son navire a été pris dans une tempête magique d'une violence inouïe et a échoué. Alcatar a survécu. Il a passé un temps considérable — plusieurs mois, voire des années — prisonnier ou isolé sur une île mystérieuse et oubliée, située au large des côtes du Sud ou de la Mer Sans Fin. C'est sur cette terre isolée, loin des regards de son peuple, qu'il aurait découvert des caveaux anciens et perfectionné son art de la nécromancie.
+
+On murmure qu'il est finalement parvenu à quitter l'île en "donnant un coup de main" logistique ou magique à un capitaine pirate de passage (dont les rumeurs disent qu'il pourrait s'agir des ancêtres de Maelstrom, bien que rien ne soit confirmé). Ce capitaine l'a ramené sur la Côte des Épées. Alcatar n'est pas du tout bavard sur le sujet ; dès qu'un disciple l'interroge sur son séjour sur l'île, son visage se ferme et l'air de la pièce chute de plusieurs degrés.
+
+### V. Les Échos du Nord (Contexte Régional)
+
+Pendant que ce serpent restructure notre Académie à son avantage, le reste du Nord bouillonne. À Château-Zhentil, les tensions entre Manshoon et les clercs s'intensifient autour du contrôle des routes commerciales de la Mer de Lune. Des tribus d'orques de la Griffe d'Os effectuent des maraudes de plus en plus audacieuses près de Sundabar, et les rumeurs affirment que le Réseau Noir cherche à implanter un avant-poste majeur à la Citadelle du Corbeau pour surveiller les Vaux.
+
+Alcatar observe ces mouvements de loin. Il accumule les parchemins et fortifie sa Loge de l'Ossement. Je continuerai à consigner ses moindres faits et gestes. S'il tente de livrer notre cabale à Alustriel, ma lame sera la première à chercher son cœur d'or. S'il est plus qu'un espion, alors nous devrons découvrir ce qu'il prépare avant qu'il ne soit trop tard.
+
+*Fin du Premier Chapitre. Que la Main Noire s'étende.*
+
+## Volume II, par le Père Barthélemy l'Austère — Le Sang des Vaux, le Pacte du Roc Noir et la Falsification de l'Élu (1358 - 1371 CV)
+
+*Compilation des correspondances chiffrées envoyées par l'Ermitage du Roc Noir à la Haute-Tour de Château-Zhentil, puis transférées aux archives secrètes du Vicaire Teldorn Sombrespoir à Mintar.*
+
+### I. L’Orgueil du Roc Noir et le Silence du Massacre (1358 CV)
+
+Par la Poigne d’Acier qui doit un jour broyer ce monde, j’écris ces lignes depuis l’Ermitage du Roc Noir, ce maudit promontoire de basalte qui flanque l’entrée de la Route Noire, à l’orée occidentale du désert d’Anauroch.
+
+Mon mandat initial, dicté par le Conseil de Château-Zhentil avant que le ciel ne s'effondre, était grandiose. Je devais ériger ici un avant-poste fortifié d’envergure, une citadelle de fer destinée à être garnie par les légions du Zhentarim pour taxer, surveiller et sécuriser le transit des caravanes d'esclaves et d'or à travers les sables. Mais le Temps des Troubles est venu, et les plans des mortels ont été balayés comme de la poussière.
+
+La Crise des Avatars a mis notre projet à plat. Le Seigneur Baine est mort dans le port de Tantras, son sang divin dispensé par le traître Torm. Privé de la direction du Maître, le chaos s'est emparé du Réseau Noir. Les armées profanes de la Citadelle du Corbeau et de Château-Zhentil ont rassemblé toutes leurs forces disponibles pour lancer une offensive totale et stupide afin d'envahir et de piller les Vaux. Ce fut un massacre. Nos troupes s'y sont fait piéger et exterminer par les rangers et les sorciers des vallées. Les coffres du Zhentarim se sont vidés en une lune, et les moyens financiers qui m'étaient promis ont été totalement suspendus.
+
+Je me suis retrouvé seul. Abandonné sur ce rocher stérile, sans or, sans soldats, entouré par les tempêtes de sable de l’Anauroch. Mais un clerc de la Tyrannie ne plie pas le genou. Faute de forteresse, j'ai bâti de mes propres mains une petite — une très petite — place forte de pierre brute. J'ai recruté et dressé deux jeunes pages orphelins pour entretenir les râteliers, et j'ai soumis par la terreur deux familles de fermiers locaux installées dans la combe, les forçant à cultiver le seigle pour nourrir mon poste. Avec les années, ce misérable Roc Noir est devenu le seul relais viable sur la Route Noire du Zhentarim pour quiconque ose traverser l'enfer de l'Anauroch. J'ai tenu le poste dans le silence et le froid.
+
+C'est dans cette solitude, alors que je pleurais la mort du Père Noir, que j'ai entendu une voix. Une vibration télépathique impitoyable, froide et tranchante comme un couperet, a résonné directement dans mon crâne. C'était la voix du Grand Prêtre Fzoul Chembryl. Il hurlait à travers la trame, conjurant tous les clercs dispersés de renier les faux prêtres de Cyric, de se convertir immédiatement au culte d’Iyachtu Xvim, le Doigt de la Haine, et de lui prêter un serment de soumission sur-le-champ. J'ai senti l'essence de la Cruauté originelle vibrer dans ses paroles. À genoux sur les dalles de mon temple brut, j'ai juré fidélité à Xvim. La Tyrannie avait un nouveau nom.
+
+### II. Le Collier de la Harpe et le Choc des Auras (1359 - 1363 CV)
+
+Ma première mission sous la bannière du Doigt de la Haine fut d'élucider un silence de mort. Château-Zhentil n'avait plus aucune nouvelle de notre correspondant à la *Sombre Académie* de Lunargent. Le Père Dreadnis ne répondait plus aux missives cryptées.
+
+J'ai envoyé mes pages fureter dans la basse-vallée de la Surbin. La vérité fut atroce. Dreadnis s'était fait tuer à la lisière des bois. On a retrouvé son cadavre en décomposition au fond d'un ravin, et comme tous les dissidents qui s'opposaient à la réorganisation théorique de l'école, il portait un collier en forme de harpe d'argent serré autour du cou. Les Ménestrels venaient de frapper notre Église au cœur du Nord.
+
+Lorsque j'ai informé Fzoul Chembryl de cette découverte par message magique, sa réponse fut immédiate : *« Dreadnis est mort, mais l'Académie doit rester sous notre influence. Prends contact avec l'elfe d'or Alcatar. Puisque son dieu Myrkul a péri lors de la chute de sa cité flottante, il est orphelin de foi. Sa Loge de l'Ossement chancelle. Profite de sa faiblesse pour le convertir à la gloire d'Iyachtu Xvim. »*
+
+Peu de temps après, Alcatar s'est présenté à l'Ermitage du Roc Noir. Il voyageait vers l'Est, ses fins habits d'or couverts de la poussière grise de la route. En le voyant franchir le seuil de ma petite chapelle, je me suis senti hautain. Je voyais en lui un mage brillant, certes, mais un mage brisé, un prêtre sans dieu dont le patron divin, Myrkul, venait d'être pulvérisé. Fort de me trouver au centre de mon propre temple, entouré de mes symboles du gantelet de Xvim, j'ai voulu l'intimider. J'ai avancé vers lui, élevant ma voix de clerc, exigeant qu'il ploie le genou devant le Doigt de la Haine s'il voulait obtenir le droit de passage sur nos pistes.
+
+Le mot de passe de mon arrogance est mort dans ma gorge.
+
+Alcatar n'a pas levé une seule fois la main, il n'a prononcé aucune incantation. Il a simplement posé son regard d'ambre sur moi, et son aura s'est déployée. L'air de la chapelle s'est instantanément figé, devenant si froid que le souffle de ma bouche s'est transformé en givre. Une présence écrasante, une pesanteur de tombeau et de majesté antique a pesé sur mes épaules, me forçant presque à plier les jambes. Ce magicien était bien plus intimidant, bien plus terrifiant que n'importe quel démon que j'avais invoqué. Le plus troublant — ce qui a gravé une profonde paranoïa en mon âme — fut de constater que malgré la mort officielle de Myrkul, Alcatar bénéficiait toujours de pouvoirs nécromantiques divins d'une intensité pure. Sa trame débordait d'énergie négative bénie. J'ai d'abord suspecté qu'il avait secrètement signé un pacte avec le nouveau dieu des morts, Cyric le fou, qui venait de s'emparer du domaine du dôme des os. Mais je ne comprenais pas l'origine exacte de cette puissance, car Alcatar n'arborait aucun symbole, aucun signe religieux, aucune amulette profane. Il maniait le divin comme s'il en était le propriétaire.
+
+Néanmoins, l'elfe d'or fit preuve d'une retenue qui me bouscula. Il veilla scrupuleusement à ne pas m'humilier devant mes pages. Dès qu'il vit mon trouble et ma soumission physique, il retira son aura et s'efforça d'être le plus courtois, le plus diplomate et le plus protocolaire possible. Il s'assit à ma table de chêne, accepta mon misérable vin de seigle et m'exposa ses besoins. Il souhaitait utiliser la Route Noire en toute sécurité pour se rendre périodiquement dans les Vaux et sur la Côte des Épées pour ses affaires privées.
+
+Un accord fut scellé ce jour-là : Alcatar obtint le libre passage permanent sur notre route **commerciale. En contrepartie, il s'engagea à rendre un service majeur au culte de Baine/Xvim lorsque l'Église le jugerait utile.**
+
+### III. Les Secrets de Château-Suif et la Cartographie de l'Empire Écroulé (1364 - 1367 CV)
+
+Au fil des années, Alcatar est repassé à de très nombreuses reprises par l'Ermitage du Roc Noir. Parfois pour transiter vers la Citadelle du Corbeau, parfois simplement pour s'arrêter quelques heures et prendre des nouvelles de ma santé et de la survie de mon poste. Avec le temps, par la force de nos discussions nocturnes au coin du feu, une certaine forme de respect mutuel, et j'ose le dire, une forme d'amitié clandestine s'est créée entre l'exilé d'Éternelles-Rencontres et le prêtre solitaire du désert.
+
+Je n'ai jamais abandonné ma mission première : je voulais le convertir. Je sentais qu'une alliance définitive entre sa Loge et notre Église ferait trembler le Nord. Un soir de l'année 1364 CV, alors que nous débattions du silence des dieux morts, je lui ai émis une idée qui hantait mes prières : *« Alcatar, dans mon fort intérieur, je sais que le Doigt de la Haine n'est pas une simple entité. Iyachtu Xvim est la réincarnation charnelle de Baine. Notre Père n'est pas tout à fait mort. Son essence couve dans le sang de son fils, et un jour viendra où la chrysalide éclatera et le Père Noir réclamera son trône de fer. »*
+
+Alcatar s'est soudainement tu. Il m'a interrogé longuement, avec une acuité et une précision chirurgicale, sur la nature de ce pressentiment. Je lui ai alors confessé les secrets de nos archives : *« Jadis, avant le Temps des Troubles, le Seigneur Baine s'est rendu en secret à la grande bibliothèque de Château-Suif. Tout comme le sage Alaundo, le Maître de la Tyrannie y a écrit et scellé ses propres prédictions concernant son avènement et son retour parmi les mortels en cas de défaite. »* Alcatar a paru fort, très fortement intéressé par l'existence de ces prophéties de Château-Suif.
+
+Comme j'avais le devoir de garder un œil vigilant sur ses agissements, mes contacts marchands m'ont rapporté des échos troublants l'année suivante. En cette même année 1364 CV, Alcatar a été vu à Château-Suif. Les espions du Zhentarim infiltrés parmi les scribes ont copié les registres de la bibliothèque. L'elfe d'or y a passé des lunes entières, mais ses recherches ne portaient pas sur la flotte ou les arcanes communs : il s'est focalisé avec une obsession maladive sur la **localisation géographique précise de tous les anciens avant-postes nethérisiens ainsi que sur les** ruines enfouies des anciennes cités volantes nethérisiennes écroulées à travers Féérune. Il a dévoré les *Versets d'Alaundo* et les écrits de Baine, traquant les vestiges de l'empire de la magie.
+
+À partir de cet instant, mes rapports consigneront une évolution majeure : les contacts entre **Alcatar et l'Archimage Manshoon sont devenus de plus en plus fréquents à la Citadelle du** Corbeau. En 1365 CV, Alcatar y a fait son premier voyage à cheval, avant d'obtenir en 1366 CV l'accès direct au réseau des portails secrets du Zhentarim. Comme mon maître Fzoul Chembryl conspirait dans l'ombre pour prendre le pouvoir souverain sur le Réseau Noir au détriment de Manshoon, j'ai partagé l'intégralité de mes récits et des notes d'Alcatar à tous les hauts prêtres d'Iyachtu Xvim à travers Féérune, y compris au jeune Vicaire Teldorn Sombrespoir de Mintar. Alcatar était devenu le pivot invisible de notre guerre d'influence.
+
+### IV. L’Ascension de Velsharoon et les Doutes de l'Inquisiteur (1368 - 1371 CV)
+
+L’année 1368 CV fut celle du grand mensonge théologique. Un séisme arcanique a secoué les cercles nécromantiques : un ancien Magicien Rouge renégat de Thay s'est élevé au rang de divinité sous le nom de Velsharoon, le Seigneur de la Liche. Mes archives en provenance de l'Est sont claires sur ses origines : avant son apothéose, Velsharoon se "prenait le bec" de manière violente avec le Zulkir Szass Tam à Thay pour le contrôle des parchemins de mort. Ils en sont venus aux mains et aux duels magiques plus d'une fois, avant que Velsharoon, sur le point d'être exécuté, ne soit contraint de fuir Thay pour se cacher dans le Nord et y voler les carnets de Talos.
+
+Dès que Velsharoon est devenu un dieu mineur, Alcatar s'est officiellement lié à lui. C'est ici que mon amitié pour l'elfe se heurte à ma rigueur d'inquisiteur : Alcatar est un falsificateur d'histoire.
+
+J'ai remarqué qu'Alcatar a immédiatement ordonné à ses adeptes de la Loge de l'Ossement et du temple d'Ankharia de modifier radicalement toutes les traces de leurs anciennes croyances. Il a fait gratter les parchemins et réécrire les chroniques de manière à faire croire au monde — et à Velsharoon lui-même — qu'il a toujours été un suppôt dévot du Seigneur de la Liche depuis 1355 CV, et qu'il avait été envoyé par lui sur Féérune pour y préparer son ascension divine ! C'est une hérésie chronologique que je mets clairement en doute dans mes rapports, car Velsharoon n'était qu'un mortel mort de peur treize ans plus tôt.
+
+Quoi qu'il en soit, Alcatar est devenu rapidement l'Élu de Velsharoon. En mettant à la disposition du nouveau dieu tous les réseaux clandestins dont il disposait dans le Nord — c'est-à-dire l'infrastructure théorique de la *Sombre Académie* de Lunargent et le temple souterrain secret des *Monts Nétheres* —, Alcatar a acquis un statut quasi divin.
+
+Depuis cette apothéose, l'elfe d'or ne passe plus beaucoup par mon Ermitage du Roc Noir. Nos longues discussions au coin du feu appartiennent au passé. Je sais qu'il fait de nombreux voyages et qu'il a commencé à s'intéresser de très près aux secrets et aux vestiges enfouis sous les sables de l'Anauroch, là où reposent les ossements des cités de jadis qu'il a cartographiées à Château-Suif. Pour obtenir de nouveaux renseignements, j'ai dû me résoudre à déployer mes propres espions et mes pages autour de la passe.
+
+Comme il est encore fréquemment aperçu à la Citadelle du Corbeau alors que mes hommes surveillent les pistes physiques, je suspecte fortement Alcatar d'utiliser un portail magique direct reliant ses sanctuaires du Nord aux laboratoires de Manshoon.
+
+Lors de notre dernière entrevue rapide, l'elfe m'a glissé des paroles mystérieuses. Il m'a dit qu'il étudiait la résilience de la vie face à la décomposition. J'ignore ce qui se trame réellement dans l'ombre de la Citadelle du Corbeau, mais la rumeur est aberrante : au cours des derniers mois, l'Archimage Manshoon aurait été prétendument tué à plusieurs reprises lors de duels secrets contre Elminster, et à chaque fois, le maître du Réseau Noir est inexplicablement réapparu en ville, marchant parmi ses hommes comme si la mort n'avait aucune prise sur lui. J'ignore par quel artifice ou quel miracle profane l'archimage accomplit ce prodige, mais l'influence d'Alcatar plane sur ces miracles sans que personne n'en connaisse la clé.
+
+Mon rôle à l'Ermitage du Roc Noir prend désormais tout son sens. Alcatar me respecte. Il écoute mes paroles. À l'aube de ces bouleversements qui secouent le Nord, j'espère de tout mon cœur **être le lien, le chaînon et l'intermédiaire privilégié pour créer une alliance sacrée, indéfectible et** définitive entre le culte d'Iyachtu Xvim et la puissance occulte d'Alcatar. S'il se lie à nous, la terreur du Doigt de la Haine écrasera le Zhentarim de Manshoon.
+
+*Fin du Deuxième Chapitre. Que la Main Noire guide nos alliances.*
+
+## Volume III, par le Père Barthélemy l'Austère — Le Pacte des Divinités, le Piège de Manshoon et le Triomphe de la Main Noire (1369 - 1371 CV)
+
+*Dernier volet des correspondances chiffrées envoyées par l'Ermitage du Roc Noir à la Haute-Tour de Château-Zhentil, compilé et scellé juste avant le grand exode du Sud.*
+
+### I. L’Audace de l’Élu et le Grand Blasphème (1369 CV)
+
+Par la Poigne Implacable qui brise les rois et courbe les mages, j’écris ce dernier rapport avec une ferveur qui me consume le sang. L’année 1369 CV restera gravée dans les pierres de cet Ermitage comme celle où les mortels ont appris à plier les destins des puissances d’en haut.
+
+Au cours d'une nuit sans lune, alors que le vent de l'Anauroch hurlait contre les contreforts du Roc Noir, Alcatar est apparu dans ma chapelle. Il n'était plus le voyageur poussiéreux d'autrefois ; il arborait la superbe écrasante de l'Élu de Velsharoon. Pourtant, ce qu'il est venu me demander ce soir-là dépassait tout ce que ma foi d'inquisiteur pouvait concevoir comme audace. Avec un calme glacial, l'elfe d'or m'a demandé d'user de mes canaux les plus secrets pour proposer et planifier un entretien confidentiel et de la plus haute importance avec le Grand Prêtre Fzoul Chembryl ici même, entre les murs de mon ermitage.
+
+Alcatar avait parlé. Ses lunes passées à profaner les secrets de Château-Suif avaient porté leurs fruits maudits. Il avait entièrement décrypté les prophéties d’Alaundo et les versets cachés du Père : le retour physique et triomphant de Baine aurait lieu au cours de l'Année de la Magie Sauvage (1372 CV). Fort de cette certitude absolue, Alcatar venait proposer un pacte d'une noirceur géopolitique sans précédent : il offrait d'aider Fzoul Chembryl à saboter Manshoon et à prendre définitivement les rênes du Zhentarim, brisant le monopole profane des mages sur le Réseau Noir.
+
+L'elfe d'or ne faisait pas cela par dévotion pour Baine, mais par pur calcul divin. Il m'a confessé ses craintes avec une lucidité terrifiante : il sentait, par ses connexions avec la trame, qu'Azouth ne protégerait plus très longtemps Velsharoon. Le Dieu des Magiciens commençait à voir clair dans le double jeu du Seigneur de la Liche. Alcatar voulait devancer le châtiment et forcer la main de son propre dieu pour l'obliger à changer radicalement ses alliances divines.
+
+L'elfe avait une idée machiavélique derrière la tête : il comptait provoquer délibérément le courroux et la fureur de Talos le Destructeur afin d'acculer Velsharoon, de détruire ses derniers soutiens chez les dieux du Bien, et d'obliger le Seigneur de la Liche à se diriger vers l'obéissance de Baine. Mais pour déclencher ce séisme cosmique, Alcatar exigeait une garantie mortelle : il voulait être absolument certain, par la voix de Fzoul, du soutien militaire, spirituel et arcanique que l'Église de Baine pourrait fournir à Velsharoon lorsque la tempête éclaterait. À peine était-il nommé Élu de Velsharoon qu'il conspirait déjà dans l'ombre pour manipuler et trahir son propre dieu ! Une telle ambition m'a fait frémir de respect.
+
+### II. Les Entretiens Secrets du Roc Noir (1369 - 1370 CV)
+
+Le pacte ne s'est pas scellé en une nuit. Fzoul Chembryl, reçu secrètement dans ma forteresse de basalte sous des protections anti-divination absolues, a exigé le temps de la réflexion. On ne renverse pas un archimage comme Manshoon sur la simple foi d'une prophétie elfe. De son côté, Alcatar a confessé qu'il lui faudrait un temps considérable pour étudier et entraver secrètement les cuves à clones de stase que Manshoon gardait jalousement à la Citadelle du Corbeau. Il devait introduire une faille invisible dans les matrices de stase sans que les alarmes de l'archimage ne s'activent.
+
+Il a fallu plusieurs rencontres clandestines, s'étalant sur des mois de négociations dures, de partages de parchemins et de serments gravés dans le plomb, pour que tout soit définitivement scellé ici même, au Roc de l'Ermite. C'est sous mes yeux, dans ma misérable chapelle de frontière, que le sort de la Mer de Lune et du Zhentarim s'est joué.
+
+Fzoul a promis la protection de la Main Noire pour le culte naissant de Velsharoon. Alcatar a promis de livrer la gorge de Manshoon sur un autel sacrificiel.
+
+Après la signature du dernier traité, l'elfe d'or a quitté l'Ermitage. Je ne l'ai plus jamais revu ici. Mes pages et mes éclaireurs ont rapporté qu'il avait été aperçu à de rares occasions, silhouette fugitive traversant les frontières mouvantes de l'Anauroch ou chevauchant dans l'ombre des Vaux pour effacer ses traces, retournant dans sa Loge de l'Ossement pour se préparer à l'apothéose.
+
+### III. L’Apocalypse des Clones et l’Avènement de la Main Noire (1370 - 1371 CV)
+
+En l'Année de la Chope (1370 CV), le piège d'Alcatar s'est refermé avec la précision d'une guillotine. Fzoul Chembryl a frappé le coup décisif et a assassiné le Manshoon original à la Citadelle du Corbeau. C'est à cet instant que le génie maudit de l'elfe d'or a éclaté : l'entrave qu'il avait introduite dans les cuves a court-circuité la Toile. Au lieu d'un seul réceptacle, tous les clones de stase de Manshoon se sont réveillés simultanément.
+
+Ce fut une apocalypse arcanique. Des dizaines de doubles de l'archimage, frappés d'une folie meurtrière et d'une compulsion d'unicité, ont émergé de leurs cachettes à travers tout Faerûn, déclenchant des duels magiques d'une violence inouïe. La Guerre des Clones de Manshoon a provoqué moult destructions en Féérune, rasant des quartiers entiers, dévastant nos comptoirs et plongeant le Réseau Noir dans le sang.
+
+Mais comme Alcatar l'avait prédit, ce chaos a servi nos desseins. Pendant que les clones s'entre-déchiraient et s'affaiblissaient, Fzoul Chembryl a manœuvré ses prêtres et ses assassins. Il a méthodiquement nettoyé les survivants, brisé le dernier clone pour le soumettre à sa volonté, et a pris le contrôle total, absolu et théocratique du Zhentarim. Les sorciers profanes sont désormais à genoux devant l'autel de la Tyrannie. Le Réseau Noir appartient à l'Église.
+
+### IV. La Fierté de l'Ermite
+
+J'observe aujourd'hui le désert d'Anauroch depuis mes remparts de basalte, et mon cœur de prêtre déborde d'un orgueil légitime. Mon avant-poste est resté petit, mes fermiers sont misérables et mes pages sont rudes, mais j'ai accompli ce que des armées entières n'auraient pu faire.
+
+Je me félicite chaque jour, dans mes prières à Iyachtu Xvim, d'avoir joué un rôle aussi crucial, capital et historique dans la trame de Féérune. C’est ici, entre ces murs de pierre brute, que le destin du Nord a basculé. C’est par mon entremise que Fzoul et Alcatar ont uni leurs ombres pour briser l'archimage. Baine va renaître, la Toile va plier, et je sais que mon nom est inscrit dans les parchemins de sang de la Main Noire. La Route Noire est ouverte, et nous marchons vers la domination absolue. *Fin des Chroniques du Père Barthélemy. Gloire au Doigt de la Haine.*

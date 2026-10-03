@@ -1,0 +1,153 @@
+---
+titre: Les chroniques de Teldorn Sombrespoir
+sous-titre: « Les chroniques du vicaire Teldorn Sombrespoir », trois volumes
+ordre: 4
+auteur: Teldorn Sombrespoir, vicaire de la Main Noire, maître de Mintar
+periode: Jusqu'en 1365 CV, puis 1372 – 1373 CV
+provenance: Volume I consigné dans les cryptes du Grand Temple de Mintar ; volume III retrouvé dans les décombres de la chapelle privée. Récupérés par le commando dans le sac de Bern.
+regard: Ennemi, de première main. Orgueilleux ; il réécrit ses échecs.
+pdf: chroniques-teldorn-sombrespoir.pdf
+resume: La conquête de Mintar, la trahison des Bridgestone, le pacte avec Alcatar, le fiasco de Saelmur et la route du phylactère.
+---
+
+## Volume I — Les Fondations de l’Empire, le Piège des Bridgestone et la Lignée de Fer (Jusqu'en 1365 CV)
+
+*Document confidentiel consigné dans les cryptes d'acier du Grand Temple de Mintar, récupéré par le commando dans le sac de Bern.*
+
+### I. Le Sang de Kzelter et la Haine des Bridgestone
+
+Par la Poigne Implacable du Maître, je grave ces mots pour que l’histoire se souvienne de la manière dont le Sud a été plié. Avant que les remparts de Mintar ne portent mes bannières, notre foi a dû s'enraciner dans les larmes de nos ennemis. Les imbéciles du Conseil de la Côte des Épées croyaient que le Lac de la Vapeur resterait une terre de marchands et de paladins tormites. Ils ignoraient que la Tyrannie possède une patience de pierre.
+
+Tout a commencé autour du bastion fortifié de Kzelter. Durant les décennies passées, notre sainte Église utilisait cette place forte comme point névralgique pour orchestrer nos levées de fonds et nos ravitaillements. C’est là que s’est éveillée ma haine viscérale contre la lignée du vieux Comte Elrayck Bridgestone. Cet insaisissable rôdeur, ce traqueur de basse extraction qui a osé prêter serment à Tymora, la courtisane de la chance, a passé des années à harceler nos caravanes le long de la rivière Minta.
+
+Le Miracle de Kzelter, comme les prêtres du Cœur Radieux aiment à l'appeler, ne fut qu'un assaut de lâches. Elrayck, armé de sa maudite lame intelligente *Kismet*, a profité d'une faille logistique pour paralyser notre bastion avec un millier de brigands enhardis. J'ai juré ce jour-là que chaque membre de sa maison paierit cet affront au centuple.
+
+La famille Bridgestone a toujours été une anomalie féodale, un nid de contradictions morales. D'un côté, le père Elrayck cachait sa dévotion à la chance derrière des faux-semblants politiques ; de l'autre, son épouse Aurelia élevait ses fils dans un fanatisme rigide et orthodoxe en Torm. Cette fracture fut leur perte. Un empire ne se bâtit pas sur des principes chevaleresques, il s'impose par la division.
+
+J'ai rapidement trouvé le maillon faible de leur chaîne : Peter Bridgestone, le deuxième fils légitime. Contrairement à son aîné Bertrand, qui n'était qu'une brute drapée de vertu, Peter possédait l'esprit d'un traître né. Il crevait de jalousie face à l'héritage qui lui était refusé. Dès l'année 1360 CV, Peter est entré en contact clandestin avec mes émissaires.
+
+Nous avons tissé une toile d'araignée autour de son propre père. Peter me livrait les plans des patrouilles de la forteresse-pont, les faiblesses des fortifications et les secrets d'Elrayck, en échange de la promesse de la régence de Bridgestone sous mes ordres directs. Il était de mèche avec moi pour évincer froidement son père et son frère aîné. Il a vendu son sang pour un trône de vassal.
+
+### II. L’Avènement de Mintar et le Gantelet du Sud (1362 CV)
+
+L'année 1362 CV fut celle de l'apothéose de ma lame. Fort des plans de Peter et soutenu par les fonds secrets envoyés par Château-Zhentil, j'ai levé une armée de six mille fanatiques dévoués au gantelet noir. Nous avons marché sur la cité portuaire de Mintar.
+
+La ville basse est tombée en une nuit de cris et de fer, et j'ai personnellement exécuté les magistrats corrompus sur les dalles de la grand-place. Mintar est devenue ma capitale, une théocratie militarisée où chaque citoyen est un soldat ou un esclave travaillant pour la gloire de la Tyrannie.
+
+Pour sécuriser mes arrières et étendre mon emprise sur la rivière, j'ai utilisé une autre pièce maîtresse de notre échiquier familial : mon cousin, Brixen Sombrespoir. C'est un homme de fer, entièrement converti à la foi de Baine. Après la chute de Mintar, j'ai dépêché Brixen à la tête d'un lourd contingent pour assiéger et reprendre définitivement le bastion de Kzelter. L'opération fut d'une efficacité chirurgicale. Kzelter a été purifiée de ses éléments rebelles, et mon cousin Brixen tient actuellement la place forte d'une main de fer, verrouillant les passes de montagne et sécurisant nos lignes de ravitaillement contre les incursions du Chessenta et des Vaux du Sud.
+
+C'est au cours de cette même période que le monde divin a vacillé. Lors du Temps des Troubles en 1358 CV, notre Maître suprême, Baine, a péri sous les coups de Torm dans le port de Tantras. L'Église a tremblé, mais je n'ai pas failli. Lorsque Iyachtu Xvim, le Doigt de la Haine, s'est éveillé pour recueillir l'essence de la Cruauté de son Père, je me suis immédiatement converti à son culte. J'ai compris que la Tyrannie changeait simplement de visage pour tester la résilience des forts. J'ai mené mes six mille soldats sous la bannière de Xvim, unissant la Marche du Sud sous le dogme du Doigt Noir.
+
+### III. La Chute de Bridgestone et le Deuil de l'Aîné (1365 CV)
+
+Le point d'orgue de ma stratégie régionale s'est joué au mois d'Uktar en 1365 CV. Le moment était venu de cueillir le fruit de ma longue conspiration avec Peter. Mes six mille guerriers de Mintar ont lancé une offensive surprise foudroyante contre la forteresse-pont de Bridgestone.
+
+Le plan a fonctionné à la perfection. L'aîné Bertrand a voulu faire preuve d'un courage stupide et chevaleresque : il s'est rué sur les remparts les armes à la main et s'est fait massacrer par mes archers. Le vieux Comte Elrayck est mort comme un chien dans sa salle du trône, transpercé par le fer. Peter et son frère Jérôme ont alors accompli leur part du marché : ils ont ouvert de grands battants les portes de la forteresse-pont à mes troupes, ont publiquement renié la foi en Torm de leur lignée, et ont prêté un serment de soumission totale à Iyachtu Xvim sous ma direction. En échange de cette trahison légitime, je leur ai accordé la régence partagée de Bridgestone sous la surveillance de mes garnisons.
+
+Cependant, deux détails ont entaché cette victoire parfaite. Au moment précis où Elrayck rendait l'âme, son épée magique intelligente *Kismet* s'est activée d'elle-même, s'emparant de son volumineux journal militaire de 20 kg avant de se téléporter au cœur du Bois d'Épines. De plus, le jeune frère Charles s'est enfui vers le Sud à Saelmur avec une cassette d'or, tandis que le bâtard Marius et le loupiot Théodoric s'enfuyaient vers le Comté du Clos. Jérôme a envoyé un assassin pour régler le cas du petit Théodoric, mais l'enfant a survécu par un maudit hasard. Qu'importe, la lignée d'Elrayck est brisée et la forteresse-pont est mienne.
+
+### IV. La Fierté de la Lignée : Scyllua, l'Étoile Noire du Nord
+
+Pendant que j'assois ma domination sur le Lac de la Vapeur, mes yeux se tournent avec une fierté immense vers les rapports en provenance du Nord, à Château-Zhentil. Ma nièce, Scyllua Sombrespoir, est en train d'accomplir un parcours légendaire au sein du Réseau Noir.
+
+Scyllua est le sang de mon sang, la plus pure expression de la force de notre lignée. Paladine déchue, elle a embrassé le gantelet noir de Baine avec une ferveur et une discipline qui forcent le respect des plus anciens généraux de Manshoon. Sa montée en puissance est fulgurante : elle vient d'être nommée Haute Capitaine de Château-Zhentil, ce qui fait d'elle la commandante suprême de toutes les armées du Zhentarim dans la Mer de Lune. Fzoul Chembryl lui accorde sa confiance absolue pour soumettre les mages profanes à notre dogme.
+
+En la voyant régner sur les forces du Nord tandis que je gouverne les côtes du Sud avec mes légions et l'appui de mon cousin Brixen à Kzelter, mon grand projet se dessine avec la clarté du diamant. Nous ne sommes pas de simples sous-traitants du Réseau Noir. Les Sombrespoir sont en train de jeter les fondations d'un véritable Empire théocratique de la Tyrannie qui s'étendra de la Mer de Lune jusqu'au Lac de la Vapeur. Nous unifierons Féérune sous la loi de fer du Gantelet. Aucun mage, aucun paladin, aucune maison noble ne pourra entraver notre sainte marche. Le Sud sera purifié par l'ordre absolu. *Fin du Premier Chapitre. Que le Doigt de la Haine écrase nos rivaux.*
+
+## Volume II — L'Ombre de l'Elfe d'Or, les Failles du Réseau Noir et la Géométrie du Sceptre
+
+*Document ultra-confidentiel, extrait des parchemins cryptés du Grand Temple de Mintar.*
+
+### I. Les Ombres du Shaar et l'Hérésie Profane
+
+Par le Gantelet Noir qui doit unifier le Sud, je consigne mes doutes et mes fureurs. Un nouvel acteur est entré dans ma zone d'influence, et son nom résonne comme un défi constant à mon autorité : Alcatar.
+
+Mes réseaux de renseignement m'ont rapporté des mouvements hautement suspects. Avant que cet elfe d'or ne daigne m'adresser la parole ou franchir les frontières de Mintar, il a effectué de lointains voyages secrets dans les étendues arides du Shaar. Ce qui m'irrite et m'exaspère au plus haut point — une hérésie intolérable à laquelle il faudra un jour remédier par le sang —, c'est que son bras droit et plus proche collaborateur est de toute évidence un agent d'influence du Zhentarim. J'ignore encore sa véritable identité et le visage qu'il dissimule, mais mes rapports affirment qu'il s'agit d'un membre non bainien du Réseau Noir. C'est la marque de la faction séculière de Manshoon, ces sorciers athées qui se moquent de la Tyrannie divine et ne cherchent que le profit commercial. Que le Réseau Noir tolère encore de tels mécréants en son sein est une insulte, mais le Zhentarim n'est pas encore sous le contrôle absolu de nos prêtres, et les secrets profanes me restent inaccessibles, ce qui me plonge dans une rage noire.
+
+Plus inquiétant encore : mes espions signalent qu'Alcatar a été aperçu du côté de Derlusk, à la lisière de la Forêt de Qurth, en compagnie d'un mercenaire troll d'une envergure et d'une intelligence anormales. Ce monstre effectue de fréquents allers-retours vers la cité d'Innarlith, une ville corrompue située à l'extrême est du Lac, où les suppôts de Cyric le fou jouent les marionnettistes dans l'ombre et manipulent les guildes marchandes. Innarlith fait partie des multiples cibles que mes armées doivent écraser pour purifier le bassin, mais voir les ombres de Cyric, de Manshoon et d’Alcatar s’entrelacer autour de Derlusk sans que je puisse en saisir la clé est une épine que j'arracherai le moment venu.
+
+### II. Les Cibles de la Main Noire et le Sang de Derlusk
+
+Pour asseoir notre futur Empire, mon regard est fixé sur une proie prioritaire : la cité orgueilleuse de Saelmur. Saelmur est le verrou économique et militaire du Lac de la Vapeur. C'est une ville fortifiée, défendue par les chevaliers fanatiques de l'Armée de Tyr et protégée par des magies côtières qui interdisent toute invasion navale classique. Mes contraintes stratégiques sont immenses : une attaque frontale par la mer briserait ma flotte contre leurs remparts, et une invasion par les terres épuiserait mes six mille soldats dans une guerre de siège interminable que le Chessenta ou les Vaux du Sud exploiteraient pour me frapper à revers. Il me faut un moyen de détruire Saelmur de l'intérieur, d'annihiler ses défenses sans perdre un seul de mes vétérans.
+
+Pour préparer cette guerre totale, j'ai ordonné la création d'un réseau de Portails de l'Ombre secrets, reliant les cryptes de Mintar aux bastions clandestins de notre foi. Mes lignes de force sont désormais ancrées. J'ai fortifié et sécurisé la localisation de trois autres bastions majeurs de Baine dans la région pour encercler nos ennemis :
+
+1. Le premier est ancré dans les structures souterraines de Kzelter, sous la garde de mon cousin Brixen, verrouillant le Nord.
+
+2. Le second gît dissimulé dans les cavernes des Pics des Crépuscules, servant de base arrière pour mes mages de guerre.
+
+3. Le troisième est une forteresse occulte tapie au cœur des Collines des Serpents, d'où nos patrouilles surveillent les mouvements des caravanes de l'Ouest.
+
+Pour nourrir ces bastions d'informations fraîches, j'ai déployé des espions dans chaque carrefour stratégique. J'avais envoyé l'un de mes meilleurs hommes à Derlusk avec pour mission spécifique de se renseigner sur les agissements du Zhentarim profane et d'Alcatar autour de la forêt de Qurth. Ses dernières missives cryptées ont confirmé qu'Alcatar avait déjà dirigé deux expéditions secrètes et d'envergure au cœur de la forêt de Qurth.
+
+Mais le fil s'est brisé : mon espion a été retrouvé mort peu de temps après, la gorge tranchée dans une ruelle du port de Derlusk. Quelqu'un nettoie les témoins dans l'ombre des Royaumes Frontaliers.
+
+### III. L'Origine du Sceptre de Fer
+
+Suite au pacte secret conclu à l'Ermitage du Roc Noir entre le Père Barthélemy, Alcatar et mon allié Fzoul Chembryl, l'elfe d'or a fini par céder à nos exigences pour s'installer au Sud. J'avais fait signifier à Fzoul que je m'opposerais à toute alliance si ce sorcier du Nord ne faisait pas ses preuves ici, au Lac de la Vapeur, en mettant sa magie au service de mes plans contre Saelmur.
+
+En gage de bonne foi et pour sceller notre collaboration arcanique, Alcatar nous a livré des connaissances et des équations théologiques d'une valeur inestimable. Ces secrets provenaient directement d'un sanctuaire inviolé qu'il avait lui-même exhumé dans les sables du Shaar : le Tombeau de Nerculehum.
+
+Grâce à ces révélations sur la manipulation des flux d'énergie négative et la liaison des essences, Fzoul Chembryl et moi-même avons pu parfaire la géométrie mystique du Sceptre de Fzoul Chembryl. Cette relique d'une noirceur absolue est forgée de fer noirci et couronnée d'une jacinthe de sang. Ses pouvoirs divins sont terrifiants : le Sceptre permet à Fzoul (et par extension à mes rituels) de canaliser la volonté de Baine pour imposer une *Domination de masse* sur les esprits faibles, d'absorber l'énergie vitale des mourants pour régénérer les blessures des Élus de la Main Noire, et surtout, de plier la Toile pour stabiliser les portails magiques à longue distance, protégeant nos communications contre les divinations adverses.
+
+Alcatar a payé son droit d'entrée. Il est désormais descendu dans mes égouts au Sud, mais sa soumission doit être totale. Saelmur sera son terrain d'essai et le tombeau de mes ennemis.
+
+*Fin du Deuxième Chapitre. Que la volonté de Baine s'accomplisse par le fer et le sceptre.*
+
+## Volume III — Le Pacte de Saelmur, le Fiasco du Sang et la Route du Phylactère (1372 - 1373 CV)
+
+*Document ultra-confidentiel, récupéré dans les décombres de la chapelle privée de Mintar par le commando.*
+
+### I. Le Choc des Égos et l’Ultimatum de Saelmur
+
+Par le Gantelet Sacré de Baine de nouveau incarné, je consigne ma rage. L'Année de la Magie Sauvage (1372 CV) a vu le retour de notre Père Noir, mais elle a aussi jeté dans mes égouts le plus arrogant des serpents.
+
+Alcatar est descendu au Sud, acculé par son pacte avec Talos le Destructeur, à qui il a promis la ruine d'une cité entière sous un an en échange de l'accès à une bibliothèque nethérisienne interdite enfouie dans les sables d'Anauroch. Fort de ses lectures des prédictions d'Alaundo, il savait pour le retour de Baine et l'émergence des cités volantes de Pénombre. Pourtant, notre première rencontre physique ici, à Mintar, fut un affront insupportable. Cet elfe d'or s'est présenté à moi non pas comme un mendiant traqué, mais comme un souverain absolu. Nos deux égos se sont heurtés de front. Alcatar a osé exiger de ma part une quantité astronomique de ressources, de composants arcaniques précieux, en plus du déploiement massif de l'intégralité de ma flotte et de mon armée pour une attaque frontale par la mer. Mes éclaireurs m'avaient prévenu que l'Armée de Tyr fortifiait Saelmur à outrance et que d'immenses renforts faisaient route vers la ville ; je n'avais plus le choix pour vaincre, je devais plier et pactiser avec lui. Pour briser l'armée ennemie en marche, j'ai même dû déployer en secret mes Tyrannœils dans les passes pour intercepter la colonne de Tyr.
+
+La tension avec l'elfe est devenue si brûlante que le Grand Prêtre Fzoul Chembryl a dû personnellement intervenir télépathiquement depuis le Nord pour calmer le jeu et nous empêcher de nous entre-tuer. Au final, un compromis amer fut scellé : Alcatar a reçu une grande partie de ses exigences matérielles, mais j'ai refusé de risquer toutes mes forces. À l'insu total des Bainiens du Nord et de Fzoul, je n'ai envoyé que la moitié de mon armée et de ma flotte à l'assaut de Saelmur, protégeant Mintar d'un revers.
+
+### II. Les Silos Arachnéens et le Sang de Derlusk
+
+Ce qui me exaspère et me dégoûte au plus haut point chez cet arcaniste, c'est sa méthode de travail arachnéenne. Alcatar opère par silos hermétiques qui ne communiquent jamais entre eux. Mes espions dans les bas-fonds de Saelmur m'ont rapporté des mouvements contradictoires et clandestins sous les pavés. J'ai acquis la certitude absolue qu'Alcatar fait travailler au moins deux groupes distincts, totalement indépendants l'un de l'autre, dans les égouts de Saelmur, sans qu'aucune de ces factions ne se doute de l'existence de l'autre.
+
+C'est une méthode parfaite pour la discrétion, mais d’un danger stratégique sans nom pour mes troupes : le risque que ces deux silos secrets entrent en conflit ouvert sous terre et fassent avorter mes plans de conquête militaire me rendait fou de rage. Devoir faire confiance à cet elfe sans en posséder toutes les clés est un supplice pour mon esprit.
+
+Sentant qu'il tramait des opérations clandestines du côté des Royaumes Frontaliers, j'ai voulu le confronter. Alcatar m'a regardé dans les yeux et m'a dit, avec un sourire glacial, que toute ingérence de ma part dans les affaires de la forêt de Qurth se terminerait de la même manière que pour mon dernier espion retrouvé égorgé à Derlusk. Ma fureur a fait trembler les dalles du temple. J'ai tiré mon fléau, prêt à broyer son crâne d'or, et Fzoul a dû intervenir une seconde fois à travers le Sceptre pour restaurer une paix de façade. Je déteste Alcatar. Je n'ai qu'un besoin pragmatique de sa magie, et au moindre prétexte, je crierai à sa trahison pour l'exécuter.
+
+Pendant toute cette période de préparatifs, Alcatar a été convoyé à travers le Lac de la Vapeur par le capitaine pirate Maelstrom, un criminel venu de Luskan qui détient une autorité absolue sur toutes les flottes de contrebande de la région. Cet homme est réputé sans foi ni loi, mais il semble lié à Alcatar par un pacte indéfectible. Mes scribes suspectent que c'est ce même Maelstrom qui a recueilli l'elfe d'or sur son navire lorsque son embarcation a fait naufrage après son départ d'Éternelles-Rencontres, le ramenant ainsi sur la Côte des Épées.
+
+### III. Le Fiasco de Saelmur et la Haine Télépathique
+
+Le 20 de Ches 1373 CV, l'apocalypse s'est abattue sur Saelmur. Mes navires ont attaqué les docks au moment où les morts-vivants d'Alcatar déferlaient. Le carnage fut total : la zone portuaire, la célèbre école des Mages-Lames et les temples de Tyr ont été instantanément réduits en cendres et en flammes. Étrangement, et j'y vois encore une manipulation d'Alcatar, la population civile a été relativement épargnée par les monstres, l'attaque ciblant uniquement les structures de pouvoir. Mes ordres étaient stricts : mes troupes devaient localiser le frère rebelle, Charles Bridgestone, et le capturer vivant pour que je puisse l'interroger sur l'or de sa famille.
+
+C'est alors que le plan d'Alcatar a sombré dans l'hérésie. Les deux mille rats morts-vivants chargés de ses baguettes explosives ont échappé à son contrôle mental. Les créatures ont envahi nos propres navires de guerre de Mintar et ont explosé sur nos pontons dans un enfer de "feu ami" terrifiant, coulant la moitié de ma flotte d'invasion. Face à ce désastre, mes commandants survivants ont perdu la raison : persuadés d'une trahison préméditée de la Liche, les Bainiens se sont retournés contre tous les morts-vivants qu'ils croisaient, massacrant les nécrophages et les monstruosités mutées au milieu du chaos. Mes hommes avaient réussi à mettre la main sur Charles Bridgestone dans les égouts, mais des morts-vivants les ont attaqués pour leur arracher le prisonnier.
+
+Au plus fort du désastre, alors que le ciel de Saelmur n'était plus qu'un dôme de fumée, Alcatar a tenté de me contacter télépathiquement pour ramper et m'expliquer qu'il s'agissait d'un accident technique, d'une rupture de liaison mentale. Je lui ai craché ma haine à travers la trame : *« Tais-toi, monstre ! La prochaine fois que mes yeux se poseront sur ton visage d'or, ce sera pour planter ta tête sur une pique de fer aux remparts de Mintar ! »*
+
+Si Fzoul, dans son lointain Nord, s'obstine à considérer cette carcasse comme un partenaire valide pour le Zhentarim, pour moi, le pacte est mort et enterré. J'ai écrit à Château-Zhentil : j'ai officiellement prévenu Fzoul que si Alcatar ou l'un de ses émissaires osait reparaître dans les eaux ou sur les côtes du Lac de la Vapeur, je déploierai mes Hippogriffes pour le traquer et le détruire moi-même, peu importent les accords passés. Aux dernières nouvelles, la Liche a fui Saelmur par les terres, est remontée vers Château-Zhentil et préparerait en secret une expédition lointaine vers les terres maudites de la Vaasie. Qu'il coure, la Marche du Sud n'oublie rien.
+
+### IV. L’Otage du Phylactère et la Lente Route du Convoi Blindé
+
+Heureusement, ma paranoïa m'avait poussé à sécuriser une garantie absolue bien avant l'assaut de Saelmur. N'ayant aucune confiance en sa nature d'elfe, j'avais exigé qu'Alcatar me remette son unique phylactère en main propre avant de lui livrer mes composants. Connaissant la physiologie des liches, je savais qu'en détenant cet artéfact, je possédais son âme, son essence vitale et sa survie même. Alcatar savait qu'il était acculé s'il voulait honorer sa dette envers Talos : il a cédé. Il est venu ici et m'a remis l'objet. J'ai personnellement testé l'onyx avec mes sorts de divination les plus puissants ; **j'ai vérifié de mes propres yeux et de mes incantations que son âme y palpitait, prisonnière de la** boîte.
+
+Mais la victoire m'a été volée par le Nord. Dès que Fzoul Chembryl a appris que je détenais la vie de l'Élu de Velsharoon, il a fait jouer son autorité suprême et a exigé que le phylactère lui soit immédiatement remis à Château-Zhentil, afin de l'intégrer aux secrets du Réseau Noir purifié.
+
+L'artéfact est une abomination d'énergie négative pure : il ne peut en aucun cas transiter par le réseau de nos Portails de l'Ombre, sous peine de saturer la Toile et de provoquer une explosion arcanique qui détruirait le réseau. Le phylactère doit donc voyager par voie physique, caché au cœur d'une lourde caravane blindée du Zhentarim, escorté par mes mages et mes cavaliers les plus fidèles. En raison du poids de la cargaison, de la nécessité de contourner discrètement les patrouilles de l'Armée de Tyr et des rituels de dissimulation quotidiens que mes clercs doivent accomplir pour masquer l'aura de l'âme d'Alcatar, le convoi avancera à pas de tortue. Les estimations de mes stratèges indiquent que le trajet prendra un total de six mois de voyage rigoureux à travers Faerûn. La caravane a officiellement quitté Mintar le 1er de Ches 1373 CV. Voici l'itinéraire secret, minutieusement planifié, avec le calendrier estimé des étapes pour permettre à nos relais de préparer l'accueil :
+
+| Étape | Lieu | Date prévue | Objet de l'étape | Trajet vers l'étape suivante |
+| --- | --- | --- | --- | --- |
+| — | Mintar (départ du convoi) | 1er de Ches 1373 CV |  | Transit lent le long de la côte fortifiée du Lac de la Vapeur. |
+| 1 | Ankhapur | 16 de Ches 1373 CV | Relais, vérification des scellés de plomb et changement complet de l'escorte | Remontée sinueuse par les pistes marchandes pour éviter les éclaireurs du Vilhon. |
+| 2 | Alaghôn | 6 de Tarsakh 1373 CV | Entrée discrète dans le port fortifié de la Turmish, réapprovisionnement | Traversée sécurisée des plaines centrales par la voie des caravanes surveillées. |
+| 3 | Hlondeth | 26 de Tarsakh 1373 CV | Passage négocié sous la surveillance des gardes serpentins | Descente lente vers les passes fortifiées du Chessenta. |
+| 4 | Cimbar | 16 de Mirtul 1373 CV | Halte majeure, ravitaillement arcanique auprès de nos contacts cléricaux | Remontée vers le Nord par la grande route des armées, marche ralentie par la chaleur naissante. |
+| 5 | Soonbar | 6 de Kythorn 1373 CV | Inspection de la frontière et renforcement de la garde magique | Entrée dans la vallée du bief, le convoi se fond parmi les marchands de métaux. |
+| 6 | Selgaunt | 26 de Kythorn 1373 CV | Sécurisation temporaire des coffres via les banques inféodées du Sembie | Balisage de la route de l'Est des Vaux, évitement des patrouilles des Vallées. |
+| 7 | Ordulin | 16 de Flamerule 1373 CV | Jonction tactique avec les lourds détachements de cavaliers du Réseau Noir | Traversée de la faille des Vaux par les sentiers de chèvres et les cols de l'Ombre. |
+| 8 | Val-Balafré | 6 de Eleasias 1373 CV | Scellés profanes finaux et dernières bénédictions de protection de la Main Noire | Descente vers la dépression de la Mer de Lune sous couverture de brume magique. |
+| 9 | Château-Zhentil | 26 de Eleasias 1373 CV | Entrée triomphale dans la capitale théocratique de Fzoul | Dernier transfert ultra-sécurisé par la route militaire fortifiée. |
+| 10 | La Citadelle du Corbeau (arrivée finale) | 11 de Eleint 1373 CV | Remise en main propre à la Haute-Tour de Fzoul |  |
+
+Le convoi est en route. Si un seul de ces maudits aventuriers ou survivants de Saelmur tente de se mettre en travers de la route de cette caravane blindée, nos mages de guerre réduiront leur corps en poussière. Le phylactère arrivera à bon port, et Alcatar sera l'esclave éternel de la Main Noire.
+
+*Fin du Troisième Chapitre. Que le gantelet de Baine se referme sur le monde.*

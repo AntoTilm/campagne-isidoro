@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Persistant — du niveau 3 au niveau 20</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --velin:#E8E2D2;--velin-clair:#F2EEE3;--encre:#23211C;--encre-pale:#5E574A;
+  --rubrique:#A32118;--nuit:#14172B;--nuit-clair:#242844;--or:#A98428;--regle:#C9C0AA;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--velin);color:var(--encre);
+  font-family:'Spectral',Georgia,serif;font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:820px;margin:0 auto;padding:0 22px}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--rubrique);font-weight:500}
+.src{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--encre-pale)}
+.rub{color:var(--rubrique);font-weight:600}
+
+header{background:var(--nuit);color:var(--velin-clair);padding:60px 0 0}
+header .eyebrow{color:var(--or)}
+h1{font-family:'Young Serif',Georgia,serif;font-weight:400;
+  font-size:clamp(38px,9.5vw,76px);line-height:.95;margin:14px 0 0;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--or)}
+.sous{font-size:clamp(17px,3.4vw,21px);color:#B9B4A4;font-style:italic;margin:16px 0 40px;max-width:40ch}
+.horizon{height:2px;background:var(--or);opacity:.9}
+.contexte{background:var(--nuit-clair);color:#CFCABA;padding:20px 0 24px}
+.contexte dl{display:grid;grid-template-columns:1fr;gap:10px;margin:0}
+.contexte dt{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--or);margin-bottom:1px}
+.contexte dd{margin:0;font-size:15px;line-height:1.45}
+@media(min-width:640px){.contexte dl{grid-template-columns:repeat(3,1fr);gap:22px}}
+
+section{padding:50px 0}
+section.pale{background:var(--velin-clair)}
+h2{font-family:'Young Serif',Georgia,serif;font-weight:400;
+  font-size:clamp(26px,5.6vw,36px);line-height:1.08;margin:8px 0 6px;letter-spacing:-.01em}
+h3{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--rubrique);font-weight:500;margin:28px 0 8px}
+p{margin:0 0 14px}
+.chapo{font-size:18px;color:var(--encre-pale);max-width:60ch;margin-bottom:24px}
+
+.tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 8px}
+table{border-collapse:collapse;width:100%;min-width:500px;font-size:15px}
+th{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--encre-pale);font-weight:500;
+  text-align:left;padding:0 12px 7px 0;border-bottom:1.5px solid var(--encre);vertical-align:bottom}
+td{padding:11px 12px 11px 0;border-bottom:1px solid var(--regle);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:none}
+td:first-child,th:first-child{padding-left:0}
+tr.jalon td{background:rgba(163,33,24,.06)}
+
+/* âges du personnage */
+.age{border-top:2px solid var(--encre);padding-top:20px;margin-top:42px}
+.age:first-of-type{margin-top:24px}
+.age-tete{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:2px}
+.age-niv{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;
+  color:var(--velin-clair);background:var(--rubrique);padding:3px 10px}
+.age h2{margin:0}
+.age-concept{font-size:18px;font-style:italic;color:var(--encre-pale);max-width:56ch;margin:10px 0 6px}
+
+.rituel{border-left:3px solid var(--or);padding-left:20px;margin:26px 0}
+.rituel-etape{margin-bottom:22px}
+.rituel-tete{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.rituel-h{font-family:'Young Serif',serif;font-size:20px;line-height:1.2}
+.cout{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;
+  color:var(--rubrique);border:1.5px solid var(--rubrique);padding:2px 8px;white-space:nowrap}
+.marks{display:flex;gap:3px;margin:8px 0 0}
+.t{display:block;width:5px;height:22px;border-radius:1px}
+.t:nth-child(3n){transform:rotate(1.5deg)}
+.t--meta{background:var(--rubrique)}
+
+.marge{border-left:2.5px solid var(--rubrique);padding:2px 0 2px 16px;margin:20px 0;font-size:16px}
+.marge strong{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--rubrique);display:block;margin-bottom:4px;font-weight:500}
+.faible{border-left-color:var(--encre-pale)}
+.faible strong{color:var(--encre-pale)}
+ul{margin:0 0 14px;padding-left:20px}
+li{margin-bottom:6px}
+ol.jeu{counter-reset:r;list-style:none;padding-left:0;margin:0 0 14px}
+ol.jeu li{padding-left:38px;position:relative;margin-bottom:11px}
+ol.jeu li::before{counter-increment:r;content:counter(r);position:absolute;left:0;top:1px;
+  font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--velin-clair);
+  background:var(--nuit);width:22px;height:22px;display:grid;place-items:center}
+
+.sombre{background:var(--nuit);color:#D8D3C4}
+.sombre h2{color:var(--velin-clair)}
+.sombre h3{color:var(--or)}
+.sombre .chapo{color:#A8A395}
+.sombre th{color:#8E8878;border-bottom-color:#4A4E67}
+.sombre td{border-bottom-color:#31354E}
+.sombre .rub{color:var(--or)}
+.sombre .marge{border-left-color:var(--or)}
+.sombre .marge strong{color:var(--or)}
+.sombre tr.jalon td{background:rgba(169,132,40,.1)}
+
+.verif{background:var(--velin);border:1.5px solid var(--rubrique);padding:16px 18px;margin:20px 0}
+.sombre .verif{background:var(--nuit-clair);border-color:var(--or)}
+.verif p:last-child{margin-bottom:0}
+
+.bloc{background:var(--nuit);color:var(--velin-clair);padding:22px 24px;margin:24px 0;
+  font-family:'IBM Plex Mono',monospace;font-size:13.5px;line-height:1.8}
+.bloc .l{color:var(--or);letter-spacing:.1em;font-size:10.5px;text-transform:uppercase;display:block;margin-bottom:10px}
+.bloc b{color:#fff;font-weight:500}
+.bloc .g{color:#8E8878}
+
+footer{background:var(--nuit);color:#7E7A6C;padding:32px 0;font-size:13px}
+/* Ajout du Registre d'Isidoro : lien de retour */
+.retour{display:inline-block;margin-bottom:18px;color:var(--or);font-family:'Spectral',Georgia,serif;font-size:15px;text-decoration:none}
+.retour:hover{text-decoration:underline}
+footer a{color:var(--or)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="retour" href="../isidoro.html">‹ Retour au Registre d'Isidoro</a>
+    <div class="eyebrow">Archétype I · du niveau 1 au niveau 20</div>
+    <h1>Le<br><em>Persistant</em></h1>
+    <p class="sous">Un prêtre fragile qui devient, vers le niveau 9, un colosse permanent.</p>
+  </div>
+  <div class="horizon"></div>
+  <div class="contexte">
+    <div class="wrap">
+      <dl>
+        <div><dt>Le personnage</dt><dd>Humain, Neutre Bon, prêtre cloîtré de Lathandre.</dd></div>
+        <div><dt>Le principe</dt><dd>Deux sorts rendus permanents chaque matin, payés en tentatives de renvoi.</dd></div>
+        <div><dt>La patience</dt><dd>Le moteur ne démarre qu'au niveau 7. Les six premiers niveaux se jouent autrement.</dd></div>
+      </dl>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Point de départ</div>
+    <h2>Les trois premiers niveaux</h2>
+    <p class="chapo">Que tu commences au niveau 1 ou que tu construises directement un personnage de niveau 3, ce sont les mêmes choix — faits d'un coup ou étalés.</p>
+
+    <div class="bloc">
+      <span class="l">Niveau 1 · prêtre cloîtré · humain · neutre bon</span>
+      <b>Points de vie</b> 8 <span class="g">— 6 au dé (maximum au niveau 1) + 2 de Constitution</span><br>
+      <b>Bonus de base à l'attaque</b> +0<br>
+      <b>Sauvegardes</b> Vigueur +2 · Réflexes +0 · Volonté +2<br>
+      <b>Sorts</b> 3 oraisons · 2 sorts de niveau 1 + 1 de domaine<br>
+      <b>Renvoi</b> 10 tentatives par jour <span class="g">(3 + Charisme, + 4 par Emprise)</span><br>
+      <b>Compétences</b> 28 points à répartir <span class="g">(6 + Intelligence, × 4 au niveau 1)</span> · maximum 4 rangs
+    </div>
+
+    <div class="marge faible"><strong>Huit points de vie</strong>
+      C'est la réalité du niveau 1. Un gobelin chanceux te tue. Tiens-toi loin, utilise ton <strong>arbalète légère</strong> — c'est une arme courante, donc tu la manies — et laisse le guerrier et le barbare faire leur travail. Tu ne toucheras au corps à corps qu'à partir du niveau 7.</div>
+
+    <h3>Caractéristiques — par ordre de priorité</h3>
+    <div class="tscroll"><table>
+      <thead><tr><th>Rang</th><th>Caractéristique</th><th>Pourquoi</th></tr></thead>
+      <tbody>
+        <tr><td><strong>1</strong></td><td><strong>Sagesse</strong></td><td>Tes sorts et leurs degrés de difficulté. Tous tes gains de niveau vont ici, sans exception.</td></tr>
+        <tr><td><strong>2</strong></td><td><strong>Charisme 16</strong></td><td>Ton carburant. Chaque +2 en Charisme te rend <strong>une tentative de renvoi par jour</strong>. Ne descends pas sous 16, sinon le rituel du matin ne tiendra pas au niveau 9.</td></tr>
+        <tr><td>3</td><td>Constitution 14</td><td>Tu es un d6 pendant six niveaux. Ne néglige surtout pas ce point.</td></tr>
+        <tr><td>4</td><td>Intelligence 12</td><td>Sept points de compétence par niveau au lieu de six.</td></tr>
+        <tr><td><strong>dernier</strong></td><td><strong>Force 10</strong></td><td><strong>Ne dépense rien ici.</strong> À partir du niveau 9, tes deux sorts persistés t'apporteront +14. Une Force de 10 deviendra une Force de 24.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Les trois dons</h3>
+    <div class="tscroll"><table>
+      <thead><tr><th>Niveau</th><th>Don</th><th>Utile tout de suite ?</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><strong>Emprise sur les morts-vivants</strong></td><td><strong>Oui.</strong> +4 tentatives par jour, et c'est un prérequis du Serviteur radieux.</td></tr>
+        <tr><td>1 <span class="src">bonus humain</span></td><td><strong>Extension de durée</strong></td><td>Un peu. Double la durée de <em>Bénédiction</em>, <em>Force de taureau</em>, <em>Arme alignée</em>. Surtout, c'est le prérequis de Sort persistant.</td></tr>
+        <tr><td>3</td><td><strong>Sort persistant</strong></td><td><strong>Non.</strong> Inutilisable avant le niveau 6. Un investissement à trois niveaux d'échéance.</td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="marge faible"><strong>La variante prudente</strong>
+      Si commencer au niveau 1 avec deux dons inutilisables te paraît trop dur, décale : <em>Robustesse</em> ou <em>Vigueur surhumaine</em> au niveau 1, <em>Extension de durée</em> au 3, <em>Sort persistant</em> au 6, <em>Métamagie divine</em> au 9. Ton premier sort persisté arrive alors au niveau 9 au lieu du 7. Deux niveaux de retard sur le moteur, contre deux niveaux de survie en plus au début.</div>
+
+    <h3>Domaines</h3>
+    <div class="tscroll"><table>
+      <tbody>
+        <tr><td style="width:26%"><strong>Soleil</strong></td><td>Obligatoire pour entrer au Serviteur radieux. Pouvoir accordé : renvoi suprême une fois par jour — les morts-vivants affectés sont <strong>détruits</strong>, pas repoussés. C'est déjà un bouton d'urgence au niveau 1.</td></tr>
+        <tr><td><strong>Force</strong></td><td>Te donnera <em>Force du colosse</em> en sort de domaine au niveau 9, ce qui libère un emplacement général. Pouvoir accordé, utilisable dès le niveau 1 : une fois par jour, en action libre, un bonus de Force égal à ton niveau de prêtre pendant 1 round.</td></tr>
+        <tr><td><strong>Connaissance</strong></td><td>Gratuit grâce au prêtre cloîtré. Toutes les Connaissances en compétences de classe, +1 niveau de lanceur aux divinations.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Compétences — le plan sur six niveaux</h3>
+    <p>Le Serviteur radieux exige <strong>9 rangs en Connaissances (religion)</strong> et <strong>5 rangs en Premiers secours</strong> au niveau 6. Neuf rangs, c'est le maximum atteignable à ce niveau : tu dois donc y mettre le maximum <strong>à chaque niveau, sans exception</strong>.</p>
+    <div class="tscroll"><table>
+      <thead><tr><th>Compétence</th><th>Niveau 1</th><th>Puis</th><th>Objectif</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Connaissances (religion)</strong></td><td>4 rangs</td><td>+1 par niveau</td><td><strong>9 au niveau 6</strong> — non négociable</td></tr>
+        <tr><td><strong>Premiers secours</strong></td><td>4 rangs</td><td>+1 au niveau 2</td><td><strong>5</strong> — le piège classique, on l'oublie et on ne peut plus entrer</td></tr>
+        <tr><td>Concentration</td><td>4 rangs</td><td>+1 par niveau</td><td>Au maximum — tu lanceras des sorts sous la menace</td></tr>
+        <tr><td>Connaissances (mystères)</td><td>4 rangs</td><td>+1 par niveau</td><td>Identifier ce que vous affrontez</td></tr>
+        <tr><td>Connaissances (plans)</td><td>4 rangs</td><td>+1 par niveau</td><td>Les extérieurs mauvais</td></tr>
+        <tr><td>Art de la magie · Décryptage</td><td>4 rangs</td><td>selon les besoins</td><td>Décryptage sert à lire les grimoires anciens sur Alcatar</td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="verif">
+      <p><span class="rub">Correction de ma part.</span> J'ai écrit plus tôt que le prêtre cloîtré comblerait le manque de compétences d'enquête du groupe. <strong>C'est faux pour la fouille physique</strong> : <em>Fouille</em>, <em>Détection</em> et <em>Perception auditive</em> ne sont pas des compétences de classe du prêtre, et la variante cloîtrée ne les ajoute pas — elle ajoute Décryptage, Langue et toutes les Connaissances. Tu seras un érudit, pas un éclaireur. Personne dans ton groupe ne trouvera les pièges.</p>
+    </div>
+  </div>
+</section>
+
+<section class="pale">
+  <div class="wrap">
+    <div class="eyebrow">Le matériel</div>
+    <h2>Armes et armure</h2>
+
+    <h3>Pourquoi deux mains plutôt qu'un bouclier</h3>
+    <p>Trois raisons qui se cumulent :</p>
+    <ul>
+      <li><strong>Une main libre.</strong> Lancer un sort demande une main libre. Avec une arme à deux mains, tu lâches une main, tu lances, tu reprends. Avec une arme à une main et un bouclier au bras, tu n'as aucune main disponible en lecture stricte.</li>
+      <li><strong>Ta Force future.</strong> Une arme à deux mains applique <strong>une fois et demie</strong> ton modificateur de Force aux dégâts. Avec une Force de 24 au niveau 12, c'est +10 au lieu de +7 — sur trois attaques itératives, l'écart devient considérable.</li>
+      <li><strong>L'allonge.</strong> Une arme à allonge te laisse frapper depuis la deuxième ligne, derrière le guerrier et le barbare. Pour un personnage à d6, ne pas être au contact vaut plus que deux points de classe d'armure.</li>
+    </ul>
+
+    <div class="verif">
+      <p><span class="rub">À vérifier — Manuel du Joueur p. 116, Table 7-5.</span> Le prêtre cloîtré n'est formé qu'aux <strong>armes courantes</strong>. D'après le Codex Divin, la VF distingue quatre armes d'hast : <em>épieu</em>, <em>lance</em>, <em>javeline</em> et <em>pique</em>. Celle qui possède l'allonge devrait être la <strong>pique</strong>. Confirme-le sur la table avant d'acheter — tout le raisonnement ci-dessus en dépend.</p>
+      <p><span class="rub">Contesté.</span> Le Manuel du Joueur ne précise nulle part le coût d'un changement de prise sur une arme à deux mains. L'usage courant est « action libre », mais ce n'est pas écrit. Demande à ton MJ.</p>
+    </div>
+
+    <h3>Le point d'attention à partir du niveau 9</h3>
+    <p>Une arme à allonge ne peut pas frapper les ennemis adjacents. En taille G, ta zone morte passe de 1,50 m à <strong>3 mètres</strong> — c'est beaucoup. Et à cette taille, tu menaces déjà à 3 mètres avec <em>n'importe quelle</em> arme, sans allonge.</p>
+    <p><strong>Conséquence :</strong> l'arme à allonge est excellente aux niveaux 5 à 8, discutable ensuite. Avant le niveau 5, ton bonus d'attaque est si faible que l'arbalète légère reste ton meilleur choix. Et garde toujours une <strong>masse d'armes lourde</strong> en réserve — c'est l'arme de Lathandre, elle est courante, elle se manie à deux mains si tu veux et elle n'a pas de zone morte.</p>
+
+    <h3>L'armure, par palier</h3>
+    <div class="tscroll"><table>
+      <thead><tr><th>Niveaux</th><th>Armure</th><th>Pourquoi</th></tr></thead>
+      <tbody>
+        <tr><td>1-6</td><td><strong>Chemise de mailles</strong></td><td>Armure légère, +4 à la classe d'armure, aucun malus gênant. C'est ton plafond : le prêtre cloîtré ne porte que du léger.</td></tr>
+        <tr class="jalon"><td>7+</td><td><strong>Harnois</strong></td><td>Le Serviteur radieux t'accorde <strong>toutes les armures et les boucliers</strong>. +8 à la classe d'armure. Ta Dextérité étant basse, tu ne perds rien à la limite de Dextérité.</td></tr>
+      </tbody>
+    </table></div>
+    <p class="src">Ton armure et ton arme grandissent avec toi quand Force du colosse s'active — le texte du sort le précise. Aucun rachat à prévoir.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Les quatre âges</div>
+    <h2>Comment jouer, palier par palier</h2>
+    <p class="chapo">Ce personnage change trois fois de nature au cours de sa carrière. Le jouer comme un guerrier au niveau 4 est le meilleur moyen de mourir une deuxième fois.</p>
+
+    <!-- ÂGE 1 -->
+    <article class="age">
+      <div class="age-tete"><span class="age-niv">Niveaux 1 – 6</span><h2>Le prêtre fragile</h2></div>
+      <p class="age-concept">Tu n'es pas encore un combattant. Tu es un lanceur de sorts à huit points de vie qui doit rester en vie assez longtemps pour atteindre le niveau 7.</p>
+
+      <h3>Ton rôle</h3>
+      <p><strong>Deuxième ligne, toujours.</strong> Aux niveaux 1 à 4, tu tires à l'<strong>arbalète légère</strong> ou tu ne frappes pas du tout — ton bonus de base à l'attaque est de +0. À partir du niveau 5, tu peux frapper à l'allonge par-dessus l'épaule du guerrier. Tu n'es pas là pour faire des dégâts, tu es là pour que les deux autres en fassent davantage.</p>
+
+      <h3>Le tour type</h3>
+      <ol class="jeu">
+        <li><strong>Avant l'engagement.</strong> <em>Bénédiction</em> — un bonus à toute l'équipe pour un seul emplacement de niveau 1. C'est le meilleur rapport qualité-prix de toute la tranche.</li>
+        <li><strong>Round 1.</strong> Aux niveaux 1 à 2, <em>Bouclier de la foi</em> sur toi-même ou <em>Arme magique</em> sur l'arme du guerrier. À partir du niveau 3 : <em>Force de taureau</em> sur le barbare, ou <em>Arme alignée</em> si vous affrontez quelque chose que ses coups traversent sans effet.</li>
+        <li><strong>Rounds suivants.</strong> Tu tires, ou tu gardes ton action pour un soin d'urgence. Tu ne t'avances jamais.</li>
+        <li><strong>Face à des morts-vivants.</strong> Renvoie sans hésiter. Tu as dix tentatives par jour et strictement rien d'autre à en faire à ce niveau. C'est la seule tranche de ta carrière où tu peux te le permettre.</li>
+      </ol>
+
+      <div class="marge"><strong>L'objet qui change ta vie</strong>
+        Une <strong>baguette de soins légers</strong> — 750 po, 50 charges. Ton groupe n'a aucun autre soigneur. Sans elle, tu brûles tous tes emplacements de sorts à réparer les dégâts entre les combats et tu n'as plus rien pour agir pendant. Avec elle, tes sorts restent disponibles. Achète-la au niveau 3, avant tout le reste.</div>
+
+      <div class="marge faible"><strong>Le vrai danger de cette tranche</strong>
+        Tu es le seul soigneur d'un groupe qui fonce. Si tu meurs, personne ne relève personne. Joue prudemment, même quand le barbare charge. Ce n'est pas de la lâcheté, c'est la seule façon d'arriver au niveau 7.</div>
+    </article>
+
+    <!-- ÂGE 2 -->
+    <article class="age">
+      <div class="age-tete"><span class="age-niv">Niveaux 7 – 8</span><h2>La bascule</h2></div>
+      <p class="age-concept">Le moteur démarre. En un seul niveau, tu passes de fragile à solide.</p>
+
+      <h3>Ce qui arrive au niveau 7</h3>
+      <ul>
+        <li>Tu entres au <strong>Serviteur radieux</strong> : port de <strong>toutes les armures et des boucliers</strong>. Tu passes de la chemise de mailles au harnois — quatre points de classe d'armure d'un coup.</li>
+        <li>Tu accèdes aux <strong>sorts de niveau 4</strong>, donc à <em>Puissance divine</em>.</li>
+        <li><strong>Premier sort persisté.</strong> Ton bonus de base à l'attaque devient égal à ton niveau de personnage, 24 heures sur 24. Tu passes de +3 à +7, et tu gagnes +6 en Force.</li>
+        <li>Le renvoi suprême devient utilisable <strong>3 + ton modificateur de Charisme</strong> fois par jour.</li>
+      </ul>
+
+      <h3>Comment ça change ton jeu</h3>
+      <p>Tu peux enfin te tenir <strong>à côté</strong> du guerrier plutôt que derrière lui. Tu frappes réellement. Mais garde en tête que tes points de vie restent ceux d'un d6 : tu es solide, pas increvable.</p>
+      <p><strong>Attention à ta réserve :</strong> il ne te reste que trois tentatives après le rituel du matin. Le renvoi devient un outil rare, à garder pour les urgences.</p>
+    </article>
+
+    <!-- ÂGE 3 -->
+    <article class="age">
+      <div class="age-tete"><span class="age-niv">Niveaux 9 – 11</span><h2>Le colosse</h2></div>
+      <p class="age-concept">Le personnage atteint sa forme définitive. Et sa réserve tombe à zéro.</p>
+
+      <h3>Ce qui arrive au niveau 9</h3>
+      <p><em>Force du colosse</em> devient disponible et tu prends <strong>Emprise ×2</strong> pour financer un deuxième sort persisté. Tu passes en <strong>taille G</strong>, avec +8 de Force supplémentaires, +4 en Constitution — soit <strong>+18 points de vie</strong> à ce niveau — +4 d'armure naturelle et une réduction des dégâts 5/Mal.</p>
+
+      <h3>Comment ça change ton jeu</h3>
+      <ol class="jeu">
+        <li><strong>Tu deviens un vrai troisième combattant.</strong> Force 24, bonus d'attaque égal à ton niveau, arme à deux mains de taille G. Tes dégâts deviennent sérieux.</li>
+        <li><strong>Tu menaces à 3 mètres</strong> avec n'importe quelle arme, du seul fait de ta taille. C'est le moment de reconsidérer l'arme à allonge, dont la zone morte devient gênante.</li>
+        <li><strong>Tu ne peux plus renvoyer.</strong> Après le rituel, ta réserve est à zéro. Dans une campagne de liche, c'est un vrai problème.</li>
+        <li><strong>Ta priorité d'achat devient la Canne de nuit.</strong> 7 500 po pour +4 tentatives — c'est-à-dire pour redevenir un prêtre en plus d'un guerrier.</li>
+      </ol>
+
+      <div class="marge faible"><strong>Le piège des couloirs</strong>
+        La taille G ne passe pas partout. Dans un tombeau étroit, tu peux te retrouver bloqué — et révoquer <em>Force du colosse</em> signifie le perdre pour la journée entière. Regarde les plans avant d'entrer, et n'hésite pas à laisser passer le guerrier en premier.</div>
+    </article>
+
+    <!-- ÂGE 4 -->
+    <article class="age">
+      <div class="age-tete"><span class="age-niv">Niveaux 12 – 20</span><h2>L'apogée</h2></div>
+      <p class="age-concept">Tu deviens difficile à blesser et impossible à drainer.</p>
+
+      <h3>Les trois paliers qui comptent</h3>
+      <div class="tscroll"><table>
+        <tbody>
+          <tr><td style="width:20%"><strong>Niveau 12</strong></td><td>Le don <strong>Vitalité sacrée</strong> <span class="src">Libris Mortis</span> te rend immunisé à l'<strong>absorption d'énergie</strong>. C'est l'arme principale d'une liche : elle cesse de te concerner. Ta réduction des dégâts passe à 10/Mal.</td></tr>
+          <tr><td><strong>Niveau 14</strong></td><td><strong>Explosion d'énergie positive</strong> : 1d6 par niveau de classe à tous les morts-vivants dans <strong>30 mètres</strong>. Deux tentatives de renvoi. C'est ton bouton de nettoyage de crypte.</td></tr>
+          <tr><td><strong>Niveau 15</strong></td><td><strong>Réduction des dégâts 15/Mal.</strong> Contre des morts-vivants, des démons, des cultistes — c'est-à-dire contre presque tout ce que cette campagne t'oppose — tu encaisses quinze points de moins à chaque coup.</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>Comment ça change ton jeu</h3>
+      <p>Tu peux enfin <strong>encaisser volontairement</strong>. Entre la réduction des dégâts, tes points de vie gonflés par la Constitution et ton immunité au drain, tu deviens le personnage qu'on envoie toucher les choses dangereuses. Le guerrier et le barbare frappent plus fort que toi, mais toi seul peux te permettre d'être touché par Alcatar.</p>
+      <p>Ta réserve respire enfin — neuf à onze tentatives disponibles après le rituel. Le renvoi redevient une option réelle à chaque combat.</p>
+    </article>
+  </div>
+</section>
+
+<section class="pale">
+  <div class="wrap">
+    <div class="eyebrow">Chaque matin, à partir du niveau 7</div>
+    <h2>Le rituel</h2>
+
+    <div class="rituel">
+      <div class="rituel-etape">
+        <div class="rituel-tete"><span class="rituel-h">Puissance divine</span><span class="cout">7 tentatives</span></div>
+        <p class="src">Prê 4 · portée personnelle · vérifié</p>
+        <p>Bonus de base à l'attaque <strong>égal à ton niveau de personnage</strong>, +6 d'altération en Force, 1 point de vie temporaire par niveau.</p>
+        <div class="marks" aria-hidden="true"><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span></div>
+      </div>
+      <div class="rituel-etape">
+        <div class="rituel-tete"><span class="rituel-h">Force du colosse</span><span class="cout">7 tentatives</span> <span class="src">à partir du niveau 9</span></div>
+        <p class="src">Prê 5 / Force 5 · portée personnelle · vérifié</p>
+        <p>Taille +1 cran, <strong>+8 de taille en Force</strong>, <strong>+4 de taille en Constitution</strong>, +4 d'armure naturelle, réduction des dégâts 5/Mal — 10/Mal au niveau 12, 15/Mal au niveau 15.</p>
+        <div class="marks" aria-hidden="true"><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span><span class="t t--meta"></span></div>
+      </div>
+    </div>
+
+    <p>Tu prépares les deux sorts dans des emplacements <strong>normaux</strong> et tu déclares Sort persistant en action libre au moment de les lancer. Métamagie divine ne demande aucune préparation spéciale.</p>
+
+    <div class="verif">
+      <p><span class="rub">Prépare-les en double.</span> Une <em>dissipation de la magie</em> ciblée peut retirer tes deux buffs — et tu ne pourras pas les remettre avant le lendemain. Garde une copie de chaque dans un emplacement normal : relancés à la main, ils durent 1 round par niveau, largement de quoi finir un combat.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Progression</div>
+    <h2>Niveau 1 à 20</h2>
+    <div class="tscroll">
+      <table>
+        <thead><tr><th>Niv.</th><th>Classe</th><th>Don</th><th>Ce qui change</th></tr></thead>
+        <tbody>
+          <tr class="jalon"><td>1</td><td>Prêtre cloîtré 1</td><td><strong>Emprise sur les morts-vivants</strong><br><strong>Extension de durée</strong> <span class="src">bonus humain</span></td><td>28 points de compétence · domaines Soleil, Force, Connaissance · 10 tentatives de renvoi</td></tr>
+          <tr><td>2</td><td>Prêtre cloîtré 2</td><td>—</td><td>Premiers secours atteint 5 rangs — la condition est acquise, ne la reperds jamais</td></tr>
+          <tr class="jalon"><td>3</td><td>Prêtre cloîtré 3</td><td><strong>Sort persistant</strong></td><td>Sorts de niveau 2 — <em>Arme alignée</em>, <em>Force de taureau</em>, <em>Consécration</em></td></tr>
+          <tr><td>4</td><td>Prêtre cloîtré 4</td><td>—</td><td>+1 en Sagesse</td></tr>
+          <tr><td>5</td><td>Prêtre cloîtré 5</td><td>—</td><td>Sorts de niveau 3 — <em>Dissipation de la magie</em>, <em>Bénédiction du guerrier</em></td></tr>
+          <tr class="jalon"><td>6</td><td>Prêtre cloîtré 6</td><td><strong>Métamagie divine (Sort persistant)</strong></td><td>Volonté +5 · Connaissances (religion) 9 rangs · Premiers secours 5 rangs — <strong>tu remplis les conditions</strong></td></tr>
+          <tr class="jalon"><td>7</td><td>Serviteur radieux 1</td><td>—</td><td><strong>Sorts de niveau 4 · premier persisté · toutes les armures et boucliers · renvoi suprême 3 + Charisme fois par jour</strong></td></tr>
+          <tr><td>8</td><td>Serviteur radieux 2</td><td>—</td><td>Santé divine : immunité à toutes les maladies. +1 en Sagesse</td></tr>
+          <tr class="jalon"><td>9</td><td>Serviteur radieux 3</td><td><strong>Emprise ×2</strong></td><td><strong>Sorts de niveau 5 · deuxième persisté : Force du colosse</strong> · Aura de protection</td></tr>
+          <tr><td>10</td><td>Serviteur radieux 4</td><td>—</td><td>—</td></tr>
+          <tr><td>11</td><td>Serviteur radieux 5</td><td>—</td><td>Sorts de niveau 6 · <strong>quatrième domaine</strong> — prends <strong>Bien</strong> pour <em>Châtiment sacré</em> et <em>Barrière de lames</em></td></tr>
+          <tr class="jalon"><td>12</td><td>Serviteur radieux 6</td><td><strong>Vitalité sacrée</strong></td><td><strong>Immunité à l'absorption d'énergie.</strong> Réduction des dégâts 10/Mal. +1 en Sagesse</td></tr>
+          <tr><td>13</td><td>Serviteur radieux 7</td><td>—</td><td>Sorts de niveau 7</td></tr>
+          <tr><td>14</td><td>Serviteur radieux 8</td><td>—</td><td><strong>Explosion d'énergie positive</strong> — 30 mètres</td></tr>
+          <tr><td>15</td><td>Serviteur radieux 9</td><td><strong>Emprise ×3</strong></td><td>Sorts de niveau 8 · <strong>réduction des dégâts 15/Mal</strong></td></tr>
+          <tr><td>16</td><td>Serviteur radieux 10</td><td>—</td><td>Soins souverains. +1 en Sagesse</td></tr>
+          <tr><td>17</td><td>Prêtre cloîtré 7</td><td>—</td><td><strong>Sorts de niveau 9</strong></td></tr>
+          <tr><td>18</td><td>Prêtre cloîtré 8</td><td>Renvoi rapide <span class="src">ou Vengeance sacrée</span></td><td>—</td></tr>
+          <tr><td>19-20</td><td>Prêtre cloîtré 9-10</td><td>—</td><td>+1 en Sagesse au niveau 20</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src">Incantation 20/20 — tu n'as jamais un niveau de retard sur un prêtre pur.</p>
+  </div>
+</section>
+
+<section class="sombre">
+  <div class="wrap">
+    <div class="eyebrow" style="color:var(--or)">Les achats</div>
+    <h2>Quoi acheter, et quand</h2>
+    <p class="chapo">Les montants correspondent aux richesses par niveau du Guide du Maître. Ton MJ distribue peut-être autrement — traite cette liste comme un ordre de priorité, pas comme un budget.</p>
+
+    <div class="tscroll">
+      <table>
+        <thead><tr><th>Niv.</th><th>Achat</th><th>Prix</th><th>Pourquoi maintenant</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Chemise de mailles · <strong>arbalète légère</strong> · masse d'armes légère · symbole sacré en argent</td><td>~230 po</td><td>L'arbalète est ton arme réelle jusqu'au niveau 5. Elle est courante, tu la manies.</td></tr>
+          <tr class="jalon"><td>2-3</td><td><strong>Baguette de soins légers</strong></td><td>750 po</td><td>50 charges. Ton groupe n'a aucun autre soigneur. Elle te rend tous tes emplacements de sorts. <strong>Premier vrai achat, avant tout le reste.</strong></td></tr>
+          <tr><td>3</td><td>Cape de résistance +1</td><td>1 000 po</td><td>+1 à toutes tes sauvegardes. Tu es fragile : c'est le meilleur point de survie par pièce d'or.</td></tr>
+          <tr><td>4-5</td><td>Arme d'hast de maître</td><td>~305 po</td><td>Quand ton bonus d'attaque devient assez bon pour valoir la peine de frapper</td></tr>
+          <tr><td>5</td><td><strong>Périapte de sagesse +2</strong></td><td>4 000 po</td><td>Degrés de difficulté de tes sorts, et un sort en bonus par niveau.</td></tr>
+          <tr><td>6</td><td>Cape de résistance +2</td><td>+3 000 po</td><td>Amélioration de la précédente</td></tr>
+          <tr class="jalon"><td>7</td><td><strong>Harnois +1</strong></td><td>~2 650 po</td><td>Le Serviteur radieux débloque les armures lourdes. Quatre points de classe d'armure d'un coup.</td></tr>
+          <tr class="jalon"><td>9-10</td><td><strong>Canne de nuit</strong> <span class="src">Libris Mortis</span></td><td>7 500 po</td><td><strong>Priorité absolue.</strong> +4 tentatives par jour, c'est-à-dire ta capacité à renvoyer, que le rituel du matin t'a prise.</td></tr>
+          <tr><td>10</td><td>Anneau de protection +1</td><td>2 000 po</td><td>Classe d'armure</td></tr>
+          <tr><td>11-12</td><td><strong>Cape de charisme +2</strong></td><td>4 000 po</td><td>Une tentative de renvoi de plus par jour, pour toujours.</td></tr>
+          <tr><td>12</td><td>Périapte de sagesse +4</td><td>+12 000 po</td><td>Amélioration</td></tr>
+          <tr class="jalon"><td>13-15</td><td><strong>Sceptre de défi</strong> <span class="src">Libris Mortis</span></td><td>13 000 po</td><td>−4 en résistance au renvoi à tous les morts-vivants dans 9 mètres. Une liche a exactement +4 : il l'annule.</td></tr>
+          <tr><td>15+</td><td>Cape de charisme +4 · harnois +3 · arme sacrée</td><td>variable</td><td>Une <strong>arme sacrée</strong> pour ton guerrier vaut plus que la plupart de tes propres objets.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="marge"><strong>Si tu ne dois retenir que deux lignes</strong>
+      La <strong>baguette de soins légers</strong> au niveau 3, parce qu'elle te permet de jouer un prêtre au lieu d'une infirmerie ambulante. La <strong>Canne de nuit</strong> au niveau 9, parce que sans elle tu es un guerrier qui a oublié qu'il était prêtre.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">L'économie</div>
+    <h2>Ta réserve, niveau par niveau</h2>
+    <div class="tscroll">
+      <table>
+        <thead><tr><th>Niveaux</th><th>Sources</th><th>Total</th><th>Persistés</th><th>Reste pour agir</th></tr></thead>
+        <tbody>
+          <tr><td>1-6</td><td>Charisme 16 · Emprise ×1</td><td>10</td><td>0</td><td><strong>10</strong> — renvoie sans compter</td></tr>
+          <tr><td>7-8</td><td>idem</td><td>10</td><td>1</td><td>3</td></tr>
+          <tr><td>9</td><td>+ Emprise ×2</td><td>14</td><td><strong>2</strong></td><td><strong>0</strong></td></tr>
+          <tr class="jalon"><td>10-11</td><td>+ Canne de nuit</td><td>18</td><td>2</td><td>4</td></tr>
+          <tr><td>12-14</td><td>+ Cape de charisme +2</td><td>19</td><td>2</td><td>5</td></tr>
+          <tr><td>15-17</td><td>+ Emprise ×3</td><td>23</td><td>2</td><td>9</td></tr>
+          <tr><td>18-20</td><td>+ Cape de charisme +4</td><td>25</td><td>2</td><td>11</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Lis la dernière colonne.</strong> Elle raconte toute la carrière du personnage : un prêtre généreux en renvois aux bas niveaux, une traversée du désert au niveau 9, puis un retour à l'équilibre à partir du niveau 12.</p>
+  </div>
+</section>
+
+<section class="pale">
+  <div class="wrap">
+    <div class="eyebrow">Avant de créer le personnage</div>
+    <h2>Cinq questions pour ton MJ</h2>
+    <div class="tscroll">
+      <table>
+        <tbody>
+          <tr><td style="width:30px;color:var(--rubrique);font-family:'Young Serif',serif;font-size:19px">1</td><td><strong>Le prêtre cloîtré est-il autorisé ?</strong> <em>Les Arcanes Exhumés</em> est un livre officiel, mais c'est un recueil de <strong>règles optionnelles</strong> conçues pour être validées au cas par cas. Ton MJ peut légitimement refuser.</td></tr>
+          <tr><td style="color:var(--rubrique);font-family:'Young Serif',serif;font-size:19px">2</td><td><strong>Métamagie divine est-elle autorisée sans plafond ?</strong> Si la réponse est non, tout ce document tombe. Mieux vaut le savoir maintenant qu'au niveau 9.</td></tr>
+          <tr><td style="color:var(--rubrique);font-family:'Young Serif',serif;font-size:19px">3</td><td><strong>Changer de prise sur une arme à deux mains coûte-t-il une action ?</strong> Le Manuel du Joueur ne le dit pas. L'usage est « action libre » ; si ton MJ décide autrement, le choix de l'arme change.</td></tr>
+          <tr><td style="color:var(--rubrique);font-family:'Young Serif',serif;font-size:19px">4</td><td><strong>Le prêtre cloîtré peut-il porter un bouclier ?</strong> Le texte dit « armes courantes et armures légères » sans les mentionner. En lecture stricte, non — mais ça ne concerne que les niveaux 3 à 6.</td></tr>
+          <tr><td style="color:var(--rubrique);font-family:'Young Serif',serif;font-size:19px">5</td><td><strong>Lathandre n'a pas le domaine de la Guérison.</strong> Trois aptitudes du Serviteur radieux portent dessus. S'appliquent-elles à tous les sorts de la liste du domaine, ou seulement aux emplacements de domaine ?</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="verif">
+      <p><span class="rub">Deux choses restent à vérifier dans tes livres.</span> Le coût exact et la durée de <strong>Vitalité sacrée</strong> — Libris Mortis, descriptions des dons, page 25 et suivantes. Et le nom VF exact de l'arme courante à deux mains dotée de l'allonge — Manuel du Joueur p. 116, Table 7-5.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Sources VF vérifiées : Manuel du Joueur · Codex Divin · Codex Profane · Arcanes Exhumés · Libris Mortis · Dogmes et Panthéon. Aucune règle maison.
+    <br><a href="../isidoro.html">Retour au Registre d'Isidoro</a>
+  </div>
+</footer>
+
+</body>
+</html>
