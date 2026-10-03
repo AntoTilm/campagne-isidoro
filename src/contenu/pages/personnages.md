@@ -40,7 +40,7 @@ description: Les personnages de la campagne d'Isidoro et de l'ancienne table de 
 | Frère Patricius | Prêtre de Lathandre à l'abbaye du Cœur Radieux, ami d'enfance d'Isidoro, un peu plus âgé. | À l'abbaye. | [Aventure 2](seances/aventure-2.html#etape-6-l-abbaye-du-coeur-radieux) |
 | Frère Malachie | Grand prêtre de Tyr, intendant de l'abbaye. | À l'abbaye. | [Aventure 2](seances/aventure-2.html) |
 | Sœur Aurélia | Prêtresse d'Oghma ; aide les pèlerins à préciser leurs visions avec des cartes. | À l'abbaye. | [Aventure 2](seances/aventure-2.html) |
-| La musicienne (Rayana ou Marika) | Une trentaine d'années, chemise de mailles, lames et luth ; pendentif en forme de harpe. Le MJ a changé son nom en cours de séance. | A instruit Lucas et parlé des Ménestrels. | [Aventure 2](seances/aventure-2.html) |
+| Rayana, la musicienne | Une trentaine d'années, chemise de mailles, lames et luth ; pendentif en forme de harpe, repéré par Isidoro sans qu'il le reconnaisse. | A instruit Lucas et parlé des Ménestrels. | [Aventure 2](seances/aventure-2.html) |
 | Père Gaspard | Prêtre de Tymora à l'abbaye ; perd aux cartes et s'en réjouit. | À l'abbaye. | [Aventure 2](seances/aventure-2.html) |
 | Père Damien | Prêtre de Lathandre à l'hospice du camp de réfugiés de Saelmur ; a vendu le temple de la ville pour nourrir les pauvres. | À Saelmur. | [Aventure 2](seances/aventure-2.html#etape-7-depart-de-l-abbaye-et-hospice-de-saelmur) |
 | Le magicien du n°6, rue des Tanneurs | Complice d'Alcatar : livrait des réfugiés à l'elfe des égouts contre un livre néthérisien. A racheté toute la belladone de la ville. | <span class="etat etat--mort">Mort</span>, tué par Lucas. | [Aventure 2](seances/aventure-2.html#etape-8-saelmur-intra-muros-et-la-rue-des-tanneurs-n-6) |

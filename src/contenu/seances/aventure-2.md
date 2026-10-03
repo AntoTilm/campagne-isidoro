@@ -246,14 +246,14 @@ Deux jours de marche mènent Isidoro et Lucas dans le comté du Clos, jusqu'au v
 - Les écrits d'Alaundo sont à **Château-Suif**, sur la Côte des Épées. Isidoro sait (Religion 23) que c'est la plus grande bibliothèque de Faerûn, un temple d'Oghma. L'entrée exige d'offrir un ouvrage d'au moins 100 po.
 - L'abbaye n'a pas de vraie bibliothèque. Patricius oriente Isidoro vers le temple d'Oghma de Saelmur, l'une des plus grandes bibliothèques du Lac de Vapeur. Une autre existe à Mintar, moins accessible.
 
-**La musicienne (Rayana ou Marika)**
+**La musicienne, Rayana**
 
 - Isidoro cherche quelqu'un pour instruire Lucas (Renseignements 16). On lui indique une femme qui fréquente l'autel de Deneir et aime la musique.
 - Isidoro lui présente sa requête ; un peu surprise, elle accepte.
 - La trentaine, elle semble avoir beaucoup vécu. Elle porte une chemise de mailles de très bonne facture, des lames aux côtés et un luth dans le dos, et se déplace avec grâce.
-- Lucas aperçoit (Détection 17) un pendentif en forme de harpe caché sous sa chemise. Isidoro ne reconnaît pas le symbole.
+- Isidoro aperçoit (Détection 17) un pendentif en forme de harpe caché sous sa chemise, mais rate son jet de Religion : il ne reconnaît pas le symbole.
 - Elle reprend lentement le passage de Lucas, en montrant les gestes et les intonations. Lucas le rejoue : elle applaudit, et il entend de nouveau des applaudissements dans sa tête. Pour lui, c'est grisant.
-- Lucas tente de la charmer ; elle sourit gentiment et devient un contact. Le MJ a changé son nom en cours de séance.
+- Lucas tente de la charmer ; elle sourit gentiment et devient un contact. Le MJ a hésité sur son nom (Marika) ; on retient **Rayana**.
 
 **Nuit de Lucas** : au temple de Tymora de l'abbaye, où l'on joue au blackjack et au poker, Lucas passe huit heures et finit gagnant. Le prêtre de Tymora, le père Gaspard, perd à chaque fois et s'en réjouit. Vers 4 h, Lucas va regarder dans les vasques.
 
@@ -345,7 +345,7 @@ Isidoro et Lucas partent pour Saelmur et passent leur première nuit à l'hospic
 
 - Une autre équipe est passée il y a quelques jours. Cinq hommes portant des écussons de la milice (de Heaume ?) cherchaient la bagarre avec les réfugiés : c'étaient des lycanthropes qui propageaient la maladie.
 - Trois ont été tués, deux se sont échappés. L'équipe est ensuite remontée vers l'abbaye : ce sont les personnages de l'autre table, croisés en route.
-- Parmi eux se trouve une moniale du même monastère qu'Isidoro. Isidoro et Lucas l'avaient sauvée de deux assassins lors d'une aventure précédente.
+- Parmi eux se trouve une moniale du même monastère qu'Isidoro, venue de Derlusk : c'est la femme dont parle le père Damien. Isidoro ne la connaît pas.
 
 ## Étape 8 — Saelmur intra-muros et la rue des Tanneurs n°6
 
@@ -428,20 +428,41 @@ Les gains se partagent entre Isidoro et Lucas ; les montants par tête restent �
 
 **Expérience** : 300 XP pour les orques, puis d'autres gains. Isidoro est à environ 2 950 XP sur 3 000, à la porte du niveau 3.
 
-## Fils ouverts
+## Pense-bête pour la prochaine séance
 
-L'attaque de Saelmur est l'urgence ; les autres fils attendront la suite.
+Le pense-bête du joueur : ce qu'il faut avoir en tête en s'asseyant à la table. Le journal d'Isidoro, lui, n'en parle pas.
 
-- [ ] **L'attaque de Saelmur** : morts-vivants venus des égouts, explosions, débarquement possible des légions de Mintar (visions).
+**Avant de jouer**
+
+- [ ] **Niveau 3** : Isidoro est à environ 2 950 XP sur 3 000. Préparer la montée de niveau (sorts, dons, compétences).
+- [ ] **Ressources** : vérifier les sorts restants et les charges de la baguette de soins après le combat de la rue des Tanneurs.
+- [ ] **Partage** : régler le partage du coffre et des bijoux du magicien, et décider qui garde son grimoire.
+- [ ] **Contre les morts-vivants** : renvoi des morts-vivants, eau bénite (Lucas), fronde et Pierre magique.
+
+**Savoir de joueur : ne pas l'utiliser en jeu**
+
+::: hors-jeu
+- **Les génasi de Pierrot sont les lycanthropes** démasqués par l'autre table. Isidoro leur a confié sa lettre de bonne foi. Ni Isidoro ni Lucas ne le savent : ne pas réagir en conséquence tant que le jeu ne le révèle pas.
+- **La moniale de Derlusk** : Isidoro ne la connaît pas. Aucun lien avec les assassins d'Ankhapur.
+- **Théodric** : Isidoro ne connaît pas ce nom. Il ne connaît que le rôle de son père à Bridgestone.
+- **La Chope sans Fond** : futur QG des Lames de Tymora, après l'attaque. Pour Isidoro, ce n'est qu'un nom vu par Lucas.
+:::
+
+**Priorités en jeu**
+
+- [ ] **Survivre à l'attaque** : morts-vivants venus des égouts, explosions, débarquement possible des légions de Mintar (visions).
+- [ ] **La bibliothèque d'Oghma** : la protéger, ou en sauver les ouvrages. C'est ce qui hante le plus Isidoro.
 - [ ] **L'elfe sauvage des égouts**, complice d'Alcatar : aucune information.
+- [ ] **L'hospice du père Damien** et les confrères de Lathandre à Saelmur, au milieu du camp de réfugiés.
+- [ ] **La belladone** : le stock racheté par le magicien reste introuvable, et la pleine lune approche.
+- [ ] **Les deux lycanthropes** en fuite.
+
+**Autres fils ouverts**
+
 - [ ] **Alcatar** : elfe d'or, future liche, peut-être demi-liche. Ses phylactères, et le risque qu'il prenne la place de Velsharoon.
-- [ ] **La bibliothèque d'Oghma** : la protéger ou en copier des ouvrages avant sa destruction (vision).
-- [ ] **Les disparitions** du camp de réfugiés, liées aux livraisons dans les égouts.
-- [ ] **La belladone** : le stock racheté par le magicien reste introuvable.
-- [ ] **Les lycanthropes** : deux se sont échappés.
-- [ ] **Les Ménestrels** : la musicienne et la harpe vue dans les deux visions.
+- [ ] **Les Ménestrels** : Rayana, et la harpe vue dans les deux visions.
+- [ ] **Le livre néthérisien** sur les puits d'ombre, à étudier.
 - [ ] **Le sentier caché** près d'une forteresse à l'ouest (vision de Lucas).
-- [ ] **Les confrères de Lathandre** à Saelmur : la lettre d'Isidoro, et le temple vendu par le père Damien.
 - [ ] **Bridgestone** : la famille du comte tiendra-t-elle le pont ?
 - [ ] **La guerre de l'ombre** entre familles marchandes, après l'héritier pendu à Derlusk.
 - [ ] **Un barde de Milil** pour instruire Lucas.
@@ -458,7 +479,7 @@ Ces informations sont connues des joueurs, pas des personnages.
 - **Bridgestone** : le haut fait rappelé à Champ-Doré est lié à Théodric ; le père d'Isidoro y avait participé au second plan.
 - **Le Clos** : dans l'ancienne campagne, l'oncle de Théodric en était le baron, dernier membre de sa famille. Voir les anciennes notes de Théodric.
 - **La Pinte sans Fond** (ou Chope sans Fond) : l'auberge près du Clos que les Lames de Tymora prendront comme QG, et où elles cacheront des notes sur Alcatar. Dans la chronologie, cela se passe après l'attaque de Saelmur.
-- **Les génasi de Pierrot** étaient les lycanthropes affrontés par l'autre table. On ne sait pas s'ils l'étaient déjà quand Isidoro et Lucas les ont aidés à gagner Saelmur.
+- **Les génasi de Pierrot** étaient les lycanthropes affrontés par l'autre table. Isidoro leur avait confié de bonne foi sa lettre aux confrères de Saelmur et l'attestation du combat. On ne sait pas s'ils étaient déjà lycanthropes à ce moment-là, et ni Isidoro ni Lucas ne le savent.
 - **Scène du bateau** (aventure précédente) : Isidoro y prêche Lathandre. Pour l'autre table, le MJ a réécrit la suite : c'est le personnage de David, et non plus Isidoro, qui va parler au personnage indécis de Thôn à la proue.
 - **Prochaine séance** : probablement après le week-end du 10 octobre.
 :::
@@ -494,7 +515,7 @@ Repères pour relire la séance ; les lieux sans équivalent officiel sont des c
 | Frère Patricius | Abbaye | Prêtre de Lathandre, ami d'enfance d'Isidoro |
 | Frère Malachie | Abbaye | Grand prêtre de Tyr, intendant |
 | Sœur Aurélia | Abbaye | Prêtresse d'Oghma, interprète des visions |
-| Rayana ou Marika | Abbaye | Musicienne au pendentif en harpe |
+| Rayana | Abbaye | Musicienne au pendentif en harpe |
 | Père Gaspard | Abbaye | Prêtre de Tymora |
 | Père Damien | Hospice de Saelmur | Prêtre de Lathandre |
 | Tom Martino, Mickellow Beretta | Glen | Habitués soupçonnés du vol |
