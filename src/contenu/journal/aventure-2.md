@@ -1,4 +1,5 @@
 ---
+savoir: isidoro
 titre: Journal d'Isidoro — Aventure 2
 sous-titre: Du Pissenlit Bleu à la nuit du crâne vert, fin de l'hiver de l'an 1373 des Vaux
 ordre: 2

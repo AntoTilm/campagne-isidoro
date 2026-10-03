@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Le testament du comte Elrayck
 sous-titre: « Chroniques secrètes du Loup de la Minta »
 ordre: 1

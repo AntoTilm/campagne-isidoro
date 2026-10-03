@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Le journal de Vandor
 sous-titre: « Chroniques de l'Ombre et de la Cendre »
 ordre: 6

@@ -1,4 +1,5 @@
 ---
+rubrique: isidoro
 titre: Règles
 sous-titre: Ce qui a été vérifié dans les livres, ce qui reste à trancher, et la bibliothèque d'Antoine.
 description: Règles D&D 3.5 VF vérifiées pour le build d'Isidoro, points de règles notés à la table, bibliothèque et photos du Manuel des Joueurs.
@@ -24,7 +25,7 @@ description: Règles D&D 3.5 VF vérifiées pour le build d'Isidoro, points de r
 - **Aptitudes clés** : renvois suprêmes supplémentaires (3 + Charisme par jour) ; aura de protection (+2 de moral en Volonté pour lui et ses alliés à 3 m) ; domaine supplémentaire au niveau 5 de la classe, Gloire ou Purification au choix ; explosion d'énergie positive au niveau 8 (1d6 par niveau de classe à tous les morts-vivants dans 30 m).
 
 ::: note
-Le guide [Le Persistant](pages/le-persistant.html) conseille le domaine du Bien pour ce domaine supplémentaire ; les notes de build, établies sur la photo du livre, donnent le choix entre Gloire et Purification. À recouper.
+Le guide [Le Persistant](progression.html) conseille le domaine du Bien pour ce domaine supplémentaire ; les notes de build, établies sur la photo du livre, donnent le choix entre Gloire et Purification. À recouper.
 :::
 
 ## Règles vérifiées et leçons

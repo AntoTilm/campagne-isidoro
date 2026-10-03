@@ -1,14 +1,15 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-vue="isidoro">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Les chroniques de Teldorn Sombrespoir · Le Registre d'Isidoro</title>
 <meta name="description" content="La conquête de Mintar, la trahison des Bridgestone, le pacte avec Alcatar, le fiasco de Saelmur et la route du phylactère.">
+<script>try{var v=localStorage.getItem('registre-vue');if(v)document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
 <link rel="stylesheet" href="../assets/css/site.css">
 <link rel="icon" href="../assets/img/soleil.svg" type="image/svg+xml">
 </head>
-<body class="page-documents" data-racine="../">
+<body class="page-documents" data-racine="../" data-savoir-page="theodoric">
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="bandeau">
   <div class="bandeau__haut">
@@ -19,11 +20,17 @@
       <div id="recherche-resultats" class="recherche__resultats" hidden></div>
     </div>
   </div>
-  <nav class="nav" aria-label="Sections du registre"><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../seances.html">Séances</a></li><li><a href="../journal.html">Journal</a></li><li><a href="../documents.html" aria-current="page">Documents</a></li><li><a href="../personnages.html">Personnages</a></li><li><a href="../lieux.html">Lieux et cartes</a></li><li><a href="../isidoro.html">Isidoro</a></li><li><a href="../recoupements.html">Recoupements</a></li><li><a href="../regles.html">Règles</a></li></ul></nav>
+  <div class="bandeau__bas">
+    <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="../journal.html" aria-current="page">Journal</a></li><li><a href="../prochaine-seance.html">Prochaine séance</a></li><li><a href="../seances.html">Séances</a></li><li><a href="../personnages.html">Le monde</a></li><li><a href="../isidoro.html">Isidoro</a></li></ul></nav>
+    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
+      <span class="vue__titre" aria-hidden="true">Point de vue</span><button type="button" data-choisir-vue="isidoro" title="Ce que sait Isidoro : ses séances, son journal, ses visions." aria-pressed="false">Isidoro</button><button type="button" data-choisir-vue="theodoric" title="Ce que sait la table de Théodoric : ses séances et les documents trouvés." aria-pressed="false">Théodoric</button><button type="button" data-choisir-vue="monde" title="Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables." aria-pressed="false">Monde</button><button type="button" data-choisir-vue="tout" title="Tout afficher, avec la provenance de chaque information." aria-pressed="false">Tout</button>
+    </div>
+  </div>
 </header>
 <main id="contenu">
+<nav class="onglets" aria-label="Journal"><ul><li><a href="../journal.html">Journal d’Isidoro</a></li><li><a href="../documents.html" aria-current="page">Documents de Théodoric</a></li></ul></nav><div class="voile" role="note"><p class="voile__titre">Cette page relève de la table de Théodoric : Isidoro ne la connaît pas.</p><p>Le point de vue choisi masque cette page. Rien n’est supprimé : elle reste là, pour qui veut la lire.</p><p><button type="button" class="voile__bouton" data-choisir-vue="tout">Afficher en vue « Tout »</button></p></div><div class="avis-filtre" hidden></div>
 <article class="lecture lecture--documents">
-<div class="entete"><p class="fil"><a href="../documents.html">Documents</a></p><h1>Les chroniques de Teldorn Sombrespoir</h1><p class="entete__sous">« Les chroniques du vicaire Teldorn Sombrespoir », trois volumes</p></div>
+<div class="entete"><p class="fil"><a href="../documents.html">Documents de Théodoric</a></p><h1>Les chroniques de Teldorn Sombrespoir</h1><p class="entete__sous">« Les chroniques du vicaire Teldorn Sombrespoir », trois volumes</p></div>
 <div class="lecture__grille">
 <div class="lecture__cote"><aside class="provenance" aria-label="Fiche de provenance"><p class="provenance__titre">Fiche de provenance</p><dl><dt>Auteur</dt><dd>Teldorn Sombrespoir, vicaire de la Main Noire, maître de Mintar</dd><dt>Période</dt><dd>Jusqu’en 1365 CV, puis 1372 – 1373 CV</dd><dt>Provenance</dt><dd>Volume I consigné dans les cryptes du Grand Temple de Mintar ; volume III retrouvé dans les décombres de la chapelle privée. Récupérés par le commando dans le sac de Bern.</dd><dt>Regard</dt><dd>Ennemi, de première main. Orgueilleux ; il réécrit ses échecs.</dd><dt>Original</dt><dd><a href="../assets/pdf/chroniques-teldorn-sombrespoir.pdf">Ouvrir le PDF</a></dd></dl></aside><nav class="sommaire" aria-label="Sommaire"><details open><summary>Sommaire</summary><ol><li class="n2"><a href="#volume-i-les-fondations-de-l-empire-le-piege-des-bridgestone">Volume I — Les Fondations de l’Empire, le Piège des Bridgestone et la Lignée de Fer (Jusqu’en 1365 CV)</a></li><li class="n3"><a href="#i-le-sang-de-kzelter-et-la-haine-des-bridgestone">I. Le Sang de Kzelter et la Haine des Bridgestone</a></li><li class="n3"><a href="#ii-l-avenement-de-mintar-et-le-gantelet-du-sud-1362-cv">II. L’Avènement de Mintar et le Gantelet du Sud (1362 CV)</a></li><li class="n3"><a href="#iii-la-chute-de-bridgestone-et-le-deuil-de-l-aine-1365-cv">III. La Chute de Bridgestone et le Deuil de l’Aîné (1365 CV)</a></li><li class="n3"><a href="#iv-la-fierte-de-la-lignee-scyllua-l-etoile-noire-du-nord">IV. La Fierté de la Lignée : Scyllua, l’Étoile Noire du Nord</a></li><li class="n2"><a href="#volume-ii-l-ombre-de-l-elfe-d-or-les-failles-du-reseau-noir-">Volume II — L’Ombre de l’Elfe d’Or, les Failles du Réseau Noir et la Géométrie du Sceptre</a></li><li class="n3"><a href="#i-les-ombres-du-shaar-et-l-heresie-profane">I. Les Ombres du Shaar et l’Hérésie Profane</a></li><li class="n3"><a href="#ii-les-cibles-de-la-main-noire-et-le-sang-de-derlusk">II. Les Cibles de la Main Noire et le Sang de Derlusk</a></li><li class="n3"><a href="#iii-l-origine-du-sceptre-de-fer">III. L’Origine du Sceptre de Fer</a></li><li class="n2"><a href="#volume-iii-le-pacte-de-saelmur-le-fiasco-du-sang-et-la-route">Volume III — Le Pacte de Saelmur, le Fiasco du Sang et la Route du Phylactère (1372 – 1373 CV)</a></li><li class="n3"><a href="#i-le-choc-des-egos-et-l-ultimatum-de-saelmur">I. Le Choc des Égos et l’Ultimatum de Saelmur</a></li><li class="n3"><a href="#ii-les-silos-arachneens-et-le-sang-de-derlusk">II. Les Silos Arachnéens et le Sang de Derlusk</a></li><li class="n3"><a href="#iii-le-fiasco-de-saelmur-et-la-haine-telepathique">III. Le Fiasco de Saelmur et la Haine Télépathique</a></li><li class="n3"><a href="#iv-l-otage-du-phylactere-et-la-lente-route-du-convoi-blinde">IV. L’Otage du Phylactère et la Lente Route du Convoi Blindé</a></li></ol></details></nav></div>
 <div class="texte"><h2 id="volume-i-les-fondations-de-l-empire-le-piege-des-bridgestone">Volume I — Les Fondations de l’Empire, le Piège des Bridgestone et la Lignée de Fer (Jusqu’en 1365 CV)</h2>

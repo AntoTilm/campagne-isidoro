@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Le plan d'Elrayck pour l'attaque de Mintar
 sous-titre: « Les directives de Mintar — le plan commando d'Elrayck »
 ordre: 2

@@ -1,4 +1,5 @@
 ---
+rubrique: isidoro
 titre: Isidoro
 sous-titre: Prêtre cloîtré de Lathandre, fils du Père Théodoro de Derlusk.
 description: La fiche d'Isidoro, prêtre cloîtré de Lathandre : caractéristiques, compétences, sorts, traits, jeu de rôle et chemin vers le Serviteur radieux.
@@ -93,7 +94,36 @@ Malus d'armure de −2 (−4 en Natation).
 ### Équipement
 
 - **Sur la fiche** : trousse de premiers secours (50 po), symbole sacré en argent (25 po), sacoche à composantes (5 po), sac de couchage, 4 rations, corde de 15 m, 10 torches, briquet, papier, encre et plume ; eau bénite ×2, potion de soins légers ×2, parchemin de sanctuaire ×2 ; 2 po.
-- **Gagné pendant l'aventure 2** : une fronde, la copie de la carte du prêtre de Champ-Doré, le livre néthérisien sur les puits d'ombre, des livres sur les gobelinoïdes et sa part du butin. Le détail est dans le [résumé de l'aventure 2](seances/aventure-2.html#butin-achats-et-finances).
+- **Gagné pendant l'aventure 2** : une fronde, la copie de la carte du prêtre de Champ-Doré, le livre néthérisien sur les puits d'ombre, des livres sur les gobelinoïdes et sa part du butin. Le détail suit.
+
+### Butin et finances de l'aventure 2
+
+Les gains se partagent entre Isidoro et Lucas ; les montants par tête restent à vérifier sur vos feuilles.
+
+| Source | Montant |
+| --- | --- |
+| Coffre du magicien | 2 400 po |
+| Livres sur les gobelinoïdes | environ 500 po |
+| Deux potions de poison revendues (aventure précédente) | 450 po net, soit 225 po chacun |
+| Vente du butin des orques (Fort Corner) | environ 405 po |
+| Bijoux du magicien | 400 po |
+| Primes pour quatre têtes (Fort Corner) | 20 po |
+| Pièces des orques | 52 pa et 77 pc |
+
+#### Objets gardés
+
+- Isidoro : le livre néthérisien sur les puits d'ombre, les livres sur les gobelinoïdes, une fronde, la copie de la carte de Champ-Doré.
+- Lucas : l'Encensoir, la sacoche à potions, des fioles d'eau bénite, des vêtements de déguisement.
+- Le grimoire du magicien : qui le garde, à préciser.
+
+#### Dépenses notables
+
+ laissez-passer (10 po chacun), identification des potions (50 po), cadastre (2 po), Encensoir (10 po), sacoche (40 po), frais de voyage (au moins 4 po chacun). S'y ajoutent les nuits, les taxes, et les pertes de Lucas au jeu et aux voleurs.
+
+#### Expérience
+
+ 300 XP pour les orques, puis d'autres gains. Isidoro est à environ 2 950 XP sur 3 000, à la porte du niveau 3.
+
 
 <div class="galerie">
 <figure><a href="assets/img/fiche-isidoro-p1.jpg"><img src="assets/img/fiche-isidoro-p1.jpg" alt="Fiche d'Isidoro, page 1" loading="lazy"></a><figcaption><b>Page 1</b>Caractéristiques, combat, compétences</figcaption></figure>
@@ -124,7 +154,7 @@ Pour lui, un mort-vivant n'est pas une horreur : c'est une **dette non honorée 
 
 ## Les rêves
 
-- Des cauchemars récurrents d'une divinité qui relève les morts : Velsharoon, dont Alcatar est l'Élu.
+- Des cauchemars récurrents d'une divinité qui relève les morts : Velsharoon<span data-savoir="theodoric">, dont Alcatar est l'Élu</span>.
 - Ils commencent l'année de l'ascension de Velsharoon (1368 CV selon les chroniques).
 - À 8 ans, ses parents lui expliquent que ce n'est pas une maladie mais un message divin. Le père en tire qu'il faut **savoir** ; la mère, qu'il faut **protéger**.
 - À l'abbaye du Cœur Radieux, Isidoro voit enfin le visage de ses rêves : [Alcatar](personnages.html#alcatar-et-les-siens).
@@ -160,7 +190,7 @@ Le premier dit qui il est et reste constant ; le deuxième dit d'où il vient et
 
 ## Le build
 
-Le personnage suit l'archétype détaillé dans le guide **[Le Persistant](pages/le-persistant.html)** : deux sorts rendus permanents chaque matin, payés en tentatives de renvoi.
+Le personnage suit l'archétype détaillé dans le guide **[Le Persistant](progression.html)** : deux sorts rendus permanents chaque matin, payés en tentatives de renvoi.
 
 - **Moteur** : Sort persistant (*Codex Profane* p. 83) et Métamagie divine (*Codex Divin* p. 82), soit 7 tentatives de renvoi par sort persisté. *Puissance divine* au niveau 7, puis *Force du colosse* au niveau 9, deviennent permanents.
 - **Classe de prestige** : Serviteur radieux de Pélor (*Codex Divin* p. 70-72), valable pour Lathandre ; entrée réaliste au niveau 7. Conditions VF : neutre bon, Volonté +5, Connaissances (religion) 9 degrés, Premiers secours 5 degrés, Emprise sur les morts-vivants, sorts divins de niveau 1, domaine du Soleil.

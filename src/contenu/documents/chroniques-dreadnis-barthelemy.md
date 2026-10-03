@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: L'histoire d'Alcatar, par deux inquisiteurs
 sous-titre: « Les chroniques inquisitrices » des Pères Dreadnis et Barthélemy
 ordre: 5

@@ -1,23 +1,24 @@
 ---
+rubrique: monde
 titre: Personnages
 sous-titre: Qui est qui, d'où on le sait, et où il en est.
 description: Les personnages de la campagne d'Isidoro et de l'ancienne table de Théodoric : alliés, famille Bridgestone, Main Noire, Alcatar et ses serviteurs.
 ---
 
-<p class="prose">La colonne « Sources » renvoie aux pages où le personnage apparaît. Les informations tirées des documents de la campagne de Théodoric sont un savoir de joueur : Isidoro ne les connaît pas encore.</p>
+<p class="prose">La colonne « Sources » renvoie aux pages où le personnage apparaît. Les informations tirées des documents de la campagne de Théodoric sont un savoir de joueur : Isidoro ne les connaît pas encore. Le sélecteur <b>Point de vue</b> les masque en vue Isidoro.</p>
 
-## La compagnie d'Isidoro
+## La compagnie d'Isidoro {@isidoro}
 
 | Nom | Qui | Où il en est | Sources |
 | --- | --- | --- | --- |
 | Isidoro | Prêtre cloîtré de Lathandre, 24 ans, de Derlusk. Joué par Antoine. Voir [sa fiche](isidoro.html). | À Saelmur au début de l'attaque ; environ 2 950 XP, niveau 3 imminent. | [Journal](journal.html), [aventure 2](seances/aventure-2.html) |
 | Lucas « El Tiempo » | Roublard, fils d'Antonio, enfant des villes, joueur et bluffeur. Proche de Tymora, il découvre Milil à l'abbaye. Joué par François. | Avec Isidoro à Saelmur ; il a acheté l'Encensoir et une sacoche à potions. | [Journal 1](journal/partie-1.html), [aventure 2](seances/aventure-2.html) |
 
-::: hors-jeu
+::: hors-jeu {@mj}
 **L'autre table.** Thôn (Tonon) et David jouent sur la même chronologie. Dans l'ancienne campagne, ils incarnaient des légionnaires venus défendre Saelmur ; ils ont depuis d'autres personnages, dont les noms ne sont pas notés ici. Leur groupe compte une moniale du monastère d'Isidoro, qui a démasqué les lycanthropes de Saelmur. L'homme indécis de la proue, dans la traversée vers Ankhapur, est le personnage de Thôn.
 :::
 
-## La famille et les proches d'Isidoro
+## La famille et les proches d'Isidoro {@isidoro}
 
 | Nom | Qui | Où il en est | Sources |
 | --- | --- | --- | --- |
@@ -30,11 +31,11 @@ description: Les personnages de la campagne d'Isidoro et de l'ancienne table de 
 | Père Basile | Nommé dans la fiche comme le contact du scriptorium d'Ankhapur. Le journal dit que l'ami du père d'Isidoro y est mort l'an dernier : à vérifier. | Incertain. | [Fiche](isidoro.html) |
 | Père Pascal | Disciple de Lathandre à Ankhapur, visé par un contrat d'assassinat commandité par un haut représentant de la ville. | Prévenu par Isidoro et Lucas, qui ont tué ses deux tueurs. | [Journal 1](journal/partie-1.html) |
 
-## Rencontrés pendant l'aventure 2
+## Rencontrés pendant l'aventure 2 {@isidoro}
 
 | Nom | Qui | Où il en est | Sources |
 | --- | --- | --- | --- |
-| Pierrot et ses génasi | Cinq génasi roux venus d'un village près de « l'Île de Berck » (?), sauvés des orques. Ils portent la lettre d'Isidoro aux confrères de Saelmur. | Partis s'engager à Saelmur. Hors-jeu : ce sont les lycanthropes affrontés par l'autre table. | [Aventure 2](seances/aventure-2.html#etape-3-l-embuscade-des-orques) |
+| Pierrot et ses génasi | Cinq génasi roux venus d'un village près de « l'Île de Berck » (?), sauvés des orques. Ils portent la lettre d'Isidoro aux confrères de Saelmur. | Partis s'engager à Saelmur.<span data-savoir="mj"> Hors-jeu : ce sont les lycanthropes affrontés par l'autre table.</span> | [Aventure 2](seances/aventure-2.html#etape-3-l-embuscade-des-orques) |
 | Tom Martino, Mickellow Beretta | Habitués du Baladin Joyeux, à Glen, cités par le gérant après le vol. Le voleur avait les cheveux bruns courts et un habit bleu. | Non démasqués. | [Aventure 2](seances/aventure-2.html#etape-2-glen-et-le-baladin-joyeux) |
 | Le prêtre de Champ-Doré | Prêtre du temple du village (de Heaume ?), il renseigne Isidoro sur le comté et l'abbaye. | À Champ-Doré. | [Aventure 2](seances/aventure-2.html#etape-5-vers-le-nord-champ-dore-et-le-comte-du-clos) |
 | Frère Patricius | Prêtre de Lathandre à l'abbaye du Cœur Radieux, ami d'enfance d'Isidoro, un peu plus âgé. | À l'abbaye. | [Aventure 2](seances/aventure-2.html#etape-6-l-abbaye-du-coeur-radieux) |
@@ -49,7 +50,7 @@ description: Les personnages de la campagne d'Isidoro et de l'ancienne table de 
 
 ## La famille Bridgestone
 
-<figure class="famille" aria-labelledby="legende-famille">
+<figure class="famille" data-savoir="theodoric" aria-labelledby="legende-famille">
 <svg viewBox="0 0 1150 330" role="img" aria-label="Arbre de la famille Bridgestone">
 <path class="trait" d="M80 112 V96 H560 V112"/>
 <text class="role" x="320" y="90" text-anchor="middle">frères</text>
@@ -77,20 +78,20 @@ description: Les personnages de la campagne d'Isidoro et de l'ancienne table de 
 
 | Nom | Qui | Où il en est | Sources |
 | --- | --- | --- | --- |
-| Elrayck Bridgestone | Cadet noble, frère du comte du Clos ; rôdeur de Tymora contraint de feindre la foi de Torm. Porteur de Kismet, héros du Miracle de Kzelter. | <span class="etat etat--mort">Mort</span> à la chute de Bridgestone (1364 selon Jérôme, Uktar 1365 selon Teldorn). | [Testament](documents/testament-comte-elrayck.html), [plan](documents/plan-elrayck-attaque-mintar.html) |
-| Aurelia | Fille unique du vieux comte, épouse d'Elrayck ; élève ses fils dans la rigueur de Torm. | Inconnu. | [Testament](documents/testament-comte-elrayck.html) |
-| Isoline | Femme du peuple, dame de compagnie, aimée d'Elrayck ; mère de Marius. | <span class="etat etat--mort">Morte</span> avant 1355. | [Testament](documents/testament-comte-elrayck.html) |
-| Le comte du Clos | Frère aîné d'Elrayck, protecteur de Théodoric et de Marius. Hors-jeu : l'oncle-baron de Théodoric dans l'ancienne campagne. | A envoyé ses hommes contre Bridgestone ; selon Jérôme, se soumet à Mintar le 22 Ches 1373. | [Jérôme](documents/journal-jerome-bridgestone.html), [aventure 2](seances/aventure-2.html) |
-| Théodoric Bridgestone | Dernier fils d'Elrayck, paladin de Tymora, fondateur des Lames de Tymora. Joué par Antoine dans l'ancienne campagne. | <span class="etat etat--mort">Mort</span> le 15 Tarsakh 1373 en brisant la pierre de la citadelle de Mintar. | [Le sacrifice de Mintar](seances/sacrifice-de-mintar.html) |
-| Marius | Fils d'Elrayck et d'Isoline, formé par Vardak au maniement des deux armes ; ami puis frère de Théodoric. Joué par François. | Survivant de Mintar, enfui par la mer. | [Testament](documents/testament-comte-elrayck.html), [le sacrifice de Mintar](seances/sacrifice-de-mintar.html) |
-| Bertrand | Fils aîné légitime, né en 1349. | <span class="etat etat--mort">Tué</span> sur les remparts à la chute de Bridgestone. | [Teldorn](documents/chroniques-teldorn-sombrespoir.html) |
-| Peter | Paladin de Torm passé à Teldorn dès 1360 ; a ouvert les portes de Bridgestone. | <span class="etat etat--ennemi">Régent</span> ; prévoit d'incendier l'abbaye du Cœur Radieux à l'aube du 26 Ches 1373. | [Jérôme](documents/journal-jerome-bridgestone.html), [Teldorn](documents/chroniques-teldorn-sombrespoir.html) |
-| Jérôme | Fils méthodique et rancunier ; a juré fidélité à Xvim. Tente trois fois de faire tuer Théodoric. | <span class="etat etat--ennemi">Régent</span> de Bridgestone pour Mintar. | [Son journal](documents/journal-jerome-bridgestone.html) |
-| Charles | Fils rebelle, en rupture avec la noblesse ; enfui à Saelmur avec une cassette d'or. | Capturé dans les égouts de Saelmur par les Bainiens, puis arraché par des morts-vivants (selon Teldorn). | [Teldorn](documents/chroniques-teldorn-sombrespoir.html), [le sacrifice de Mintar](seances/sacrifice-de-mintar.html) |
-| Vardak | Maître d'armes d'Elrayck, qui a formé Marius puis Théodoric. | Inconnu. | [Testament](documents/testament-comte-elrayck.html) |
-| Le vieux comte de Bridgestone | Père d'Aurelia ; a financé Elrayck contre ce mariage. | Inconnu. | [Testament](documents/testament-comte-elrayck.html) |
+| Elrayck Bridgestone | Cadet noble, frère du comte du Clos ; rôdeur de Tymora contraint de feindre la foi de Torm. Porteur de Kismet, héros du Miracle de Kzelter. | <span class="etat etat--mort">Mort</span> à la chute de Bridgestone (1364 selon Jérôme, Uktar 1365 selon Teldorn). | [Testament](documents/testament-comte-elrayck.html), [plan](documents/plan-elrayck-attaque-mintar.html) | {@theodoric}
+| Aurelia | Fille unique du vieux comte, épouse d'Elrayck ; élève ses fils dans la rigueur de Torm. | Inconnu. | [Testament](documents/testament-comte-elrayck.html) | {@theodoric}
+| Isoline | Femme du peuple, dame de compagnie, aimée d'Elrayck ; mère de Marius. | <span class="etat etat--mort">Morte</span> avant 1355. | [Testament](documents/testament-comte-elrayck.html) | {@theodoric}
+| Le comte du Clos | Seigneur du comté du Clos ; compte sur des membres de sa famille qui tiennent le pont de Bridgestone.<span data-savoir="theodoric"> Frère aîné d'Elrayck, protecteur de Théodoric et de Marius.</span><span data-savoir="mj"> Hors-jeu : l'oncle-baron de Théodoric dans l'ancienne campagne.</span> | A envoyé ses hommes contre Bridgestone<span data-savoir="theodoric"> ; selon Jérôme, se soumet à Mintar le 22 Ches 1373</span>. | [Jérôme](documents/journal-jerome-bridgestone.html), [aventure 2](seances/aventure-2.html) | {@isidoro @theodoric}
+| Théodoric Bridgestone | Dernier fils d'Elrayck, paladin de Tymora, fondateur des Lames de Tymora. Joué par Antoine dans l'ancienne campagne. | <span class="etat etat--mort">Mort</span> le 15 Tarsakh 1373 en brisant la pierre de la citadelle de Mintar. | [Le sacrifice de Mintar](seances/sacrifice-de-mintar.html) | {@theodoric}
+| Marius | Fils d'Elrayck et d'Isoline, formé par Vardak au maniement des deux armes ; ami puis frère de Théodoric. Joué par François. | Survivant de Mintar, enfui par la mer. | [Testament](documents/testament-comte-elrayck.html), [le sacrifice de Mintar](seances/sacrifice-de-mintar.html) | {@theodoric}
+| Bertrand | Fils aîné légitime, né en 1349. | <span class="etat etat--mort">Tué</span> sur les remparts à la chute de Bridgestone. | [Teldorn](documents/chroniques-teldorn-sombrespoir.html) | {@theodoric}
+| Peter | Paladin de Torm passé à Teldorn dès 1360 ; a ouvert les portes de Bridgestone. | <span class="etat etat--ennemi">Régent</span> ; prévoit d'incendier l'abbaye du Cœur Radieux à l'aube du 26 Ches 1373. | [Jérôme](documents/journal-jerome-bridgestone.html), [Teldorn](documents/chroniques-teldorn-sombrespoir.html) | {@theodoric}
+| Jérôme | Fils méthodique et rancunier ; a juré fidélité à Xvim. Tente trois fois de faire tuer Théodoric. | <span class="etat etat--ennemi">Régent</span> de Bridgestone pour Mintar. | [Son journal](documents/journal-jerome-bridgestone.html) | {@theodoric}
+| Charles | Fils rebelle, en rupture avec la noblesse ; enfui à Saelmur avec une cassette d'or. | Capturé dans les égouts de Saelmur par les Bainiens, puis arraché par des morts-vivants (selon Teldorn). | [Teldorn](documents/chroniques-teldorn-sombrespoir.html), [le sacrifice de Mintar](seances/sacrifice-de-mintar.html) | {@theodoric}
+| Vardak | Maître d'armes d'Elrayck, qui a formé Marius puis Théodoric. | Inconnu. | [Testament](documents/testament-comte-elrayck.html) | {@theodoric}
+| Le vieux comte de Bridgestone | Père d'Aurelia ; a financé Elrayck contre ce mariage. | Inconnu. | [Testament](documents/testament-comte-elrayck.html) | {@theodoric}
 
-## La compagnie de Théodoric, les Lames de Tymora
+## La compagnie de Théodoric, les Lames de Tymora {@theodoric}
 
 ::: hors-jeu
 Tout ce groupe appartient à l'ancienne campagne. Dans la chronologie, sa dernière mission (15 Tarsakh 1373) se déroule après l'attaque de Saelmur où se trouve Isidoro.
@@ -109,38 +110,38 @@ Tout ce groupe appartient à l'ancienne campagne. Dans la chronologie, sa derni�
 
 | Nom | Qui | Où il en est | Sources |
 | --- | --- | --- | --- |
-| Teldorn Sombrespoir | Vicaire de la Main Noire (Xvim, puis Baine revenu), maître de Mintar depuis 1362. Prie seul à minuit dans sa chapelle. | <span class="etat etat--mort">Tué</span> le 15 Tarsakh 1373 par le commando de Théodoric. | [Ses chroniques](documents/chroniques-teldorn-sombrespoir.html), [mandat](documents/mandat-trone-de-fer.html) |
-| Le tyramort | Tyrannœil mort-vivant, sentinelle de Teldorn ; lentille de l'œil central fissurée. | <span class="etat etat--mort">Détruit</span> le 15 Tarsakh 1373. | [Notes de Bern](documents/notes-de-bern.html), [Jérôme](documents/journal-jerome-bridgestone.html) |
-| Brixen Sombrespoir | Cousin de Teldorn, tient Kzelter et les passes de montagne. | À Kzelter. | [Teldorn](documents/chroniques-teldorn-sombrespoir.html) |
-| Scyllua Sombrespoir | Nièce de Teldorn, paladine déchue, Haute Capitaine de Château-Zhentil. | Dans le Nord. | [Teldorn](documents/chroniques-teldorn-sombrespoir.html) |
-| Fzoul Chembryl | Élu de Baine ; maître du Zhentarim depuis la chute de Manshoon (1370). Exige le phylactère d'Alcatar. | <span class="etat etat--ennemi">À Château-Zhentil</span> ; le convoi doit lui remettre le phylactère le 11 Eleint 1373. | [Teldorn](documents/chroniques-teldorn-sombrespoir.html), [Barthélemy](documents/chroniques-dreadnis-barthelemy.html) |
-| Père Barthélemy l'Austère | Inquisiteur de l'Ermitage du Roc Noir, au bord de l'Anauroch ; ami d'Alcatar, intermédiaire de son pacte avec Fzoul. | Au Roc Noir. | [Ses chroniques](documents/chroniques-dreadnis-barthelemy.html) |
-| Père Dreadnis | Inquisiteur de Baine infiltré à la Sombre Académie de Lunargent. | <span class="etat etat--mort">Mort</span>, retrouvé avec un collier en forme de harpe. | [Ses chroniques](documents/chroniques-dreadnis-barthelemy.html) |
-| Malekth le Blême | Archimage de la Sombre Académie de Lunargent, acquis à Alcatar. | À Lunargent. | [Dreadnis](documents/chroniques-dreadnis-barthelemy.html) |
-| Kaelen (de Rougemélèze) | Chef de la cellule zhentarim de Rougemélèze ; son apprenti a espionné Alcatar. À ne pas confondre avec le Kaelen de Vandor. | Inconnu. | [Jérôme](documents/journal-jerome-bridgestone.html) |
-| Andbar | Aubergiste de Rougemélèze sur la Longue Route, agent du Zhentarim ; correspondant de Faeltar. Jérôme écrit « Anbar ». | Inconnu. | [Vandor](documents/journal-vandor.html), [Jérôme](documents/journal-jerome-bridgestone.html) |
-| Capitaine Maelstrom | Pirate de Luskan, maître des contrebandiers du Lac ; son navire, le Briseur de Vagues, transporte Alcatar. | Muet sur Alcatar après Saelmur. | [Vandor](documents/journal-vandor.html), [Teldorn](documents/chroniques-teldorn-sombrespoir.html) |
-| Balagos | Dracosire rouge. | A brûlé Mintar à la chute du bouclier, le 15 Tarsakh 1373. | [Le sacrifice de Mintar](seances/sacrifice-de-mintar.html) |
+| Teldorn Sombrespoir | Maître de Mintar, dont les combattants volants frappent autour de Saelmur.<span data-savoir="theodoric"> Vicaire de la Main Noire (Xvim, puis Baine revenu), maître de Mintar depuis 1362. Prie seul à minuit dans sa chapelle.</span> | <span data-savoir="isidoro">Tient Mintar.</span><span data-savoir="theodoric"><span class="etat etat--mort">Tué</span> le 15 Tarsakh 1373 par le commando de Théodoric.</span> | [Ses chroniques](documents/chroniques-teldorn-sombrespoir.html), [mandat](documents/mandat-trone-de-fer.html) | {@isidoro @theodoric}
+| Le tyramort | Tyrannœil mort-vivant, sentinelle de Teldorn ; lentille de l'œil central fissurée. | <span class="etat etat--mort">Détruit</span> le 15 Tarsakh 1373. | [Notes de Bern](documents/notes-de-bern.html), [Jérôme](documents/journal-jerome-bridgestone.html) | {@theodoric}
+| Brixen Sombrespoir | Cousin de Teldorn, tient Kzelter et les passes de montagne. | À Kzelter. | [Teldorn](documents/chroniques-teldorn-sombrespoir.html) | {@theodoric}
+| Scyllua Sombrespoir | Nièce de Teldorn, paladine déchue, Haute Capitaine de Château-Zhentil. | Dans le Nord. | [Teldorn](documents/chroniques-teldorn-sombrespoir.html) | {@theodoric}
+| Fzoul Chembryl | Élu de Baine ; maître du Zhentarim depuis la chute de Manshoon (1370). Exige le phylactère d'Alcatar. | <span class="etat etat--ennemi">À Château-Zhentil</span> ; le convoi doit lui remettre le phylactère le 11 Eleint 1373. | [Teldorn](documents/chroniques-teldorn-sombrespoir.html), [Barthélemy](documents/chroniques-dreadnis-barthelemy.html) | {@theodoric}
+| Père Barthélemy l'Austère | Inquisiteur de l'Ermitage du Roc Noir, au bord de l'Anauroch ; ami d'Alcatar, intermédiaire de son pacte avec Fzoul. | Au Roc Noir. | [Ses chroniques](documents/chroniques-dreadnis-barthelemy.html) | {@theodoric}
+| Père Dreadnis | Inquisiteur de Baine infiltré à la Sombre Académie de Lunargent. | <span class="etat etat--mort">Mort</span>, retrouvé avec un collier en forme de harpe. | [Ses chroniques](documents/chroniques-dreadnis-barthelemy.html) | {@theodoric}
+| Malekth le Blême | Archimage de la Sombre Académie de Lunargent, acquis à Alcatar. | À Lunargent. | [Dreadnis](documents/chroniques-dreadnis-barthelemy.html) | {@theodoric}
+| Kaelen (de Rougemélèze) | Chef de la cellule zhentarim de Rougemélèze ; son apprenti a espionné Alcatar. À ne pas confondre avec le Kaelen de Vandor. | Inconnu. | [Jérôme](documents/journal-jerome-bridgestone.html) | {@theodoric}
+| Andbar | Aubergiste de Rougemélèze sur la Longue Route, agent du Zhentarim ; correspondant de Faeltar. Jérôme écrit « Anbar ». | Inconnu. | [Vandor](documents/journal-vandor.html), [Jérôme](documents/journal-jerome-bridgestone.html) | {@theodoric}
+| Capitaine Maelstrom | Pirate de Luskan, maître des contrebandiers du Lac ; son navire, le Briseur de Vagues, transporte Alcatar. | Muet sur Alcatar après Saelmur. | [Vandor](documents/journal-vandor.html), [Teldorn](documents/chroniques-teldorn-sombrespoir.html) | {@theodoric}
+| Balagos | Dracosire rouge. | A brûlé Mintar à la chute du bouclier, le 15 Tarsakh 1373. | [Le sacrifice de Mintar](seances/sacrifice-de-mintar.html) | {@theodoric}
 
 ## Alcatar et les siens
 
 | Nom | Qui | Où il en est | Sources |
 | --- | --- | --- | --- |
-| Alcatar | Elfe d'or venu d'Éternelles-Rencontres, nécromancien prodige (Intelligence 21). Devenu liche vers 1367, Élu de Velsharoon en 1368. Bâton d'onyx habité par l'âme de son corbeau. Pacte avec Talos : Saelmur en un an. Le visage des rêves d'Isidoro. | <span class="etat etat--ennemi">En fuite</span> après Saelmur, vers Château-Zhentil puis peut-être la Vaasie (selon Teldorn). | [Dreadnis et Barthélemy](documents/chroniques-dreadnis-barthelemy.html), [Vandor](documents/journal-vandor.html), [recoupements](recoupements.html#les-phylacteres-d-alcatar) |
-| Vandor d'Hauterive | Vampire aristocrate et cambrioleur, bras armé d'Alcatar ; a préparé le sabotage de Saelmur. | <span class="etat etat--ennemi">Terré dans les égouts</span> de Saelmur après le 20 Ches 1373 ; doit regagner Lunargent si Alcatar ne revient pas sous dix jours. | [Son journal](documents/journal-vandor.html) |
-| Élysia | Sœur de Vandor, grande prêtresse de Velsharoon à la Loge de l'Ossement. | Gardienne du premier phylactère d'Alcatar, dans les Monts Nethéres. | [Vandor](documents/journal-vandor.html) |
-| Faeltar | Roublard, rival de Vandor ; espion du Zhentarim. | <span class="etat etat--mort">Exécuté</span> par Alcatar en 1371. | [Vandor](documents/journal-vandor.html) |
-| Arrk | Troll mercenaire d'une intelligence anormale ; a accompagné Alcatar dans la forêt de Qurth. | Vu dans les tavernes d'Innarlith. | [Vandor](documents/journal-vandor.html), [Teldorn](documents/chroniques-teldorn-sombrespoir.html) |
-| Malakor | Ancien maître vampire de Vandor et d'Élysia. | <span class="etat etat--mort">Détruit</span> par Alcatar et Faeltar en 1360. | [Vandor](documents/journal-vandor.html) |
-| Valentin, Valérie et Adrien d'Hauterive | Frère (mort), nièce et neveu de Vandor ; Valérie tient la taverne du Faucon d'Argent à Lunargent, Adrien étudie l'illusion à la Sombre Académie. | À Lunargent. | [Vandor](documents/journal-vandor.html) |
-| Brant | Homme de main de Vandor, serveur au Faucon d'Argent. | À Lunargent. | [Vandor](documents/journal-vandor.html) |
-| Kaelen (de Vandor) | Jeune homme de main de Vandor. | <span class="etat etat--mort">Mort</span> d'une flèche empoisonnée orque. | [Vandor](documents/journal-vandor.html) |
-| Lady Isolda | Haute aristocrate de Saelmur, vampirisée par Vandor. | Dans les égouts de Saelmur, à son service. | [Vandor](documents/journal-vandor.html) |
-| Mastro Corvaux | Antiquaire borgne d'Iriaebor, a vendu à Alcatar les routes vers le Grand Shaar. | À Iriaebor. | [Vandor](documents/journal-vandor.html) |
+| Alcatar | Elfe d'or<span data-savoir="theodoric"> venu d'Éternelles-Rencontres, nécromancien prodige (Intelligence 21). Devenu liche vers 1367, Élu de Velsharoon en 1368. Bâton d'onyx habité par l'âme de son corbeau. Pacte avec Talos : Saelmur en un an</span>.<span data-savoir="isidoro"> Le visage des rêves d'Isidoro ; dans sa vision, il écrase Saelmur et pourrait prendre la place de Velsharoon.</span> | <span data-savoir="isidoro"><span class="etat etat--ennemi">Ennemi</span> ; vu en vision.</span><span data-savoir="theodoric"><span class="etat etat--ennemi">En fuite</span> après Saelmur, vers Château-Zhentil puis peut-être la Vaasie (selon Teldorn).</span> | [Aventure 2](seances/aventure-2.html)<span data-savoir="theodoric">, [Dreadnis et Barthélemy](documents/chroniques-dreadnis-barthelemy.html), [Vandor](documents/journal-vandor.html)</span><span data-savoir="mj">, [recoupements](recoupements.html#les-phylacteres-d-alcatar)</span> | {@isidoro @theodoric}
+| Vandor d'Hauterive | Vampire aristocrate et cambrioleur, bras armé d'Alcatar ; a préparé le sabotage de Saelmur. | <span class="etat etat--ennemi">Terré dans les égouts</span> de Saelmur après le 20 Ches 1373 ; doit regagner Lunargent si Alcatar ne revient pas sous dix jours. | [Son journal](documents/journal-vandor.html) | {@theodoric}
+| Élysia | Sœur de Vandor, grande prêtresse de Velsharoon à la Loge de l'Ossement. | Gardienne du premier phylactère d'Alcatar, dans les Monts Nethéres. | [Vandor](documents/journal-vandor.html) | {@theodoric}
+| Faeltar | Roublard, rival de Vandor ; espion du Zhentarim. | <span class="etat etat--mort">Exécuté</span> par Alcatar en 1371. | [Vandor](documents/journal-vandor.html) | {@theodoric}
+| Arrk | Troll mercenaire d'une intelligence anormale ; a accompagné Alcatar dans la forêt de Qurth. | Vu dans les tavernes d'Innarlith. | [Vandor](documents/journal-vandor.html), [Teldorn](documents/chroniques-teldorn-sombrespoir.html) | {@theodoric}
+| Malakor | Ancien maître vampire de Vandor et d'Élysia. | <span class="etat etat--mort">Détruit</span> par Alcatar et Faeltar en 1360. | [Vandor](documents/journal-vandor.html) | {@theodoric}
+| Valentin, Valérie et Adrien d'Hauterive | Frère (mort), nièce et neveu de Vandor ; Valérie tient la taverne du Faucon d'Argent à Lunargent, Adrien étudie l'illusion à la Sombre Académie. | À Lunargent. | [Vandor](documents/journal-vandor.html) | {@theodoric}
+| Brant | Homme de main de Vandor, serveur au Faucon d'Argent. | À Lunargent. | [Vandor](documents/journal-vandor.html) | {@theodoric}
+| Kaelen (de Vandor) | Jeune homme de main de Vandor. | <span class="etat etat--mort">Mort</span> d'une flèche empoisonnée orque. | [Vandor](documents/journal-vandor.html) | {@theodoric}
+| Lady Isolda | Haute aristocrate de Saelmur, vampirisée par Vandor. | Dans les égouts de Saelmur, à son service. | [Vandor](documents/journal-vandor.html) | {@theodoric}
+| Mastro Corvaux | Antiquaire borgne d'Iriaebor, a vendu à Alcatar les routes vers le Grand Shaar. | À Iriaebor. | [Vandor](documents/journal-vandor.html) | {@theodoric}
 
 ## Puissances et figures lointaines
 
 - **Dieux du côté d'Isidoro** : Lathandre, le Seigneur du Matin (qu'Isidoro tient pour Amaunator revenu), Tymora, Milil, Deneir, Oghma, Tyr, Heaume, Torm, Kelemvor.
-- **Dieux de l'ennemi** : Velsharoon, dont Alcatar est l'Élu ; Talos, à qui Alcatar doit Saelmur ; Baine, revenu en 1372, et Iyachtu Xvim ; Cyric. Myrkul, mort, aurait été le premier dieu d'Alcatar selon Barthélemy.
-- **Grandes figures** : Dame Alustriel de Lunargent, qui laisse Alcatar circuler ; Manshoon, Elminster, Szass Tam ; le prophète Alaundo, dont les écrits sont à Château-Suif.
-- **Organisations** : les Ménestrels (la harpe) ; le Zhentarim ou Réseau Noir ; la Main Noire de Baine ; le Trône de Fer ; les Magiciens Rouges de Thay ; la Sombre Académie de Lunargent ; la Loge de l'Ossement.
+- **Dieux de l'ennemi** : Velsharoon, dieu de la nécromancie<span data-savoir="theodoric">, dont Alcatar est l'Élu ; Talos, à qui Alcatar doit Saelmur ; Baine, revenu en 1372, et Iyachtu Xvim ; Cyric. Myrkul, mort, aurait été le premier dieu d'Alcatar selon Barthélemy</span>.
+- **Grandes figures** : le prophète Alaundo, dont les écrits sont à Château-Suif ; Manshoon et Sammaster, dont les clones auraient semé la magie sauvage l'an dernier<span data-savoir="theodoric"> ; Dame Alustriel de Lunargent, qui laisse Alcatar circuler ; Elminster, Szass Tam</span>.
+- **Organisations** : les Ménestrels (la harpe) ; le Zhentarim ou Réseau Noir ; le Trône de Fer ; les Magiciens Rouges de Thay ; le culte du Dragon ; l'Église de Bane<span data-savoir="theodoric"> ; la Main Noire de Baine ; la Sombre Académie de Lunargent ; la Loge de l'Ossement</span>.

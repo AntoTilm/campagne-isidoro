@@ -1,14 +1,15 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-vue="isidoro">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Le journal de Vandor · Le Registre d'Isidoro</title>
 <meta name="description" content="Trente ans aux côtés d'Alcatar, de la crypte des Monts Nethéres jusqu'au sac de Saelmur.">
+<script>try{var v=localStorage.getItem('registre-vue');if(v)document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
 <link rel="stylesheet" href="../assets/css/site.css">
 <link rel="icon" href="../assets/img/soleil.svg" type="image/svg+xml">
 </head>
-<body class="page-documents" data-racine="../">
+<body class="page-documents" data-racine="../" data-savoir-page="theodoric">
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="bandeau">
   <div class="bandeau__haut">
@@ -19,11 +20,17 @@
       <div id="recherche-resultats" class="recherche__resultats" hidden></div>
     </div>
   </div>
-  <nav class="nav" aria-label="Sections du registre"><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../seances.html">Séances</a></li><li><a href="../journal.html">Journal</a></li><li><a href="../documents.html" aria-current="page">Documents</a></li><li><a href="../personnages.html">Personnages</a></li><li><a href="../lieux.html">Lieux et cartes</a></li><li><a href="../isidoro.html">Isidoro</a></li><li><a href="../recoupements.html">Recoupements</a></li><li><a href="../regles.html">Règles</a></li></ul></nav>
+  <div class="bandeau__bas">
+    <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="../journal.html" aria-current="page">Journal</a></li><li><a href="../prochaine-seance.html">Prochaine séance</a></li><li><a href="../seances.html">Séances</a></li><li><a href="../personnages.html">Le monde</a></li><li><a href="../isidoro.html">Isidoro</a></li></ul></nav>
+    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
+      <span class="vue__titre" aria-hidden="true">Point de vue</span><button type="button" data-choisir-vue="isidoro" title="Ce que sait Isidoro : ses séances, son journal, ses visions." aria-pressed="false">Isidoro</button><button type="button" data-choisir-vue="theodoric" title="Ce que sait la table de Théodoric : ses séances et les documents trouvés." aria-pressed="false">Théodoric</button><button type="button" data-choisir-vue="monde" title="Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables." aria-pressed="false">Monde</button><button type="button" data-choisir-vue="tout" title="Tout afficher, avec la provenance de chaque information." aria-pressed="false">Tout</button>
+    </div>
+  </div>
 </header>
 <main id="contenu">
+<nav class="onglets" aria-label="Journal"><ul><li><a href="../journal.html">Journal d’Isidoro</a></li><li><a href="../documents.html" aria-current="page">Documents de Théodoric</a></li></ul></nav><div class="voile" role="note"><p class="voile__titre">Cette page relève de la table de Théodoric : Isidoro ne la connaît pas.</p><p>Le point de vue choisi masque cette page. Rien n’est supprimé : elle reste là, pour qui veut la lire.</p><p><button type="button" class="voile__bouton" data-choisir-vue="tout">Afficher en vue « Tout »</button></p></div><div class="avis-filtre" hidden></div>
 <article class="lecture lecture--documents">
-<div class="entete"><p class="fil"><a href="../documents.html">Documents</a></p><h1>Le journal de Vandor</h1><p class="entete__sous">« Chroniques de l’Ombre et de la Cendre »</p></div>
+<div class="entete"><p class="fil"><a href="../documents.html">Documents de Théodoric</a></p><h1>Le journal de Vandor</h1><p class="entete__sous">« Chroniques de l’Ombre et de la Cendre »</p></div>
 <div class="lecture__grille">
 <div class="lecture__cote"><aside class="provenance" aria-label="Fiche de provenance"><p class="provenance__titre">Fiche de provenance</p><dl><dt>Auteur</dt><dd>Vandor d’Hauterive, vampire, bras armé d’Alcatar</dd><dt>Période</dt><dd>1355 – 20 Ches 1373 CV</dd><dt>Provenance</dt><dd>Journal personnel en trois parties. Le document ne dit pas comment il a été récupéré.</dd><dt>Regard</dt><dd>Ennemi, témoin direct de l’entourage d’Alcatar ; vaniteux, il se donne le beau rôle.</dd><dt>Original</dt><dd><a href="../assets/pdf/journal-vandor.pdf">Ouvrir le PDF</a></dd></dl></aside><nav class="sommaire" aria-label="Sommaire"><details open><summary>Sommaire</summary><ol><li class="n2"><a href="#partie-1-la-disgrace-du-faucon-1355-1361-cv">Partie 1 — La disgrâce du faucon (1355 – 1361 CV)</a></li><li class="n3"><a href="#14-de-flamerule-l-annee-de-la-harpe-1355-cv">14 de Flamerule, l’Année de la Harpe (1355 CV)</a></li><li class="n3"><a href="#22-de-eleasias-l-annee-de-la-tourelle-1360-cv">22 de Eleasias, l’Année de la Tourelle (1360 CV)</a></li><li class="n3"><a href="#4-de-ches-l-annee-des-vierges-1361-cv">4 de Ches, l’Année des Vierges (1361 CV)</a></li><li class="n2"><a href="#partie-2-le-portail-et-la-trahison-1364-1371-cv">Partie 2 — Le portail et la trahison (1364 – 1371 CV)</a></li><li class="n3"><a href="#19-de-mirtul-l-annee-de-la-vague-1364-cv">19 de Mirtul, l’Année de la Vague (1364 CV)</a></li><li class="n3"><a href="#17-de-eleasias-l-annee-du-bouclier-1367-cv">17 de Eleasias, l’Année du Bouclier (1367 CV)</a></li><li class="n3"><a href="#18-de-eleint-l-annee-du-bouclier-1367-cv">18 de Eleint, l’Année du Bouclier (1367 CV)</a></li><li class="n3"><a href="#24-de-flamerule-l-annee-du-banneret-1368-cv">24 de Flamerule, l’Année du Banneret (1368 CV)</a></li><li class="n3"><a href="#12-de-flamerule-l-annee-du-gantelet-1369-cv">12 de Flamerule, l’Année du Gantelet (1369 CV)</a></li><li class="n3"><a href="#14-de-ches-l-annee-du-chafouin-1370-cv">14 de Ches, l’Année du Chafouin (1370 CV)</a></li><li class="n3"><a href="#20-de-kythorn-l-annee-de-la-lune-rouge-1371-cv">20 de Kythorn, l’Année de la Lune Rouge (1371 CV)</a></li><li class="n3"><a href="#9-de-uktar-l-annee-de-la-lune-rouge-1371-cv">9 de Uktar, l’Année de la Lune Rouge (1371 CV)</a></li><li class="n3"><a href="#20-de-nightal-l-annee-de-la-lune-rouge-1371-cv">20 de Nightal, l’Année de la Lune Rouge (1371 CV)</a></li><li class="n2"><a href="#partie-3-l-apocalypse-du-sud-1372-1373-cv">Partie 3 — L’apocalypse du Sud (1372 – 1373 CV)</a></li><li class="n3"><a href="#12-de-hammer-l-annee-de-la-magie-sauvage-1372-cv">12 de Hammer, l’Année de la Magie Sauvage (1372 CV)</a></li><li class="n3"><a href="#3-de-ches-l-annee-de-la-magie-sauvage-1372-cv">3 de Ches, l’Année de la Magie Sauvage (1372 CV)</a></li><li class="n3"><a href="#4-de-ches-l-annee-de-la-magie-sauvage-1372-cv">4 de Ches, l’Année de la Magie Sauvage (1372 CV)</a></li><li class="n3"><a href="#28-de-mirtul-l-annee-de-la-magie-sauvage-1372-cv">28 de Mirtul, l’Année de la Magie Sauvage (1372 CV)</a></li><li class="n3"><a href="#14-de-kythorn-l-annee-de-la-magie-sauvage-1372-cv">14 de Kythorn, l’Année de la Magie Sauvage (1372 CV)</a></li><li class="n3"><a href="#19-de-uktar-l-annee-de-la-magie-sauvage-1372-cv">19 de Uktar, l’Année de la Magie Sauvage (1372 CV)</a></li><li class="n3"><a href="#20-de-ches-l-annee-des-dragons-regardants-1373-cv">20 de Ches, l’Année des Dragons Regardants (1373 CV)</a></li></ol></details></nav></div>
 <div class="texte"><h2 id="partie-1-la-disgrace-du-faucon-1355-1361-cv">Partie 1 — La disgrâce du faucon (1355 – 1361 CV)</h2>

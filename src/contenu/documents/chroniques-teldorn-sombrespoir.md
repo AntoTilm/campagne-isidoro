@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Les chroniques de Teldorn Sombrespoir
 sous-titre: « Les chroniques du vicaire Teldorn Sombrespoir », trois volumes
 ordre: 4

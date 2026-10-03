@@ -1,4 +1,5 @@
 ---
+savoir: isidoro
 titre: Journal d'Isidoro — Partie 1
 sous-titre: De Derlusk à la route de Saelmur, hiver de l'an 1372 des Vaux
 ordre: 1

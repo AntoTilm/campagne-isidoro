@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Le journal de Jérôme Bridgestone
 sous-titre: « Chroniques du Pont de Fer »
 ordre: 3

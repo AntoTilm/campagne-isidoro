@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Mandat de saisie du convoi noir
 sous-titre: « Document secret : mandat de saisie et d'interception du convoi noir »
 ordre: 7

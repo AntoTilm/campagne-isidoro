@@ -1,14 +1,15 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-vue="isidoro">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>L'histoire d'Alcatar, par deux inquisiteurs · Le Registre d'Isidoro</title>
 <meta name="description" content="D'où vient Alcatar, comment il est devenu l'Élu de Velsharoon et comment il a livré Manshoon à Fzoul.">
+<script>try{var v=localStorage.getItem('registre-vue');if(v)document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
 <link rel="stylesheet" href="../assets/css/site.css">
 <link rel="icon" href="../assets/img/soleil.svg" type="image/svg+xml">
 </head>
-<body class="page-documents" data-racine="../">
+<body class="page-documents" data-racine="../" data-savoir-page="theodoric">
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="bandeau">
   <div class="bandeau__haut">
@@ -19,11 +20,17 @@
       <div id="recherche-resultats" class="recherche__resultats" hidden></div>
     </div>
   </div>
-  <nav class="nav" aria-label="Sections du registre"><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../seances.html">Séances</a></li><li><a href="../journal.html">Journal</a></li><li><a href="../documents.html" aria-current="page">Documents</a></li><li><a href="../personnages.html">Personnages</a></li><li><a href="../lieux.html">Lieux et cartes</a></li><li><a href="../isidoro.html">Isidoro</a></li><li><a href="../recoupements.html">Recoupements</a></li><li><a href="../regles.html">Règles</a></li></ul></nav>
+  <div class="bandeau__bas">
+    <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="../journal.html" aria-current="page">Journal</a></li><li><a href="../prochaine-seance.html">Prochaine séance</a></li><li><a href="../seances.html">Séances</a></li><li><a href="../personnages.html">Le monde</a></li><li><a href="../isidoro.html">Isidoro</a></li></ul></nav>
+    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
+      <span class="vue__titre" aria-hidden="true">Point de vue</span><button type="button" data-choisir-vue="isidoro" title="Ce que sait Isidoro : ses séances, son journal, ses visions." aria-pressed="false">Isidoro</button><button type="button" data-choisir-vue="theodoric" title="Ce que sait la table de Théodoric : ses séances et les documents trouvés." aria-pressed="false">Théodoric</button><button type="button" data-choisir-vue="monde" title="Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables." aria-pressed="false">Monde</button><button type="button" data-choisir-vue="tout" title="Tout afficher, avec la provenance de chaque information." aria-pressed="false">Tout</button>
+    </div>
+  </div>
 </header>
 <main id="contenu">
+<nav class="onglets" aria-label="Journal"><ul><li><a href="../journal.html">Journal d’Isidoro</a></li><li><a href="../documents.html" aria-current="page">Documents de Théodoric</a></li></ul></nav><div class="voile" role="note"><p class="voile__titre">Cette page relève de la table de Théodoric : Isidoro ne la connaît pas.</p><p>Le point de vue choisi masque cette page. Rien n’est supprimé : elle reste là, pour qui veut la lire.</p><p><button type="button" class="voile__bouton" data-choisir-vue="tout">Afficher en vue « Tout »</button></p></div><div class="avis-filtre" hidden></div>
 <article class="lecture lecture--documents">
-<div class="entete"><p class="fil"><a href="../documents.html">Documents</a></p><h1>L’histoire d’Alcatar, par deux inquisiteurs</h1><p class="entete__sous">« Les chroniques inquisitrices » des Pères Dreadnis et Barthélemy</p></div>
+<div class="entete"><p class="fil"><a href="../documents.html">Documents de Théodoric</a></p><h1>L’histoire d’Alcatar, par deux inquisiteurs</h1><p class="entete__sous">« Les chroniques inquisitrices » des Pères Dreadnis et Barthélemy</p></div>
 <div class="lecture__grille">
 <div class="lecture__cote"><aside class="provenance" aria-label="Fiche de provenance"><p class="provenance__titre">Fiche de provenance</p><dl><dt>Auteur</dt><dd>Père Dreadnis (vol. I), puis Père Barthélemy l’Austère (vol. II et III), inquisiteurs de Baine</dd><dt>Période</dt><dd>1355 – 1371 CV</dd><dt>Provenance</dt><dd>Rapports chiffrés envoyés à Château-Zhentil, puis transférés aux archives secrètes de Teldorn à Mintar.</dd><dt>Regard</dt><dd>Ennemis d’Alcatar puis alliés ; Barthélemy éprouve pour lui une amitié qu’il avoue.</dd><dt>Original</dt><dd><a href="../assets/pdf/chroniques-dreadnis-barthelemy.pdf">Ouvrir le PDF</a></dd></dl></aside><nav class="sommaire" aria-label="Sommaire"><details open><summary>Sommaire</summary><ol><li class="n2"><a href="#volume-i-par-le-pere-dreadnis-l-infiltration-de-l-elfe-d-or-">Volume I, par le Père Dreadnis — L’Infiltration de l’Elfe d’Or et la Falsification de la Sombre Académie (1355 – 1357 CV)</a></li><li class="n3"><a href="#i-l-arrivee-de-l-exile-et-les-faveurs-de-la-haute-cite">I. L’Arrivée de l’Exilé et les Faveurs de la Haute-Cité</a></li><li class="n3"><a href="#ii-le-compromis-d-aeloria-et-la-mort-de-la-pratique">II. Le Compromis d’Aeloria et la Mort de la Pratique</a></li><li class="n3"><a href="#iii-les-ombres-des-monts-netheres-et-le-visiteur-de-minuit">III. Les Ombres des Monts Nétheres et le Visiteur de Minuit</a></li><li class="n3"><a href="#iv-le-don-prodigieux-et-le-mystere-de-l-ile-noire">IV. Le Don Prodigieux et le Mystère de l’Île Noire</a></li><li class="n3"><a href="#v-les-echos-du-nord-contexte-regional">V. Les Échos du Nord (Contexte Régional)</a></li><li class="n2"><a href="#volume-ii-par-le-pere-barthelemy-l-austere-le-sang-des-vaux-">Volume II, par le Père Barthélemy l’Austère — Le Sang des Vaux, le Pacte du Roc Noir et la Falsification de l’Élu (1358 – 1371 CV)</a></li><li class="n3"><a href="#i-l-orgueil-du-roc-noir-et-le-silence-du-massacre-1358-cv">I. L’Orgueil du Roc Noir et le Silence du Massacre (1358 CV)</a></li><li class="n3"><a href="#ii-le-collier-de-la-harpe-et-le-choc-des-auras-1359-1363-cv">II. Le Collier de la Harpe et le Choc des Auras (1359 – 1363 CV)</a></li><li class="n3"><a href="#iii-les-secrets-de-chateau-suif-et-la-cartographie-de-l-empi">III. Les Secrets de Château-Suif et la Cartographie de l’Empire Écroulé (1364 – 1367 CV)</a></li><li class="n3"><a href="#iv-l-ascension-de-velsharoon-et-les-doutes-de-l-inquisiteur-">IV. L’Ascension de Velsharoon et les Doutes de l’Inquisiteur (1368 – 1371 CV)</a></li><li class="n2"><a href="#volume-iii-par-le-pere-barthelemy-l-austere-le-pacte-des-div">Volume III, par le Père Barthélemy l’Austère — Le Pacte des Divinités, le Piège de Manshoon et le Triomphe de la Main Noire (1369 – 1371 CV)</a></li><li class="n3"><a href="#i-l-audace-de-l-elu-et-le-grand-blaspheme-1369-cv">I. L’Audace de l’Élu et le Grand Blasphème (1369 CV)</a></li><li class="n3"><a href="#ii-les-entretiens-secrets-du-roc-noir-1369-1370-cv">II. Les Entretiens Secrets du Roc Noir (1369 – 1370 CV)</a></li><li class="n3"><a href="#iii-l-apocalypse-des-clones-et-l-avenement-de-la-main-noire-">III. L’Apocalypse des Clones et l’Avènement de la Main Noire (1370 – 1371 CV)</a></li><li class="n3"><a href="#iv-la-fierte-de-l-ermite">IV. La Fierté de l’Ermite</a></li></ol></details></nav></div>
 <div class="texte"><h2 id="volume-i-par-le-pere-dreadnis-l-infiltration-de-l-elfe-d-or-">Volume I, par le Père Dreadnis — L’Infiltration de l’Elfe d’Or et la Falsification de la Sombre Académie (1355 – 1357 CV)</h2>

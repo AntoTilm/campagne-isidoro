@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Le sacrifice de Mintar
 sous-titre: Dernière séance de la table de Théodoric, nuit du 15 Tarsakh 1373 CV
 ordre: 0

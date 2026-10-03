@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-vue="isidoro">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chronologie · Le Registre d'Isidoro</title>
 <meta name="description" content="Chronologie de la campagne d'Isidoro au Lac de Vapeur, de la jeunesse d'Elrayck Bridgestone à l'attaque de Saelmur et à la chute de Mintar.">
+<script>try{var v=localStorage.getItem('registre-vue');if(v)document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
 <link rel="stylesheet" href="assets/css/site.css">
 <link rel="icon" href="assets/img/soleil.svg" type="image/svg+xml">
 </head>
@@ -19,115 +20,121 @@
       <div id="recherche-resultats" class="recherche__resultats" hidden></div>
     </div>
   </div>
-  <nav class="nav" aria-label="Sections du registre"><ul><li><a href="chronologie.html" aria-current="page">Chronologie</a></li><li><a href="seances.html">Séances</a></li><li><a href="journal.html">Journal</a></li><li><a href="documents.html">Documents</a></li><li><a href="personnages.html">Personnages</a></li><li><a href="lieux.html">Lieux et cartes</a></li><li><a href="isidoro.html">Isidoro</a></li><li><a href="recoupements.html">Recoupements</a></li><li><a href="regles.html">Règles</a></li></ul></nav>
+  <div class="bandeau__bas">
+    <nav class="nav" aria-label="Rubriques du registre"><ul><li><a href="journal.html">Journal</a></li><li><a href="prochaine-seance.html">Prochaine séance</a></li><li><a href="seances.html">Séances</a></li><li><a href="personnages.html" aria-current="page">Le monde</a></li><li><a href="isidoro.html">Isidoro</a></li></ul></nav>
+    <div class="vue" role="group" aria-label="Point de vue : quelles informations afficher">
+      <span class="vue__titre" aria-hidden="true">Point de vue</span><button type="button" data-choisir-vue="isidoro" title="Ce que sait Isidoro : ses séances, son journal, ses visions." aria-pressed="false">Isidoro</button><button type="button" data-choisir-vue="theodoric" title="Ce que sait la table de Théodoric : ses séances et les documents trouvés." aria-pressed="false">Théodoric</button><button type="button" data-choisir-vue="monde" title="Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables." aria-pressed="false">Monde</button><button type="button" data-choisir-vue="tout" title="Tout afficher, avec la provenance de chaque information." aria-pressed="false">Tout</button>
+    </div>
+  </div>
 </header>
 <main id="contenu">
+<nav class="onglets" aria-label="Le monde"><ul><li><a href="personnages.html">Personnages</a></li><li><a href="lieux.html">Lieux et cartes</a></li><li><a href="chronologie.html" aria-current="page">Chronologie</a></li></ul></nav><div class="avis-filtre" hidden></div>
 <div class="page"><div class="entete"><h1>Chronologie</h1><p class="entete__sous">De 1347 à 1373 CV, d’après les séances et les documents.</p></div><div class="prose">
-  <p>Les dates sont en Calendrier des Vallées (CV). Quand deux sources ne s’accordent pas, les deux versions sont données. Le point doré marque l’endroit où la dernière séance s’est arrêtée ; ce qui suit a déjà été joué par la table de Théodoric, mais reste à venir pour Isidoro.</p>
+  <p>Les dates sont en Calendrier des Vallées (CV). Quand deux sources ne s’accordent pas, les deux versions sont données. Le point doré marque l’endroit où la dernière séance s’est arrêtée ; ce qui suit a déjà été joué par la table de Théodoric, mais reste à venir pour Isidoro. En vue Isidoro, seuls restent les événements qu’il connaît.</p>
 </div>
 
 <h2 id="avant-la-campagne">Avant la campagne</h2>
 <ol class="frise">
-  <li><div class="frise__an">1347<small>28 Marpenoth</small></div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1347<small>28 Marpenoth</small></div><div class="frise__corps">
     <p>Elrayck, cadet noble et frère du comte du Clos, tourne le dos à la cour et à Torm pour Tymora. Il harcèle les Bainiens venus de Kzelter.</p>
     <p class="frise__source">Source : <a href="documents/testament-comte-elrayck.html">testament d’Elrayck</a></p></div></li>
-  <li><div class="frise__an">1348</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1348</div><div class="frise__corps">
     <p>Guidé par une vision de l’abbaye du Cœur Radieux, Elrayck tue une mère dragon vert au Bois d’Épines et trouve Kismet ; des œufs restent sous les racines de fer. Il épouse Aurelia pour obtenir les troupes de Bridgestone, et mène le Miracle de Kzelter avec mille hommes. Naissance secrète de Marius, fils d’Isoline.</p>
     <p class="frise__source">Source : <a href="documents/testament-comte-elrayck.html">testament d’Elrayck</a></p></div></li>
-  <li><div class="frise__an">1349</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1349</div><div class="frise__corps">
     <p>Naissance de Bertrand, premier fils légitime.</p>
     <p class="frise__source">Source : <a href="documents/testament-comte-elrayck.html">testament d’Elrayck</a></p></div></li>
-  <li><div class="frise__an">1355<small>4 Ches</small></div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1355<small>4 Ches</small></div><div class="frise__corps">
     <p>Naissance de Théodoric. La même année, Alcatar arrive à la Sombre Académie de Lunargent, protégé par Dame Alustriel ; Vandor et sa sœur Élysia servent encore le vampire Malakor.</p>
     <p class="frise__source">Sources : <a href="documents/testament-comte-elrayck.html">testament</a>, <a href="documents/chroniques-dreadnis-barthelemy.html">Dreadnis</a>, <a href="documents/journal-vandor.html">Vandor</a></p></div></li>
-  <li><div class="frise__an">1358</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1358</div><div class="frise__corps">
     <p>Temps des Troubles : Torm tue Baine à Tantras, Iyachtu Xvim s’éveille. Fzoul rallie les clercs de la Tyrannie à Xvim ; Barthélemy reste seul à l’Ermitage du Roc Noir.</p>
     <p class="frise__source">Sources : <a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a>, <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a></p></div></li>
-  <li><div class="frise__an">1359 – 1363</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1359 – 1363</div><div class="frise__corps">
     <p>Dreadnis est retrouvé mort, un collier en forme de harpe au cou. Alcatar obtient de Barthélemy le libre passage sur la Route Noire, contre un service futur rendu à l’Église.</p>
     <p class="frise__source">Source : <a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a></p></div></li>
-  <li><div class="frise__an">1360<small>22 Eleasias</small></div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1360<small>22 Eleasias</small></div><div class="frise__corps">
     <p>Alcatar et Faeltar détruisent Malakor dans la crypte de Thargor Barbe-de-Fer, aux Monts Nethéres. Vandor et Élysia se rallient ; la crypte devient une église clandestine de Velsharoon. La même année, Peter Bridgestone entre en contact avec Teldorn.</p>
     <p class="frise__conflit">Les sources divergent : Vandor fait embrasser à Alcatar la foi de Velsharoon dès 1360, alors que Velsharoon ne devient dieu qu’en 1368. Barthélemy accuse justement Alcatar d’avoir fait réécrire les chroniques pour antidater sa dévotion.</p>
     <p class="frise__source">Sources : <a href="documents/journal-vandor.html">Vandor</a>, <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a>, <a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a></p></div></li>
-  <li><div class="frise__an">1362</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1362</div><div class="frise__corps">
     <p>Teldorn Sombrespoir prend Mintar avec six mille fanatiques ; son cousin Brixen reprend Kzelter. Les parents d’Elrayck sont tués par les fanatiques.</p>
     <p class="frise__source">Sources : <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a>, <a href="documents/testament-comte-elrayck.html">testament</a></p></div></li>
-  <li><div class="frise__an">1364</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1364</div><div class="frise__corps">
     <p>Alcatar étudie à Château-Suif les prophéties d’Alaundo et de Baine, et l’emplacement des avant-postes et cités volantes néthérisiens.</p>
     <p class="frise__source">Source : <a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a></p></div></li>
-  <li><div class="frise__an">1364 ou 1365</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1364 ou 1365</div><div class="frise__corps">
     <p>Chute de Bridgestone. Peter et Jérôme ouvrent les portes à Mintar ; Elrayck et Bertrand sont tués. Kismet se téléporte au Bois d’Épines avec le registre d’Elrayck. Charles fuit à Saelmur, Théodoric et Marius au Clos.</p>
     <p class="frise__conflit">Les sources divergent : Jérôme date la chute du 4 Ches 1364, Teldorn d’Uktar 1365. Le testament d’Elrayck s’achève le 19 Uktar 1365, la veille d’un commando contre Mintar.</p>
     <p class="frise__source">Sources : <a href="documents/journal-jerome-bridgestone.html">Jérôme</a>, <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a>, <a href="documents/testament-comte-elrayck.html">testament</a></p></div></li>
-  <li><div class="frise__an">1365 – 1366</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1365 – 1366</div><div class="frise__corps">
     <p>Alcatar fréquente Manshoon à la Citadelle du Corbeau et obtient l’accès aux portails secrets du Zhentarim.</p>
     <p class="frise__source">Source : <a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a></p></div></li>
-  <li><div class="frise__an">1367</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1367</div><div class="frise__corps">
     <p>L’empoisonneur de Jérôme échoue au Clos. Alcatar revient du Grand Shaar avec un bâton d’onyx où il a enfermé l’âme de son corbeau ; il devient liche dans une crypte de l’Anauroch et confie un premier phylactère à Élysia. La crypte des Monts Nethéres devient la Loge de l’Ossement.</p>
     <p class="frise__source">Sources : <a href="documents/journal-jerome-bridgestone.html">Jérôme</a>, <a href="documents/journal-vandor.html">Vandor</a></p></div></li>
   <li><div class="frise__an">1368</div><div class="frise__corps">
-    <p>Velsharoon, ancien Magicien Rouge, devient un dieu ; Alcatar devient son Élu. C’est l’année où commencent les cauchemars d’Isidoro. Vandor découvre que Faeltar espionne pour le Zhentarim.</p>
-    <p class="frise__source">Sources : <a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a>, <a href="isidoro.html#les-reves">fiche d’Isidoro</a>, <a href="documents/journal-vandor.html">Vandor</a></p></div></li>
-  <li><div class="frise__an">1369</div><div class="frise__corps">
+    <p>Velsharoon<span data-savoir="theodoric">, ancien Magicien Rouge,</span> devient un dieu<span data-savoir="theodoric"> ; Alcatar devient son Élu</span>. C’est l’année où commencent les cauchemars d’Isidoro.<span data-savoir="theodoric"> Vandor découvre que Faeltar espionne pour le Zhentarim.</span></p>
+    <p class="frise__source">Sources : <span data-savoir="theodoric"><a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a>, </span><a href="isidoro.html#les-reves">fiche d’Isidoro</a><span data-savoir="theodoric">, <a href="documents/journal-vandor.html">Vandor</a></span></p></div></li>
+  <li data-savoir="theodoric"><div class="frise__an">1369</div><div class="frise__corps">
     <p>Au Roc Noir, Alcatar propose à Fzoul de l’aider à renverser Manshoon.</p>
     <p class="frise__source">Source : <a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a></p></div></li>
-  <li><div class="frise__an">1370</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1370</div><div class="frise__corps">
     <p>Fzoul tue Manshoon ; les clones se réveillent tous à la fois et s’entre-tuent ; Fzoul prend le Zhentarim. Les notes d’Alcatar volées par un espion permettent à Teldorn d’achever le sceptre de Fzoul.</p>
     <p class="frise__source">Sources : <a href="documents/chroniques-dreadnis-barthelemy.html">Barthélemy</a>, <a href="documents/journal-jerome-bridgestone.html">Jérôme</a>, <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a></p></div></li>
-  <li><div class="frise__an">1371</div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1371</div><div class="frise__corps">
     <p>Alcatar part vers le sud avec Faeltar : Grand Shaar, puis forêt de Qurth par le navire de Maelstrom. Il exécute Faeltar et engage le troll Arrk. Le 9 Uktar, Vandor fuit la Loge pour Lunargent.</p>
     <p class="frise__source">Source : <a href="documents/journal-vandor.html">Vandor</a></p></div></li>
 </ol>
 
 <h2 id="1372-l-annee-de-la-magie-sauvage">1372, l’Année de la Magie Sauvage</h2>
 <ol class="frise">
-  <li><div class="frise__an">1372<small>4 Ches</small></div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1372<small>4 Ches</small></div><div class="frise__corps">
     <p>Alcatar a invoqué Talos pour ouvrir une bibliothèque néthérisienne interdite sous l’Anauroch. Prix du pacte : la ruine de Saelmur dans l’année. La cité volante de Pénombre réapparaît dans le ciel de l’Anauroch.</p>
     <p class="frise__source">Source : <a href="documents/journal-vandor.html">Vandor</a></p></div></li>
-  <li><div class="frise__an">1372<small>12 – 14 Kythorn</small></div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1372<small>12 – 14 Kythorn</small></div><div class="frise__corps">
     <p>Alcatar scelle un pacte avec Teldorn à Mintar et lui remet son phylactère. Une armée de légionnaires venue du Chessenta atteint Saelmur malgré les tyrannœils de Teldorn. Une deuxième tentative de Jérôme contre Théodoric échoue.</p>
     <p class="frise__source">Sources : <a href="documents/journal-jerome-bridgestone.html">Jérôme</a>, <a href="documents/journal-vandor.html">Vandor</a>, <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a></p></div></li>
-  <li><div class="frise__an">1372<small>Uktar</small></div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1372<small>Uktar</small></div><div class="frise__corps">
     <p>Vandor vit à Saelmur depuis deux mois sous l’identité d’un marchand d’antiquités. Il prépare l’assaut : rats-garous, deux mille rats, vampires, sept baguettes d’explosion nécrotique.</p>
     <p class="frise__source">Source : <a href="documents/journal-vandor.html">Vandor</a></p></div></li>
-  <li><div class="frise__an">1372<small>hiver</small></div><div class="frise__corps">
+  <li data-savoir="isidoro"><div class="frise__an">1372<small>hiver</small></div><div class="frise__corps">
     <p>Isidoro quitte Derlusk avec Lucas. À Ankhapur, ils sauvent le Père Pascal d’un contrat d’assassinat ; sur la route de Saelmur, des mages zhentarim à dos d’hippogriffe attaquent leur convoi.</p>
     <p class="frise__source">Source : <a href="journal/partie-1.html">journal d’Isidoro, partie 1</a></p></div></li>
 </ol>
 
 <h2 id="1373-l-annee-de-saelmur">1373, l’année de Saelmur</h2>
 <ol class="frise">
-  <li><div class="frise__an">1373<small>3 Hammer</small></div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1373<small>3 Hammer</small></div><div class="frise__corps">
     <p>Jérôme vide les coffres de Bridgestone pour financer les baguettes d’Alcatar, à 11 250 po pièce. Il paie aussi deux ogres et quatre orques pour tuer Théodoric.</p>
     <p class="frise__source">Source : <a href="documents/journal-jerome-bridgestone.html">Jérôme</a></p></div></li>
-  <li><div class="frise__an">1373<small>1er Ches</small></div><div class="frise__corps">
+  <li data-savoir="theodoric"><div class="frise__an">1373<small>1er Ches</small></div><div class="frise__corps">
     <p>Le convoi blindé qui emporte le phylactère d’Alcatar vers Fzoul quitte Mintar. Teldorn engage en secret le Trône de Fer pour le piller.</p>
     <p class="frise__source">Sources : <a href="documents/chroniques-teldorn-sombrespoir.html#iv-l-otage-du-phylactere-et-la-lente-route-du-convoi-blinde">Teldorn</a>, <a href="documents/mandat-trone-de-fer.html">mandat</a></p></div></li>
-  <li><div class="frise__an">1373<small>début Ches</small></div><div class="frise__corps">
+  <li data-savoir="isidoro"><div class="frise__an">1373<small>début Ches</small></div><div class="frise__corps">
     <p>Aventure 2 : Glen, l’embuscade des orques, Fort Corner, Champ-Doré, l’abbaye du Cœur Radieux et ses visions, l’hospice de Saelmur. Le MJ garde ces journées sans date précise.</p>
     <p class="frise__source">Source : <a href="seances/aventure-2.html">résumé de l’aventure 2</a></p></div></li>
   <li class="frise--maintenant"><div class="frise__an">1373<small>20 Ches</small></div><div class="frise__corps">
     <p><strong>Nous en sommes ici.</strong> Le magicien de la rue des Tanneurs est mort ; un crâne vert s’allume au-dessus de Saelmur et les temples explosent. L’attaque commence.</p>
-    <p class="frise__source">Les documents placent le signal à l’aube ; à la table, l’attaque a commencé de nuit. Sources : <a href="seances/aventure-2.html#fin-de-seance-l-attaque-de-saelmur-commence">aventure 2</a>, <a href="documents/journal-vandor.html">Vandor</a>, <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a></p></div></li>
-  <li class="frise--apres"><div class="frise__an">1373<small>20 Ches</small></div><div class="frise__corps">
+    <p class="frise__source"><span data-savoir="theodoric">Les documents placent le signal à l’aube ; à la table, l’attaque a commencé de nuit. </span>Sources : <a href="seances/aventure-2.html#fin-de-seance-l-attaque-de-saelmur-commence">aventure 2</a><span data-savoir="theodoric">, <a href="documents/journal-vandor.html">Vandor</a>, <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a></span></p></div></li>
+  <li data-savoir="theodoric" class="frise--apres"><div class="frise__an">1373<small>20 Ches</small></div><div class="frise__corps">
     <p>Selon Vandor et Teldorn : le temple de Torm tombe et son grand prêtre est décapité par Alcatar ; les rats explosifs coulent la moitié de la flotte de Mintar ; l’armée de Tyr est anéantie sur les docks. Charles Bridgestone, capturé par les Bainiens, leur est arraché par des morts-vivants. Alcatar fuit par les terres ; Vandor reste dans les égouts.</p>
     <p class="frise__source">Sources : <a href="documents/journal-vandor.html">Vandor</a>, <a href="documents/chroniques-teldorn-sombrespoir.html">Teldorn</a></p></div></li>
-  <li class="frise--apres"><div class="frise__an">1373<small>22 Ches</small></div><div class="frise__corps">
+  <li data-savoir="theodoric" class="frise--apres"><div class="frise__an">1373<small>22 Ches</small></div><div class="frise__corps">
     <p>Jérôme proclame la chute de Saelmur. Le comte du Clos se soumet à Mintar ; Théodoric et Marius quittent le comté vers le sud.</p>
     <p class="frise__source">Source : <a href="documents/journal-jerome-bridgestone.html">Jérôme</a></p></div></li>
-  <li class="frise--apres"><div class="frise__an">1373<small>24 – 26 Ches</small></div><div class="frise__corps">
+  <li data-savoir="theodoric" class="frise--apres"><div class="frise__an">1373<small>24 – 26 Ches</small></div><div class="frise__corps">
     <p>Jérôme apprend que Théodoric est passé par l’abbaye du Cœur Radieux et sa fontaine des visions. Peter obtient de Teldorn des mages de guerre à hippogriffe pour attaquer l’abbaye à l’aube du 26 Ches. Les documents ne disent pas ce qu’il en advient.</p>
     <p class="frise__source">Source : <a href="documents/journal-jerome-bridgestone.html">Jérôme</a></p></div></li>
-  <li class="frise--apres"><div class="frise__an">1373<small>15 Tarsakh</small></div><div class="frise__corps">
+  <li data-savoir="theodoric" class="frise--apres"><div class="frise__an">1373<small>15 Tarsakh</small></div><div class="frise__corps">
     <p>Assaut de la citadelle de Mintar. Teldorn et le tyramort sont tués ; Théodoric meurt en brisant la pierre qui protégeait la ville ; Balagos brûle Mintar. Bern meurt dans la baie. Kismet et les documents de Teldorn apparaissent à la Pinte sans Fond, devant Micheline.</p>
     <p class="frise__source">Source : <a href="seances/sacrifice-de-mintar.html">le sacrifice de Mintar</a></p></div></li>
-  <li class="frise--apres"><div class="frise__an">1373<small>11 Eleint</small></div><div class="frise__corps">
+  <li data-savoir="theodoric" class="frise--apres"><div class="frise__an">1373<small>11 Eleint</small></div><div class="frise__corps">
     <p>Date prévue de l’arrivée du phylactère d’Alcatar à la Citadelle du Corbeau, chez Fzoul.</p>
     <p class="frise__source">Source : <a href="documents/chroniques-teldorn-sombrespoir.html#iv-l-otage-du-phylactere-et-la-lente-route-du-convoi-blinde">Teldorn</a></p></div></li>
 </ol>
 
-<aside class="registre registre--note prose">
+<aside class="registre registre--note prose" data-savoir="mj">
   <p class="registre__etiquette">Les noms d’années</p>
   <p>Les documents appellent 1373 « l’Année des Dragons Regardants » ; à l’abbaye, la séance l’a nommée « l’Année de la Fureur du Dragon ». Les deux renvoient à la même année, dont les prophéties d’Alaundo annoncent des catastrophes liées aux dragons.</p>
 </aside>

@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Kismet, la Lame du Surtaut
 sous-titre: Fiche de l'épée intelligente
 ordre: 9

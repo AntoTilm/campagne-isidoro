@@ -1,0 +1,498 @@
+# Mots-clés cachés de la recherche
+#
+# Ces mots ne s'affichent nulle part : ils aident seulement la recherche (touche /) à trouver la bonne page.
+#
+#   [page.html#ancre] @isidoro      les lignes suivantes, séparées par des virgules, s'attachent à cette section
+#                                   pour ce savoir (@isidoro, @theodoric, @mj, ou rien pour la partie commune).
+#                                   Les mots respectent le point de vue : en vue Isidoro, un mot-clé @theodoric
+#                                   ne fait rien apparaître.
+#   = mot, variante, synonyme       une recherche sur l'un trouve aussi les autres. Réservé aux orthographes,
+#                                   fautes de dictée et termes anglais : jamais de révélation (pas « Pierrot = lycanthrope »).
+#
+# Un bloc se termine par une ligne vide. Les accents et majuscules ne comptent pas.
+
+
+# ============================================================ variantes d'orthographe, dictée, VO
+
+= Isidoro, Isidore
+= Théodoric, Théodric, Theodric, Théodorik
+= Tymora, Timora, Dame de la Chance
+= Oghma, Ogma
+= Zhentarim, Zentarim, Zontarim, Zhents, Réseau Noir
+= Derlusk, Derdus, Derlus
+= Ankhapur, Akampour, Ankapour
+= Saelmur, Selmur, Saëlmur
+= Lathandre, Lathander, Seigneur du Matin
+= Amaunator, Amaunatore
+= Velsharoon, Velsharon, Velsharun
+= Alcatar, Alkatar, Alcattar
+= Teldorn, Teldor
+= Sombrespoir, Sombre-Espoir, Sombre Espoir, Darkhope
+= Baine, Bane
+= Heaume, Helm
+= Kelemvor, Kelemvore
+= Mintar, Minthar
+= Bridgestone, Bridgestones, Pont de Fer
+= Elrayck, Elrayick, Elrayk, Elrick
+= Pinte sans Fond, Chope sans Fond
+= Ménestrels, Menestrels, Harpers
+= Trône de Fer, Trone de fer, Iron Throne
+= Magiciens Rouges, Red Wizards
+= tyrannœil, tyrannoeil, tyranoïde, tyranoide, beholder
+= tyramort, death tyrant
+= nécrophage, necrophage, goule, ghoul, wight
+= liche, lich, demi-liche, demiliche, demilich
+= phylactère, phylactere, phylactery
+= lycanthrope, lycanthropie, loup-garou, rat-garou, garou, werewolf, wererat
+= génasi, genasi, genasie
+= Cœur Radieux, Coeur Radieux, Cœur-Radieux, Coeur radio, abbaye
+= Château-Suif, Chateau-Suif, Candlekeep
+= Lac de Vapeur, Lac de la Vapeur, Lake of Steam
+= Royaumes Frontaliers, Border Kingdoms
+= prêtre cloîtré, pretre cloitre, cloistered cleric
+= Serviteur radieux, Radiant Servant
+= Sort persistant, Persistent Spell
+= Métamagie divine, Divine Metamagic
+= Emprise sur les morts-vivants, Extra Turning
+= renvoi, renvoyer, repousser, turn undead, turning
+= Puissance divine, Divine Power
+= Force du colosse, Righteous Might
+= Vitalité sacrée, Sacred Vitality
+= Prodige magique, Spell Focus
+= Bouclier de la foi, Shield of Faith
+= Agrandissement, Enlarge
+= Pierre magique, Magic Stone
+= Libris Mortis, Livre des morts
+= Codex Divin, Complete Divine
+= Codex Profane, Complete Arcane
+= Arcanes Exhumés, Unearthed Arcana
+= Manuel des Joueurs, Manuel du Joueur, MdJ, PHB
+= po, pièces d'or, gold
+= XP, expérience, points d'expérience
+= MJ, maître du jeu, DM
+= aboleth, aboleths
+= dracosire, dragon rouge, Balagos
+= hippogriffe, hippogriffes
+= Rayana, Marika
+= Isoline, Isolyne
+= Kismet, Lame du Surtaut
+
+
+# ============================================================ accueil, prochaine séance
+
+[index.html]
+accueil, sommaire, où en est-on, résumé rapide, dernière séance, point de vue, filtre, aide, mode d'emploi
+
+[index.html#le-point-de-vue]
+filtre, masquer, cacher, spoiler, divulgâcher, savoir de joueur, qui sait quoi, vue Tout, vue Monde, provenance
+
+[prochaine-seance.html#avant-de-jouer]
+préparer, préparation, montée de niveau, passer niveau 3, level up, sorts restants, charges, baguette de soins, partage du butin, coffre, bijoux, grimoire, eau bénite, fronde, livre néthérisien, puits d'ombre, à faire, checklist, liste
+
+[prochaine-seance.html#priorites-en-jeu] @isidoro
+objectifs, quoi faire, priorité, urgence, attaque de Saelmur, survivre, bibliothèque, livres, elfe sauvage, égouts, hospice, réfugiés, disparitions, belladone, remède, pleine lune, lycanthropes en fuite, quête
+
+[prochaine-seance.html#autres-fils-ouverts] @isidoro
+quêtes, pistes, intrigues, mystères, questions, à suivre, fils ouverts, Alcatar, Ménestrels, harpe, sentier caché, forteresse, falaise, confrères, temple vendu, Bridgestone, pont, guerre de l'ombre, familles marchandes, pendu, barde, Milil, Alaundo, prophéties, voleur, Glen, habit bleu
+
+[prochaine-seance.html#savoir-de-joueur-ne-pas-l-utiliser-en-jeu] @mj
+métajeu, méta, secret, attention, piège, lettre, génasi lycanthropes, moniale, Théodoric inconnu, QG, quartier général
+
+
+# ============================================================ journal
+
+[journal.html#le-journal-d-isidoro]
+récit, première personne, carnet, chronique d'Isidoro, histoire racontée
+
+[journal/partie-1.html] @isidoro
+aventure 1, première aventure, départ, Derlusk, Ankhapur, scriptorium, Père Pascal, assassins, contrat, Lucas, El Tiempo
+
+[journal/partie-1.html#preambule-pourquoi-l-on-m-envoie-loin-de-chez-moi] @isidoro
+pourquoi partir, cauchemars, rêves, visions nocturnes, insomnie, morts-vivants, père Théodoro, livre d'Amaunator, lignée, Temps Sombres, Antonio, Lucas El Tiempo, roublard
+
+[journal/partie-1.html#premier-jour-la-derniere-nuit-a-derlusk] @isidoro
+taverne, bière coupée d'eau, bière de table, Lily, serveuse, timide, bas quartiers, misère, temple de Tymora, mère, grondé, soirée
+
+[journal/partie-1.html#deuxieme-jour-la-traversee-du-lac-de-la-vapeur] @isidoro
+bateau, traversée, prière commune, prêche, sermon, homme de la proue, pièce lancée, pile ou face, bien et mal
+
+[journal/partie-1.html#troisieme-jour-ankhapur] @isidoro
+douane, taxe d'entrée, 50 po, dockers, contrebande, entrée clandestine, scriptorium, Frère Blaise, désordre, rangement, contrat d'assassinat, Père Pascal, minuit
+
+[journal/partie-1.html#quatrieme-jour-la-nuit-du-sauvetage-et-la-fuite] @isidoro
+sauvetage, embuscade, deux tueurs, assassins, bénédiction, combat, fuite, rempart, corde, escalade, chute, rivière, nager
+
+[journal/partie-1.html#cinquieme-jour-la-route-de-saelmur] @isidoro
+convoi, mages, hippogriffes, flèches qui rebondissent, protection magique, soins, blessés, route du Clos
+
+[journal/aventure-2.html#le-pissenlit-bleu-ou-l-on-repart-a-pied] @isidoro
+auberge, chevaux morts, viande de cheval, aubergiste, nouvelles de la guerre, prime, récompense, péage, taxe, livres et rues
+
+[journal/aventure-2.html#glen-deux-nuits-au-baladin-joyeux] @isidoro
+casino, jeu, roulette, cartes, poker, blackjack, portier, caniche, vol, voleur, bourse, piège, appât, deux bières, gérant, habit bleu
+
+[journal/aventure-2.html#la-route-de-l-ouest-de-la-charge-et-de-ce-qu-il-en-coute] @isidoro
+orques, embuscade, charge, tombé, inconscient, potion, Pierrot, génasi, voyageurs, fronde, Pierre magique, récit du combat, attestation, mauvaise route, ouest
+
+[journal/aventure-2.html#fort-corner-du-nom-de-mon-pere-et-d-une-querelle] @isidoro
+primes, têtes, marché, vente, offre et demande, marchand, histoire de Mintar, réputation, nom du père, fierté, lettre aux confrères, don, laissez-passer, dispute, querelle, fâché, réconciliation, coincé, tu fabules
+
+[journal/aventure-2.html#vers-le-nord-champ-dore] @isidoro
+patrouille, soldats, arrière-ban, orientation, comté du Clos, plaines, cochons, grange, paille, temple, cellule, prêtre de Champ-Doré, comte, pont, sang et foi, révolte des esclaves, carte, abreuvoir, savon
+
+[journal/aventure-2.html#l-abbaye-du-coeur-radieux-a-la-maison] @isidoro
+abbaye, laver les pieds, ruisseau, sandales, autels, Milil, théâtre, Patricius, ami d'enfance, prière, larme, mère, libre arbitre, mort venue du ciel, Alaundo, Château-Suif, Rayana, musicienne, pendentif, harpe, Gaspard, Tymora, cartes, office
+
+[journal/aventure-2.html#ce-que-j-ai-vu-dans-l-eau] @isidoro
+vision, vasque, eau, avenir, futur, Alcatar, elfe d'or, nécrophages, vampires, égouts, magicien, elfe sauvage, temples qui sautent, bibliothèque qui brûle, marque verte, mourir, bras perdu, tombe le héros, perdition, falaise, rappel, aubergiste, père et magicien, marteau, harpe, Velsharoon, nouveau dieu, enfants
+
+[journal/aventure-2.html#le-depart-de-l-abbaye] @isidoro
+gueule de bois, visions partagées, peur des morts-vivants, devoir, destinée, Ménestrels, harpe, eau bénite, Encensoir, petit martinet, morgenstern, rations purifiées
+
+[journal/aventure-2.html#saelmur-l-hospice-du-pere-damien] @isidoro
+arrivée à Saelmur, collines, remparts, réfugiés, camp, bidonville, Tyr, hospice, soupe, rations, Damien, temple vendu, choqué, charité, pirates, disparitions, maladie, fièvre, crachat, sang, guérison, foulard, lycanthropes, moniale, belladone
+
+[journal/aventure-2.html#la-rue-des-tanneurs] @isidoro
+loi martiale, guerre de l'ombre, temple d'Oghma, cadastre, archives, n°6, numéro 6, maison, Ménestrels, potions de poison, liches, demi-liche, phylactère, déguisement, mendiant, cas de conscience, Madame Irma, servante, squelettes, renvoi, brute, hache, notes, comptes, contrat, livre néthérisien, puits d'ombre, cave, fers, sang, or, butin
+
+[journal/aventure-2.html#la-nuit-du-crane-vert] @isidoro
+crâne vert, ciel vert, explosions, attaque, début de l'attaque, rats, fin de séance, cliffhanger
+
+
+# ============================================================ séances
+
+[seances.html]
+résumés, comptes rendus, notes de séance, sessions, parties jouées
+
+[seances/aventure-2.html#etape-1-l-auberge-du-pissenlit-bleu] @isidoro
+itinéraire, route, Glen, Quatre Bras, échangeur, péages, taxes, contrôles, guildes, sauf-conduit, nouvelles de la guerre, aubergiste, prime, zhentarim, espions, 10 po, 5 po, motivations, 60 km, élevage de chevaux, hiver doux, température
+
+[seances/aventure-2.html#etape-2-glen-et-le-baladin-joyeux] @isidoro
+casino, jetons, roulette, Bluff, Profession joueur, chambre, prix, 3 pa, caisses, croupiers, vol, 2 po, Détection, Tom Martino, Mickellow Beretta, loi, flagrant délit, shérif, main coupée, piège, deux bières
+
+[seances/aventure-2.html#etape-3-l-embuscade-des-orques] @isidoro
+orques, combat, initiative, round de surprise, Agrandissement, Bouclier de la foi, archer, cimeterre à deux mains, critique, feinte, négatif, stabilisé, potion de soins, 300 XP, butin, têtes, chemises de mailles, dés en os, Pierrot, génasi roux, Île de Berck, tyranoïdes, Calimshan, elfes, bois, récit du combat
+
+[seances/aventure-2.html#etape-4-fort-corner] @isidoro
+garnison, château, palissade, primes, 20 po, Estimation, 405 po, partage, 212 po, cartes, marchands, génasi partent, garde de Heaume, histoire de Mintar, éloquence, réputation familiale, missionnaires, lettre, don, laissez-passer, 10 po, dispute
+
+[seances/aventure-2.html#etape-5-vers-le-nord-champ-dore-et-le-comte-du-clos] @isidoro
+patrouille, papiers, arrière-ban, orientation, village pauvre, auberge, plaines céréalières, cochons, grange, temple de Heaume, cellule, comte, hommes valides, pont, sang et foi, révolte des esclaves, souterrains, Diplomatie, seul, Malachie, Aurélia, Patricius, carte, 5 po, abreuvoir, Survie, panneau
+
+[seances/aventure-2.html#etape-6-l-abbaye-du-coeur-radieux] @isidoro
+jardins, ruisseau, pieds, sandales, marbre, autels, dieux mineurs, Milil, théâtre, applaudissements, Religion, encens, bougies, Patricius, office, vasques, libre arbitre, cellules, paillasse, offrandes, Alaundo, prophéties, années, magie sauvage, Manshoon, Sammaster, Fureur du Dragon, Château-Suif, bibliothèque, Deneir, Rayana, musicienne, luth, mailles, lames, pendentif, harpe, Gaspard, Tymora, cartes, nuit
+
+[seances/aventure-2.html#les-visions-des-vasques-futurs-possibles] @isidoro
+vision de Lucas, vision d'Isidoro, futur, avenir, rue des Tanneurs, runes, Chope sans Fond, sentier, forteresse, falaise, Alcatar, elfe d'or, haute magie elfique, île, nécrophages, vampires, égouts, atelier, magicien, elfe sauvage, Torm, Heaume, Oghma, marque verte, flotte, débarquement, rappel, tour, signal, aubergiste, livres, manchot, bras, tombe, le héros, perdition, tour isolée, père, magicien, poignée de main, marteau, harpe, Velsharoon, nouveau dieu, mort-vivant, âme, enfants
+
+[seances/aventure-2.html#etape-7-depart-de-l-abbaye-et-hospice-de-saelmur] @isidoro
+gueule de bois, visions échangées, peur, devoir, Ménestrels, baguettes, eau bénite, fioles, Encensoir, petit martinet, morgenstern, 10 po, objets magiques, enclave, rations, route du sud, collines, temples, université, mages-lames, Parlement, remparts, catapultes, balistes, réfugiés, camp militaire, navires, population, hospice, soupe, Damien, hôpital de campagne, pirates, hippogriffes, disparitions, cimetière, Kelemvor, maladie, 300 lits, temple vendu, Loi, femme de Derlusk, belladone, pleine lune, crachat, Vigueur, Dextérité, Constitution, enquête, écussons, milice, moniale
+
+[seances/aventure-2.html#etape-8-saelmur-intra-muros-et-la-rue-des-tanneurs-n-6] @isidoro
+loi martiale, miliciens, garde de Heaume, tension, Psychologie, héritier pendu, guerre de l'ombre, entrepôts brûlés, Renseignements, ancien temple, cadastre, 2 po, vente de maison, Ménestrels, potions, poison, Constitution, 250 po, identification, 50 po, sacoche à potions, 40 po, liches, phylactère, demi-liche, repérage, déguisement, mendiant, cas de conscience, Injonction, Madame Irma, servante, bureau, encrier, défense totale, draconique, squelettes, armoires, renvoi, test 23, métamorphose, brute, grande hache, rage, feinte, fouille, notes, cinquantaine, contrat, livre néthérisien, puits d'ombre, scrutation, coffre piégé, fléchette, 2 400 po, bijoux, 400 po, grimoire, gobelinoïdes, cave, fers, grenier, vêtements
+
+[seances/aventure-2.html#fin-de-seance-l-attaque-de-saelmur-commence] @isidoro
+crâne vert, lumière verte, cris, explosions, collines, temples, panique, rats, fin de séance
+
+[seances/aventure-2.html#noms-et-lieux] @isidoro
+index, glossaire, liste des noms, liste des lieux, PNJ
+
+[seances/aventure-2.html#notes-hors-jeu] @mj
+ancienne campagne, Lames de Tymora, Marius, légionnaires, deux tables, synchronisation, Thôn, Tonon, David, François, oncle, baron, QG, scène du bateau, réécrite, prochaine séance, 10 octobre
+
+[seances/sacrifice-de-mintar.html] @theodoric
+Rogue One, opération, commando, assaut, citadelle, mort de Théodoric, mort de Teldorn, fin de la table, dernière séance, Tarsakh
+
+[seances/sacrifice-de-mintar.html#l-assaut-de-la-citadelle] @theodoric
+infiltration, tonneaux, nains, Georborg, Lindil, égouts, gauth, alarme télépathique, vannes, inondation, respiration aquatique, puits de sang, temple de Baine, minuit, tyramort, statue, Main Noire, pierre de jade, bouclier anti-dragon, énergie négative, Ninfaya, Bern, documents, Marius, vitrail, falaise, Balagos, souffle
+
+[seances/sacrifice-de-mintar.html#le-destin-des-survivants] @theodoric
+survivants, Ninfaya, autel, fuite, docks, Bridgestone, Charles, Marius, plongeon, récif, barque, aboleth, Bern mort, Kismet lancée, sac de documents, téléportation
+
+[seances/sacrifice-de-mintar.html#l-arrivee-a-la-pinte-sans-fond] @theodoric
+Micheline, aubergiste, enfant, grossesse, enceinte, prophétie, Kismet, documents de Teldorn, bilan, Mintar détruite, flotte décimée
+
+
+# ============================================================ le monde : personnages
+
+[personnages.html]
+PNJ, personnages non joueurs, qui est qui, liste des personnages, alliés, ennemis, morts, vivants
+
+[personnages.html#la-compagnie-d-isidoro] @isidoro
+groupe, compagnon, joueurs, PJ, Antoine, François, roublard, prêtre, El Tiempo, Encensoir, sacoche
+
+[personnages.html#la-famille-et-les-proches-d-isidoro] @isidoro
+famille, parents, père, mère, Théodoro, moine, fondateur du temple, Antonio, Lily, serveuse, Tirlin, Baltherese, Blaise, Basile, Pascal, Ankhapur, Derlusk
+
+[personnages.html#rencontres-pendant-l-aventure-2] @isidoro
+Pierrot, génasi, Tom Martino, Mickellow Beretta, voleur, prêtre de Champ-Doré, Patricius, Malachie, Tyr, Aurélia, Oghma, Rayana, musicienne, Gaspard, Tymora, Damien, magicien, rue des Tanneurs, Madame Irma, servante, elfe sauvage, égouts, morts
+
+[personnages.html#la-famille-bridgestone] @isidoro @theodoric
+comte du Clos, comte, seigneur, pont, famille du comte
+
+[personnages.html#la-famille-bridgestone] @theodoric
+arbre généalogique, généalogie, famille noble, frères, fils, bâtard, traîtres, régent, Elrayck, Aurelia, Isoline, Marius, Bertrand, Peter, Jérôme, Charles, Vardak, vieux comte, Xvim, Torm, cassette d'or
+
+[personnages.html#la-compagnie-de-theodoric-les-lames-de-tymora] @theodoric
+Lames de Tymora, compagnie, commando, Bern, Ninfaya, nains, Georborg, Lindil, Fireblade, vignerons, Micheline, Pinte sans Fond, légionnaires, Chessenta, Kismet, épée intelligente
+
+[personnages.html#la-main-noire-et-mintar] @isidoro @theodoric
+Teldorn, maître de Mintar, ennemi, combattants volants
+
+[personnages.html#la-main-noire-et-mintar] @theodoric
+Main Noire, Baine, Xvim, vicaire, tyramort, Brixen, Kzelter, Scyllua, Château-Zhentil, Fzoul, Chembryl, Barthélemy, Roc Noir, Dreadnis, Malekth, Sombre Académie, Kaelen, Rougemélèze, Andbar, Anbar, Maelstrom, pirate, Luskan, Briseur de Vagues, Balagos, dragon rouge
+
+[personnages.html#alcatar-et-les-siens] @isidoro @theodoric
+Alcatar, elfe d'or, liche, antagoniste, grand méchant, ennemi principal, nécromancien
+
+[personnages.html#alcatar-et-les-siens] @theodoric
+Éternelles-Rencontres, Evermeet, bâton d'onyx, corbeau, Élu, Talos, Vandor, vampire, Hauterive, Élysia, Loge de l'Ossement, Faeltar, Arrk, troll, Malakor, Valentin, Valérie, Adrien, Faucon d'Argent, Brant, Lady Isolda, Mastro Corvaux, Iriaebor, Grand Shaar
+
+[personnages.html#puissances-et-figures-lointaines]
+dieux, divinités, panthéon, religion, cultes, Lathandre, Tymora, Milil, Deneir, Oghma, Tyr, Heaume, Torm, Kelemvor, Velsharoon, Alaundo, prophète, Manshoon, Sammaster, organisations, factions, guildes, Ménestrels, Zhentarim, Trône de Fer, Magiciens Rouges, Thay, culte du Dragon
+
+[personnages.html#puissances-et-figures-lointaines] @theodoric
+Talos, Cyric, Myrkul, Iyachtu Xvim, Alustriel, Lunargent, Silverymoon, Elminster, Szass Tam, Main Noire, Sombre Académie, Loge de l'Ossement
+
+
+# ============================================================ le monde : lieux
+
+[lieux.html#la-region-en-schema]
+carte, plan, schéma, géographie, région, où se trouve, distances, routes, Lac de Vapeur, Bois d'Épines, forêt de Qurth, Minta, fleuve, Mintar, Saelmur, Ankhapur, Innarlith, Derlusk, Kzelter, Fort Corner, Le Clos, abbaye, Champ-Doré, Bridgestone
+
+[lieux.html#les-lieux] @isidoro
+villes, villages, bourgs, auberges, endroits, lieux visités, Glen, Baladin Joyeux, Fort Corner, Pissenlit Bleu, Champ-Doré, rue des Tanneurs, n°6
+
+[lieux.html#les-lieux] @isidoro @theodoric
+cité, port, Saelmur, Mintar, Derlusk, Ankhapur, comté du Clos, abbaye du Cœur Radieux, Bridgestone, pont, Château-Suif, bibliothèque, temple, ville natale
+
+[lieux.html#les-lieux] @theodoric
+Bois d'Épines, Pinte sans Fond, Kzelter, Qurth, spriggans, Innarlith, Cyric, repaires d'Alcatar, Loge de l'Ossement, Monts Nethéres, Anauroch, Grand Shaar, bastions de Baine, Pics des Crépuscules, Collines des Serpents, portails, Nord, Lunargent, Roc Noir, Château-Zhentil, Citadelle du Corbeau, Rougemélèze, Longue Route
+
+[lieux.html#les-plans-de-mintar] @theodoric
+plans, cartes dessinées, Mintar, égouts, collecteur, citadelle, château de Teldorn, chapelle, écuries, hippogriffes, docks, quai, caserne, temple de Xvim, gantelet noir, esclaves
+
+[lieux.html#faerun]
+Faerûn, carte du monde, dons régionaux, Calimshan, Téthyr, Shaar, Royaumes Oubliés, Forgotten Realms
+
+
+# ============================================================ le monde : chronologie
+
+[chronologie.html]
+dates, calendrier, frise, ligne du temps, timeline, histoire, années, quand, Calendrier des Vallées, CV, Vaux
+
+[chronologie.html#1372-l-annee-de-la-magie-sauvage] @isidoro
+départ d'Isidoro, aventure 1, hiver 1372, Ankhapur, Père Pascal
+
+[chronologie.html#1373-l-annee-de-saelmur] @isidoro
+aventure 2, début Ches, Glen, orques, abbaye, Ches 1373
+
+[chronologie.html#1373-l-annee-de-saelmur]
+maintenant, aujourd'hui, date actuelle, 20 Ches, où en est-on
+
+[chronologie.html#avant-la-campagne] @theodoric
+jeunesse d'Elrayck, Kismet, Miracle de Kzelter, naissance de Théodoric, naissance de Marius, Temps des Troubles, mort de Baine, prise de Mintar, chute de Bridgestone, Alcatar devient liche, ascension de Velsharoon, mort de Manshoon, clones
+
+[chronologie.html#1373-l-annee-de-saelmur] @theodoric
+chute de Saelmur, comte du Clos se soumet, attaque de l'abbaye, 26 Ches, assaut de Mintar, mort de Théodoric, convoi du phylactère, Eleint
+
+
+# ============================================================ prochaine séance : recoupements
+
+[recoupements.html] @mj
+hypothèses, théories, croisements, analyse, ce qu'on peut deviner, spéculations, indices
+
+[recoupements.html#les-rats-des-egouts] @mj
+rats explosifs, rats morts-vivants, poussière d'onyx, baguettes d'explosion nécrotique, explosions, égouts, vampires, rats-garous
+
+[recoupements.html#la-fievre-et-les-lycanthropes] @mj
+fièvre, maladie, fièvre des marais, rats-garous, lycanthropes, belladone, génasi, Pierrot, plan d'Alcatar
+
+[recoupements.html#deux-reseaux-dans-les-egouts] @mj
+égouts, deux groupes, réseaux, elfe sauvage, magicien, Vandor, nécrophages
+
+[recoupements.html#les-temples-qui-tombent] @mj
+temple de Torm, grand prêtre décapité, mages-lames, temples de Tyr, bibliothèque d'Oghma, destruction
+
+[recoupements.html#la-marque-verte-et-la-flotte] @mj
+crâne vert, marque verte, flotte de Mintar, docks, débarquement, chaos, Bainiens
+
+[recoupements.html#charles-bridgestone-a-saelmur] @mj
+Charles, Bridgestone, égouts, capturé, cassette d'or
+
+[recoupements.html#l-abbaye-menacee] @mj
+attaque de l'abbaye, incendie, Peter, Jérôme, hippogriffes, 26 Ches, danger, Patricius, fontaine des visions
+
+[recoupements.html#la-forteresse-sur-la-falaise] @mj
+forteresse, falaise, rappel, tour, sentier caché, Kzelter, bastions, chapelle de Mintar
+
+[recoupements.html#l-aubergiste-aux-livres] @mj
+aubergiste, Micheline, Pinte sans Fond, Chope sans Fond, livres, documents, tombe, le héros, Théodoric mort
+
+[recoupements.html#les-phylacteres-d-alcatar] @mj
+phylactère, plusieurs phylactères, Élysia, Anauroch, convoi, Fzoul, Trône de Fer, Thay, Localisation suprême, détruire la liche, comment tuer Alcatar
+
+[recoupements.html#un-dieu-en-devenir] @mj
+divinité, devenir un dieu, apothéose, Velsharoon, Talos, Baine, ambition
+
+[recoupements.html#la-harpe] @mj
+harpe, Ménestrels, collier, Alustriel, alliés, méfiance
+
+[recoupements.html#se-cacher-des-divinations] @mj
+scrutation, divination, puits d'ombre, livre néthérisien, se cacher, retrouver Alcatar, Pénombre
+
+[recoupements.html#bridgestone-et-le-pere-d-isidoro] @mj
+père d'Isidoro, Théodoro, révolte des esclaves, comte du Clos, neveux, traîtres, Peter, Jérôme
+
+[recoupements.html#contradictions-entre-les-sources] @mj
+contradictions, incohérences, erreurs de dates, versions différentes, sources, Année des Dragons Regardants, Fureur du Dragon
+
+
+# ============================================================ Isidoro : fiche, progression, règles
+
+[isidoro.html]
+fiche de personnage, feuille de personnage, personnage joueur, PJ, Isidoro, stats, statistiques
+
+[isidoro.html#identite]
+race, humain, alignement, neutre bon, âge, 24 ans, classe, niveau, langues, shaarien, néthérisien, chondathan, origine
+
+[isidoro.html#la-fiche]
+caractéristiques, Force, Dextérité, Constitution, Intelligence, Sagesse, Charisme, modificateurs
+
+[isidoro.html#combat]
+points de vie, PV, HP, classe d'armure, CA, AC, initiative, bonus de base à l'attaque, BBA, sauvegardes, jets de sauvegarde, Réflexes, Vigueur, Volonté, masse d'armes lourde, arbalète légère, carreaux, baguette de soins, charges, armes, dégâts
+
+[isidoro.html#competences-degres]
+compétences, skills, rangs, degrés, Concentration, Connaissances, religion, mystères, plans, histoire, Diplomatie, Premiers secours, Art de la magie, Décryptage, Détection, Psychologie, malus d'armure, Natation
+
+[isidoro.html#dons]
+dons, feats, Prodige magique, Emprise sur les morts-vivants, Extension de durée
+
+[isidoro.html#sorts-et-domaines]
+sorts, magie, sorts préparés, emplacements, oraisons, DD, domaines, Soleil, Force, Connaissance, Bénédiction, Bouclier de la foi, Agrandissement, Message, Effacement, Identification, Serviteur invisible, Ruse du renard, renvoi suprême, savoir bardique, incantation spontanée
+
+[isidoro.html#equipement]
+équipement, inventaire, sac, objets, matériel, possessions, trousse de soins, symbole sacré, rations, corde, torches, potions, parchemins, sanctuaire, eau bénite
+
+[isidoro.html#butin-et-finances-de-l-aventure-2]
+butin, trésor, argent, richesse, finances, combien d'or, partage, coffre, 2 400 po, bijoux, livres, gobelinoïdes, dépenses, achats, grimoire, XP, expérience, niveau 3
+
+[isidoro.html#la-foi]
+foi, religion, croyance, théologie, Confrérie du Soleil Glorieux, Amaunator, hérésie, Soleil Levant, morts-vivants, dette envers la mort
+
+[isidoro.html#la-famille]
+famille, père, mère, Théodoro, fouilleur de ruines, commanditaire, Lucas, Antonio
+
+[isidoro.html#les-reves]
+rêves, cauchemars, visions, insomnie, Velsharoon, 1368, enfance, 8 ans
+
+[isidoro.html#les-reves] @theodoric
+Élu de Velsharoon, Alcatar
+
+[isidoro.html#les-traits]
+traits, règle maison, XP bonus, La Correction, La Première Fois, Le Doute Accepté
+
+[isidoro.html#le-jouer]
+roleplay, jeu de rôle, comment jouer Isidoro, personnalité, caractère, ton, tics, vouvoiement, tutoiement, arc du personnage, évolution
+
+[isidoro.html#le-build]
+build, optimisation, archétype, Le Persistant, moteur, classe de prestige, Serviteur radieux, Pélor, anti-liche, caractéristiques retenues
+
+[isidoro.html#questions-ouvertes]
+questions pour le MJ, à vérifier, à trancher, bouclier, Canne de nuit, Manferic, King Pinch
+
+[progression.html]
+progression, montée de niveau, level up, plan de niveaux, guide, build, Le Persistant, colosse
+
+[progression.html#le-prochain-niveau]
+niveau 3, prochain niveau, quoi prendre au niveau 3, Sort persistant, sorts de niveau 2, Arme alignée, Force de taureau, Consécration, cape de résistance, écarts avec la fiche, Charisme 15
+
+[progression.html#les-trois-premiers-niveaux]
+niveau 1, niveau 2, niveau 3, création, points de vie, priorité des caractéristiques, dons de départ, variante prudente, Robustesse, domaines, plan des compétences, Connaissances religion 9, Premiers secours 5
+
+[progression.html#armes-et-armure]
+arme, arme à deux mains, allonge, pique, arme d'hast, bouclier, armure, chemise de mailles, harnois, zone morte, masse d'armes
+
+[progression.html#comment-jouer-palier-par-palier]
+tactique, stratégie, rôle en combat, tour type, paliers, âges du personnage
+
+[progression.html#le-pretre-fragile]
+niveaux 1 à 6, deuxième ligne, soutien, buff, Bénédiction, Arme magique, baguette de soins légers, prudence
+
+[progression.html#la-bascule]
+niveau 7, Serviteur radieux, premier sort persisté, Puissance divine, harnois, renvoi suprême
+
+[progression.html#le-colosse]
+niveau 9, Force du colosse, taille G, grand, Emprise ×2, réserve à zéro, Canne de nuit, couloirs étroits
+
+[progression.html#l-apogee]
+niveau 12, niveau 14, niveau 15, Vitalité sacrée, absorption d'énergie, drain, explosion d'énergie positive, réduction des dégâts, RD
+
+[progression.html#le-rituel]
+rituel du matin, sorts persistés, 7 tentatives, Puissance divine, Force du colosse, dissipation, préparer en double
+
+[progression.html#niveau-1-a-20]
+tableau des niveaux, niveau 1 à 20, tous les niveaux, classes, dons par niveau, domaine du Bien, Châtiment sacré, Barrière de lames, Santé divine, Soins souverains, Renvoi rapide, Vengeance sacrée
+
+[progression.html#quoi-acheter-et-quand]
+achats, objets magiques, shopping, quoi acheter, prix, cape de résistance, périapte de sagesse, harnois +1, Canne de nuit, anneau de protection, cape de charisme, sceptre de défi, arme sacrée
+
+[progression.html#ta-reserve-niveau-par-niveau]
+réserve, tentatives de renvoi, économie, combien de renvois, budget de renvois
+
+[progression.html#cinq-questions-pour-ton-mj]
+questions au MJ, autorisation, règles optionnelles, prêtre cloîtré autorisé, Métamagie divine plafond, changement de prise, bouclier, domaine de la Guérison
+
+[regles.html]
+règles, règles du jeu, D&D 3.5, VF, vérifié, règle maison, homebrew, statut
+
+[regles.html#le-moteur-du-build]
+Sort persistant, Métamagie divine, Puissance divine, Force du colosse, domaines, prêtre cloîtré
+
+[regles.html#le-serviteur-radieux]
+classe de prestige, conditions, prérequis, Serviteur radieux, aura de protection, domaine supplémentaire, Gloire, Purification, explosion d'énergie positive
+
+[regles.html#regles-verifiees-et-lecons]
+Arme alignée, Armes glorieuses, Arme destructrice, Vitalité sacrée, Extension d'effet, Empower, Spontanéité de domaine, Maître contemplatif, Localisation suprême, Disciple du Soleil, sceptre de défi, taille G, allonge, Sagesse impaire, Prodige magique
+
+[regles.html#points-de-regles-notes-a-la-table]
+règles de table, décisions du MJ, renvoi suprême, savoir, domaine de la Force, Agrandissement, fronde, Pierre magique, fièvre, poison, sacoche à potions, Encensoir
+
+[regles.html#la-bibliotheque-d-antoine]
+livres, suppléments, bibliothèque, collection, VF, VO, Dogmes et Panthéon, Faiths and Pantheons, Magie de Faerûn, Monster Manual
+
+[regles.html#photos-du-manuel]
+photos, Manuel des Joueurs, liste des sorts de prêtre, domaines, bestiaire, tyrannœil, gauth
+
+
+# ============================================================ documents de Théodoric
+
+[documents.html] @theodoric
+documents, archives, textes, lettres, journaux, chroniques, sources écrites, PDF, originaux
+
+[documents/testament-comte-elrayck.html] @theodoric
+testament, Elrayck, Loup de la Minta, rôdeur, Tymora, Torm, Kismet, Bois d'Épines, dragon vert, œufs, Aurelia, Isoline, Marius bâtard, Miracle de Kzelter, plan contre Teldorn
+
+[documents/plan-elrayck-attaque-mintar.html] @theodoric
+plan d'attaque, commando, infiltration, vin, tonneaux, docks, égouts, puits, chapelle, Surtaut, Teldorn, tour des montures, hippogriffes, fuite, Noyau de Jacinthe
+
+[documents/journal-jerome-bridgestone.html] @theodoric
+Jérôme, Pont de Fer, trahison, régent, Xvim, tentatives d'assassinat, Théodoric, ogres, orques, baguettes, coffres vidés, chute de Saelmur, comte du Clos, abbaye, incendie, Peter, hippogriffes
+
+[documents/chroniques-teldorn-sombrespoir.html] @theodoric
+Teldorn, chroniques, vicaire, conquête de Mintar, Kzelter, Bridgestone, Scyllua, elfe d'or, Shaar, Main Noire, Derlusk, espion, sceptre de fer, pacte de Saelmur, silos, fiasco, haine télépathique, phylactère, convoi blindé
+
+[documents/chroniques-dreadnis-barthelemy.html] @theodoric
+inquisiteurs, Dreadnis, Barthélemy, Roc Noir, origines d'Alcatar, Lunargent, Alustriel, Sombre Académie, Monts Nethéres, Île Noire, collier de la harpe, Château-Suif, cartographie, Néthéril, Velsharoon, Fzoul, Manshoon, clones
+
+[documents/journal-vandor.html] @theodoric
+Vandor, vampire, Hauterive, Faucon, Malakor, Élysia, Faeltar, portail, trahison, Loge de l'Ossement, Talos, bibliothèque néthérisienne, Pénombre, Saelmur, rats, baguettes, sac de Saelmur, Lady Isolda, égouts
+
+[documents/mandat-trone-de-fer.html] @theodoric
+mandat, saisie, convoi noir, Trône de Fer, Conseil des Scribes, phylactère, Magiciens Rouges, trahison de Teldorn
+
+[documents/notes-de-bern.html] @theodoric
+Bern, renseignements, chiens d'ombre, docks, vignoble, nains, logistique, tyramort, lentille fissurée, chapelle
+
+[documents/kismet-lame-du-surtaut.html] @theodoric
+épée, épée intelligente, arme magique, ego, propriétés magiques, lois de la lame, téléportation, Surtaut, chaotique bon

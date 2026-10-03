@@ -1,4 +1,5 @@
 ---
+savoir: isidoro
 titre: Aventure 2 — De la route du Clos à l'attaque de Saelmur
 sous-titre: Résumé complet de la séance du 26 septembre 2026
 ordre: 2
@@ -24,7 +25,7 @@ Isidoro et Lucas voyagent vers l'abbaye du Cœur Radieux pour éclairer les rêv
 - **Isidoro** (Antoine) : prêtre cloîtré de Lathandre, le Seigneur du Matin, originaire de Derlusk. Niveau 2, domaines Soleil, Force et Connaissance. Méthodique, attaché aux rites et aux écrits exacts.
 - **Lucas** (François) : compagnon d'Isidoro, enfant des villes, joueur et bluffeur, autonome depuis ses 10-12 ans. Proche de Tymora, il découvre Milil pendant la séance.
 - **Équipement d'Isidoro au départ** : masse d'armes lourde, arbalète légère, baguette de soins, quatre rations.
-- **Deux tables** : Thôn et David jouent en parallèle sur la même chronologie. Le MJ garde les dates floues jusqu'à l'attaque de Saelmur, puis jouera jour par jour (voir Notes hors-jeu).
+- **Deux tables** : Thôn et David jouent en parallèle sur la même chronologie. Le MJ garde les dates floues jusqu'à l'attaque de Saelmur, puis jouera jour par jour (voir Notes hors-jeu). {@mj}
 
 ## Étape 1 — L'auberge du Pissenlit Bleu
 
@@ -344,7 +345,7 @@ Isidoro et Lucas partent pour Saelmur et passent leur première nuit à l'hospic
 **L'enquête de Lucas dans le camp**
 
 - Une autre équipe est passée il y a quelques jours. Cinq hommes portant des écussons de la milice (de Heaume ?) cherchaient la bagarre avec les réfugiés : c'étaient des lycanthropes qui propageaient la maladie.
-- Trois ont été tués, deux se sont échappés. L'équipe est ensuite remontée vers l'abbaye : ce sont les personnages de l'autre table, croisés en route.
+- Trois ont été tués, deux se sont échappés. L'équipe est ensuite remontée vers l'abbaye<span data-savoir="mj"> : ce sont les personnages de l'autre table</span>, croisée en route.
 - Parmi eux se trouve une moniale du même monastère qu'Isidoro, venue de Derlusk : c'est la femme dont parle le père Damien. Isidoro ne la connaît pas.
 
 ## Étape 8 — Saelmur intra-muros et la rue des Tanneurs n°6
@@ -404,80 +405,19 @@ Juste après la mort du magicien, l'attaque de Saelmur commence réellement ; la
 - Isidoro reconnaît sa vision et pense aux rats. La panique gagne et la foule commence à fuir.
 - La suite de l'attaque sera jouée à la prochaine séance, sans doute longue.
 
-## Butin, achats et finances
+## Butin, finances et suite
 
-Les gains se partagent entre Isidoro et Lucas ; les montants par tête restent à vérifier sur vos feuilles.
+Le butin, les achats et l'expérience de cette séance sont reportés sur [la fiche d'Isidoro](../isidoro.html#butin-et-finances-de-l-aventure-2). Le pense-bête pour la séance suivante est sur la page [Prochaine séance](../prochaine-seance.html).
 
-| Source | Montant |
-| --- | --- |
-| Coffre du magicien | 2 400 po |
-| Livres sur les gobelinoïdes | environ 500 po |
-| Deux potions de poison revendues (aventure précédente) | 450 po net, soit 225 po chacun |
-| Vente du butin des orques (Fort Corner) | environ 405 po |
-| Bijoux du magicien | 400 po |
-| Primes pour quatre têtes (Fort Corner) | 20 po |
-| Pièces des orques | 52 pa et 77 pc |
-
-**Objets gardés**
-
-- Isidoro : le livre néthérisien sur les puits d'ombre, les livres sur les gobelinoïdes, une fronde, la copie de la carte de Champ-Doré.
-- Lucas : l'Encensoir, la sacoche à potions, des fioles d'eau bénite, des vêtements de déguisement.
-- Le grimoire du magicien : qui le garde, à préciser.
-
-**Dépenses notables** : laissez-passer (10 po chacun), identification des potions (50 po), cadastre (2 po), Encensoir (10 po), sacoche (40 po), frais de voyage (au moins 4 po chacun). S'y ajoutent les nuits, les taxes, et les pertes de Lucas au jeu et aux voleurs.
-
-**Expérience** : 300 XP pour les orques, puis d'autres gains. Isidoro est à environ 2 950 XP sur 3 000, à la porte du niveau 3.
-
-## Pense-bête pour la prochaine séance
-
-Le pense-bête du joueur : ce qu'il faut avoir en tête en s'asseyant à la table. Le journal d'Isidoro, lui, n'en parle pas.
-
-**Avant de jouer**
-
-- [ ] **Niveau 3** : Isidoro est à environ 2 950 XP sur 3 000. Préparer la montée de niveau (sorts, dons, compétences).
-- [ ] **Ressources** : vérifier les sorts restants et les charges de la baguette de soins après le combat de la rue des Tanneurs.
-- [ ] **Partage** : régler le partage du coffre et des bijoux du magicien, et décider qui garde son grimoire.
-- [ ] **Contre les morts-vivants** : renvoi des morts-vivants, eau bénite (Lucas), fronde et Pierre magique.
-
-**Savoir de joueur : ne pas l'utiliser en jeu**
-
-::: hors-jeu
-- **Les génasi de Pierrot sont les lycanthropes** démasqués par l'autre table. Isidoro leur a confié sa lettre de bonne foi. Ni Isidoro ni Lucas ne le savent : ne pas réagir en conséquence tant que le jeu ne le révèle pas.
-- **La moniale de Derlusk** : Isidoro ne la connaît pas. Aucun lien avec les assassins d'Ankhapur.
-- **Théodric** : Isidoro ne connaît pas ce nom. Il ne connaît que le rôle de son père à Bridgestone.
-- **La Chope sans Fond** : futur QG des Lames de Tymora, après l'attaque. Pour Isidoro, ce n'est qu'un nom vu par Lucas.
-:::
-
-**Priorités en jeu**
-
-- [ ] **Survivre à l'attaque** : morts-vivants venus des égouts, explosions, débarquement possible des légions de Mintar (visions).
-- [ ] **La bibliothèque d'Oghma** : la protéger, ou en sauver les ouvrages. C'est ce qui hante le plus Isidoro.
-- [ ] **L'elfe sauvage des égouts**, complice d'Alcatar : aucune information.
-- [ ] **L'hospice du père Damien** et les confrères de Lathandre à Saelmur, au milieu du camp de réfugiés.
-- [ ] **La belladone** : le stock racheté par le magicien reste introuvable, et la pleine lune approche.
-- [ ] **Les deux lycanthropes** en fuite.
-
-**Autres fils ouverts**
-
-- [ ] **Alcatar** : elfe d'or, future liche, peut-être demi-liche. Ses phylactères, et le risque qu'il prenne la place de Velsharoon.
-- [ ] **Les Ménestrels** : Rayana, et la harpe vue dans les deux visions.
-- [ ] **Le livre néthérisien** sur les puits d'ombre, à étudier.
-- [ ] **Le sentier caché** près d'une forteresse à l'ouest (vision de Lucas).
-- [ ] **Bridgestone** : la famille du comte tiendra-t-elle le pont ?
-- [ ] **La guerre de l'ombre** entre familles marchandes, après l'héritier pendu à Derlusk.
-- [ ] **Un barde de Milil** pour instruire Lucas.
-- [ ] **Château-Suif** : les écrits d'Alaundo.
-- [ ] **Le voleur en bleu** du Baladin Joyeux, à Glen.
-
-## Notes hors-jeu
+## Notes hors-jeu {@mj}
 
 ::: hors-jeu
 Ces informations sont connues des joueurs, pas des personnages.
 
-- **Ancienne campagne** : Antoine y jouait Théodric de Bridgestone, François jouait Marius, Thôn et David des légionnaires venus défendre Saelmur. Ensemble, ils formaient la compagnie des **Lames de Tymora**, fondée par Théodric.
-- **Deux tables** : depuis la mort de Théodric, Thôn et David jouent d'un côté, Antoine (Isidoro) et François (Lucas) de l'autre. Le MJ synchronise les deux tables jusqu'à l'attaque de Saelmur.
-- **Bridgestone** : le haut fait rappelé à Champ-Doré est lié à Théodric ; le père d'Isidoro y avait participé au second plan.
-- **Le Clos** : dans l'ancienne campagne, l'oncle de Théodric en était le baron, dernier membre de sa famille. Voir les anciennes notes de Théodric.
+- **Ancienne campagne** : Antoine y jouait Théodoric de Bridgestone, François jouait Marius, Thôn et David des légionnaires venus défendre Saelmur. Ensemble, ils formaient la compagnie des **Lames de Tymora**, fondée par Théodoric.
+- **Deux tables** : depuis la mort de Théodoric, Thôn et David jouent d'un côté, Antoine (Isidoro) et François (Lucas) de l'autre. Le MJ synchronise les deux tables jusqu'à l'attaque de Saelmur.
+- **Bridgestone** : le haut fait rappelé à Champ-Doré est lié à Théodoric ; le père d'Isidoro y avait participé au second plan.
+- **Le Clos** : dans l'ancienne campagne, l'oncle de Théodoric en était le baron, dernier membre de sa famille. Voir les anciennes notes de Théodoric.
 - **La Pinte sans Fond** (ou Chope sans Fond) : l'auberge près du Clos que les Lames de Tymora prendront comme QG, et où elles cacheront des notes sur Alcatar. Dans la chronologie, cela se passe après l'attaque de Saelmur.
 - **Les génasi de Pierrot** étaient les lycanthropes affrontés par l'autre table. Isidoro leur avait confié de bonne foi sa lettre aux confrères de Saelmur et l'attestation du combat. On ne sait pas s'ils étaient déjà lycanthropes à ce moment-là, et ni Isidoro ni Lucas ne le savent.
 - **Scène du bateau** (aventure précédente) : Isidoro y prêche Lathandre. Pour l'autre table, le MJ a réécrit la suite : c'est le personnage de David, et non plus Isidoro, qui va parler au personnage indécis de Thôn à la proue.
@@ -511,7 +451,7 @@ Repères pour relire la séance ; les lieux sans équivalent officiel sont des c
 | Le magicien du n°6 | Saelmur | Complice d'Alcatar ; mort |
 | « Madame Irma » | Saelmur | Servante métamorphosée ; morte |
 | L'elfe sauvage | Égouts de Saelmur | Complice d'Alcatar ; inconnu |
-| Pierrot | Route, puis Saelmur | Chef des génasi ; lycanthrope (hors-jeu) |
+| Pierrot | Route, puis Saelmur | Chef des génasi<span data-savoir="mj"> ; lycanthrope (hors-jeu)</span> |
 | Frère Patricius | Abbaye | Prêtre de Lathandre, ami d'enfance d'Isidoro |
 | Frère Malachie | Abbaye | Grand prêtre de Tyr, intendant |
 | Sœur Aurélia | Abbaye | Prêtresse d'Oghma, interprète des visions |

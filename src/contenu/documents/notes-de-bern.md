@@ -1,4 +1,5 @@
 ---
+savoir: theodoric
 titre: Les notes de Bern sur l'opération Mintar
 sous-titre: « Information recueillie par Bern »
 ordre: 8
