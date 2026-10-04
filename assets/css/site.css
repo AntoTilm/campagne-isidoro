@@ -663,7 +663,7 @@ html[data-vue="tout"] li[data-savoir]:not(.sommaire li), html[data-vue="tout"] a
   box-shadow: inset 3px 0 0 var(--s); padding-left: .8rem;
 }
 html[data-vue="tout"] ul.taches li[data-savoir] { padding-left: 2.4rem; }
-html[data-vue="tout"] .registre-liste li[data-savoir] { padding-left: 3.6rem; }
+html[data-vue="tout"] ol.registre-liste > li[data-savoir] { padding-left: 3.6rem; }
 html[data-vue="tout"] ul.taches li[data-savoir]::before { left: .7rem; }
 html[data-vue="tout"] .frise > li[data-savoir] { box-shadow: none; padding-left: 0; }
 html[data-vue="tout"] .frise > li[data-savoir] .frise__corps { box-shadow: inset 3px 0 0 var(--s); padding-left: .8rem; }
