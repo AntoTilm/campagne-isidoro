@@ -415,6 +415,7 @@ for (const [nom, items] of Object.entries(collections)) {
     const lienPdf = nom !== 'documents' && it.meta.pdf ? `<p class="original"><a href="${r}assets/pdf/${it.meta.pdf}">Ouvrir le document d'origine (PDF)</a></p>` : '';
     const corps = `<article class="lecture lecture--${nom}">
 ${enteteDePage({ rubrique: col.titre, rubriqueHref: col.index, titre: it.meta.titre, sousTitre: it.meta['sous-titre'], r })}
+${nom === 'journal' ? `<p class="telecharger"><button type="button" class="telecharger__bouton" data-imprimer>Télécharger en PDF</button></p>` : ''}
 <div class="lecture__grille">
 <div class="lecture__cote">${cote}</div>
 <div class="texte">${lienPdf}${contenu}</div>

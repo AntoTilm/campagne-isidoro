@@ -256,3 +256,8 @@
     }
   });
 })();
+
+// Journal : « Télécharger en PDF » ouvre l'impression du navigateur (Enregistrer au format PDF), mise en page manuscrite
+document.querySelectorAll('[data-imprimer]').forEach((b) => b.addEventListener('click', () => {
+  window.print();
+}));
