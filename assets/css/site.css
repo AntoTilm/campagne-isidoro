@@ -420,28 +420,31 @@ td:first-child { font-weight: 600; }
 
 /* ---------------------------------------------------------------- chronologie */
 
-.frise { list-style: none; padding: 0; margin: 2rem 0; max-width: 56rem; position: relative; }
-.frise::before { content: ""; position: absolute; left: 6.6rem; top: 0; bottom: 0; width: 1px; background: var(--filet); }
-.frise > li { display: grid; grid-template-columns: 5.6rem 1fr; gap: 0 2rem; margin: 0 0 1.4rem; position: relative; }
-.frise > li::after { content: ""; position: absolute; left: calc(6.6rem - 4px); top: .55rem; width: 9px; height: 9px; border-radius: 50%; background: var(--papier); border: 2px solid var(--aurore); }
-.frise__an { font-family: var(--display); font-size: 1.35rem; text-align: right; line-height: 1.2; color: var(--encre); }
-.frise__an small { display: block; font-family: var(--capitales); font-size: .82rem; color: var(--encre-douce); line-height: 1.3; }
-.frise__corps p { margin: 0 0 .35rem; }
-.frise__source { font-size: .92rem; color: var(--encre-douce); }
-.frise__conflit { font-size: .92rem; font-style: italic; color: var(--aurore); }
-.frise > li.frise--maintenant::after { width: 15px; height: 15px; left: calc(6.6rem - 7px); top: .4rem; background: var(--or-clair); border-color: var(--aurore); box-shadow: 0 0 0 5px rgba(230, 181, 102, .3); }
-.frise--maintenant .frise__corps { background: var(--nuit); color: var(--sur-nuit); padding: .9rem 1.1rem; border-radius: 4px; }
+.frise { --frise-col: 6.6rem; --frise-gap: 2.6rem; --frise-axe: calc(var(--frise-col) + var(--frise-gap) / 2);
+  list-style: none; padding: 0; margin: 2rem 0 2.6rem; max-width: 58rem; position: relative; }
+.frise::before { content: ""; position: absolute; left: var(--frise-axe); top: .6rem; bottom: .6rem; width: 1px; background: var(--filet); }
+.frise > li { display: grid; grid-template-columns: var(--frise-col) minmax(0, 1fr); gap: 0 var(--frise-gap); margin: 0; padding: 0 0 2.2rem; position: relative; }
+.frise > li:last-child { padding-bottom: 0; }
+.frise > li::after { content: ""; position: absolute; left: calc(var(--frise-axe) - 5px); top: .55rem; width: 11px; height: 11px; box-sizing: border-box; border-radius: 50%; background: var(--papier); border: 2px solid var(--aurore); }
+.frise__an { font-family: var(--display); font-size: 1.4rem; text-align: right; line-height: 1.15; color: var(--encre); padding-top: .1rem; }
+.frise__an small { display: block; margin-top: .3rem; font-family: var(--capitales); font-size: .8rem; letter-spacing: .03em; color: var(--encre-douce); line-height: 1.35; }
+.frise__corps { max-width: 62ch; line-height: 1.6; }
+.frise__corps p { margin: 0 0 .6rem; }
+.frise__corps p:last-child { margin-bottom: 0; }
+.frise__source { font-size: .9rem; line-height: 1.45; color: var(--encre-douce); padding-top: .5rem; border-top: 1px dotted var(--filet); }
+.frise__conflit { font-size: .92rem; line-height: 1.5; font-style: italic; color: var(--aurore); }
+.frise > li.frise--maintenant::after { width: 17px; height: 17px; left: calc(var(--frise-axe) - 8px); top: .4rem; background: var(--or-clair); border-color: var(--aurore); box-shadow: 0 0 0 5px rgba(230, 181, 102, .3); }
+.frise--maintenant .frise__corps { background: var(--nuit); color: var(--sur-nuit); padding: 1rem 1.2rem; border-radius: 4px; }
 .frise--maintenant .frise__corps a { color: #F2B8C6; }
-.frise--maintenant .frise__source { color: var(--sur-nuit-doux); }
-.frise > li.frise--apres .frise__corps { border-left: 1.5px dashed var(--encre-douce); padding-left: .9rem; }
-.frise__periode { font-family: var(--display); font-size: 1.6rem; margin: 2.2rem 0 1rem; padding-left: 8.6rem; }
+.frise--maintenant .frise__source { color: var(--sur-nuit-doux); border-top-color: rgba(201, 192, 216, .3); }
+.frise > li.frise--apres .frise__corps { border-left: 1.5px dashed var(--encre-douce); padding-left: 1rem; }
+.frise__periode { font-family: var(--display); font-size: 1.6rem; margin: 2.6rem 0 1.2rem; padding-left: calc(var(--frise-col) + var(--frise-gap)); }
 @media (max-width: 640px) {
-  .frise::before { left: .35rem; }
-  .frise > li { grid-template-columns: 1fr; padding-left: 1.6rem; }
-  .frise > li::after { left: 0; }
-  .frise > li.frise--maintenant::after { left: -3px; }
-  .frise__an { text-align: left; }
-  .frise__periode { padding-left: 1.6rem; }
+  .frise { --frise-axe: .4rem; }
+  .frise > li { grid-template-columns: minmax(0, 1fr); padding-left: 1.8rem; padding-bottom: 1.8rem; }
+  .frise__an { text-align: left; margin-bottom: .4rem; }
+  .frise__an small { display: inline; margin: 0 0 0 .5rem; }
+  .frise__periode { padding-left: 1.8rem; }
 }
 
 /* ---------------------------------------------------------------- personnages */
@@ -674,8 +677,10 @@ html[data-vue="tout"] li[data-savoir]:not(.sommaire li), html[data-vue="tout"] a
 html[data-vue="tout"] ul.taches li[data-savoir] { padding-left: 2.4rem; }
 html[data-vue="tout"] ol.registre-liste > li[data-savoir] { padding-left: 3.6rem; }
 html[data-vue="tout"] ul.taches li[data-savoir]::before { left: .7rem; }
-html[data-vue="tout"] .frise > li[data-savoir] { box-shadow: none; padding-left: 0; }
-html[data-vue="tout"] .frise > li[data-savoir] .frise__corps { box-shadow: inset 3px 0 0 var(--s); padding-left: .8rem; }
+/* la frise garde sa grille : la provenance passe sur le corps seul (sélecteur assez fort pour battre la règle li générale) */
+html[data-vue="tout"] ol.frise > li[data-savoir][data-savoir] { box-shadow: none; padding-left: 0; }
+@media (max-width: 640px) { html[data-vue="tout"] ol.frise > li[data-savoir][data-savoir] { padding-left: 1.8rem; } }
+html[data-vue="tout"] ol.frise > li[data-savoir] .frise__corps { box-shadow: inset 3px 0 0 var(--s); padding-left: 1rem; }
 html[data-vue="tout"] tr[data-savoir] > td:first-child { box-shadow: inset 3px 0 0 var(--s); padding-left: .6rem; }
 html[data-vue="tout"] span[data-savoir] { text-decoration: underline dotted var(--s); text-decoration-thickness: 2px; text-underline-offset: 4px; }
 .provenances { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; list-style: none; padding: 0; margin: .6rem 0 0; font-size: .95rem; }
