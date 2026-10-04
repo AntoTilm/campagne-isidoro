@@ -57,7 +57,7 @@ Quand Isidoro apprendra une information jusque-là réservée à Théodoric (par
 
 ### Rubriques
 
-Cinq rubriques : Journal (journal, documents), Prochaine séance (pense-bête, recoupements), Séances, Le monde (personnages, lieux, chronologie), Isidoro (fiche, progression, règles). Une page choisit sa rubrique avec `rubrique:` dans son en-tête ; les onglets sont définis en haut de `src/build.mjs`.
+Quatre rubriques : Journal (journal, documents), Séances (prochaine séance, résumés de séance), Le monde (personnages, lieux, chronologie, recoupements), Isidoro (fiche, progression, règles). Une page choisit sa rubrique avec `rubrique:` dans son en-tête ; les onglets sont définis en haut de `src/build.mjs`.
 
 Pour ajouter une séance : créer `src/contenu/seances/aventure-3.md` (avec `ordre: 3`), faire de même dans `journal/`, mettre à jour « Où nous en sommes » dans `src/contenu/pages/index.html`, le pense-bête `src/contenu/pages/prochaine-seance.md` et la chronologie, puis lancer le script.
 

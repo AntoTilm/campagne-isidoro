@@ -19,12 +19,11 @@ const versionDe = (f) => createHash('sha1').update(readFileSync(join(RACINE, f))
 const V_CSS = versionDe('assets/css/site.css'), V_JS = versionDe('assets/js/site.js');
 const CONTENU = join(RACINE, 'src', 'contenu');
 
-// Cinq rubriques dans la barre de navigation ; chacune peut avoir des onglets.
+// Quatre rubriques dans la barre de navigation ; chacune peut avoir des onglets.
 const RUBRIQUES = {
   journal: { lien: 'journal.html', titre: 'Journal', onglets: [['journal.html', "Journal d'Isidoro"], ['documents.html', 'Documents de Théodoric']] },
-  prochaine: { lien: 'prochaine-seance.html', titre: 'Prochaine séance', onglets: [['prochaine-seance.html', 'Pense-bête'], ['recoupements.html', 'Recoupements']] },
-  seances: { lien: 'seances.html', titre: 'Séances', onglets: [] },
-  monde: { lien: 'personnages.html', titre: 'Le monde', onglets: [['personnages.html', 'Personnages'], ['lieux.html', 'Lieux et cartes'], ['chronologie.html', 'Chronologie']] },
+  seances: { lien: 'prochaine-seance.html', titre: 'Séances', onglets: [['prochaine-seance.html', 'Prochaine séance'], ['seances.html', 'Résumés de séance']] },
+  monde: { lien: 'personnages.html', titre: 'Le monde', onglets: [['personnages.html', 'Personnages'], ['lieux.html', 'Lieux et cartes'], ['chronologie.html', 'Chronologie'], ['recoupements.html', 'Recoupements']] },
   isidoro: { lien: 'isidoro.html', titre: 'Isidoro', onglets: [['isidoro.html', 'Fiche'], ['progression.html', 'Progression'], ['regles.html', 'Règles']] },
 };
 

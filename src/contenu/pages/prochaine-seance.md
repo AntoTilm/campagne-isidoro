@@ -1,5 +1,5 @@
 ---
-rubrique: prochaine
+rubrique: seances
 titre: Prochaine séance
 sous-titre: Le pense-bête du joueur : ce qu'il faut avoir en tête en s'asseyant à la table.
 description: Pense-bête pour la prochaine séance d'Isidoro : montée au niveau 3, partage du butin, priorités pendant l'attaque de Saelmur et savoir de joueur à ne pas utiliser.

@@ -128,8 +128,8 @@ code { font-family: ui-monospace, Consolas, monospace; font-size: .85em; }
   .bandeau__haut { flex-wrap: wrap; }
   .marque { font-size: 1.25rem; }
   .recherche { flex: 1 1 100%; }
-  .nav ul { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: .2rem; }
-  .nav ul::-webkit-scrollbar { display: none; }
+  /* quatre rubriques : elles tiennent sur la largeur d'un téléphone, et passent à la ligne plutôt que de sortir de l'écran */
+  .nav ul { gap: .1rem .95rem; }
   .nav li { flex: none; }
 }
 
@@ -554,11 +554,10 @@ td:first-child { font-weight: 600; }
 .astuce { margin-top: 1.4rem; font-size: 1rem; color: var(--encre-douce); }
 kbd { font-family: ui-monospace, Consolas, monospace; font-size: .85em; padding: .05rem .4rem; border: 1px solid var(--filet); border-bottom-width: 2px; border-radius: 4px; background: var(--papier-2); }
 
-/* petits écrans : les tableaux larges défilent plutôt que de s'écraser, la navigation laisse deviner la suite */
+/* petits écrans : les tableaux larges défilent plutôt que de s'écraser ; les onglets passent à la ligne */
 @media (max-width: 640px) {
   .tableau table:has(th:nth-child(3)) { min-width: 34rem; }
   .tableau table:has(th:nth-child(4)) { min-width: 42rem; }
-  .nav { -webkit-mask-image: linear-gradient(90deg, #000 80%, transparent); mask-image: linear-gradient(90deg, #000 80%, transparent); }
   .entete h1 { font-size: 2.1rem; }
 }
 
