@@ -258,6 +258,9 @@
 })();
 
 // Journal : « Télécharger en PDF » ouvre l'impression du navigateur (Enregistrer au format PDF), mise en page manuscrite
+// Le nom du fichier PDF proposé vient du titre du document : on y met le titre du journal (« Journal d'Isidoro - Aventure 2 »).
 document.querySelectorAll('[data-imprimer]').forEach((b) => b.addEventListener('click', () => {
+  const h1 = document.querySelector('.entete h1');
+  if (h1) document.title = h1.textContent.replace(/[’‘]/g, "'").replace(/\s*[—–·:]\s*/g, ' - ').replace(/[\\/?*"<>|]/g, '').replace(/\s+/g, ' ').trim();
   window.print();
 }));

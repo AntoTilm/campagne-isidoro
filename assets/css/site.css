@@ -534,19 +534,29 @@ td:first-child { font-weight: 600; }
   body { background: #fff; color: #000; }
   .registre--vision { background: #eee; color: #000; }
 }
-/* Journal en PDF : on garde le vélin, les encres et les lettrines */
+/* Journal en PDF : pleine page de vélin, sans marges ni en-têtes du navigateur, encres et lettrines conservées */
 @media print {
-  @page { size: A4; margin: 14mm 12mm; }
-  .page-journal, .page-journal * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { size: A4; margin: 0; }
+  html:has(body.page-journal), .page-journal, .page-journal * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .page-journal {
     --velin: #F3E8D2; --encre-ms: #2A1E16; --encre-ms-douce: #6B5644; --vermillon: #A3271E; --azur: #24407E;
     --dorure: #B8892E; --dorure-claire: #E9CF8B; --reglure: rgba(163, 39, 30, .35);
   }
-  body.page-journal { background: #fff; }
+  html:has(body.page-journal), body.page-journal { background: #F3E8D2; }
+  .page-journal .onglets, .page-journal .original { display: none !important; }
+  .page-journal .lecture { max-width: none; margin: 0; padding: 0; }
   .page-journal .lecture__grille { display: block; }
-  .page-journal .texte { max-width: none; box-shadow: none; font-size: 12pt; padding: 10mm 12mm; }
-  .page-journal .entete { text-align: center; margin-bottom: 6mm; }
-  .page-journal .entete h1 { color: #2A1E16; }
+  .page-journal .entete { max-width: none; text-align: center; padding: 16mm 18mm 4mm; margin: 0; }
+  .page-journal .entete h1 { color: #2A1E16; font-size: 30pt; }
+  .page-journal .entete__sous { color: #6B5644; margin-left: auto; margin-right: auto; }
+  .page-journal .fil { display: none; }
+  .page-journal .texte {
+    max-width: none; margin: 0; font-size: 12pt; border-radius: 0; box-shadow: none;
+    background: transparent; background-image: none;
+    padding: 14mm 18mm;
+    -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  }
+  .page-journal .texte::before { inset: 0 10mm; }
   .page-journal .texte h2 { break-after: avoid; }
   .page-journal .texte p { orphans: 3; widows: 3; }
   .page-journal .registre--vision { background: #24213E; color: #E9E2EE; break-inside: avoid-page; }
