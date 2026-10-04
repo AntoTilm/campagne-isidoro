@@ -16,7 +16,7 @@ node src/build.mjs
 
 Node 18 ou plus, sans aucune dépendance.
 
-- `src/contenu/seances/*.md` : résumés de séance, publiés dans `seances/`
+- `src/contenu/seances/*.md` : séances (l'essentiel, puis le déroulé complet), publiées dans `seances/`
 - `src/contenu/journal/*.md` : journal d'Isidoro, publié dans `journal/`
 - `src/contenu/documents/*.md` : documents de campagne, publiés dans `documents/`
 - `src/contenu/pages/*` : pages d'accueil et de référence (chronologie, personnages, lieux, Isidoro, recoupements, règles)
@@ -57,9 +57,19 @@ Quand Isidoro apprendra une information jusque-là réservée à Théodoric (par
 
 ### Rubriques
 
-Quatre rubriques : Journal (journal, documents), Séances (prochaine séance, résumés de séance), Le monde (personnages, lieux, chronologie, recoupements), Isidoro (fiche, progression, règles). Une page choisit sa rubrique avec `rubrique:` dans son en-tête ; les onglets sont définis en haut de `src/build.mjs`.
+Trois rubriques : Séances (les séances, prochaine séance ; le journal d'Isidoro y est rattaché), Le monde (personnages, lieux, chronologie, recoupements, documents de Théodoric), Isidoro (fiche, progression, règles). Une page choisit sa rubrique avec `rubrique:` dans son en-tête ; les onglets sont définis en haut de `src/build.mjs`.
 
-Pour ajouter une séance : créer `src/contenu/seances/aventure-3.md` (avec `ordre: 3`), faire de même dans `journal/`, mettre à jour « Où nous en sommes » dans `src/contenu/pages/index.html`, le pense-bête `src/contenu/pages/prochaine-seance.md` et la chronologie, puis lancer le script.
+### Une séance : l'essentiel, le journal, le déroulé
+
+Une page de séance s'affiche en trois niveaux :
+
+1. **L'essentiel**, en tête : le bloc `::: essentiel … :::` du fichier de séance (il peut contenir d'autres encadrés, par exemple `::: vision`). Une à deux pages d'écran : le trajet, ce qui s'est passé, ce que l'on sait désormais, les visions à garder en tête, où l'on s'est arrêté, le bilan.
+2. **Le journal d'Isidoro** : une carte vers l'entrée de `journal/` qui porte le même `ordre`. Le journal renvoie à son tour vers la séance.
+3. **Le déroulé complet** : tout le reste du fichier, replié. Un lien vers une de ses sections (sommaire, recherche, autre page) le déplie.
+
+Dans l'en-tête, `points:` donne les 4 ou 5 puces de la carte de la séance sur la page Séances, séparées par `|`.
+
+Pour ajouter une séance : créer `src/contenu/seances/aventure-3.md` (avec `ordre: 3`, `points:` et un bloc `::: essentiel`), faire de même dans `journal/`, mettre à jour « Où nous en sommes » dans `src/contenu/pages/index.html`, le pense-bête `src/contenu/pages/prochaine-seance.md` et la chronologie, puis lancer le script.
 
 ## Structure
 

@@ -6,8 +6,17 @@ ordre: 0
 campagne: Campagne de Théodoric
 periode: 15 Tarsakh 1373 CV
 pdf: sacrifice-de-mintar.pdf
+points: Le commando de Théodoric s'infiltre dans Mintar par les égouts | Teldorn et le tyramort tués ; Théodoric meurt en brisant le bouclier anti-dragon | Le dracosire Balagos incendie la citadelle | Kismet et les documents de Teldorn apparaissent à la Pinte sans Fond
 resume: L'assaut de la citadelle de Mintar, la mort de Théodoric et de Teldorn, et le voyage de Kismet jusqu'à la Pinte sans Fond.
 ---
+
+::: essentiel
+- **L'infiltration** : Théodoric, Marius, Bern et Ninfaya entrent dans Mintar cachés dans les tonneaux des nains Georborg et Lindil, puis passent par les égouts. L'alarme inonde les galeries ; ils remontent par le puits de sang jusqu'au temple de Baine.
+- **Minuit** : Teldorn Sombrespoir et le tyramort sont tués. Théodoric frappe la pierre de jade qui maintient le bouclier anti-dragon de la ville ; elle explose et il meurt.
+- **Le souffle de Balagos** : le dracosire rouge fond sur la citadelle sans protection. Mintar est à moitié détruite.
+- **Les survivants** : Ninfaya s'échappe par les égouts et rejoint Charles à Bridgestone. Marius fuit par la mer. Bern est emporté par l'aboleth de la baie.
+- **Kismet** : lancée par Marius, l'épée perce le sac de documents et se téléporte avec lui à la **Pinte sans Fond**, devant Micheline. Ces documents de Teldorn portent sur Alcatar et la logistique du Lac de Vapeur.
+:::
 
 ::: hors-jeu
 Ce résumé vient de l'ancienne table (titre d'origine : « Résumé Opération Rogue One »). Dans la chronologie de la campagne, ces événements se situent **après** l'attaque de Saelmur : Isidoro ne les connaît pas.

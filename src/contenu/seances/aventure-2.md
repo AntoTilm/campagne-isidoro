@@ -1,12 +1,49 @@
 ---
 savoir: isidoro
 titre: Aventure 2 — De la route du Clos à l'attaque de Saelmur
-sous-titre: Résumé complet de la séance du 26 septembre 2026
+sous-titre: Séance du 26 septembre 2026
 ordre: 2
 campagne: Campagne d'Isidoro
 periode: Fin d'hiver 1372 – 20 Ches 1373 CV
+points: Glen : Lucas volé deux fois au Baladin Joyeux | Embuscade d'orques zhentarim avec les génasi de Pierrot ; Isidoro tombe | Abbaye du Cœur Radieux : Patricius, Rayana et le visage d'Alcatar dans les vasques | Saelmur : l'hospice du père Damien, puis le magicien de la rue des Tanneurs tué | Fin : un crâne vert dans le ciel, l'attaque de Saelmur commence
 resume: Glen et le Baladin Joyeux, les orques, l'abbaye du Cœur Radieux et ses visions, l'hospice de Saelmur, le magicien de la rue des Tanneurs et le crâne vert dans le ciel.
 ---
+
+::: essentiel
+**Le trajet** : le Pissenlit Bleu → Glen → la vallée des orques → Fort Corner → Champ-Doré (comté du Clos) → l'abbaye du Cœur Radieux → l'hospice de Saelmur → Saelmur, rue des Tanneurs.
+
+**Ce qui s'est passé**
+
+- **Glen, au Baladin Joyeux** (auberge-casino) : Lucas se fait voler deux fois. Le piège imaginé par Isidoro échoue. Suspects : Tom Martino et Mickellow Beretta.
+- **L'embuscade** : avec cinq génasi menés par **Pierrot**, ils tuent une dizaine d'orques portant le symbole zhentarim. Isidoro tombe dès le premier échange ; Lucas tient le combat. **300 XP** chacun.
+- **Fort Corner** : primes et vente du butin, environ 425 po. Isidoro apprend que le nom de son père lui ouvre les temples bons de la région. Brève dispute avec Lucas sur la route, réglée par des excuses des deux côtés.
+- **Champ-Doré** : un prêtre leur décrit l'abbaye. Le comte du Clos a envoyé tous ses hommes vers Bridgestone.
+- **L'abbaye du Cœur Radieux** : Isidoro retrouve son ami d'enfance **Patricius**. Lucas découvre Milil et rencontre **Rayana**, musicienne au pendentif en harpe.
+- **Les vasques** : Isidoro voit enfin le visage de ses rêves, **Alcatar**, un elfe d'or, et la chute d'une grande cité au sud (voir ci-dessous).
+- **L'hospice de Saelmur** : ils nourrissent les réfugiés avec le **père Damien**. Des lycanthropes y ont répandu la fièvre ; Isidoro tombe malade, puis est guéri aussitôt.
+- **Rue des Tanneurs n°6** : ils entrent par la ruse et tuent le magicien qui livrait des réfugiés à Alcatar, ainsi que sa servante, une brute zhentarim métamorphosée. Butin : 2 400 po, des bijoux, son grimoire et un **livre néthérisien sur les puits d'ombre**.
+
+**Ce que l'on sait désormais**
+
+- Alcatar prépare la chute de Saelmur : des humains enlevés sont changés en nécrophages dans les égouts par un elfe sauvage, son complice.
+- Le symbole de harpe est celui des **Ménestrels**, société secrète qui combat les Zhentarim et aide les aventuriers du bien.
+- Saelmur est sous loi martiale. Elle n'a plus de temple de Lathandre : le père Damien l'a vendu pour financer l'hospice.
+- Isidoro a étudié les liches au temple d'Oghma : le phylactère, et la demi-liche.
+
+::: vision
+**Les visions à garder en tête** (des futurs possibles, pas des faits)
+
+- Morts-vivants jaillissant des égouts ; temples de Torm et de Heaume détruits ; bibliothèque d'Oghma en flammes ; une marque verte dans le ciel et des troupes de Mintar débarquant par le lac.
+- Une forteresse à l'ouest de Mintar, prise en descendant une falaise jusqu'à une tour. Lucas, lui, a vu le sentier caché qui y mène.
+- Lucas frappant à la porte de la **Chope sans Fond**.
+- Le père d'Isidoro réconcilié avec un magicien grâce à Isidoro.
+- Alcatar qui pourrait prendre la place de Velsharoon, dieu de la nécromancie.
+:::
+
+**Où l'on s'est arrêté** : nuit du 20 Ches 1373 CV. Un immense crâne vert s'allume au-dessus de Saelmur, les grands temples explosent sur les collines : l'attaque commence.
+
+**Bilan** : Isidoro est à environ 2 950 XP sur 3 000, à la porte du niveau 3. Le butin détaillé est sur [la fiche d'Isidoro](../isidoro.html#butin-et-finances-de-l-aventure-2).
+:::
 
 ## Conventions de lecture
 

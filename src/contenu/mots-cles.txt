@@ -101,7 +101,7 @@ métajeu, méta, secret, attention, piège, lettre, génasi lycanthropes, monial
 
 # ============================================================ journal
 
-[journal.html#le-journal-d-isidoro]
+[journal.html]
 récit, première personne, carnet, chronique d'Isidoro, histoire racontée
 
 [journal/partie-1.html] @isidoro

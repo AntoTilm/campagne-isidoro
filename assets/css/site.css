@@ -293,6 +293,35 @@ td:first-child { font-weight: 600; }
   .lecture__cote { grid-column: 2; grid-row: 1; position: sticky; top: 1rem; align-self: start; max-height: calc(100vh - 2rem); overflow: auto; padding-bottom: 1rem; }
   .texte { grid-column: 1; grid-row: 1; }
 }
+/* Séances : l'essentiel en tête, puis le journal et le déroulé complet (replié) */
+.essentiel { background: var(--papier-2); border-left: 4px solid var(--or); border-radius: 0 6px 6px 0; padding: .4rem 1.4rem 1rem; margin: 0 0 1.5rem; }
+.essentiel > h2:first-child { margin-top: .6rem; }
+.essentiel ul { padding-left: 1.2rem; }
+.essentiel li { margin: .2rem 0; }
+.essentiel p { margin: .7rem 0 .25rem; }
+.allers { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .8rem; margin: 0 0 1.5rem; }
+.aller { display: block; text-decoration: none; color: inherit; border: 1px solid var(--filet); border-radius: 6px; padding: .8rem 1rem; background: var(--papier); }
+.aller:hover { border-color: var(--or); background: var(--papier-2); }
+.aller__titre { display: block; font-family: var(--display); font-size: 1.25rem; line-height: 1.2; color: var(--aurore); }
+.aller--journal .aller__titre::before { content: "✒ "; }
+.aller__texte { display: block; margin-top: .25rem; font-size: .95rem; color: var(--encre-douce); }
+.deroule { border-top: 1px solid var(--filet); margin-top: 1rem; }
+.deroule > summary { cursor: pointer; list-style: none; padding: 1rem 0; display: flex; align-items: baseline; gap: .8rem; flex-wrap: wrap; }
+.deroule > summary::-webkit-details-marker { display: none; }
+.deroule > summary::before { content: "▸"; color: var(--or); transition: transform .15s; }
+.deroule[open] > summary::before { transform: rotate(90deg); }
+.deroule__titre { font-family: var(--display); font-size: 1.6rem; }
+.deroule__aide { font-family: var(--capitales); color: var(--encre-douce); font-size: .95rem; }
+.deroule[open] .deroule__aide { display: none; }
+.retour-seance { font-family: var(--capitales); float: left; margin: .3rem 0 0; }
+.telecharger:has(.retour-seance) { display: flow-root; }
+.registre-liste__points { margin: .35rem 0 0; padding-left: 1.1rem; }
+.registre-liste .registre-liste__points li { counter-increment: none; padding: 0; border: 0; margin: .1rem 0; }
+.registre-liste .registre-liste__points li::before { content: none; }
+.registre-liste__liens { margin: .5rem 0 0; font-family: var(--capitales); font-size: .95rem; display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; }
+.registre-liste__liens a { text-decoration: underline; text-decoration-thickness: 1px; }
+@media print { .deroule:not([open]) > .deroule__corps { display: block; } .allers { display: none; } }
+
 /* Journal d'Isidoro : page de manuscrit monastique (vélin, réglure rouge, rubriques, lettrines enluminées) */
 .page-journal {
   --velin: #F3E8D2; --velin-ombre: rgba(120, 82, 40, .16); --encre-ms: #2A1E16; --encre-ms-douce: #6B5644;

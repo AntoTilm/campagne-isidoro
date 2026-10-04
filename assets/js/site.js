@@ -94,6 +94,25 @@
     if (ev.key === 'Escape' && selecteur && selecteur.open) { selecteur.removeAttribute('open'); selecteur.querySelector('summary').focus(); }
   });
 
+  // ------------------------------------------------------------ déroulé replié des séances
+  // Un lien vers une section du déroulé (sommaire, recherche, autre page) ouvre d'abord le bloc replié.
+  function ouvrirPourCible() {
+    if (!location.hash) return;
+    var cible = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (!cible) return;
+    var d = cible.tagName === 'DETAILS' ? cible : cible.closest('details.deroule');
+    if (d && !d.open) { d.open = true; cible.scrollIntoView(); }
+  }
+  document.addEventListener('click', function (ev) {
+    var a = ev.target.closest && ev.target.closest('a[href^="#"]');
+    if (!a) return;
+    var cible = document.getElementById(decodeURIComponent(a.hash.slice(1)));
+    var d = cible && (cible.tagName === 'DETAILS' ? cible : cible.closest('details.deroule'));
+    if (d && !d.open) d.open = true;
+  });
+  window.addEventListener('hashchange', ouvrirPourCible);
+  ouvrirPourCible();
+
   // ------------------------------------------------------------ sommaire
   var sommaire = document.querySelector('.sommaire details');
   if (sommaire && window.matchMedia('(max-width: 1099px)').matches) sommaire.removeAttribute('open');

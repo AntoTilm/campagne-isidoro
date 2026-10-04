@@ -19,18 +19,18 @@ const versionDe = (f) => createHash('sha1').update(readFileSync(join(RACINE, f))
 const V_CSS = versionDe('assets/css/site.css'), V_JS = versionDe('assets/js/site.js');
 const CONTENU = join(RACINE, 'src', 'contenu');
 
-// Quatre rubriques dans la barre de navigation ; chacune peut avoir des onglets.
+// Trois rubriques dans la barre de navigation ; chacune peut avoir des onglets.
+// Le journal d'Isidoro est rangé avec les séances : chaque séance renvoie à son entrée de journal (même « ordre »).
 const RUBRIQUES = {
-  journal: { lien: 'journal.html', titre: 'Journal', onglets: [['journal.html', "Journal d'Isidoro"], ['documents.html', 'Documents de Théodoric']] },
-  seances: { lien: 'prochaine-seance.html', titre: 'Séances', onglets: [['prochaine-seance.html', 'Prochaine séance'], ['seances.html', 'Résumés de séance']] },
-  monde: { lien: 'personnages.html', titre: 'Le monde', onglets: [['personnages.html', 'Personnages'], ['lieux.html', 'Lieux et cartes'], ['chronologie.html', 'Chronologie'], ['recoupements.html', 'Recoupements']] },
+  seances: { lien: 'seances.html', titre: 'Séances', onglets: [['seances.html', 'Les séances'], ['prochaine-seance.html', 'Prochaine séance']] },
+  monde: { lien: 'personnages.html', titre: 'Le monde', onglets: [['personnages.html', 'Personnages'], ['lieux.html', 'Lieux et cartes'], ['chronologie.html', 'Chronologie'], ['recoupements.html', 'Recoupements'], ['documents.html', 'Documents de Théodoric']] },
   isidoro: { lien: 'isidoro.html', titre: 'Isidoro', onglets: [['isidoro.html', 'Fiche'], ['progression.html', 'Progression'], ['regles.html', 'Règles']] },
 };
 
 const COLLECTIONS = {
   seances: { titre: 'Séances', index: 'seances.html', rubrique: 'seances' },
-  journal: { titre: "Journal d'Isidoro", index: 'journal.html', rubrique: 'journal' },
-  documents: { titre: 'Documents de Théodoric', index: 'documents.html', rubrique: 'journal' },
+  journal: { titre: 'Séances', index: 'seances.html', rubrique: 'seances' },
+  documents: { titre: 'Documents de Théodoric', index: 'documents.html', rubrique: 'monde' },
 };
 
 // ---------------------------------------------------------------- savoir (filtre « point de vue »)
@@ -396,6 +396,22 @@ function ecrire(chemin, html) {
   writeFileSync(cible, html);
 }
 
+// Séances : le bloc « ::: essentiel » (tenant compte des encadrés imbriqués) est sorti du texte ;
+// il s'affiche en tête, le reste devient le « Déroulé complet », replié.
+function extraireEssentiel(corps) {
+  const lignes = corps.replace(/\r/g, '').split('\n');
+  const debut = lignes.findIndex((l) => /^:::\s*essentiel\s*$/.test(l));
+  if (debut < 0) return { essentiel: '', reste: corps };
+  let profondeur = 1, fin = debut + 1;
+  for (; fin < lignes.length; fin++) {
+    if (/^:::\s*[\w-]/.test(lignes[fin])) profondeur++;
+    else if (/^:::\s*$/.test(lignes[fin]) && --profondeur === 0) break;
+  }
+  return { essentiel: lignes.slice(debut + 1, fin).join('\n'), reste: [...lignes.slice(0, debut), ...lignes.slice(fin + 1)].join('\n') };
+}
+const partenaire = (nom, ordre) => (collections[nom] || []).find((x) => x.meta.ordre !== undefined && +x.meta.ordre === +ordre);
+const points = (m) => String(m.points || '').split('|').map((p) => p.trim()).filter(Boolean);
+
 function chargerCollection(nom) {
   const dossier = join(CONTENU, nom);
   return readdirSync(dossier).filter((f) => f.endsWith('.md')).map((f) => {
@@ -411,14 +427,39 @@ for (const [nom, items] of Object.entries(collections)) {
   items.forEach((it, k) => {
     const r = '../';
     const titres = [];
-    const contenu = markdown(it.corps, titres);
+    const idsPris = new Set();
+    let contenu;
+    let tete = '';
+    if (nom === 'seances') {
+      const { essentiel, reste } = extraireEssentiel(it.corps);
+      const journal = partenaire('journal', it.meta.ordre);
+      const aDeroule = reste.trim().length > 0;
+      const titresEss = [];
+      const htmlEss = essentiel ? markdown(essentiel, titresEss, idsPris) : '';
+      const titresDer = [];
+      const htmlDer = aDeroule ? markdown(reste, titresDer, idsPris) : '';
+      if (essentiel) titres.push({ niveau: 2, id: 'l-essentiel', texte: 'L’essentiel', savoir: '' }, ...titresEss);
+      if (journal) titres.push({ niveau: 2, id: 'journal', texte: 'Journal d’Isidoro', savoir: lireSavoir(journal.meta.savoir, journal.url) });
+      if (aDeroule) titres.push({ niveau: 2, id: 'deroule', texte: 'Déroulé complet', savoir: '' }, ...titresDer.map((t) => ({ ...t, niveau: 3 })));
+      const blocEss = essentiel ? `<section class="essentiel"><h2 id="l-essentiel">L’essentiel</h2>${htmlEss}</section>` : '';
+      const carteJournal = journal ? `<a class="aller aller--journal" id="journal"${attrSavoir(lireSavoir(journal.meta.savoir, journal.url))} href="../${journal.url}"><span class="aller__titre">Lire le journal d’Isidoro</span><span class="aller__texte">${enLigne(journal.meta.resume || journal.meta.titre)}</span></a>` : '';
+      const allers = carteJournal ? `<div class="allers">${carteJournal}</div>` : '';
+      const deroule = aDeroule ? `<details class="deroule" id="deroule"><summary><span class="deroule__titre">Déroulé complet</span><span class="deroule__aide">Toutes les scènes, les jets, les visions et les notes hors-jeu</span></summary><div class="deroule__corps">${htmlDer}</div></details>` : '';
+      contenu = blocEss + allers + deroule;
+    } else {
+      contenu = markdown(it.corps, titres, idsPris);
+      if (nom === 'journal') {
+        const seance = partenaire('seances', it.meta.ordre);
+        if (seance) tete = `<a class="retour-seance" href="../${seance.url}">← L’essentiel de la séance</a>`;
+      }
+    }
     const prec = items[k - 1], suiv = items[k + 1];
     const suite = `<nav class="suite" aria-label="Pages voisines">${prec ? `<a class="suite__prec" href="${prec.nom}.html"><span>Précédent</span>${echapper(prec.meta.titre)}</a>` : '<span></span>'}${suiv ? `<a class="suite__suiv" href="${suiv.nom}.html"><span>Suivant</span>${echapper(suiv.meta.titre)}</a>` : ''}</nav>`;
     const cote = (nom === 'documents' ? ficheProvenance(it.meta, r) : '') + sommaire(titres);
     const lienPdf = nom !== 'documents' && it.meta.pdf ? `<p class="original"><a href="${r}assets/pdf/${it.meta.pdf}">Ouvrir le document d'origine (PDF)</a></p>` : '';
     const corps = `<article class="lecture lecture--${nom}">
 ${enteteDePage({ rubrique: col.titre, rubriqueHref: col.index, titre: it.meta.titre, sousTitre: it.meta['sous-titre'], r })}
-${nom === 'journal' ? `<p class="telecharger"><button type="button" class="telecharger__bouton" data-imprimer>Télécharger en PDF</button></p>` : ''}
+${nom === 'journal' ? `<p class="telecharger">${tete}<button type="button" class="telecharger__bouton" data-imprimer>Télécharger en PDF</button></p>` : ''}
 <div class="lecture__grille">
 <div class="lecture__cote">${cote}</div>
 <div class="texte">${lienPdf}${contenu}</div>
@@ -432,7 +473,25 @@ ${suite}
 }
 
 // Listes générées, insérées dans les fragments par <!-- liste:nom -->
+function listeSeances() {
+  return `<ol class="registre-liste registre-liste--seances">` + collections.seances.map((it) => {
+    const m = it.meta;
+    const journal = partenaire('journal', m.ordre);
+    const pts = points(m);
+    const liens = [`<a href="${it.url}">L’essentiel</a>`];
+    if (journal) liens.push(`<a href="${journal.url}"${attrSavoir(lireSavoir(journal.meta.savoir, journal.url))}>Journal d’Isidoro</a>`);
+    if (extraireEssentiel(it.corps).reste.trim()) liens.push(`<a href="${it.url}#deroule">Déroulé complet</a>`);
+    const etiquette = m.campagne || '';
+    return `<li${attrSavoir(lireSavoir(m.savoir, it.url))}><a href="${it.url}"><span class="registre-liste__titre">${typo(echapper(m.titre))}</span></a>` +
+      (etiquette ? `<span class="registre-liste__etiquette">${echapper(etiquette)}</span>` : '') +
+      (m.periode ? `<p class="registre-liste__details"><span>${enLigne(m.periode)}</span></p>` : '') +
+      (pts.length ? `<ul class="registre-liste__points">${pts.map((p) => `<li>${enLigne(p)}</li>`).join('')}</ul>` : `<p class="registre-liste__resume">${enLigne(m.resume || '')}</p>`) +
+      `<p class="registre-liste__liens">${liens.join('')}</p></li>`;
+  }).join('') + `</ol>`;
+}
+
 function liste(nom) {
+  if (nom === 'seances') return listeSeances();
   return `<ol class="registre-liste">` + collections[nom].map((it) => {
     const m = it.meta;
     const details = [m.periode, m.auteur].filter(Boolean).map((d) => `<span>${enLigne(d)}</span>`).join('');
