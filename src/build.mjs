@@ -11,8 +11,12 @@
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'node:fs';
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 const RACINE = join(dirname(fileURLToPath(import.meta.url)), '..');
+// Version des feuilles de style et scripts (empreinte du contenu) : un changement s'affiche sans attendre le cache du navigateur
+const versionDe = (f) => createHash('sha1').update(readFileSync(join(RACINE, f))).digest('hex').slice(0, 8);
+const V_CSS = versionDe('assets/css/site.css'), V_JS = versionDe('assets/js/site.js');
 const CONTENU = join(RACINE, 'src', 'contenu');
 
 // Cinq rubriques dans la barre de navigation ; chacune peut avoir des onglets.
@@ -272,7 +276,7 @@ function gabarit({ chemin, titre, description, corps, classe = '', rubrique = ''
 <title>${echapper(titre)} · Le Registre d'Isidoro</title>
 <meta name="description" content="${echapper(description || '')}">
 <script>try{var v=localStorage.getItem('registre-vue');if(v)document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
-<link rel="stylesheet" href="${r}assets/css/site.css">
+<link rel="stylesheet" href="${r}assets/css/site.css?v=${V_CSS}">
 <link rel="icon" href="${r}assets/img/soleil.svg" type="image/svg+xml">
 </head>
 <body class="${classe}" data-racine="${r}"${savoirPage ? ` data-savoir-page="${savoirPage}"` : ''}>
@@ -305,7 +309,7 @@ ${corps}
 <footer class="pied">
   <p>Campagne D&amp;D 3.5 au Lac de Vapeur. Registre tenu pour Antoine et sa table ; généré par <code>src/build.mjs</code>.</p>
 </footer>
-<script src="${r}assets/js/site.js"></script>
+<script src="${r}assets/js/site.js?v=${V_JS}"></script>
 </body>
 </html>
 `;
