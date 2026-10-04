@@ -350,8 +350,7 @@ td:first-child { font-weight: 600; }
 /* première ligne de la section en petites capitales */
 .page-journal .texte h2 + p::first-line { font-family: 'IM Fell English SC', var(--manuscrit); letter-spacing: .02em; }
 /* chaque autre paragraphe : capitale rubriquée */
-.page-journal .texte > p:not(:first-of-type):not(:nth-of-type(2))::first-letter { color: var(--vermillon); font-size: 1.3em; line-height: 1; }
-.page-journal .texte h2 + p::first-letter { font-size: 3.5em; }
+.page-journal .texte > p:not(h2 + p):not(:first-of-type):not(:nth-of-type(2))::first-letter { color: var(--vermillon); font-size: 1.3em; line-height: 1; }
 /* séparateur final */
 .page-journal .texte hr { border: 0; text-align: center; margin: 2.4rem 0 1.6rem; overflow: visible; height: auto; }
 .page-journal .texte hr::after { content: "❧  ✠  ☙"; color: var(--dorure); font-size: 1.2rem; letter-spacing: .4em; }
