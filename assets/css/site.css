@@ -394,11 +394,13 @@ td:first-child { font-weight: 600; }
 .registre-liste { list-style: none; padding: 0; margin: 1rem 0 2rem; counter-reset: piece; max-width: 52rem; }
 .registre-liste li { counter-increment: piece; position: relative; padding: 1.1rem 0 1.1rem 3.2rem; border-top: 1px solid var(--filet); margin: 0; }
 .registre-liste li::before {
-  content: counter(piece, upper-roman); position: absolute; left: 0; top: 1.15rem;
-  font-family: var(--display); font-size: 1.3rem; color: var(--aurore); width: 2.4rem; text-align: right;
+  /* posé sur la ligne du titre (même police, même corps) : chiffre et titre partagent la ligne de base */
+  content: counter(piece, upper-roman); display: inline-block; width: 2.4rem; margin: 0 .8rem 0 -3.2rem; text-align: right;
+  font-family: var(--display); font-size: 1.45rem; line-height: 1.2; color: var(--aurore);
 }
 .registre-liste a { text-decoration: none; }
 .registre-liste__titre { font-family: var(--display); font-size: 1.45rem; line-height: 1.2; }
+.registre-liste li > a:first-child { line-height: 1.2; }
 .registre-liste a:hover .registre-liste__titre { text-decoration: underline; text-decoration-thickness: 1px; }
 .registre-liste__etiquette { display: inline-block; margin-left: .6rem; font-family: var(--capitales); font-size: .9rem; color: var(--encre-douce); }
 .registre-liste__resume { margin: .25rem 0 0; }
