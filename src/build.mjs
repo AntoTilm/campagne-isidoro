@@ -12,6 +12,7 @@ import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { deflateRawSync } from 'node:zlib';
 
 const RACINE = join(dirname(fileURLToPath(import.meta.url)), '..');
 // Version des feuilles de style et scripts (empreinte du contenu) : un changement s'affiche sans attendre le cache du navigateur
@@ -307,6 +308,7 @@ ${corps}
 </main>
 <footer class="pied">
   <p>Campagne D&amp;D 3.5 au Lac de Vapeur. Registre tenu pour Antoine et sa table ; généré par <code>src/build.mjs</code>.</p>
+  <p class="pied__archive"><a class="telecharger__bouton" href="${r}registre-isidoro.zip" download>Tout télécharger (.zip)</a> <span>textes des séances, journal et documents, PDF et images d'origine, et le site complet consultable hors ligne.</span></p>
 </footer>
 <script src="${r}assets/js/site.js?v=${V_JS}"></script>
 </body>
@@ -556,3 +558,44 @@ if (existsSync(fichierMots)) {
 
 ecrire('assets/js/recherche-index.js', '// Généré par src/build.mjs\nwindow.RECHERCHE = ' + JSON.stringify(recherche) + ';\nwindow.SYNONYMES = ' + JSON.stringify(synonymes) + ';\n');
 console.log(`Site généré : ${recherche.length} sections indexées.`);
+
+// ------------------------------------------------------------ archive complète
+// registre-isidoro.zip : tout le registre, rangé par sections. Archive déterministe
+// (date fixe, ordre trié) pour ne pas changer à chaque build si rien n'a bougé.
+{
+  const CRC = new Int32Array(256).map((_, n) => { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; return c; });
+  const crc32 = (b) => { let c = -1; for (const x of b) c = CRC[(c ^ x) & 255] ^ (c >>> 8); return (c ^ -1) >>> 0; };
+  const entrees = [];
+  const ajouter = (nom, donnees) => entrees.push({ nom, donnees: Buffer.isBuffer(donnees) ? donnees : Buffer.from(donnees) });
+  const parcourir = (dossier, rel = '') => readdirSync(join(dossier, rel), { withFileTypes: true })
+    .flatMap((e) => e.isDirectory() ? parcourir(dossier, join(rel, e.name)) : [join(rel, e.name).replace(/\\/g, '/')]).sort();
+  const copier = (src, dest, filtre = () => true) => { if (existsSync(src)) parcourir(src).filter(filtre).forEach((f) => ajouter(`${dest}/${f}`, readFileSync(join(src, f)))); };
+  const P = 'registre-isidoro';
+  ajouter(`${P}/LISEZMOI.txt`, [
+    "Le Registre d'Isidoro : archive complète",
+    `Générée le ${new Date().toISOString().slice(0, 10)}.`, '',
+    '1-Textes/       Tous les textes en Markdown : séances, journal d\'Isidoro, documents de campagne, pages (personnages, lieux, fiche, règles, chronologie...).',
+    '2-PDF/          Les documents de campagne d\'origine (PDF).',
+    '3-Images/       Plans, cartes, fiches de personnage et pages du Manuel des Joueurs.',
+    '4-Site/         Le site complet : ouvrir 4-Site/index.html dans un navigateur, sans connexion.', '',
+  ].join('\r\n'));
+  [['seances', 'Seances'], ['journal', 'Journal-d-Isidoro'], ['documents', 'Documents'], ['pages', 'Pages']]
+    .forEach(([d, n]) => copier(join(CONTENU, d), `${P}/1-Textes/${n}`));
+  copier(join(RACINE, 'assets/pdf'), `${P}/2-PDF`);
+  copier(join(RACINE, 'assets/img'), `${P}/3-Images`);
+  copier(RACINE, `${P}/4-Site`, (f) => !f.startsWith('.git') && !f.startsWith('src/') && f !== 'registre-isidoro.zip' && !/\.(bat|md)$/.test(f));
+  entrees.sort((a, b) => (a.nom < b.nom ? -1 : 1));
+  const locaux = [], centraux = []; let decalage = 0;
+  const DATE = 0x5D21, HEURE = 0; // 1er septembre 2026, fixe
+  for (const { nom, donnees } of entrees) {
+    const n = Buffer.from(nom, 'utf8'), comp = deflateRawSync(donnees, { level: 9 }), c = crc32(donnees);
+    const h = Buffer.alloc(30); h.writeUInt32LE(0x04034b50, 0); h.writeUInt16LE(20, 4); h.writeUInt16LE(0x0800, 6); h.writeUInt16LE(8, 8);
+    h.writeUInt16LE(HEURE, 10); h.writeUInt16LE(DATE, 12); h.writeUInt32LE(c, 14); h.writeUInt32LE(comp.length, 18); h.writeUInt32LE(donnees.length, 22); h.writeUInt16LE(n.length, 26);
+    const ce = Buffer.alloc(46); ce.writeUInt32LE(0x02014b50, 0); ce.writeUInt16LE(20, 4); ce.writeUInt16LE(20, 6); h.copy(ce, 8, 6, 28); ce.writeUInt32LE(decalage, 42);
+    locaux.push(h, n, comp); centraux.push(ce, n); decalage += 30 + n.length + comp.length;
+  }
+  const central = Buffer.concat(centraux), fin = Buffer.alloc(22);
+  fin.writeUInt32LE(0x06054b50, 0); fin.writeUInt16LE(entrees.length, 8); fin.writeUInt16LE(entrees.length, 10); fin.writeUInt32LE(central.length, 12); fin.writeUInt32LE(decalage, 16);
+  writeFileSync(join(RACINE, 'registre-isidoro.zip'), Buffer.concat([...locaux, central, fin]));
+  console.log(`Archive : registre-isidoro.zip (${entrees.length} fichiers).`);
+}

@@ -559,6 +559,9 @@ td:first-child { font-weight: 600; }
 
 /* ---------------------------------------------------------------- pied */
 
+.pied__archive { margin-top: .8rem; }
+.pied__archive a { text-decoration: none; display: inline-block; margin-right: .5rem; }
+.pied__archive span { font-size: .88rem; }
 .pied { border-top: 1px solid var(--filet); padding: 1.6rem var(--gouttiere) 2.4rem; font-size: .95rem; color: var(--encre-douce); max-width: 1240px; margin: 0 auto; }
 
 @media print {
