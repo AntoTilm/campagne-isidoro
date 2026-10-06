@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Journal d'Isidoro · Le Registre d'Isidoro</title>
 <meta name="description" content="Le journal d'Isidoro, prêtre cloîtré de Lathandre, aventure par aventure.">
-<script>try{var v=localStorage.getItem('registre-vue');if(v)document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
+<script>try{var v=localStorage.getItem('registre-vue');if(v==='isidoro'||v==='tout')document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
 <link rel="stylesheet" href="assets/css/site.css?v=897bab92">
 <link rel="icon" href="assets/img/soleil.svg" type="image/svg+xml">
 </head>
@@ -19,7 +19,7 @@
         <summary aria-label="Point de vue : quelles informations afficher"><span class="vue__titre">Point de vue</span> <b class="vue__courante">Isidoro</b><span class="vue__fleche" aria-hidden="true"></span></summary>
         <div class="vue__panneau" role="group" aria-label="Point de vue">
           <p class="vue__intro">Masque ce que le personnage choisi n’est pas censé savoir. Rien n’est supprimé.</p>
-          <button type="button" data-choisir-vue="isidoro" aria-pressed="false"><b>Isidoro</b><span>Ce que sait Isidoro : ses séances, son journal, ses visions.</span></button><button type="button" data-choisir-vue="theodoric" aria-pressed="false"><b>Théodoric</b><span>Ce que sait la table de Théodoric : ses séances et les documents trouvés.</span></button><button type="button" data-choisir-vue="monde" aria-pressed="false"><b>Monde</b><span>Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables.</span></button><button type="button" data-choisir-vue="tout" aria-pressed="false"><b>Tout</b><span>Tout afficher, avec la provenance de chaque information.</span></button>
+          <button type="button" data-choisir-vue="isidoro" aria-pressed="false"><b>Isidoro</b><span>Ce que sait Isidoro : ses séances, son journal, ses visions.</span></button><button type="button" data-choisir-vue="tout" aria-pressed="false"><b>Tout</b><span>Tout afficher, avec la provenance de chaque information.</span></button>
           <p class="vue__compte" aria-live="polite"></p>
         </div>
       </details>

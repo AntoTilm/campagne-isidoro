@@ -241,8 +241,6 @@ function markdown(source, titres, idsPris = new Set(), herite = '') {
 
 const VUES = [
   ['isidoro', 'Isidoro', 'Ce que sait Isidoro : ses séances, son journal, ses visions.'],
-  ['theodoric', 'Théodoric', 'Ce que sait la table de Théodoric : ses séances et les documents trouvés.'],
-  ['monde', 'Monde', 'Les informations du MJ, le savoir hors-jeu et les recoupements entre les deux tables.'],
   ['tout', 'Tout', 'Tout afficher, avec la provenance de chaque information.'],
 ];
 
@@ -275,7 +273,7 @@ function gabarit({ chemin, titre, description, corps, classe = '', rubrique = ''
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${echapper(titre)} · Le Registre d'Isidoro</title>
 <meta name="description" content="${echapper(description || '')}">
-<script>try{var v=localStorage.getItem('registre-vue');if(v)document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
+<script>try{var v=localStorage.getItem('registre-vue');if(v==='isidoro'||v==='tout')document.documentElement.setAttribute('data-vue',v);}catch(e){}</script>
 <link rel="stylesheet" href="${r}assets/css/site.css?v=${V_CSS}">
 <link rel="icon" href="${r}assets/img/soleil.svg" type="image/svg+xml">
 </head>
