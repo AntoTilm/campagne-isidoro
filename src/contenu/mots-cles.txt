@@ -7,7 +7,7 @@
 #                                   Les mots respectent le point de vue : en vue Isidoro, un mot-clé @theodoric
 #                                   ne fait rien apparaître.
 #   = mot, variante, synonyme       une recherche sur l'un trouve aussi les autres. Réservé aux orthographes,
-#                                   fautes de dictée et termes anglais : jamais de révélation (pas « Pierrot = lycanthrope »).
+#                                   fautes de dictée et termes anglais : jamais de révélation (pas « Radagar = lycanthrope »).
 #
 # Un bloc se termine par une ligne vide. Les accents et majuscules ne comptent pas.
 
@@ -93,7 +93,7 @@ préparer, préparation, montée de niveau, passer niveau 3, level up, sorts res
 objectifs, quoi faire, priorité, urgence, attaque de Saelmur, survivre, bibliothèque, livres, elfe sauvage, égouts, hospice, réfugiés, disparitions, belladone, remède, pleine lune, lycanthropes en fuite, quête
 
 [prochaine-seance.html#autres-fils-ouverts] @isidoro
-quêtes, pistes, intrigues, mystères, questions, à suivre, fils ouverts, Alcatar, Ménestrels, harpe, sentier caché, forteresse, falaise, confrères, temple vendu, Bridgestone, pont, guerre de l'ombre, familles marchandes, pendu, barde, Milil, Alaundo, prophéties, voleur, Glen, habit bleu
+quêtes, pistes, intrigues, mystères, questions, à suivre, fils ouverts, Alcatar, Ménestrels, harpe, sentier caché, forteresse, falaise, confrères, temple vendu, Bridgestone, pont, guerre de l'ombre, familles marchandes, pendu, barde, Milil, Alaundo, prophéties, voleur, Ghlinin, Glen, habit bleu
 
 [prochaine-seance.html#savoir-de-joueur-ne-pas-l-utiliser-en-jeu] @mj
 métajeu, méta, secret, attention, piège, lettre, génasi lycanthropes, moniale, Théodoric inconnu, QG, quartier général
@@ -128,11 +128,11 @@ convoi, mages, hippogriffes, flèches qui rebondissent, protection magique, soin
 [journal/aventure-2.html#le-pissenlit-bleu-ou-l-on-repart-a-pied] @isidoro
 auberge, chevaux morts, viande de cheval, aubergiste, nouvelles de la guerre, prime, récompense, péage, taxe, livres et rues
 
-[journal/aventure-2.html#glen-deux-nuits-au-baladin-joyeux] @isidoro
+[journal/aventure-2.html#ghlinin-deux-nuits-au-baladin-joyeux] @isidoro
 casino, jeu, roulette, cartes, poker, blackjack, portier, caniche, vol, voleur, bourse, piège, appât, deux bières, gérant, habit bleu
 
 [journal/aventure-2.html#la-route-de-l-ouest-de-la-charge-et-de-ce-qu-il-en-coute] @isidoro
-orques, embuscade, charge, tombé, inconscient, potion, Pierrot, génasi, voyageurs, fronde, Pierre magique, récit du combat, attestation, mauvaise route, ouest
+orques, embuscade, charge, tombé, inconscient, potion, Radagar, Pierrot, génasi, voyageurs, fronde, Pierre magique, récit du combat, attestation, mauvaise route, ouest
 
 [journal/aventure-2.html#fort-corner-du-nom-de-mon-pere-et-d-une-querelle] @isidoro
 primes, têtes, marché, vente, offre et demande, marchand, histoire de Mintar, réputation, nom du père, fierté, lettre aux confrères, don, laissez-passer, dispute, querelle, fâché, réconciliation, coincé, tu fabules
@@ -149,14 +149,14 @@ vision, vasque, eau, avenir, futur, Alcatar, elfe d'or, nécrophages, vampires, 
 [journal/aventure-2.html#le-depart-de-l-abbaye] @isidoro
 gueule de bois, visions partagées, peur des morts-vivants, devoir, destinée, Ménestrels, harpe, eau bénite, Encensoir, petit martinet, morgenstern, rations purifiées
 
-[journal/aventure-2.html#saelmur-l-hospice-du-pere-damien] @isidoro
-arrivée à Saelmur, collines, remparts, réfugiés, camp, bidonville, Tyr, hospice, soupe, rations, Damien, temple vendu, choqué, charité, pirates, disparitions, maladie, fièvre, crachat, sang, guérison, foulard, lycanthropes, moniale, belladone
+[journal/aventure-2.html#saelmur-l-hospice-du-pere-damino] @isidoro
+arrivée à Saelmur, collines, remparts, réfugiés, camp, bidonville, Tyr, hospice, soupe, rations, Damino, Damien, temple vendu, choqué, charité, pirates, disparitions, maladie, fièvre, crachat, sang, guérison, foulard, lycanthropes, moniale, belladone
 
 [journal/aventure-2.html#la-rue-des-tanneurs] @isidoro
-loi martiale, guerre de l'ombre, temple d'Oghma, cadastre, archives, n°6, numéro 6, maison, Ménestrels, potions de poison, liches, demi-liche, phylactère, déguisement, mendiant, cas de conscience, Madame Irma, servante, squelettes, renvoi, brute, hache, notes, comptes, contrat, livre néthérisien, puits d'ombre, cave, fers, sang, or, butin
+loi martiale, guerre de l'ombre, temple d'Oghma, cadastre, archives, n°6, numéro 6, maison, Ménestrels, potions de poison, liches, demi-liche, phylactère, déguisement, mendiant, cas de conscience, Madame Irma, servante, squelettes, renvoi, brute, hache, notes, comptes, contrat, livre néthérisien, puits d'ombre, cave, fers, sang, or, butin, Mirel, orc, Famaruth, belladone, tonneaux, El Mundo, pleine lune
 
-[journal/aventure-2.html#la-nuit-du-crane-vert] @isidoro
-crâne vert, ciel vert, explosions, attaque, début de l'attaque, rats, fin de séance, cliffhanger
+[journal/aventure-2.html#la-nuit-du-squelette-vert] @isidoro
+squelette vert, crâne vert, ciel vert, explosions, attaque, début de l'attaque, rats, fin de séance, cliffhanger
 
 
 # ============================================================ séances
@@ -165,13 +165,13 @@ crâne vert, ciel vert, explosions, attaque, début de l'attaque, rats, fin de s
 résumés, comptes rendus, notes de séance, sessions, parties jouées
 
 [seances/aventure-2.html#etape-1-l-auberge-du-pissenlit-bleu] @isidoro
-itinéraire, route, Glen, Quatre Bras, échangeur, péages, taxes, contrôles, guildes, sauf-conduit, nouvelles de la guerre, aubergiste, prime, zhentarim, espions, 10 po, 5 po, motivations, 60 km, élevage de chevaux, hiver doux, température
+itinéraire, route, Ghlinin, Glen, Quatre Bras, échangeur, péages, taxes, contrôles, guildes, sauf-conduit, nouvelles de la guerre, aubergiste, prime, zhentarim, espions, 10 po, 5 po, motivations, 60 km, élevage de chevaux, hiver doux, température
 
-[seances/aventure-2.html#etape-2-glen-et-le-baladin-joyeux] @isidoro
+[seances/aventure-2.html#etape-2-ghlinin-et-le-baladin-joyeux] @isidoro
 casino, jetons, roulette, Bluff, Profession joueur, chambre, prix, 3 pa, caisses, croupiers, vol, 2 po, Détection, Tom Martino, Mickellow Beretta, loi, flagrant délit, shérif, main coupée, piège, deux bières
 
 [seances/aventure-2.html#etape-3-l-embuscade-des-orques] @isidoro
-orques, combat, initiative, round de surprise, Agrandissement, Bouclier de la foi, archer, cimeterre à deux mains, critique, feinte, négatif, stabilisé, potion de soins, 300 XP, butin, têtes, chemises de mailles, dés en os, Pierrot, génasi roux, Île de Berck, tyranoïdes, Calimshan, elfes, bois, récit du combat
+orques, combat, initiative, round de surprise, Agrandissement, Bouclier de la foi, archer, cimeterre à deux mains, critique, feinte, négatif, stabilisé, potion de soins, 300 XP, butin, têtes, chemises de mailles, dés en os, Radagar, Pierrot, génasi roux, Île de Berck, tyranoïdes, Calimshan, elfes, bois, récit du combat
 
 [seances/aventure-2.html#etape-4-fort-corner] @isidoro
 garnison, château, palissade, primes, 20 po, Estimation, 405 po, partage, 212 po, cartes, marchands, génasi partent, garde de Heaume, histoire de Mintar, éloquence, réputation familiale, missionnaires, lettre, don, laissez-passer, 10 po, dispute
@@ -186,13 +186,13 @@ jardins, ruisseau, pieds, sandales, marbre, autels, dieux mineurs, Milil, théâ
 vision de Lucas, vision d'Isidoro, futur, avenir, rue des Tanneurs, runes, Chope sans Fond, sentier, forteresse, falaise, Alcatar, elfe d'or, haute magie elfique, île, nécrophages, vampires, égouts, atelier, magicien, elfe sauvage, Torm, Heaume, Oghma, marque verte, flotte, débarquement, rappel, tour, signal, aubergiste, livres, manchot, bras, tombe, le héros, perdition, tour isolée, père, magicien, poignée de main, marteau, harpe, Velsharoon, nouveau dieu, mort-vivant, âme, enfants
 
 [seances/aventure-2.html#etape-7-depart-de-l-abbaye-et-hospice-de-saelmur] @isidoro
-gueule de bois, visions échangées, peur, devoir, Ménestrels, baguettes, eau bénite, fioles, Encensoir, petit martinet, morgenstern, 10 po, objets magiques, enclave, rations, route du sud, collines, temples, université, mages-lames, Parlement, remparts, catapultes, balistes, réfugiés, camp militaire, navires, population, hospice, soupe, Damien, hôpital de campagne, pirates, hippogriffes, disparitions, cimetière, Kelemvor, maladie, 300 lits, temple vendu, Loi, femme de Derlusk, belladone, pleine lune, crachat, Vigueur, Dextérité, Constitution, enquête, écussons, milice, moniale
+gueule de bois, visions échangées, peur, devoir, Ménestrels, baguettes, eau bénite, fioles, Encensoir, petit martinet, morgenstern, 10 po, objets magiques, enclave, rations, route du sud, collines, temples, université, mages-lames, Parlement, remparts, catapultes, balistes, réfugiés, camp militaire, navires, population, hospice, soupe, Damino, Damien, hôpital de campagne, pirates, hippogriffes, disparitions, cimetière, Kelemvor, maladie, 300 lits, temple vendu, Loi, femme de Derlusk, belladone, pleine lune, crachat, Vigueur, Dextérité, Constitution, enquête, écussons, milice, moniale, Roland, Nour, rencontre, Bane, maladie circulaire
 
 [seances/aventure-2.html#etape-8-saelmur-intra-muros-et-la-rue-des-tanneurs-n-6] @isidoro
-loi martiale, miliciens, garde de Heaume, tension, Psychologie, héritier pendu, guerre de l'ombre, entrepôts brûlés, Renseignements, ancien temple, cadastre, 2 po, vente de maison, Ménestrels, potions, poison, Constitution, 250 po, identification, 50 po, sacoche à potions, 40 po, liches, phylactère, demi-liche, repérage, déguisement, mendiant, cas de conscience, Injonction, Madame Irma, servante, bureau, encrier, défense totale, draconique, squelettes, armoires, renvoi, test 23, métamorphose, brute, grande hache, rage, feinte, fouille, notes, cinquantaine, contrat, livre néthérisien, puits d'ombre, scrutation, coffre piégé, fléchette, 2 400 po, bijoux, 400 po, grimoire, gobelinoïdes, cave, fers, grenier, vêtements
+loi martiale, miliciens, garde de Heaume, tension, Psychologie, héritier pendu, guerre de l'ombre, entrepôts brûlés, Renseignements, ancien temple, cadastre, 2 po, vente de maison, Ménestrels, potions, poison, Constitution, 250 po, identification, 50 po, sacoche à potions, 40 po, liches, phylactère, demi-liche, repérage, déguisement, mendiant, cas de conscience, Injonction, Madame Irma, servante, bureau, encrier, défense totale, draconique, squelettes, armoires, renvoi, test 23, métamorphose, brute, grande hache, rage, feinte, fouille, notes, cinquantaine, contrat, livre néthérisien, puits d'ombre, scrutation, coffre piégé, fléchette, 2 400 po, bijoux, 400 po, grimoire, gobelinoïdes, cave, fers, grenier, vêtements, Mirel, tanneur, orc, Famaruth, 100 cadavres, belladone, tonneaux, El Mundo, encyclopédie, docks, filature
 
 [seances/aventure-2.html#fin-de-seance-l-attaque-de-saelmur-commence] @isidoro
-crâne vert, lumière verte, cris, explosions, collines, temples, panique, rats, fin de séance
+squelette vert, crâne vert, lumière verte, cris, explosions, collines, temples, panique, rats, fin de séance
 
 [seances/aventure-2.html#noms-et-lieux] @isidoro
 index, glossaire, liste des noms, liste des lieux, PNJ
@@ -225,7 +225,7 @@ groupe, compagnon, joueurs, PJ, Antoine, François, roublard, prêtre, El Tiempo
 famille, parents, père, mère, Théodoro, moine, fondateur du temple, Antonio, Lily, serveuse, Tirlin, Baltherese, Blaise, Basile, Pascal, Ankhapur, Derlusk
 
 [personnages.html#rencontres-pendant-l-aventure-2] @isidoro
-Pierrot, génasi, Tom Martino, Mickellow Beretta, voleur, prêtre de Champ-Doré, Patricius, Malachie, Tyr, Aurélia, Oghma, Rayana, musicienne, Gaspard, Tymora, Damien, magicien, rue des Tanneurs, Madame Irma, servante, elfe sauvage, égouts, morts
+Radagar, Pierrot, génasi, Tom Martino, Mickellow Beretta, voleur, prêtre de Champ-Doré, Patricius, Malachie, Tyr, Aurélia, Oghma, Rayana, musicienne, Gaspard, Tymora, Damino, Damien, magicien, rue des Tanneurs, Madame Irma, servante, elfe sauvage, égouts, morts, Mirel, Famaruth, Roland, Nour, El Mundo, Deneir, prêtresse, orc
 
 [personnages.html#la-famille-bridgestone] @isidoro @theodoric
 comte du Clos, comte, seigneur, pont, famille du comte
@@ -261,7 +261,7 @@ Talos, Cyric, Myrkul, Iyachtu Xvim, Alustriel, Lunargent, Silverymoon, Elminster
 carte, plan, schéma, géographie, région, où se trouve, distances, routes, Lac de Vapeur, Bois d'Épines, forêt de Qurth, Minta, fleuve, Mintar, Saelmur, Ankhapur, Innarlith, Derlusk, Kzelter, Fort Corner, Le Clos, abbaye, Champ-Doré, Bridgestone
 
 [lieux.html#les-lieux] @isidoro
-villes, villages, bourgs, auberges, endroits, lieux visités, Glen, Baladin Joyeux, Fort Corner, Pissenlit Bleu, Champ-Doré, rue des Tanneurs, n°6
+villes, villages, bourgs, auberges, endroits, lieux visités, Ghlinin, Glen, Baladin Joyeux, Fort Corner, Pissenlit Bleu, Champ-Doré, rue des Tanneurs, n°6
 
 [lieux.html#les-lieux] @isidoro @theodoric
 cité, port, Saelmur, Mintar, Derlusk, Ankhapur, comté du Clos, abbaye du Cœur Radieux, Bridgestone, pont, Château-Suif, bibliothèque, temple, ville natale
@@ -285,7 +285,7 @@ dates, calendrier, frise, ligne du temps, timeline, histoire, années, quand, Ca
 départ d'Isidoro, aventure 1, hiver 1372, Ankhapur, Père Pascal
 
 [chronologie.html#1373-l-annee-de-saelmur] @isidoro
-aventure 2, début Ches, Glen, orques, abbaye, Ches 1373
+aventure 2, début Ches, Ghlinin, Glen, orques, abbaye, Ches 1373
 
 [chronologie.html#1373-l-annee-de-saelmur]
 maintenant, aujourd'hui, date actuelle, 20 Ches, où en est-on
@@ -306,7 +306,7 @@ hypothèses, théories, croisements, analyse, ce qu'on peut deviner, spéculatio
 rats explosifs, rats morts-vivants, poussière d'onyx, baguettes d'explosion nécrotique, explosions, égouts, vampires, rats-garous
 
 [recoupements.html#la-fievre-et-les-lycanthropes] @mj
-fièvre, maladie, fièvre des marais, rats-garous, lycanthropes, belladone, génasi, Pierrot, plan d'Alcatar
+fièvre, maladie, fièvre des marais, rats-garous, lycanthropes, belladone, génasi, Radagar, Pierrot, plan d'Alcatar
 
 [recoupements.html#deux-reseaux-dans-les-egouts] @mj
 égouts, deux groupes, réseaux, elfe sauvage, magicien, Vandor, nécrophages
@@ -315,7 +315,7 @@ fièvre, maladie, fièvre des marais, rats-garous, lycanthropes, belladone, gén
 temple de Torm, grand prêtre décapité, mages-lames, temples de Tyr, bibliothèque d'Oghma, destruction
 
 [recoupements.html#la-marque-verte-et-la-flotte] @mj
-crâne vert, marque verte, flotte de Mintar, docks, débarquement, chaos, Bainiens
+squelette vert, crâne vert, marque verte, flotte de Mintar, docks, débarquement, chaos, Bainiens
 
 [recoupements.html#charles-bridgestone-a-saelmur] @mj
 Charles, Bridgestone, égouts, capturé, cassette d'or

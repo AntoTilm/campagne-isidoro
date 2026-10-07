@@ -15,7 +15,7 @@ description: Les personnages de la campagne d'Isidoro et de l'ancienne table de 
 | Lucas « El Tiempo » | Roublard, fils d'Antonio, enfant des villes, joueur et bluffeur. Proche de Tymora, il découvre Milil à l'abbaye. Joué par François. | Avec Isidoro à Saelmur ; il a acheté l'Encensoir et une sacoche à potions. | [Journal 1](journal/partie-1.html), [aventure 2](seances/aventure-2.html) |
 
 ::: hors-jeu {@mj}
-**L'autre table.** Thôn (Tonon) et David jouent sur la même chronologie. Dans l'ancienne campagne, ils incarnaient des légionnaires venus défendre Saelmur ; ils ont depuis d'autres personnages, dont les noms ne sont pas notés ici. Leur groupe compte une moniale du monastère d'Isidoro, qui a démasqué les lycanthropes de Saelmur. L'homme indécis de la proue, dans la traversée vers Ankhapur, est le personnage de Thôn.
+**L'autre table.** Thôn (Tonon) et David jouent sur la même chronologie. Dans l'ancienne campagne, ils incarnaient des légionnaires venus défendre Saelmur ; ils jouent désormais **Roland et Nour**. Nour vient du temple de Derlusk, comme Isidoro, qui l'a reconnue sur la route ; leur groupe a démasqué les lycanthropes de Saelmur. L'homme indécis de la proue, dans la traversée vers Ankhapur, est le personnage de Thôn.
 :::
 
 ## La famille et les proches d'Isidoro {@isidoro}
@@ -35,18 +35,21 @@ description: Les personnages de la campagne d'Isidoro et de l'ancienne table de 
 
 | Nom | Qui | Où il en est | Sources |
 | --- | --- | --- | --- |
-| Pierrot et ses génasi | Cinq génasi roux venus d'un village près de « l'Île de Berck » (?), sauvés des orques. Ils portent la lettre d'Isidoro aux confrères de Saelmur. | Partis s'engager à Saelmur.<span data-savoir="mj"> Hors-jeu : ce sont les lycanthropes affrontés par l'autre table.</span> | [Aventure 2](seances/aventure-2.html#etape-3-l-embuscade-des-orques) |
-| Tom Martino, Mickellow Beretta | Habitués du Baladin Joyeux, à Glen, cités par le gérant après le vol. Le voleur avait les cheveux bruns courts et un habit bleu. | Non démasqués. | [Aventure 2](seances/aventure-2.html#etape-2-glen-et-le-baladin-joyeux) |
+| Radagar et ses génasi | Cinq génasi de feu aux cheveux roux, venus d'un village près de « l'Île de Berck » (?), sauvés des orques. Ils portent la lettre de recommandation d'Isidoro, pour s'engager dans la garde de Heaume. | Partis s'engager à Saelmur.<span data-savoir="mj"> Hors-jeu : ce sont les lycanthropes affrontés par l'autre table.</span> | [Aventure 2](seances/aventure-2.html#etape-3-l-embuscade-des-orques) |
+| Tom Martino, Mickellow Beretta | Habitués du Baladin Joyeux, à Ghlinin, cités par le gérant après le vol. Le voleur avait les cheveux bruns courts et un habit bleu. | Non démasqués. | [Aventure 2](seances/aventure-2.html#etape-2-ghlinin-et-le-baladin-joyeux) |
 | Le prêtre de Champ-Doré | Prêtre du temple du village (de Heaume ?), il renseigne Isidoro sur le comté et l'abbaye. | À Champ-Doré. | [Aventure 2](seances/aventure-2.html#etape-5-vers-le-nord-champ-dore-et-le-comte-du-clos) |
-| Frère Patricius | Prêtre de Lathandre à l'abbaye du Cœur Radieux, ami d'enfance d'Isidoro, un peu plus âgé. | À l'abbaye. | [Aventure 2](seances/aventure-2.html#etape-6-l-abbaye-du-coeur-radieux) |
+| Père Patricius | Prêtre de Lathandre à l'abbaye du Cœur Radieux, vieille connaissance d'Isidoro, venue du grand temple de Derlusk, un peu plus âgé. | À l'abbaye. | [Aventure 2](seances/aventure-2.html#etape-6-l-abbaye-du-coeur-radieux) |
 | Frère Malachie | Grand prêtre de Tyr, intendant de l'abbaye. | À l'abbaye. | [Aventure 2](seances/aventure-2.html) |
 | Sœur Aurélia | Prêtresse d'Oghma ; aide les pèlerins à préciser leurs visions avec des cartes. | À l'abbaye. | [Aventure 2](seances/aventure-2.html) |
-| Rayana, la musicienne | Une trentaine d'années, chemise de mailles, lames et luth ; pendentif en forme de harpe, repéré par Isidoro sans qu'il le reconnaisse. | A instruit Lucas et parlé des Ménestrels. | [Aventure 2](seances/aventure-2.html) |
+| Rayana | Prêtresse de Deneir, joueuse de luth, une trentaine d'années, chemise de mailles, lames et luth ; pendentif en forme de harpe, repéré par Isidoro sans qu'il le reconnaisse. | A instruit Lucas (dont un pas de danse) et parlé des Ménestrels. | [Aventure 2](seances/aventure-2.html) |
 | Père Gaspard | Prêtre de Tymora à l'abbaye ; perd aux cartes et s'en réjouit. | À l'abbaye. | [Aventure 2](seances/aventure-2.html) |
-| Père Damien | Prêtre de Lathandre à l'hospice du camp de réfugiés de Saelmur ; a vendu le temple de la ville pour nourrir les pauvres. | À Saelmur. | [Aventure 2](seances/aventure-2.html#etape-7-depart-de-l-abbaye-et-hospice-de-saelmur) |
-| Le magicien du n°6, rue des Tanneurs | Complice d'Alcatar : livrait des réfugiés à l'elfe des égouts contre un livre néthérisien. A racheté toute la belladone de la ville. | <span class="etat etat--mort">Mort</span>, tué par Lucas. | [Aventure 2](seances/aventure-2.html#etape-8-saelmur-intra-muros-et-la-rue-des-tanneurs-n-6) |
-| « Madame Irma » | Sa servante, en réalité une brute à grande hache au symbole zhentarim, sans doute métamorphosée. | <span class="etat etat--mort">Morte</span> | [Aventure 2](seances/aventure-2.html) |
-| L'elfe sauvage des égouts | Reçoit les humains livrés par le magicien et les transforme en nécrophages. Vu en vision. | <span class="etat etat--ennemi">Inconnu</span> | [Recoupements](recoupements.html) |
+| Père Damino | Prêtre de Lathandre à l'hospice du camp de réfugiés de Saelmur ; a vendu le temple de la ville pour nourrir les pauvres. | À Saelmur. | [Aventure 2](seances/aventure-2.html#etape-7-depart-de-l-abbaye-et-hospice-de-saelmur) |
+| Mirel, le magicien du n°6, rue des Tanneurs | Complice d'Alcatar : livrait des réfugiés (plus de 100 cadavres prévus) à Famaruth contre un livre néthérisien. A racheté toute la belladone de la ville. | <span class="etat etat--mort">Mort</span>, tué par Lucas. | [Aventure 2](seances/aventure-2.html#etape-8-saelmur-intra-muros-et-la-rue-des-tanneurs-n-6) |
+| « Madame Irma » | Vieille servante de Mirel, qui leur a ouvert. | Inconnu. | [Aventure 2](seances/aventure-2.html#etape-8-saelmur-intra-muros-et-la-rue-des-tanneurs-n-6) |
+| L'orc de Mirel | Garde lourdement armé, grande hache et symbole zhentarim. | <span class="etat etat--mort">Mort</span> | [Aventure 2](seances/aventure-2.html#etape-8-saelmur-intra-muros-et-la-rue-des-tanneurs-n-6) |
+| Roland et Nour | Aventuriers croisés sur la route de l'abbaye ; Nour vient du temple de Derlusk. Ils ont démasqué les lycanthropes du camp. | Montés à l'abbaye. | [Aventure 2](seances/aventure-2.html#etape-7-depart-de-l-abbaye-et-hospice-de-saelmur) |
+| Père El Mundo | Bibliothécaire du temple d'Oghma de Saelmur. | À Saelmur. | [Aventure 2](seances/aventure-2.html#etape-8-saelmur-intra-muros-et-la-rue-des-tanneurs-n-6) |
+| Famaruth, l'elfe sauvage des égouts | Reçoit les humains livrés par le magicien et les transforme en nécrophages. Vu en vision ; nommé dans le contrat de Mirel. | <span class="etat etat--ennemi">Inconnu</span> | [Recoupements](recoupements.html) |
 
 ## La famille Bridgestone
 

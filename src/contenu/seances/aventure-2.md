@@ -5,29 +5,35 @@ sous-titre: Séance du 26 septembre 2026
 ordre: 2
 campagne: Campagne d'Isidoro
 periode: Fin d'hiver 1372 – 20 Ches 1373 CV
-points: Glen : Lucas volé deux fois au Baladin Joyeux | Embuscade d'orques zhentarim avec les génasi de Pierrot ; Isidoro tombe | Abbaye du Cœur Radieux : Patricius, Rayana et le visage d'Alcatar dans les vasques | Saelmur : l'hospice du père Damien, puis le magicien de la rue des Tanneurs tué | Fin : un crâne vert dans le ciel, l'attaque de Saelmur commence
-resume: Glen et le Baladin Joyeux, les orques, l'abbaye du Cœur Radieux et ses visions, l'hospice de Saelmur, le magicien de la rue des Tanneurs et le crâne vert dans le ciel.
+points: Ghlinin : Lucas volé deux fois au Baladin Joyeux | Embuscade d'orques zhentarim avec les génasi de Radagar ; Isidoro tombe | Abbaye du Cœur Radieux : Patricius, Rayana et le visage d'Alcatar dans les vasques | Sur la route : Roland et Nour ; à Saelmur, le père Damino, puis Mirel tué rue des Tanneurs | Fin : pleine lune, un squelette vert dans le ciel, l'attaque de Saelmur commence
+resume: Ghlinin et le Baladin Joyeux, les orques, l'abbaye du Cœur Radieux et ses visions, Roland et Nour, l'hospice de Saelmur, le magicien Mirel de la rue des Tanneurs et le squelette vert dans le ciel.
 ---
 
 ::: essentiel
-**Le trajet** : le Pissenlit Bleu → Glen → la vallée des orques → Fort Corner → Champ-Doré (comté du Clos) → l'abbaye du Cœur Radieux → l'hospice de Saelmur → Saelmur, rue des Tanneurs.
+**Le trajet** : le Pissenlit Bleu → Ghlinin (comté de Ghlinin) → la vallée des orques → Fort Corner → Champ-Doré (comté du Clos) → l'abbaye du Cœur Radieux → rencontre de Roland et Nour → l'hospice de Saelmur → Saelmur, rue des Tanneurs.
+
+::: note
+Corrigé d'après le compte-rendu du MJ (« Aventure 2 — L'abbaye du Cœur Radieux et le premier acte à Saelmur »), qui fait foi : Ghlinin (et non Glen), Radagar (et non Pierrot), père Damino (et non Damien), Rayana prêtresse de Deneir, la rencontre de Roland et Nour, Mirel, Famaruth, la belladone de la cave et le squelette vert.
+:::
 
 **Ce qui s'est passé**
 
-- **Glen, au Baladin Joyeux** (auberge-casino) : Lucas se fait voler deux fois. Le piège imaginé par Isidoro échoue. Suspects : Tom Martino et Mickellow Beretta.
-- **L'embuscade** : avec cinq génasi menés par **Pierrot**, ils tuent une dizaine d'orques portant le symbole zhentarim. Isidoro tombe dès le premier échange ; Lucas tient le combat. **300 XP** chacun.
+- **Ghlinin, au Baladin Joyeux** (auberge-casino de la cité, où l'on parle du nez) : Lucas se fait voler deux fois. Le piège imaginé par Isidoro échoue. Suspects : Tom Martino et Mickellow Beretta.
+- **L'embuscade** : avec cinq génasi de feu menés par **Radagar**, ils tuent une dizaine d'orques portant le symbole zhentarim. Isidoro tombe dès le premier échange ; Lucas tient le combat. **300 XP** chacun.
 - **Fort Corner** : primes et vente du butin, environ 425 po. Isidoro apprend que le nom de son père lui ouvre les temples bons de la région. Brève dispute avec Lucas sur la route, réglée par des excuses des deux côtés.
 - **Champ-Doré** : un prêtre leur décrit l'abbaye. Le comte du Clos a envoyé tous ses hommes vers Bridgestone.
-- **L'abbaye du Cœur Radieux** : Isidoro retrouve son ami d'enfance **Patricius**. Lucas découvre Milil et rencontre **Rayana**, musicienne au pendentif en harpe.
+- **L'abbaye du Cœur Radieux** : Isidoro retrouve **Patricius**, vieille connaissance de Derlusk. Lucas découvre Milil et rencontre **Rayana**, prêtresse de Deneir au pendentif en harpe, qui lui apprend un pas de danse.
 - **Les vasques** : Isidoro voit enfin le visage de ses rêves, **Alcatar**, un elfe d'or, et la chute d'une grande cité au sud (voir ci-dessous).
-- **L'hospice de Saelmur** : ils nourrissent les réfugiés avec le **père Damien**. Des lycanthropes y ont répandu la fièvre ; Isidoro tombe malade, puis est guéri aussitôt.
-- **Rue des Tanneurs n°6** : ils entrent par la ruse et tuent le magicien qui livrait des réfugiés à Alcatar, ainsi que sa servante, une brute zhentarim métamorphosée. Butin : 2 400 po, des bijoux, son grimoire et un **livre néthérisien sur les puits d'ombre**.
+- **Sur la route** : ils croisent **Roland et Nour**, qui montent à l'abbaye. Isidoro et Nour, du même temple de Derlusk, se reconnaissent ; Nour leur décrit Saelmur au bord de la rupture.
+- **L'hospice de Saelmur** : ils nourrissent les réfugiés avec le **père Damino**. Des lycanthropes y ont répandu la fièvre ; Isidoro tombe malade, puis est guéri aussitôt.
+- **Rue des Tanneurs n°6** : ils entrent par la ruse et tuent **Mirel**, le magicien qui livrait des réfugiés à Alcatar, ainsi que son garde, un orc lourdement armé. Butin : 2 400 po, 400 po de bijoux, son grimoire, dix livres de connaissances et un **livre néthérisien sur les puits d'ombre**. Des tonneaux de **belladone** sont laissés à la cave.
 
 **Ce que l'on sait désormais**
 
-- Alcatar prépare la chute de Saelmur : des humains enlevés sont changés en nécrophages dans les égouts par un elfe sauvage, son complice.
+- Alcatar prépare la chute de Saelmur : des humains enlevés sont changés en nécrophages dans les égouts par un elfe sauvage, **Famaruth**, son complice. Le contrat de Mirel prévoyait plus de 100 cadavres de réfugiés.
+- C'est Mirel qui avait racheté la belladone de la ville.
 - Le symbole de harpe est celui des **Ménestrels**, société secrète qui combat les Zhentarim et aide les aventuriers du bien.
-- Saelmur est sous loi martiale. Elle n'a plus de temple de Lathandre : le père Damien l'a vendu pour financer l'hospice.
+- Saelmur est sous loi martiale. Elle n'a plus de temple de Lathandre : le père Damino l'a vendu pour financer l'hospice.
 - Isidoro a étudié les liches au temple d'Oghma : le phylactère, et la demi-liche.
 
 ::: vision
@@ -40,7 +46,7 @@ resume: Glen et le Baladin Joyeux, les orques, l'abbaye du Cœur Radieux et ses 
 - Alcatar qui pourrait prendre la place de Velsharoon, dieu de la nécromancie.
 :::
 
-**Où l'on s'est arrêté** : nuit du 20 Ches 1373 CV. Un immense crâne vert s'allume au-dessus de Saelmur, les grands temples explosent sur les collines : l'attaque commence.
+**Où l'on s'est arrêté** : nuit du 20 Ches 1373 CV, nuit de pleine lune. Un immense squelette vert s'allume au-dessus de Saelmur, les grands temples explosent sur les collines : l'attaque commence.
 
 **Bilan** : Isidoro est à environ 2 950 XP sur 3 000, à la porte du niveau 3. Le butin détaillé est sur [la fiche d'Isidoro](../isidoro.html#butin-et-finances-de-l-aventure-2).
 :::
@@ -53,7 +59,7 @@ Ce résumé couvre toute la séance, de l'auberge du Pissenlit Bleu jusqu'au dé
 - **Visions** : les futurs possibles vus dans les vasques de l'abbaye du Cœur Radieux. Ils peuvent ne jamais se réaliser.
 - **Hors-jeu** : ce que savent les joueurs, mais pas les personnages.
 
-Les noms viennent d'une transcription automatique ; les plus incertains portent un (?).
+Les noms viennent d'une transcription automatique, corrigée d'après le compte-rendu du MJ ; les plus incertains portent un (?).
 
 ## Personnages et contexte
 
@@ -70,7 +76,7 @@ Au matin, Isidoro et Lucas recueillent des renseignements (jet de 20) et fixent 
 
 **Itinéraire appris**
 
-- Passer par Glen, un bourg-carrefour (« les Quatre Bras » ?).
+- Traverser à pied le comté de Ghlinin jusqu'à sa cité, Ghlinin, pour éviter les embuscades de la route commerciale.
 - Remonter au nord par l'échangeur jusqu'à une auberge, puis encore au nord jusqu'au Clos.
 - Ce sont de grandes routes commerciales, praticables en chariot.
 
@@ -99,13 +105,14 @@ Au matin, Isidoro et Lucas recueillent des renseignements (jet de 20) et fixent 
 
 **Voyage** : environ 60 km dans la journée, sans incident, dans une région d'élevage de chevaux. Ils comprennent que la viande étrange mangée plus tôt était du cheval. Hiver doux et sec, entre 5 et 20 °C.
 
-## Étape 2 — Glen et le Baladin Joyeux
+## Étape 2 — Ghlinin et le Baladin Joyeux
 
-Isidoro et Lucas arrivent à Glen vers 22 h et y passent deux nuits. Lucas s'y fait voler deux fois sans que personne ne voie rien.
+Après deux jours de marche, Isidoro et Lucas arrivent à Ghlinin vers 22 h et y passent deux nuits. Lucas s'y fait voler deux fois sans que personne ne voie rien.
 
 **Arrivée**
 
-- Glen est un bourg à palissade de bois, avec deux tours à la porte, au croisement de plusieurs routes.
+- Ici, le climat donne l'impression que tout le monde, portier compris, parle du nez.
+- Ghlinin est une cité à palissade de bois, avec deux tours à la porte, au croisement de plusieurs routes.
 - Le portier, un petit homme perché sur un tabouret avec un caniche, réclame une taxe de nuit. Après négociation (Diplomatie 19), il ouvre : « pas de grabuge ».
 - Deux établissements éclairés : le Baladin Joyeux (enseigne à tête de bouffon) et un autre dont l'enseigne montre une pinte tenue par un poing.
 
@@ -141,7 +148,7 @@ Le troisième jour, Isidoro et Lucas secourent cinq hommes d'armes attaqués par
 
 **Avant le combat**
 
-- En quittant Glen, Lucas, encore furieux, prend une sortie au hasard : ils partent vers l'ouest au lieu du nord. Ils ne s'en rendront compte que plus tard.
+- En quittant Ghlinin, Lucas, encore furieux, prend une sortie au hasard : ils partent vers l'ouest au lieu du nord. Ils ne s'en rendront compte que plus tard.
 - Isidoro achète une fronde, pour la combiner avec Pierre magique.
 
 **Le combat** (fin de matinée, après trois heures de marche dans une vallée)
@@ -159,18 +166,18 @@ Le troisième jour, Isidoro et Lucas secourent cinq hommes d'armes attaqués par
 
 **Butin** : quatre têtes avec leur symbole zhentarim (l'armée de Mintar), dont celle du chef ; quatre chemises de mailles ; des cimeterres à deux mains ; 52 pa et 77 pc ; un jeu de dés en os.
 
-**Pierrot et ses compagnons**
+**Radagar et ses compagnons**
 
-- Ce sont cinq génasi roux, des descendants de génies, menés par **Pierrot**. Ils viennent d'un village près de « l'Île de Berck » (?).
+- Ce sont cinq génasi de feu aux cheveux roux, des descendants de génies, menés par **Radagar**. Ils viennent d'un village près de « l'Île de Berck » (?).
 - Ils ont répondu à l'appel de Saelmur et veulent y être engagés comme gardes. Ce ne sont pas des miliciens officiels.
-- Reconnaissants, un peu balourds, ils font route avec Isidoro et Lucas jusqu'à Fort Corner. Pierrot devient un contact.
+- Reconnaissants, un peu balourds, ils font route avec Isidoro et Lucas jusqu'à Fort Corner. Radagar devient un contact.
 - Leurs nouvelles : au nord de l'Île de Berck s'étendent des terres sauvages, colonisées depuis des décennies par des aventuriers. Des « tyranoïdes » (?) y descendent. Le comté est en froid avec celui du Nord.
 - Plus loin, une ville portuaire compte un tiers d'elfes, qui ont le monopole du bois. La région fut jadis une province du Calimshan, terre d'anciennes civilisations de génies.
 
 **Le récit du combat**
 
-- Isidoro rédige un récit minutieux du combat. Lucas s'attribue quatre orques (Bluff 7, raté) ; Pierrot rectifie : trois tués et deux autres aidés.
-- Une copie signée est remise aux génasi, comme attestation.
+- Isidoro rédige un récit minutieux du combat. Lucas s'attribue quatre orques (Bluff 7, raté) ; Radagar rectifie : trois tués et deux autres aidés.
+- Une copie signée est remise aux génasi : une lettre de recommandation officielle, relatant leur acte, qui doit leur ouvrir la garde de Heaume à Saelmur.
 
 **Soirée à l'auberge** : dortoir pour les génasi, chambre privée pour les deux compagnons (3 pc avec la soupe). Lucas fait rire la salle avec un petit spectacle. Isidoro apprend (Renseignements 18) que la garnison de Fort Corner paie les primes.
 
@@ -237,8 +244,8 @@ Deux jours de marche mènent Isidoro et Lucas dans le comté du Clos, jusqu'au v
 | PNJ | Culte | Rôle |
 | --- | --- | --- |
 | Frère Malachie | Tyr (grand prêtre) | Intendant de l'abbaye |
-| Sœur Aurélia | Oghma | Aide les pèlerins à préciser leurs visions, avec des cartes |
-| Frère Patricius | Lathandre | Guide les pèlerins ; ami d'enfance d'Isidoro |
+| Sœur Aurélia | Oghma | Érudite ; aide les pèlerins à préciser leurs visions, avec des cartes |
+| Père Patricius | Lathandre | Guide les pèlerins ; vieille connaissance d'Isidoro, venue du grand temple de Derlusk |
 
 - L'abbaye est ouverte à tous, sans garnison, et offre le gîte et le couvert.
 - Chemin : au nord, puis à gauche après l'auberge. L'abbaye est à 1 km au nord de la route, par un sentier signalé par une stèle.
@@ -248,7 +255,7 @@ Deux jours de marche mènent Isidoro et Lucas dans le comté du Clos, jusqu'au v
 
 ## Étape 6 — L'abbaye du Cœur Radieux
 
-À l'abbaye, Isidoro se sent enfin chez lui et retrouve son ami d'enfance Patricius. Lucas y découvre le dieu Milil et une mystérieuse musicienne.
+À l'abbaye, Isidoro se sent enfin chez lui et retrouve Patricius, une vieille connaissance de Derlusk. Lucas y découvre le dieu Milil et une mystérieuse prêtresse de Deneir.
 
 **Arrivée**
 
@@ -284,13 +291,13 @@ Deux jours de marche mènent Isidoro et Lucas dans le comté du Clos, jusqu'au v
 - Les écrits d'Alaundo sont à **Château-Suif**, sur la Côte des Épées. Isidoro sait (Religion 23) que c'est la plus grande bibliothèque de Faerûn, un temple d'Oghma. L'entrée exige d'offrir un ouvrage d'au moins 100 po.
 - L'abbaye n'a pas de vraie bibliothèque. Patricius oriente Isidoro vers le temple d'Oghma de Saelmur, l'une des plus grandes bibliothèques du Lac de Vapeur. Une autre existe à Mintar, moins accessible.
 
-**La musicienne, Rayana**
+**Rayana, prêtresse de Deneir**
 
-- Isidoro cherche quelqu'un pour instruire Lucas (Renseignements 16). On lui indique une femme qui fréquente l'autel de Deneir et aime la musique.
+- Isidoro cherche quelqu'un pour instruire Lucas (Renseignements 16). On lui indique une prêtresse de Deneir, joueuse de luth.
 - Isidoro lui présente sa requête ; un peu surprise, elle accepte.
 - La trentaine, elle semble avoir beaucoup vécu. Elle porte une chemise de mailles de très bonne facture, des lames aux côtés et un luth dans le dos, et se déplace avec grâce.
 - Isidoro aperçoit (Détection 17) un pendentif en forme de harpe caché sous sa chemise, mais rate son jet de Religion : il ne reconnaît pas le symbole.
-- Elle reprend lentement le passage de Lucas, en montrant les gestes et les intonations. Lucas le rejoue : elle applaudit, et il entend de nouveau des applaudissements dans sa tête. Pour lui, c'est grisant.
+- Elle reprend lentement le passage de Lucas, en montrant les gestes et les intonations, et lui apprend un pas de danse. Lucas le rejoue : elle applaudit, et il entend de nouveau des applaudissements dans sa tête. Pour lui, c'est grisant.
 - Lucas tente de la charmer ; elle sourit gentiment et devient un contact. Le MJ a hésité sur son nom (Marika) ; on retient **Rayana**.
 
 **Nuit de Lucas** : au temple de Tymora de l'abbaye, où l'on joue au blackjack et au poker, Lucas passe huit heures et finit gagnant. Le prêtre de Tymora, le père Gaspard, perd à chaque fois et s'en réjouit. Vers 4 h, Lucas va regarder dans les vasques.
@@ -314,7 +321,7 @@ Lucas manque d'étouffer et ressort troublé.
 
 1. **Alcatar.** Le visage net d'un elfe d'or des temps anciens, celui de ses rêves d'enfance, aux yeux glacials. Les elfes d'or ont créé la haute magie elfique et vivent très longtemps ; beaucoup sont partis vers une île lointaine (Connaissances histoire 17).
 2. La main d'Alcatar écrase une grande cité au sud de l'abbaye. Des milliers de nécrophages et de vampires jaillissent des égouts comme des rats et attaquent la population de nuit.
-3. Dans un atelier sombre, Alcatar serre la main d'un magicien humain. Celui-ci enlève ou endort des humains et les livre, dans les égouts, à un elfe sauvage ; ils y deviennent des nécrophages.
+3. Dans un atelier sombre, Alcatar serre la main d'un magicien humain. Celui-ci enlève ou endort des humains et les livre, dans les égouts, à un elfe sauvage (**Famaruth**) ; ils y deviennent des nécrophages.
 4. La ville baigne dans le sang. Isidoro et Lucas enquêtent pour retrouver ce magicien, puis le combattent parmi squelettes et morts-vivants. Isidoro les repousse par la foi de Lathandre.
 5. Combats de rue contre les bannières zhentarim de Mintar et contre des morts-vivants. Des explosions sèment la mort ; les grands temples de Torm et de Heaume sautent, la bibliothèque d'Oghma brûle. Isidoro se voit mourir une vingtaine de fois.
 6. Alcatar marche sur les ruines du temple de Torm. Il lève la main et trace une marque verte dans le ciel ; des milliers d'hommes de Mintar débarquent par le lac.
@@ -330,7 +337,7 @@ Isidoro reste surtout marqué par la bibliothèque en flammes : pour lui, les li
 
 ## Étape 7 — Départ de l'abbaye et hospice de Saelmur
 
-Isidoro et Lucas partent pour Saelmur et passent leur première nuit à l'hospice de Lathandre, dans le camp de réfugiés. Isidoro y attrape une maladie, vite soignée.
+Isidoro et Lucas partent pour Saelmur, croisent Roland et Nour en chemin, puis passent leur première nuit à l'hospice de Lathandre, dans le camp de réfugiés. Isidoro y attrape une maladie, vite soignée.
 
 **Avant de partir**
 
@@ -344,7 +351,13 @@ Isidoro et Lucas partent pour Saelmur et passent leur première nuit à l'hospic
 - Lucas achète **l'Encensoir**, surnommé « le petit martinet » : une morgenstern à une main dont la tête creuse reçoit une fiole d'eau bénite, qui éclabousse la cible à chaque coup. Il faut la recharger après chaque frappe. Prix : 10 po.
 - Lucas apprend que Saelmur manque d'objets magiques. Une enclave proche du Clos en vend, mais ses occupants sont peu recommandables.
 
-**La route du sud** : début 1373 CV, fin de l'hiver. Isidoro n'a plus que trois rations, qu'il purifie chaque jour par un sort. Ils descendent plein sud vers Saelmur, sans rencontre.
+**La route du sud** : début 1373 CV, fin de l'hiver. Isidoro n'a plus que trois rations, qu'il purifie chaque jour par un sort. Ils descendent plein sud vers Saelmur.
+
+**La rencontre de Roland et Nour**
+
+- En chemin, ils croisent un autre groupe d'aventuriers, **Roland et Nour**, qui monte vers l'abbaye.
+- Nour vient du même temple de Lathandre de Derlusk qu'Isidoro : ils se reconnaissent aussitôt.
+- Nour leur dépeint une Saelmur au bord de la rupture : une épidémie de maladie circulaire, des disparitions inexpliquées hors des murs et la certitude d'une attaque imminente de Mintar, la théocratie militaire des fidèles de Bane.
 
 **Saelmur vue de loin**
 
@@ -357,11 +370,11 @@ Isidoro et Lucas partent pour Saelmur et passent leur première nuit à l'hospic
 
 **L'hospice de Lathandre** (arrivée vers 18 h)
 
-- Une longue file attend la soupe. Le **père Damien** et deux aides distribuent ce qu'ils peuvent. À côté, un hôpital de campagne réunit des prêtres de Heaume, de Tyr et d'autres cultes.
+- Une longue file attend la soupe. Le **père Damino** et deux aides distribuent ce qu'ils peuvent. À côté, un hôpital de campagne réunit des prêtres de Heaume, de Tyr et d'autres cultes.
 - Isidoro et Lucas donnent leurs 12 rations et servent les repas jusqu'à 22 h.
 - Le MJ retire au moins 4 po à chacun pour les frais du voyage.
 
-**Ce que dit le père Damien**
+**Ce que dit le père Damino**
 
 - Des pirates bloquent le lac ; des magiciens de Mintar à dos d'hippogriffe harcèlent les convois terrestres.
 - Des gens disparaissent ; leurs corps n'arrivent même pas au cimetière de Kelemvor.
@@ -382,12 +395,12 @@ Isidoro et Lucas partent pour Saelmur et passent leur première nuit à l'hospic
 **L'enquête de Lucas dans le camp**
 
 - Une autre équipe est passée il y a quelques jours. Cinq hommes portant des écussons de la milice (de Heaume ?) cherchaient la bagarre avec les réfugiés : c'étaient des lycanthropes qui propageaient la maladie.
-- Trois ont été tués, deux se sont échappés. L'équipe est ensuite remontée vers l'abbaye<span data-savoir="mj"> : ce sont les personnages de l'autre table</span>, croisée en route.
-- Parmi eux se trouve une moniale du même monastère qu'Isidoro, venue de Derlusk : c'est la femme dont parle le père Damien. Isidoro ne la connaît pas.
+- Trois ont été tués, deux se sont échappés. L'équipe est ensuite remontée vers l'abbaye : c'est le groupe de **Roland et Nour**, croisé en route<span data-savoir="mj"> (les personnages de l'autre table)</span>.
+- La femme venue du temple de Derlusk dont parle le père Damino est donc **Nour**, qu'Isidoro a reconnue sur la route.
 
 ## Étape 8 — Saelmur intra-muros et la rue des Tanneurs n°6
 
-Le lendemain, Isidoro et Lucas identifient la maison de la vision, y entrent par la ruse et tuent le magicien qui livrait des humains à Alcatar.
+Le lendemain, Isidoro et Lucas identifient la maison de la vision, y entrent par la ruse et tuent **Mirel**, le magicien qui livrait des humains à Alcatar.
 
 **Dans la ville**
 
@@ -395,9 +408,11 @@ Le lendemain, Isidoro et Lucas identifient la maison de la vision, y entrent par
 - Les armées du dehors semblent prêtes à partir en campagne plutôt qu'à soutenir un siège.
 - Les habitants se méfient des réfugiés, et les génasi sont mal vus.
 - La tension est palpable (Psychologie 19). L'héritier d'une grande famille marchande a été retrouvé pendu à Derlusk avec son équipage. Depuis, une guerre de l'ombre oppose des familles marchandes, des entrepôts brûlent et chacun soupçonne des espions.
-- Lucas apprend (Renseignements 21) que l'ancien temple de Lathandre se trouve près du Parlement, et que la rue des Tanneurs est sur la colline bourgeoise et marchande.
+- Lucas apprend (Renseignements 21) que l'ancien temple de Lathandre se trouve près du Parlement, et piste la rue des Tanneurs.
 
-**Au temple d'Oghma**
+**Au temple d'Oghma**, avec le **père El Mundo**
+
+- Isidoro y étudie les parchemins, et une étrange histoire d'encyclopédie.
 
 - Pour 2 po, le cadastre révèle que le n°6 est en cours de vente. L'acheteur en prend possession dans quelques jours ; le vendeur, un magicien, a déjà touché l'argent mais occupe encore les lieux.
 - La harpe est le symbole des **Ménestrels**, une organisation secrète du Nord et des terres de l'Ouest. On y compte beaucoup d'elfes, de rôdeurs et de bardes.
@@ -408,7 +423,7 @@ Le lendemain, Isidoro et Lucas identifient la maison de la vision, y entrent par
 
 **Repérage**
 
-- Lucas se déguise en mendiant (Déguisement 24, Discrétion 19) et surveille la maison, sans rien voir de précis.
+- Lucas se déguise en mendiant (Déguisement 24, Discrétion 19) et mène une filature dans les ruelles sombres des docks. Les indices confirment la vision : la maison est celle du suspect, Mirel.
 - Par une ruelle, il gagne la cour arrière. Le rez-de-chaussée est éclairé, puis tout s'éteint vers 20 h.
 
 **Le cas de conscience** : entrer de force sur la foi d'une vision gêne Isidoro. Ils décident de frapper, de se présenter comme messagers de l'elfe, puis d'immobiliser le magicien. Isidoro prépare Injonction et Bouclier de la foi.
@@ -421,24 +436,24 @@ Le lendemain, Isidoro et Lucas identifient la maison de la vision, y entrent par
 - Lucas le touche (8 dégâts). Isidoro le plaque au sol, une main sur la bouche.
 - Le magicien dégage sa bouche et prononce un mot en draconique : quatre squelettes sortent des armoires.
 - Lucas le frappe encore (8 dégâts). Isidoro libère une main, brandit son symbole et renvoie les morts-vivants (test 23) : les quatre squelettes explosent.
-- « Madame Irma » revient métamorphosée : une brute massive armée d'une grande hache, portant un symbole zhentarim, qui entre en rage.
-- Lucas feinte (Bluff 24) et abat le magicien. Isidoro et Lucas viennent ensuite à bout de la brute. Tous deux sont morts.
+- Son garde surgit : un **orc** lourdement armé d'une grande hache, portant un symbole zhentarim, qui entre en rage.
+- Lucas feinte (Bluff 24) et abat le magicien. Isidoro et Lucas viennent ensuite à bout de l'orc. Tous deux sont morts.
 
 **La fouille**
 
-- Des notes comptent les corps livrés dans les égouts : une cinquantaine déjà, peut-être une centaine au total. Le magicien embauchait des réfugiés comme main-d'œuvre, puis les tuait.
-- Un contrat avec Alcatar : livrer des humanoïdes vivants à son complice des égouts en échange d'un **livre néthérisien sur les puits d'ombre**, qui masquent les sorts de scrutation. Isidoro lit le néthérisien et garde le livre.
+- Des notes comptent les corps livrés dans les égouts : une cinquantaine déjà ; le contrat en prévoit plus de 100. Le magicien embauchait des réfugiés comme main-d'œuvre, puis les tuait.
+- Un contrat avec Alcatar : livrer plus de 100 cadavres de réfugiés à son complice des égouts, l'elfe sauvage **Famaruth**, en échange d'un **livre néthérisien sur les puits d'ombre**, qui masquent les sorts de scrutation. Isidoro lit le néthérisien et garde le livre.
 - Un coffre piégé : Lucas esquive la fléchette et le désamorce. Il contient 2 400 po, le produit de la vente de la maison et la fortune personnelle du magicien.
-- Des bijoux pour 400 po, le grimoire du magicien et une dizaine de livres sur les gobelinoïdes (environ 500 po), pris par Isidoro.
-- À la cave : des traces de sang, des fers et des restes d'expériences répugnantes. Au grenier : du bric-à-brac et des vêtements, que Lucas garde pour ses déguisements.
+- Des bijoux pour 400 po, le grimoire de Mirel et dix livres de connaissances (dont des ouvrages sur les gobelinoïdes, environ 500 po), pris par Isidoro.
+- À la cave : des traces de sang, des fers et des restes d'expériences répugnantes. Au fond, de grands tonneaux d'herbes séchées : la **belladone** rachetée dans toute la ville, laissée sur place. Au grenier : du bric-à-brac et des vêtements, que Lucas garde pour ses déguisements.
 
 ## Fin de séance : l'attaque de Saelmur commence
 
-Juste après la mort du magicien, l'attaque de Saelmur commence réellement ; la séance s'arrête là.
+Au moment où Isidoro et Lucas sortent de l'atelier avec leurs documents, l'attaque de Saelmur commence : c'est la nuit de pleine lune, le 20 Ches 1373 CV. La séance s'arrête là.
 
 - Lucas entend une rumeur qui monte, des cris, des gens qui courent. La rue baigne dans une lumière verte.
-- Isidoro lève les yeux (Détection 10) : un immense crâne vert illumine le ciel.
-- Des explosions frappent les autres collines et leurs grands temples. Le quartier du gouvernement est pour l'instant moins touché.
+- Isidoro lève les yeux (Détection 10) : un immense squelette vert illumine le ciel.
+- Des explosions magiques retentissent partout ; elles frappent les autres collines et leurs grands temples. Le quartier du gouvernement est pour l'instant moins touché.
 - Isidoro reconnaît sa vision et pense aux rats. La panique gagne et la foule commence à fuir.
 - La suite de l'attaque sera jouée à la prochaine séance, sans doute longue.
 
@@ -456,7 +471,8 @@ Ces informations sont connues des joueurs, pas des personnages.
 - **Bridgestone** : le haut fait rappelé à Champ-Doré est lié à Théodoric ; le père d'Isidoro y avait participé au second plan.
 - **Le Clos** : dans l'ancienne campagne, l'oncle de Théodoric en était le baron, dernier membre de sa famille. Voir les anciennes notes de Théodoric.
 - **La Pinte sans Fond** (ou Chope sans Fond) : l'auberge près du Clos que les Lames de Tymora prendront comme QG, et où elles cacheront des notes sur Alcatar. Dans la chronologie, cela se passe après l'attaque de Saelmur.
-- **Les génasi de Pierrot** étaient les lycanthropes affrontés par l'autre table. Isidoro leur avait confié de bonne foi sa lettre aux confrères de Saelmur et l'attestation du combat. On ne sait pas s'ils étaient déjà lycanthropes à ce moment-là, et ni Isidoro ni Lucas ne le savent.
+- **Roland et Nour** sont les personnages de l'autre table (Thôn et David).
+- **Les génasi de Radagar** étaient les lycanthropes affrontés par l'autre table. Isidoro leur avait confié de bonne foi sa lettre aux confrères de Saelmur et l'attestation du combat. On ne sait pas s'ils étaient déjà lycanthropes à ce moment-là, et ni Isidoro ni Lucas ne le savent.
 - **Scène du bateau** (aventure précédente) : Isidoro y prêche Lathandre. Pour l'autre table, le MJ a réécrit la suite : c'est le personnage de David, et non plus Isidoro, qui va parler au personnage indécis de Thôn à la proue.
 - **Prochaine séance** : probablement après le week-end du 10 octobre.
 :::
@@ -473,7 +489,7 @@ Repères pour relire la séance ; les lieux sans équivalent officiel sont des c
 | Mintar | Cité conquise par Teldorn Sombre-Espoir ; ennemie |
 | Derlusk | Ville natale d'Isidoro ; grand temple de Lathandre du Lac de Vapeur |
 | Ankhapur | Grande cité du Lac de Vapeur, traversée auparavant |
-| Glen | Bourg-carrefour ; le Baladin Joyeux |
+| Ghlinin | Cité et comté ; le Baladin Joyeux |
 | Fort Corner | Bourg fortifié entre Saelmur et le Clos |
 | Le Clos | Ville et comté au nord de Saelmur ; l'abbaye du Cœur Radieux est proche |
 | Bridgestone | Ville-pont au nord du comté du Clos, sur le fleuve Mintar, vers le Bois des Épines |
@@ -485,16 +501,19 @@ Repères pour relire la séance ; les lieux sans équivalent officiel sont des c
 | PNJ | Lieu | Rôle |
 | --- | --- | --- |
 | Alcatar | — | Elfe d'or, future liche, antagoniste principal |
-| Le magicien du n°6 | Saelmur | Complice d'Alcatar ; mort |
-| « Madame Irma » | Saelmur | Servante métamorphosée ; morte |
-| L'elfe sauvage | Égouts de Saelmur | Complice d'Alcatar ; inconnu |
-| Pierrot | Route, puis Saelmur | Chef des génasi<span data-savoir="mj"> ; lycanthrope (hors-jeu)</span> |
-| Frère Patricius | Abbaye | Prêtre de Lathandre, ami d'enfance d'Isidoro |
+| Mirel | Saelmur, 6 rue des Tanneurs | Magicien, complice d'Alcatar ; mort |
+| « Madame Irma » | Saelmur | Vieille servante de Mirel |
+| L'orc de Mirel | Saelmur | Garde zhentarim lourdement armé ; mort |
+| Famaruth | Égouts de Saelmur | Elfe sauvage, complice d'Alcatar |
+| Roland et Nour | Route de l'abbaye | Aventuriers ; Nour vient du temple de Derlusk |
+| Père El Mundo | Temple d'Oghma, Saelmur | Bibliothécaire |
+| Radagar | Route, puis Saelmur | Chef des génasi<span data-savoir="mj"> ; lycanthrope (hors-jeu)</span> |
+| Père Patricius | Abbaye | Prêtre de Lathandre, vieille connaissance d'Isidoro venue de Derlusk |
 | Frère Malachie | Abbaye | Grand prêtre de Tyr, intendant |
 | Sœur Aurélia | Abbaye | Prêtresse d'Oghma, interprète des visions |
-| Rayana | Abbaye | Musicienne au pendentif en harpe |
+| Rayana | Abbaye | Prêtresse de Deneir, joueuse de luth au pendentif en harpe |
 | Père Gaspard | Abbaye | Prêtre de Tymora |
-| Père Damien | Hospice de Saelmur | Prêtre de Lathandre |
-| Tom Martino, Mickellow Beretta | Glen | Habitués soupçonnés du vol |
+| Père Damino | Hospice de Saelmur | Prêtre de Lathandre |
+| Tom Martino, Mickellow Beretta | Ghlinin | Habitués soupçonnés du vol |
 
 **Organisations et dieux** : les Zhentarim, alliés de Mintar, dont le symbole marque les ennemis ; les Ménestrels, société secrète au symbole de harpe. Dieux cités : Lathandre, Tymora, Milil, Deneir, Oghma, Tyr, Heaume, Torm, Kelemvor et Velsharoon. Le prophète Alaundo a nommé les années.

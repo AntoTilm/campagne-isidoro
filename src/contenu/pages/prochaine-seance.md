@@ -6,7 +6,7 @@ description: Pense-bête pour la prochaine séance d'Isidoro : montée au niveau
 ---
 
 <p class="maintenant"><span class="maintenant__date">Saelmur, nuit du 20 Ches 1373 CV</span>
-Le magicien de la rue des Tanneurs est mort. Un crâne vert s'allume au-dessus de la ville, les grands temples explosent : l'attaque commence. La prochaine séance reprend à cet instant, probablement après le week-end du 10 octobre.</p>
+Mirel, le magicien de la rue des Tanneurs, est mort. Nuit de pleine lune, 20 Ches 1373 : un squelette vert s'allume au-dessus de la ville, les grands temples explosent : l'attaque commence. La prochaine séance reprend à cet instant, probablement après le week-end du 10 octobre.</p>
 
 ## Avant de jouer
 
@@ -22,8 +22,9 @@ L'attaque de Saelmur est l'urgence ; les autres fils attendront la suite.
 
 - [ ] **Survivre à l'attaque** : morts-vivants venus des égouts, explosions, débarquement possible des légions de Mintar (visions).
 - [ ] **La bibliothèque d'Oghma** : la protéger, ou en sauver les ouvrages. Isidoro l'a vue brûler en vision, et c'est ce qui le hante le plus.
-- [ ] **L'elfe sauvage des égouts**, complice d'Alcatar, dont personne ne sait rien.
-- [ ] **L'hospice du père Damien** et les confrères de Lathandre à Saelmur, prévenus par la lettre d'Isidoro, au milieu du camp de réfugiés.
+- [ ] **Famaruth, l'elfe sauvage des égouts**, complice d'Alcatar, dont on ne connaît que le nom.
+- [ ] **La belladone** laissée dans la cave de Mirel : tout le stock de la ville, dont l'hospice a besoin contre la lycanthropie.
+- [ ] **L'hospice du père Damino** et les confrères de Lathandre à Saelmur, prévenus par la lettre d'Isidoro, au milieu du camp de réfugiés.
 - [ ] **Les disparitions** du camp de réfugiés, liées aux livraisons dans les égouts.
 - [ ] **La belladone**, seul remède contre la lycanthropie : le stock racheté par le magicien reste introuvable, et la pleine lune approche.
 - [ ] **Les deux lycanthropes** en fuite.
@@ -33,18 +34,18 @@ L'attaque de Saelmur est l'urgence ; les autres fils attendront la suite.
 - [ ] **Alcatar** : elfe d'or, future liche, peut-être demi-liche. Ses phylactères, et le risque qu'il prenne la place de Velsharoon.
 - [ ] **Les Ménestrels** : Rayana, et la harpe vue dans les deux visions.
 - [ ] **Le sentier caché** près d'une forteresse à l'ouest (vision de Lucas).
-- [ ] **Les confrères de Lathandre** à Saelmur : la lettre d'Isidoro, et le temple vendu par le père Damien.
+- [ ] **Les confrères de Lathandre** à Saelmur : la lettre d'Isidoro, et le temple vendu par le père Damino.
 - [ ] **Bridgestone** : la famille du comte tiendra-t-elle le pont ?
 - [ ] **La guerre de l'ombre** entre familles marchandes, après l'héritier pendu à Derlusk.
 - [ ] **Un barde de Milil** pour instruire Lucas.
 - [ ] **Château-Suif** : les écrits d'Alaundo.
-- [ ] **Le voleur en bleu** du Baladin Joyeux, à Glen.
+- [ ] **Le voleur en bleu** du Baladin Joyeux, à Ghlinin.
 
 ## Savoir de joueur : ne pas l'utiliser en jeu {@mj}
 
 ::: hors-jeu
-- **Les génasi de Pierrot sont les lycanthropes** démasqués par l'autre table. Isidoro leur a confié sa lettre de bonne foi. Ni Isidoro ni Lucas ne le savent : ne pas réagir en conséquence tant que le jeu ne le révèle pas.
-- **La moniale de Derlusk** : Isidoro ne la connaît pas. Aucun lien avec les assassins d'Ankhapur.
+- **Les génasi de Radagar sont les lycanthropes** démasqués par l'autre table. Isidoro leur a confié sa lettre de bonne foi. Ni Isidoro ni Lucas ne le savent : ne pas réagir en conséquence tant que le jeu ne le révèle pas.
+- **Nour**, du temple de Derlusk : Isidoro la connaît et l'a reconnue sur la route. Aucun lien avec les assassins d'Ankhapur.
 - **Théodoric** : Isidoro ne connaît pas ce nom. Il ne connaît que le rôle de son père à Bridgestone.
 - **La Chope sans Fond** : futur QG des Lames de Tymora, après l'attaque. Pour Isidoro, ce n'est qu'un nom vu par Lucas.
 :::
