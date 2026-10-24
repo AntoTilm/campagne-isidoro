@@ -76,6 +76,26 @@
 = Rayana, Marika
 = Isoline, Isolyne
 = Kismet, Lame du Surtaut
+= Kzelter, Kelton, Felton, Keltum, Kelter
+= Garrick, Garric, Garrik, Garry, Garrigue
+= Trèfleure, Trefleure, Trèfle-Feuille, Trefle feuille, Très-Feu-Vert
+= Sébastien, Sebastien, Sébastiano, Sebastiano
+= Saint-Lun, Saint Lun, Saintlun
+= Isola, Isolla, Isolà
+= rats-garous, rat-garou, raggarou, ragarou, ragaru, wererats
+= Famaruth, Faramut, Faramute, Pharamut
+= Mirel, Mireille
+= Qurth, Kurse, Curse, Kurth
+= Arrk, Arc, Ark
+= mythal, mythale, mitala
+= Pénombre, Penombre, Shade, Thultanthar
+= Néthéril, Netheril, Nétheris, néthérisien, netherese
+= Myrkul, Mirkul, Mircules
+= Corvus Corvette, Corvus, Corvette
+= naga-hydre, naga hydre, nagaïde, naga
+= Ankaria, Ankarie, Ancaria
+= Urs, Urs le Jeune, Ursulin, Ursuline
+= Damino, Domino
 
 
 # ============================================================ accueil, prochaine séance
@@ -87,16 +107,16 @@ accueil, sommaire, où en est-on, résumé rapide, dernière séance, point de v
 filtre, masquer, cacher, spoiler, divulgâcher, savoir de joueur, qui sait quoi, vue Tout, vue Monde, provenance
 
 [prochaine-seance.html#avant-de-jouer]
-préparer, préparation, montée de niveau, passer niveau 3, level up, sorts restants, charges, baguette de soins, partage du butin, coffre, bijoux, grimoire, eau bénite, fronde, livre néthérisien, puits d'ombre, à faire, checklist, liste
+préparer, préparation, niveau 3, fiche à jour, photo de la fiche, level up, combien d'XP, 5 200 XP, sorts du soir, discrétion, équipement prêté, sac sans fond, armes d'argent, renvoi, nécrophages, 4 DV, renvoi supérieur, domaine du Soleil, eau bénite, rats explosifs, à faire, checklist, liste
 
 [prochaine-seance.html#priorites-en-jeu] @isidoro
-objectifs, quoi faire, priorité, urgence, attaque de Saelmur, survivre, bibliothèque, livres, elfe sauvage, égouts, hospice, réfugiés, disparitions, belladone, remède, pleine lune, lycanthropes en fuite, quête
+objectifs, quoi faire, priorité, urgence, mission, commando, belladone, tonneaux, cave de Mirel, rue des Tanneurs, pleine lune, rats-garous, réfugiés griffés, entrer dans la ville, remparts, nager, armure bruyante, Isola, promesse, onze morts, Garrick, Kzelter, dessin, quête
 
 [prochaine-seance.html#autres-fils-ouverts] @isidoro
-quêtes, pistes, intrigues, mystères, questions, à suivre, fils ouverts, Alcatar, Ménestrels, harpe, sentier caché, forteresse, falaise, confrères, temple vendu, Bridgestone, pont, guerre de l'ombre, familles marchandes, pendu, barde, Milil, Alaundo, prophéties, voleur, Ghlinin, Glen, habit bleu
+quêtes, pistes, intrigues, mystères, questions, à suivre, fils ouverts, Théodoric, Lames de Tymora, Pinte sans Fond, comté du Clos, mythal, forêt de Qurth, puits d'ombre, Urs, lumière, prismes, volumes du livre, Famaruth, hospice, copies des livres, Alcatar, Ménestrels, harpe, sentier caché, forteresse, falaise, confrères, temple vendu, Bridgestone, pont, guerre de l'ombre, familles marchandes, pendu, barde, Milil, Alaundo, prophéties, voleur, Ghlinin, Glen, habit bleu
 
 [prochaine-seance.html#savoir-de-joueur-ne-pas-l-utiliser-en-jeu] @mj
-métajeu, méta, secret, attention, piège, lettre, génasi lycanthropes, moniale, Théodoric inconnu, QG, quartier général
+métajeu, méta, secret, attention, piège, Théodoric de nom, mort de Théodoric, Kismet, Micheline, QG, quartier général, Vandor, égouts, Peter, abbaye incendiée, 26 Ches, rats incontrôlés, trahison
 
 
 # ============================================================ journal
@@ -158,6 +178,42 @@ loi martiale, guerre de l'ombre, temple d'Oghma, cadastre, archives, n°6, numé
 [journal/aventure-2.html#la-nuit-du-squelette-vert] @isidoro
 squelette vert, crâne vert, ciel vert, explosions, attaque, début de l'attaque, rats, fin de séance, cliffhanger
 
+[journal/aventure-3.html#les-quatre-lumieres] @isidoro
+bibliothèque d'Oghma, bûcher, livres, quatre faisceaux, quatre collines, crâne vert, temple de Torm, temple de Heaume, université des mages, porte de pierre, cave, foule, chemise de nuit, voix des docks, flotte de Mintar, guide moral
+
+[journal/aventure-3.html#ce-qui-monta-de-la-cave] @isidoro
+nécrophages, six, fenêtre, symbole, renvoi raté, eau bénite, niveau négatif, fuite
+
+[journal/aventure-3.html#la-garde-de-heaume] @isidoro
+génasi, Radagar, lettre de recommandation, garde de Heaume, rats-garous, argent, culpabilité, document exact, mensonge
+
+[journal/aventure-3.html#isola] @isidoro
+rat explosif, squelette de rat, cent explosions, petite fille, père, nécrophage, vous avez tué mon papa, niveau négatif, Isola, six ans, renoncer à la bibliothèque, choix, Oghma
+
+[journal/aventure-3.html#onze] @isidoro
+renvoi, rats, explosion, onze morts, cinq hommes, cinq femmes, un enfant, foule, porte ouest, culpabilité, responsabilité, prière des morts, ce n'était pas Lui
+
+[journal/aventure-3.html#la-debacle] @isidoro
+débâcle, retraite, soldats de Torm, Heaume, Tyriens, phare, Bainiens, Zhentarim, pauvre fou, vampires ailés
+
+[journal/aventure-3.html#les-hommes-de-kzelter] @isidoro
+Kzelter, blason, Sombrespoir, Bridgestone, Miracle, déguisement, paysans, réfugiés, Alcatar nous a trahis, trahison
+
+[journal/aventure-3.html#le-rempart] @isidoro
+gardes zhentarim, tonneau, promesse, bibliothèque en feu, temples disparus, profanation, tache d'huile, dernière lumière, prière, elfe d'or, bâton d'onyx, corbeau, regard, descente en rappel, corde, mains brûlées, douve, nager, vase, apnée, flèche, roseaux
+
+[journal/aventure-3.html#le-camp] @isidoro
+infiltrés, quatre, garde, vivants, foule, rue de la Biscotte, adresse, cadastre, petite sœur, père absent, étendards zhentarim
+
+[journal/aventure-3.html#le-matin] @isidoro
+père Damino, rats-garous, hospice, doute, faiblesse, Alcatar, elfes d'or, île, haute magie elfique, raz-de-marée, elfe sauvage
+
+[journal/aventure-3.html#le-marechal] @isidoro
+maréchal, Sébastien de Saint-Lun, seigneur de Trèfleure, prisonniers pendus, gibets, Garrick, journal de Mirel, grimoire, copies, belladone, pleine lune, mission, Théodoric de Bridgestone, Lames de Tymora, Pinte sans Fond, Chope sans Fond, Isola, cuisines, Patrick, soins, niveau 3
+
+[journal/aventure-3.html#ce-que-dit-le-livre] @isidoro
+livre néthérisien, forêt de Qurth, avant-poste, Derlusk, bardes, archives, temple de Shar, temple d'Amaunator, mythal, puits d'ombre, Myrkul, Velsharoon, Élu, passé effacé, réécrire l'histoire, âme, phylactère, contrebandier, nécrophages, Urs, prismes, lumière
+
 
 # ============================================================ séances
 
@@ -200,6 +256,57 @@ index, glossaire, liste des noms, liste des lieux, PNJ
 [seances/aventure-2.html#notes-hors-jeu] @mj
 ancienne campagne, Lames de Tymora, Marius, légionnaires, deux tables, synchronisation, Thôn, Tonon, David, François, oncle, baron, QG, scène du bateau, réécrite, prochaine séance, 10 octobre
 
+[seances/aventure-3.html#etape-1-minuit-chez-mirel] @isidoro
+minuit, cloches, grondements, bibliothèque d'Oghma, bûcher, Détection 17, quatre faisceaux, crâne vert, quatre collines, temple de Torm, temple de Heaume, université des mages, Connaissance des mystères, énergie nécromantique, Perception auditive, porte de pierre, Diplomatie 18, Bouclier de la foi, Volonté, sort amplifié, flotte de Mintar
+
+[seances/aventure-3.html#etape-2-les-necrophages-de-la-cave] @isidoro
+nécrophages, wights, six, plan de la pièce, renvoi, test 14, 3 DV, 4 DV, eau bénite, attaque d'opportunité, niveau négatif, absorption d'énergie, 300 XP, règle du renvoi, renvoi supérieur, destruction
+
+[seances/aventure-3.html#etape-3-la-garde-de-heaume] @isidoro
+grande artère, docks, renfort, garde de Heaume, Détection 18, génasi, Radagar, lettre, rats-garous, lycanthropes, cinquantaine, combat de rue, cuirasse, armure naturelle, griffes, argent, réduction des dégâts, régénération, Survie 11, fuite, bruit
+
+[seances/aventure-3.html#etape-4-les-rats-explosifs] @isidoro
+rat squelette, renvoi raté, test 4, arc, explosion, 5d6, force, cratère, centaine d'explosions, bombes
+
+[seances/aventure-3.html#etape-5-isola] @isidoro
+place d'Armes, panique, fillette, petite fille, père, nécrophage, charge, tenaille, niveau négatif, Isola, six ans, rappel, remparts, baguette, 300 XP
+
+[seances/aventure-3.html#etape-6-le-renvoi-et-les-onze-morts] @isidoro
+porte ouest, bataillon de Tyr, pavois, foule, rats-garous, rabattre, renvoi, test 11, explosion, onze morts, cinq hommes, cinq femmes, un enfant, Volonté 10, culpabilité, Religion 14, prière des morts, explosion des docks
+
+[seances/aventure-3.html#etape-7-la-debacle] @isidoro
+retraite, Torm, Heaume, Religion 24, soldat, Zhentarim, Bainiens, flotte, phare, Tyriens, colonne, priez pauvre fou, vampires, ailes, Déplacement silencieux
+
+[seances/aventure-3.html#etape-8-garrick-de-bridgestone-et-les-hommes-de-kzelter] @isidoro
+derrière les lignes, place, Survie 21, Détection 19, blason, Kzelter, poing noir, rose rouge, Miracle de Kzelter, Elrayck, Sombrespoir, Brixen, Bridgestone, Histoire 17, lieutenant, déguisement, habits de paysans, Alcatar nous a trahis, sac sans fond, Psychologie, élite
+
+[seances/aventure-3.html#etape-9-les-remparts-et-la-douve] @isidoro
+gardes zhentarim, tonneau, charge, attaque sournoise, butin, chemises de mailles, arme de maître, Détection 12, incendie, bibliothèque d'Oghma, phare, profanation, prière, Concentration, Religion 13, elfe d'or, bâton d'onyx, corbeau, rappel, Escalade, corde, cicatrice, archers, douve, apnée, vase, flèche, 7 dégâts, roseaux, Discrétion 23, 300 XP
+
+[seances/aventure-3.html#etape-10-le-camp-de-refugies-et-les-infiltres] @isidoro
+camp de réfugiés, hospice, lycanthropes, fil de l'épée, vampires, reproduction, Religion 26, Isola, yeux noirs, trois mille, infiltrés, quatre, garde, Diplomatie, vivants, filature, poignards, feinte, Bluff 23, foule, prisonniers, 200 XP, rue de la Biscotte, n°42
+
+[seances/aventure-3.html#etape-11-la-nuit-au-camp] @isidoro
+séchage, matériel trempé, manger, petite sœur, explosions, étendards zhentarim, cauchemars, acte maléfique
+
+[seances/aventure-3.html#etape-12-le-pere-damino] @isidoro
+père Damino, rats-garous, hospice, contamination, troupes de Torm, Tyr, docks, maréchal Sébastien, attaque coordonnée, vision, elfe d'or, Alcatar, groupe d'aventuriers, elfes, Histoire 19, île, haute magie elfique, raz-de-marée, elfe sauvage
+
+[seances/aventure-3.html#etape-13-le-seigneur-de-trefleure-et-le-marechal] @isidoro
+camp de Torm, armée, siège, échelles, béliers, bois, logistique, nourriture, seigneur de Trèfleure, baronnie, chevaux, prisonniers, pendus, gibets, tatouage, poing, rose rouge, chiffre romain, Garrick, croquis, grimoire, objet souillé, belladone, pleine lune, sac sans fond, gouvernante, armes d'argent, copies des livres, Isola, cuisinière, maréchal, Sébastien de Saint-Lun, cousin du comte, Heaumites, Tormites, noblesse, moustache, commandos, Alcatar, sous-traitant, Sombrespoir, Théodoric de Bridgestone, cinquième fils, Lames de Tymora, Pinte sans Fond, comté du Clos, Patrick
+
+[seances/aventure-3.html#etape-14-patrick-le-niveau-3-et-les-achats] @isidoro
+Patrick, soins, niveaux rendus, restauration, niveau 3, level up, achats, Arme alignée, Extérieurs, réduction des dégâts, Protection contre le Mal, potions, potion de force, université, objets profanes
+
+[seances/aventure-3.html#le-livre-netherisien-des-puits-d-ombre] @isidoro
+livre néthérisien, volume III, puits d'ombre, original, patois, trois auteurs, Urs, Ursulin, Derlusk, bardes, avant-poste, Ankaria, forêt de Qurth, malédiction, désertification, elfes sauvages, naga-hydre, Néthéril, Karsus, déchirure de la Toile, cités volantes, caste, rivière, Selta, temple de Shar, temple d'Amaunator, zone d'ombre, folie, mythal, plan de l'Ombre, sacrifices, culte, 1128, 1365, Arrk, troll, momie, Myrkul, Trame, Cyric, Shaar, 1368, Velsharoon, Élu, passé effacé, télescopes, prismes, lumière, 1372, Anauroch, bibliothèque, phylactères, essence, chapitre VI, humain raturé, rétablir l'équilibre, Famaruth, contrebandier, Corvus Corvette, orques, bas-fonds, Pénombre, cité volante, Temps des Troubles, Kelemvor, Minuit, Mystra, Baine, Talos, Azuth, Savras, demi-dieu, écoles de magie
+
+[seances/aventure-3.html#noms-et-lieux] @isidoro
+index, glossaire, liste des noms, liste des lieux, PNJ
+
+[seances/aventure-3.html#notes-hors-jeu] @mj
+baguettes d'explosion nécrotique, contrôle, trahison, commandos, Théodoric et Marius, Roland et Nour, barque retournée, cloche, autre table, relique, phare, recoupements, Barthélemy, Vandor, Teldorn, Talos, carte, punaises, prochaine séance, 11 novembre, 18 novembre
+
 [seances/sacrifice-de-mintar.html] @theodoric
 Rogue One, opération, commando, assaut, citadelle, mort de Théodoric, mort de Teldorn, fin de la table, dernière séance, Tarsakh
 
@@ -223,6 +330,9 @@ groupe, compagnon, joueurs, PJ, Antoine, François, roublard, prêtre, El Tiempo
 
 [personnages.html#la-famille-et-les-proches-d-isidoro] @isidoro
 famille, parents, père, mère, Théodoro, moine, fondateur du temple, Antonio, Lily, serveuse, Tirlin, Baltherese, Blaise, Basile, Pascal, Ankhapur, Derlusk
+
+[personnages.html#rencontres-pendant-l-aventure-3] @isidoro
+Isola, fillette, orpheline, maréchal, Sébastien de Saint-Lun, seigneur de Trèfleure, baron, Patrick, prêtre du camp, Garrick de Bridgestone, Kzelter, tatouage, Théodoric de Bridgestone, Lames de Tymora, Corvus Corvette, contrebandier, naga-hydre, Urs, Ursulin, auteurs du livre
 
 [personnages.html#rencontres-pendant-l-aventure-2] @isidoro
 Radagar, Pierrot, génasi, Tom Martino, Mickellow Beretta, voleur, prêtre de Champ-Doré, Patricius, Malachie, Tyr, Aurélia, Oghma, Rayana, musicienne, Gaspard, Tymora, Damino, Damien, magicien, rue des Tanneurs, Madame Irma, servante, elfe sauvage, égouts, morts, Mirel, Famaruth, Roland, Nour, El Mundo, Deneir, prêtresse, orc
@@ -261,7 +371,7 @@ Talos, Cyric, Myrkul, Iyachtu Xvim, Alustriel, Lunargent, Silverymoon, Elminster
 carte, plan, schéma, géographie, région, où se trouve, distances, routes, Lac de Vapeur, Bois d'Épines, forêt de Qurth, Minta, fleuve, Mintar, Saelmur, Ankhapur, Innarlith, Derlusk, Kzelter, Fort Corner, Le Clos, abbaye, Champ-Doré, Bridgestone
 
 [lieux.html#les-lieux] @isidoro
-villes, villages, bourgs, auberges, endroits, lieux visités, Ghlinin, Glen, Baladin Joyeux, Fort Corner, Pissenlit Bleu, Champ-Doré, rue des Tanneurs, n°6
+villes, villages, bourgs, auberges, endroits, lieux visités, Ghlinin, Glen, Baladin Joyeux, Fort Corner, Pissenlit Bleu, Champ-Doré, rue des Tanneurs, n°6, camp de Torm, camp de réfugiés, baronnie de Trèfleure, chevaux, Ankaria, avant-poste, temple de Shar, temple d'Amaunator, mythal, puits d'ombre, Pinte sans Fond, Kzelter
 
 [lieux.html#les-lieux] @isidoro @theodoric
 cité, port, Saelmur, Mintar, Derlusk, Ankhapur, comté du Clos, abbaye du Cœur Radieux, Bridgestone, pont, Château-Suif, bibliothèque, temple, ville natale

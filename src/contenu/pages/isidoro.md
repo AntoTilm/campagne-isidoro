@@ -13,7 +13,7 @@ description: La fiche d'Isidoro, prêtre cloîtré de Lathandre : caractéristiq
 | --- | --- |
 | Joueur | Antoine |
 | Race et alignement | Humain, neutre bon |
-| Classe | Prêtre cloîtré (*Arcanes Exhumés* p. 56-57), niveau 2 ; environ 2 950 XP sur 3 000 pour le niveau 3 |
+| Classe | Prêtre cloîtré (*Arcanes Exhumés* p. 56-57), niveau 3 depuis le 21 Ches 1373 ; vers 5 200 XP selon Antoine (à vérifier sur la fiche) |
 | Âge | 24 ans |
 | Origine | Derlusk, Royaumes Frontaliers, rive sud-est du Lac de Vapeur |
 | Divinité | Lathandre, au sein de la Confrérie du Soleil Glorieux, qui tient Lathandre pour Amaunator revenu |
@@ -23,7 +23,7 @@ description: La fiche d'Isidoro, prêtre cloîtré de Lathandre : caractéristiq
 
 ## La fiche
 
-Les chiffres ci-dessous sont ceux de la fiche papier photographiée, établie au niveau 1. Ils seront à mettre à jour au passage au niveau 3.
+Les chiffres ci-dessous sont ceux de la fiche papier photographiée, établie au niveau 1. Isidoro est passé au niveau 3 à l'aventure 3 : ils seront mis à jour d'après la photo de la nouvelle fiche.
 
 <div class="carac" role="list" aria-label="Caractéristiques">
 <div role="listitem"><abbr title="Force">For</abbr><b>15</b><span>+2</span></div>
@@ -114,7 +114,7 @@ Les gains se partagent entre Isidoro et Lucas ; les montants par tête restent �
 
 - Isidoro : le livre néthérisien sur les puits d'ombre, les livres sur les gobelinoïdes, une fronde, la copie de la carte de Champ-Doré.
 - Lucas : l'Encensoir, la sacoche à potions, des fioles d'eau bénite, des vêtements de déguisement.
-- Le grimoire du magicien : qui le garde, à préciser.
+- Le grimoire du magicien : remis au camp de Torm pendant l'aventure 3.
 
 #### Dépenses notables
 
@@ -123,6 +123,15 @@ Les gains se partagent entre Isidoro et Lucas ; les montants par tête restent �
 #### Expérience
 
  300 XP pour les orques, puis d'autres gains. Isidoro est à environ 2 950 XP sur 3 000, à la porte du niveau 3.
+
+### Butin et finances de l'aventure 3
+
+- **Expérience** : 300 XP pour les nécrophages de la cave de Mirel, 300 pour le père d'Isola, 300 pour la fuite par les remparts, 200 pour les quatre infiltrés de Kzelter, soit 1 100 XP de rencontres, plus les gains de traits. Niveau 3 ; vers 5 200 XP selon Antoine, à vérifier sur la fiche.
+- **Butin** : sur les deux gardes zhentarim du rempart, quelques dizaines de pièces d'or et d'argent, deux chemises de mailles (100 po pièce) et une arme de maître. Montants et partage à vérifier.
+- **Remis au camp** : le grimoire de Mirel, au seigneur de Trèfleure (?) ; le journal-contrat de Mirel, au maréchal Sébastien.
+- **Gardé** : le livre néthérisien des puits d'ombre, un original, et les dix livres de Mirel. Un prêtre du camp les recopie ; Isidoro garde les originaux.
+- **Prêté pour la mission de la belladone** : l'équipement fourni par le camp reste acquis.
+- **Dépensé** : eau bénite, sorts, charges de la baguette de soins.
 
 
 <div class="galerie">
