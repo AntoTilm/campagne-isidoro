@@ -5,7 +5,7 @@ sous-titre: La nuit où Saelmur est tombée, 20 et 21 Ches de l'an 1373 des Vaux
 ordre: 3
 periode: 20 – 21 Ches 1373 CV
 aventure: Aventure 3
-resume: Les quatre lumières, les nécrophages de la cave, les génasi de Radagar, Isola, les onze morts, les hommes de Kzelter, le rempart et la douve, le maréchal, et ce que dit le livre des puits d'ombre.
+resume: Les quatre lumières, les nécrophages de la cave, les génasi de Radagar, Isola, les onze morts, les hommes de Kzelter, le rempart et la douve, le maréchal, ce que dit le livre des puits d'ombre et le mot de Kaelen.
 ---
 
 **Prêtre cloîtré d'Amaunator-Lathandre, fils du Père Théodoro de Derlusk**
@@ -145,6 +145,10 @@ Il parle d'Alcatar. En 1365, il s'est présenté là-bas comme un prêtre de Myr
 Il a placé une part de son âme dans le mythallar de Qurth. La lumière d'Amaunator sert désormais de coffre à une liche. Je relis cette phrase, et je la laisse telle quelle.
 
 Et le dernier chapitre, daté de Nuiteuse de l'an passé, annonce l'envoi de nécrophages à Saelmur, par le lac, entre les mains d'un contrebandier, pour « rétablir l'équilibre ». Ce livre a été écrit avant que je ne voie cette ville pour la première fois. Tout était déjà décidé quand je lavais mes pieds dans le ruisseau de l'abbaye.
+
+Je n'ai pas tout dit du livre. Il n'était pas posé sur une étagère : il dormait dans un emballage cacheté, et sous le cachet, un mot. « Chère Mirel, ce livre a été repris aux mains de Corvus Corvath. Remets cet ouvrage à Famaruth dès que possible. » Signé : Kaelen.
+
+J'ai relu ces trois lignes plus souvent que tout le reste du carnet. Corvus Corvath, c'est le contrebandier du dernier chapitre, celui qui a fait passer les morts par le lac. Famaruth, c'est l'elfe des égouts. Ce livre n'était donc pas le salaire de Mirel, comme je l'avais cru : Mirel n'en était que la boîte aux lettres. On l'avait arraché au contrebandier pour le rendre aux siens, et il s'est arrêté en chemin, dans mon sac. Quant à ce Kaelen, je ne connais de lui qu'une écriture et une familiarité. Quelqu'un, quelque part, croit ce livre arrivé. Le jour où il apprendra qu'il ne l'est pas, il le cherchera. J'ai brisé un cachet qui ne m'était pas adressé ; mon père m'a appris qu'on ne lit pas le courrier d'autrui. Il m'a aussi appris qu'un livre vaut mieux entre les mains de qui le comprend qu'entre celles de qui s'en sert. Je garde le second enseignement, et je m'excuse auprès du premier.
 
 Un elfe nommé Urth, le dernier à tenir la plume, avait imaginé détruire le puits d'ombre avec de la lumière : des lentilles, des prismes, et des prières assez fortes. Alcatar s'y est opposé. Je sais désormais où je voudrais aller, un jour. Pas ce soir. Ce soir, nous rentrons dans Saelmur chercher des herbes séchées dans la cave d'un mort.
 

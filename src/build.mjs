@@ -24,14 +24,14 @@ const CONTENU = join(RACINE, 'src', 'contenu');
 // Le journal d'Isidoro est rangé avec les séances : chaque séance renvoie à son entrée de journal (même « ordre »).
 const RUBRIQUES = {
   seances: { lien: 'seances.html', titre: 'Séances', onglets: [['seances.html', 'Les séances'], ['prochaine-seance.html', 'Prochaine séance']] },
-  monde: { lien: 'personnages.html', titre: 'Le monde', onglets: [['personnages.html', 'Personnages'], ['lieux.html', 'Lieux et cartes'], ['chronologie.html', 'Chronologie'], ['recoupements.html', 'Recoupements'], ['documents.html', 'Documents de Théodoric']] },
+  monde: { lien: 'personnages.html', titre: 'Le monde', onglets: [['personnages.html', 'Personnages'], ['lieux.html', 'Lieux et cartes'], ['chronologie.html', 'Chronologie'], ['recoupements.html', 'Recoupements'], ['documents.html', 'Documents']] },
   isidoro: { lien: 'isidoro.html', titre: 'Isidoro', onglets: [['isidoro.html', 'Fiche'], ['progression.html', 'Progression'], ['regles.html', 'Règles']] },
 };
 
 const COLLECTIONS = {
   seances: { titre: 'Séances', index: 'seances.html', rubrique: 'seances' },
   journal: { titre: 'Séances', index: 'seances.html', rubrique: 'seances' },
-  documents: { titre: 'Documents de Théodoric', index: 'documents.html', rubrique: 'monde' },
+  documents: { titre: 'Documents', index: 'documents.html', rubrique: 'monde' },
 };
 
 // ---------------------------------------------------------------- savoir (filtre « point de vue »)

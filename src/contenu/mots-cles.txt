@@ -212,7 +212,7 @@ père Damino, rats-garous, hospice, doute, faiblesse, Alcatar, elfes d'or, île,
 maréchal, Sébastien de Saint-Lun, seigneur de Trèfleure, prisonniers pendus, gibets, Garrick, journal de Mirel, grimoire, copies, belladone, pleine lune, mission, Théodoric de Bridgestone, Lames de Tymora, Pinte sans Fond, Chope sans Fond, Isola, cuisines, Patrick, soins, niveau 3
 
 [journal/aventure-3.html#ce-que-dit-le-livre] @isidoro
-livre néthérisien, forêt de Qurth, avant-poste, Derlusk, bardes, archives, temple de Shar, temple d'Amaunator, mythal, puits d'ombre, Myrkul, Velsharoon, Élu, passé effacé, réécrire l'histoire, âme, phylactère, contrebandier, nécrophages, Urs, prismes, lumière
+mot de Kaelen, Kaelen, cachet, emballage, Corvus Corvath, boîte aux lettres, courrier, livre néthérisien, forêt de Qurth, avant-poste, Derlusk, bardes, archives, temple de Shar, temple d'Amaunator, mythal, puits d'ombre, Myrkul, Velsharoon, Élu, passé effacé, réécrire l'histoire, âme, phylactère, contrebandier, nécrophages, Urs, prismes, lumière
 
 
 # ============================================================ séances
