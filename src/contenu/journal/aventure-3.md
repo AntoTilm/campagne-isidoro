@@ -138,15 +138,15 @@ Un prêtre du camp, Patrick, nous a soignés. Il m'a rendu ce que la main du mor
 
 J'ai pris enfin le temps de lire le livre néthérisien de Mirel. Il est écrit dans un néthérisien d'emprunt, appris et réécrit par des elfes sauvages : celui de mon père n'aurait pas toléré la moitié de ces tournures. Mais il dit des choses que je dois consigner.
 
-Il parle de la forêt de Qurth, à quelques jours de chez moi. Les bardes prétendent que Derlusk fut un avant-poste de Néthéril ; c'est faux, ce ne fut jamais qu'une ville marchande, et les archives de notre temple le disent. L'avant-poste était dans la forêt, et le livre le confirme. Dans cette ville abandonnée, une rivière sépare un temple de Shar et un temple d'Amaunator. Amaunator. Le soleil dont procède mon dieu, face à l'ombre, à quelques jours de chez moi. Dans le temple d'Amaunator, il y a un mythal. Dans celui de Shar, un puits d'ombre, et depuis mille ans l'ombre gagne.
+Il parle de la forêt de Qurth, à quelques jours de chez moi. Les bardes prétendent que Derlusk fut un avant-poste de Néthéril ; c'est faux, ce ne fut jamais qu'une ville marchande, et les archives de notre temple le disent. L'avant-poste était dans la forêt, et le livre le confirme. Dans cette ville abandonnée, une rivière sépare un temple de Shar et un temple d'Amaunator. Amaunator. Le soleil dont procède mon dieu, face à l'ombre, à quelques jours de chez moi. Dans le temple d'Amaunator, il y a un mythallar, un globe de cristal néthérisien. Dans celui de Shar, un puits d'ombre, et depuis mille ans l'ombre gagne.
 
 Il parle d'Alcatar. En 1365, il s'est présenté là-bas comme un prêtre de Myrkul, le dieu mort, et il a fait prier les elfes à travers lui. En 1368, Velsharoon est devenu dieu, et Alcatar son Élu ; il a alors exigé qu'on efface partout la mention de son passé, comme s'il avait toujours servi Velsharoon. Il a fait réécrire sa propre histoire. De tous ses crimes, c'est celui que je comprends le mieux, et que je pardonne le moins. Les Temps Sombres ont défiguré la mémoire des dieux ; Alcatar défigure la sienne pour qu'on oublie qui il fut.
 
-Il a placé une part de son âme dans le mythal de Qurth. La lumière d'Amaunator sert désormais de coffre à une liche. Je relis cette phrase, et je la laisse telle quelle.
+Il a placé une part de son âme dans le mythallar de Qurth. La lumière d'Amaunator sert désormais de coffre à une liche. Je relis cette phrase, et je la laisse telle quelle.
 
-Et le dernier chapitre, daté de décembre de l'an passé, annonce l'envoi de nécrophages à Saelmur, par le lac, entre les mains d'un contrebandier, pour « rétablir l'équilibre ». Ce livre a été écrit avant que je ne voie cette ville pour la première fois. Tout était déjà décidé quand je lavais mes pieds dans le ruisseau de l'abbaye.
+Et le dernier chapitre, daté de Nuiteuse de l'an passé, annonce l'envoi de nécrophages à Saelmur, par le lac, entre les mains d'un contrebandier, pour « rétablir l'équilibre ». Ce livre a été écrit avant que je ne voie cette ville pour la première fois. Tout était déjà décidé quand je lavais mes pieds dans le ruisseau de l'abbaye.
 
-Un elfe nommé Urs, autrefois, avait imaginé détruire le puits d'ombre avec de la lumière : des lentilles, des prismes, et des prières assez fortes. Alcatar s'y est opposé. Je sais désormais où je voudrais aller, un jour. Pas ce soir. Ce soir, nous rentrons dans Saelmur chercher des herbes séchées dans la cave d'un mort.
+Un elfe nommé Urth, le dernier à tenir la plume, avait imaginé détruire le puits d'ombre avec de la lumière : des lentilles, des prismes, et des prières assez fortes. Alcatar s'y est opposé. Je sais désormais où je voudrais aller, un jour. Pas ce soir. Ce soir, nous rentrons dans Saelmur chercher des herbes séchées dans la cave d'un mort.
 
 ---
 

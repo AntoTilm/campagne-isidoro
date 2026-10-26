@@ -129,7 +129,7 @@ Les gains se partagent entre Isidoro et Lucas ; les montants par tête restent �
 - **Expérience** : 300 XP pour les nécrophages de la cave de Mirel, 300 pour le père d'Isola, 300 pour la fuite par les remparts, 200 pour les quatre infiltrés de Kzelter, soit 1 100 XP de rencontres, plus les gains de traits. Niveau 3 ; vers 5 200 XP selon Antoine, à vérifier sur la fiche.
 - **Butin** : sur les deux gardes zhentarim du rempart, quelques dizaines de pièces d'or et d'argent, deux chemises de mailles (100 po pièce) et une arme de maître. Montants et partage à vérifier.
 - **Remis au camp** : le grimoire de Mirel, au seigneur de Trèfleure (?) ; le journal-contrat de Mirel, au maréchal Sébastien.
-- **Gardé** : le livre néthérisien des puits d'ombre, un original, et les dix livres de Mirel. Un prêtre du camp les recopie ; Isidoro garde les originaux.
+- **Gardé** : le livre néthérisien des puits d'ombre, [le carnet d'Urth](documents/carnet-urth.html), un original, et les dix livres de Mirel. Un prêtre du camp les recopie ; Isidoro garde les originaux.
 - **Prêté pour la mission de la belladone** : l'équipement fourni par le camp reste acquis.
 - **Dépensé** : eau bénite, sorts, charges de la baguette de soins.
 

@@ -31,7 +31,7 @@ resume: La nuit de la chute de Saelmur, Isola, le renvoi qui tue, les hommes de 
 - Les génasi de Radagar étaient des rats-garous.
 - Garrick de Bridgestone commande une centaine d'hommes de Kzelter, cité tenue par **Brixen Sombrespoir**. Leurs ordres : semer le désordre parmi les réfugiés, puis rentrer à Kzelter. Leur tatouage : un poing noir et une rose rouge, avec un chiffre romain.
 - Le maréchal tient Alcatar pour un sous-traitant du seigneur Sombrespoir. Il a promis à **Théodoric de Bridgestone**, cinquième fils de la famille, de lui envoyer ceux qui savent quelque chose d'Alcatar : Théodoric fonde les **Lames de Tymora** à la **Pinte sans Fond**, dans le comté du Clos.
-- Le livre de Mirel parle d'Alcatar : prêtre de Myrkul en 1365, Élu de Velsharoon en 1368, une part de son essence dans le mythal de la forêt de Qurth, et l'attaque de Saelmur préparée dès la fin de 1372. Voir [le livre néthérisien des puits d'ombre](#le-livre-netherisien-des-puits-d-ombre).
+- Le livre de Mirel parle d'Alcatar : prêtre de Myrkul en 1365, Élu de Velsharoon en 1368, une part de son âme dans le Mini-Mythallar d'Ankharia, dans la forêt de Qurth, et l'attaque de Saelmur préparée dès la fin de 1372. Voir [le livre néthérisien des puits d'ombre](#le-livre-netherisien-des-puits-d-ombre) et son texte intégral, [le carnet d'Urth](../documents/carnet-urth.html).
 - La belladone est toujours dans la cave de Mirel, intacte. Il faut la rapporter avant la prochaine pleine lune.
 
 ::: vision
@@ -270,62 +270,62 @@ Au matin, le père Damino quitte un groupe d'aventuriers et les reçoit.
 ## Le livre néthérisien des puits d'ombre
 
 ::: note
-Résumé de la lecture faite par le MJ en fin de séance, établi d'après la transcription. Le MJ doit envoyer le texte (une dizaine de pages) ; les noms incertains portent un (?) et seront corrigés sur l'original.
+Résumé de la lecture faite par le MJ en fin de séance, corrigé d'après l'original reçu ensuite. Le texte intégral est retranscrit dans [le carnet d'Urth](../documents/carnet-urth.html).
 :::
 
 **Le livre**
 
-- C'est le volume III d'une série de recherches, ouvert au chapitre des puits d'ombre. Un original, pas une copie.
+- C'est le carnet d'Urth, ouvert au chapitre des puits d'ombre. Un original, pas une copie.
 - Il est écrit dans un néthérisien appris par des elfes sauvages et réécrit à leur manière, comme un patois : Isidoro le comprend avec un peu d'ouverture d'esprit.
-- Trois auteurs s'y succèdent, à des siècles d'intervalle, dont Urs le Jeune (?) puis Ursulin (?). Le premier n'a pas été retenu.
-- Il serait passé par Famaruth jusqu'à Mirel, pour le compte d'Alcatar.
+- Trois auteurs s'y succèdent, à des siècles d'intervalle : **Gaelenath**, son fils **Urth**, puis son petit-fils **Urth le Jeune**, Grand Prêtre d'Ankharia.
+- Il était dans un emballage cacheté, avec un mot signé **Kaelen** : « Chère Mirel, ce livre a été repris aux mains de Corvus Corvath. Remets cet ouvrage à Famaruth dès que possible. »
 
 **Derlusk, la forêt de Qurth et l'avant-poste**
 
 - Histoire 14 : des bardes racontent que Derlusk fut un avant-poste néthérisien. Isidoro sait par les archives de son temple que c'est faux : c'était une ville marchande.
-- En revanche, dans la forêt de Qurth, près de Derlusk, il y eut bien un avant-poste néthérisien, Ankaria (?). La ville est interdite aux humains à cause d'une malédiction, et la forêt est déserte.
+- En revanche, dans la forêt de Qurth, près de Derlusk, il y eut bien un avant-poste néthérisien, Ankharia. La ville est interdite aux humains à cause d'une malédiction, et la forêt est déserte.
 
-**Les elfes sauvages et la naga-hydre (?)**
+**Les elfes sauvages et la Nagahydra**
 
-- Vers −300 CV, une « grande désertification » fait reculer la grande forêt qui couvrait la région ; il n'en reste que la forêt de Qurth.
-- Des elfes sauvages y migrent sous la protection d'une naga-hydre (?), créature presque légendaire.
-- L'avant-poste néthérisien existait déjà vers −335. Vers −339, une « grande déchirure de la Toile » survient : un grand savant néthérisien combat des créatures venues d'ailleurs, toute la magie de Néthéril s'effondre et ses cités volantes s'écrasent.
-- L'avant-poste est abandonné ; la naga s'y installe avec les elfes. Elle leur fait fouiller les bibliothèques, toujours en place.
+- Entre −300 et −200 CV, une « grande désertification » fait reculer la grande forêt qui couvrait la région ; il n'en reste que la forêt de Qurth.
+- Des elfes sauvages y migrent sous la protection de la **Nagahydra**, l'« Ombre aux Cinq Têtes », créature presque légendaire ; le pacte est scellé vers −210.
+- L'avant-poste néthérisien existait depuis −2500 environ. En −339, une « grande déchirure de la Toile » survient : un grand savant néthérisien combat des créatures venues d'ailleurs, toute la magie de Néthéril s'effondre et ses cités volantes s'écrasent.
+- L'avant-poste est abandonné ; la Nagahydra s'y installe avec eux. Elle leur fait fouiller les bibliothèques, toujours en place.
 - Les elfes trouvent la langue néthérisienne bien plus riche que la leur en mots de magie, et passent des siècles à l'apprendre. Leurs érudits forment une caste qui ne parle plus que néthérisien entre soi.
 
 **Les deux temples**
 
-- La ville est coupée par une rivière, la Selta (?). Sur la rive ouest, un temple de Shar : l'ombre, la tromperie, le mal. Sur la rive est, un temple d'Amaunator, dieu néthérisien du soleil, dont procède Lathandre.
+- La ville est coupée par une rivière, le **Scelptar**. Sur la rive ouest, un temple de Shar : l'ombre, la tromperie, le mal. Sur la rive est, un temple d'Amaunator, dieu néthérisien du soleil, dont procède Lathandre.
 - Une zone d'ombre part du temple de Shar et progresse de quelques centimètres, de quelques mètres. Au moment où les auteurs écrivent, elle s'étend depuis près de mille ans et gagne les deux rives. Ceux qui y restent trop longtemps deviennent fous.
-- Le temple d'Amaunator abrite un **mythal** ; celui de Shar, un **puits d'ombre**.
+- Le temple d'Amaunator abrite un **Mini-Mythallar**, un globe de cristal néthérisien ; celui de Shar, un **puits d'ombres**.
 - Connaissance des mystères 21 et Histoire 16 : les mythals sont des reliques légendaires, liées au culte d'Amaunator et à la haute magie elfique, ou à des arcanes néthérisiens extrêmement puissants. La lumière repousse l'ombre, mais pour un temps seulement.
-- Le mythal s'affaiblit : les fidèles d'Amaunator ont disparu, quand Shar est toujours là et gagne en puissance.
+- Le Mini-Mythallar s'affaiblit : les fidèles d'Amaunator ont disparu, quand Shar est toujours là et gagne en puissance.
 - Les puits d'ombre semblent être des portails ouverts sur le plan de l'Ombre.
 
 **La dérive**
 
-- Un prêtre elfe puise dans le mythal pour faire repousser la forêt de Qurth, et le vide d'une part de sa puissance. La naga fait cesser ces expériences et étudie elle-même le puits d'ombre.
-- Elle passe son temps du côté de l'ombre, exige des sacrifices d'elfes et se veut divinité.
-- En 1128 CV, Urs meurt ; Ursulin (?) reprend le flambeau et devient prêtre d'un culte de la naga. La communauté, plusieurs milliers d'elfes, décline sous les sacrifices : les elfes n'ont un enfant qu'une fois tous les cinquante ans.
+- En 684, **Urth** puise dans le Mini-Mythallar pour faire reverdir la forêt de Qurth et le Shaar, et le vide de sa puissance ; le puits d'ombres déborde sur la rive ouest. La Nagahydra fait cesser ces expériences et étudie elle-même le puits.
+- Elle passe son temps du côté de l'ombre, se dit Élue des Dieux-Serpents, exige des sacrifices d'elfes et se veut divinité.
+- En 1128 CV, Urth meurt ; son fils **Urth le Jeune** reprend le flambeau et devient Grand Prêtre de la Nagahydra, la « Reine Sssila ». La communauté, plusieurs milliers d'elfes, décline sous les sacrifices : les elfes n'ont un enfant qu'une fois tous les cinquante ans.
 
 **Alcatar**
 
-- **1365 CV** : Alcatar, « un elfe d'or des temps anciens », arrive avec un guerrier troll, **Arrk**. Ils terrassent la naga-hydre ; Alcatar la momifie et la ramène pour protéger la communauté, avec les pouvoirs d'une momie en plus de ceux d'hydre et de naga.
+- **1365 CV** : Alcatar, « un elfe d'or des temps anciens », arrive avec un guerrier troll, **Arrk**. La Nagahydra meurt sous sa nécromancie ; Alcatar la momifie et la ramène pour protéger la communauté, avec les pouvoirs d'une momie en plus de ceux d'hydre et de naga.
 - Il se présente comme prêtre de **Myrkul**, le dieu de la mort détruit au Temps des Troubles. Il continue pourtant d'obtenir ses sorts.
 - Une note dit qu'il restait selon lui assez de résidus de Myrkul dans la Trame pour canaliser son énergie divine. Il interdisait d'écouter les prêtres de Cyric, l'usurpateur devenu fou. Et si la Trame restait sourde, il fallait prier par son intermédiaire à lui.
-- Il fait poursuivre les recherches sur le puits d'ombre et le mythal, et revient plusieurs fois dans la forêt de Qurth pour étudier le mythal.
+- Il fait poursuivre les recherches sur le puits d'ombres et le Mini-Mythallar, et revient plusieurs fois dans la forêt de Qurth pour les étudier.
 - **Les notes** : d'autres temples d'Amaunator font face à des temples de Shar, notamment dans le Shaar, au sud. L'avant-poste fournissait en matériaux un grand temple du Shaar. Le Shaar, la région, n'a rien à voir avec Shar, la déesse.
 - **1368 CV** : Velsharoon devient dieu, et Alcatar devient presque aussitôt son Élu. Il exige que l'on efface partout la mention de son passé de prêtre de Myrkul, comme s'il avait toujours servi Velsharoon.
-- **Le projet d'Urs** : un système de télescopes, de prismes et d'amplificateurs de lumière qui, avec des sorts de lumière assez puissants, devait en théorie détruire le puits d'ombre. Alcatar s'y oppose : il veut l'étudier.
-- **1372 CV** : grâce à une grande bibliothèque trouvée dans l'Anauroch (?), Alcatar apprend à répartir l'essence d'une personne entre plusieurs phylactères ou objets.
-- Il place une part de son essence dans le mythal de Qurth : la pure lumière vire au vert et au violet, et le mythal lui sert aussi de réserve de puissance. Le livre cite deux bibliothèques, l'une dans l'Anauroch, l'autre dans le Shaar.
+- **Le projet d'Urth le Jeune** : un système de télescopes, de prismes et d'amplificateurs de lumière qui, avec des sorts de lumière assez puissants, devait en théorie détruire le puits d'ombre. Alcatar s'y oppose : il veut l'étudier.
+- **1372 CV** : grâce à une grande bibliothèque trouvée dans l'Anauroch, Alcatar apprend à répartir l'essence d'une personne entre plusieurs phylactères ou objets.
+- Il place une part de son essence dans le Mini-Mythallar de Qurth : la pure lumière vire au vert et au violet, et le cristal lui sert aussi de réserve de puissance. Le puits est repoussé jusqu'au fleuve et comprimé à moins d'un kilomètre autour de son centre. Le livre cite deux bibliothèques, l'une dans l'Anauroch, l'autre dans le Shaar.
 
 **Chapitre VI, fin de l'année 1372 CV**
 
 - Alcatar revient du nord avec un humain dont le nom a été raturé. Il annonce un grand projet contre Saelmur, « riche cité humaine du nord du Lac de Vapeur », où il dit vouloir rétablir l'équilibre.
 - Il exige un prêtre et un fort contingent de nécrophages : on lui envoie **Famaruth**, l'un des disciples les plus fidèles.
-- Les nécrophages doivent gagner Saelmur discrètement, par le lac. Une première expédition échoue, refoulée par les autorités (?) ; une seconde est massacrée par des orques en forêt.
-- Enfin, un contrebandier humain, Corvus Corvette (?), accepte le contrat et passe à travers les mailles du filet : plusieurs dizaines de nécrophages sont livrés dans les bas-fonds de Saelmur. Famaruth les multiplie et attend les ordres d'Alcatar.
+- Les nécrophages doivent gagner Saelmur discrètement, par le lac. Une première expédition échoue, interceptée par les autorités ; une seconde est massacrée par des orques en forêt.
+- Enfin, un contrebandier humain, Corvus Corvath, accepte le contrat et passe à travers les mailles du filet : plusieurs dizaines de nécrophages sont livrés dans les bas-fonds de Saelmur. Famaruth les multiplie et attend les ordres d'Alcatar.
 - Le récit s'arrête en décembre 1372, sur une invocation à la volonté de Velsharoon.
 
 **Pénombre** : la seule cité volante de Néthéril à avoir échappé à la chute s'était réfugiée dans le plan de l'Ombre. Elle est revenue en 1372, au-dessus de l'Anauroch. On n'en sait encore que des rumeurs : une montagne renversée portant une cité d'archimages, qui voudrait restaurer l'empire néthérisien.
@@ -373,8 +373,8 @@ Repères pour relire la séance ; les noms suivis d'un (?) restent à confirmer.
 | Kzelter | Cité des Sombrespoir, à l'ouest ; patrie des hommes de Garrick |
 | Trèfleure (?) | Baronnie voisine de Saelmur, connue pour ses chevaux |
 | La Pinte sans Fond | Auberge du comté du Clos où Théodoric fonde les Lames de Tymora |
-| La forêt de Qurth | Près de Derlusk ; avant-poste néthérisien, temples de Shar et d'Amaunator, mythal et puits d'ombre |
-| Ankaria (?) | Nom de l'avant-poste néthérisien de Qurth |
+| La forêt de Qurth | Près de Derlusk ; avant-poste néthérisien d'Ankharia, temples de Shar et d'Amaunator, Mini-Mythallar et puits d'ombres |
+| Ankharia | Avant-poste néthérisien de Qurth, coupé par le Scelptar |
 
 **Personnages non joueurs**
 
@@ -389,7 +389,8 @@ Repères pour relire la séance ; les noms suivis d'un (?) restent à confirmer.
 | Théodoric de Bridgestone | La Pinte sans Fond | Cinquième fils de la famille ; fonde les Lames de Tymora |
 | Famaruth | Saelmur | Elfe sauvage de Qurth, envoyé par les siens pour multiplier les nécrophages |
 | Arrk | — | Guerrier troll venu à Qurth avec Alcatar en 1365 |
-| Corvus Corvette (?) | Lac de Vapeur | Contrebandier qui a livré les nécrophages à Saelmur |
-| Urs le Jeune (?), Ursulin (?) | Forêt de Qurth | Elfes sauvages, auteurs du livre des puits d'ombre |
+| Corvus Corvath | Lac de Vapeur | Contrebandier qui a livré les nécrophages à Saelmur |
+| Gaelenath, Urth, Urth le Jeune | Forêt de Qurth | Elfes sauvages, auteurs du carnet d'Urth |
+| Kaelen | Inconnu | Signe le mot joint au livre, adressé à Mirel |
 
-**Créatures** : nécrophages, rats morts-vivants explosifs, rats-garous, vampires ailés, la naga-hydre momifiée (?).
+**Créatures** : nécrophages, rats morts-vivants explosifs, rats-garous, vampires ailés, la Nagahydra momifiée.

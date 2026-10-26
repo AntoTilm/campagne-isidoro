@@ -27,8 +27,8 @@ Saelmur est tombée. Soignés et passés au niveau 3, Isidoro et Lucas doivent r
 ## Autres fils ouverts {@isidoro}
 
 - [ ] **Théodoric de Bridgestone et les Lames de Tymora**, à la Pinte sans Fond, dans le comté du Clos : le maréchal y envoie Isidoro et Lucas après la belladone, pour enquêter sur Alcatar.
-- [ ] **Alcatar** : sa part d'âme dans le mythal de la forêt de Qurth, près de Derlusk ; ses phylactères ; le risque qu'il prenne la place de Velsharoon. Le projet d'Urs : détruire le puits d'ombre par la lumière.
-- [ ] **Le livre néthérisien** des puits d'ombre, volume III : le MJ doit en envoyer le texte. Les volumes I, II et suivants existent quelque part.
+- [ ] **Alcatar** : sa part d'âme dans le Mini-Mythallar d'Ankharia, dans la forêt de Qurth, près de Derlusk ; ses phylactères ; le risque qu'il prenne la place de Velsharoon. Le projet d'Urth le Jeune : détruire le puits d'ombres avec des prismes de diamant et des sorts de lumière.
+- [ ] **Le carnet d'Urth** : texte reçu, [retranscrit en entier](documents/carnet-urth.html). Il était destiné à Famaruth : le mot de **Kaelen** demandait à Mirel de le lui remettre, après l'avoir repris à **Corvus Corvath**. Qui est Kaelen ? Famaruth et Corvus le chercheront-ils ?
 - [ ] **Famaruth**, l'elfe sauvage de Qurth qui multiplie les nécrophages dans Saelmur.
 - [ ] **Le père Damino** et son hospice, ravagé par les rats-garous.
 - [ ] **Les copies des livres** d'Isidoro, faites par un prêtre du camp : récupérer les originaux.
