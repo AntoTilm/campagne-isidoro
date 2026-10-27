@@ -14,11 +14,11 @@ resume: Les quatre lumières, les nécrophages de la cave, les génasi de Radaga
 
 ## Les quatre lumières
 
-J'avais interrompu le fragment précédent au seuil de l'atelier de Mirel, sous le squelette vert. Je le reprends au même endroit, car je n'en ai pas bougé tout de suite. Une partie de moi voulait courir à la bibliothèque d'Oghma. J'avais vu, dans l'eau de l'abbaye, qu'on y dresserait un bûcher avec les livres. Lucas m'a demandé, fort raisonnablement, ce que je comptais en sauver, moi qui ne connais pas ses rayonnages et ne saurais distinguer un manuscrit unique d'une chronique de comptoir. Je n'ai rien trouvé à lui répondre. C'est la première fois que mon savoir m'a paru si court.
+J'avais interrompu le fragment précédent au seuil de l'atelier de Mirel, sous le squelette vert. Je le reprends au même endroit, car je n'en ai pas bougé tout de suite. Une partie de moi voulait courir à la bibliothèque d'Oghma. J'avais vu, dans l'eau de l'abbaye, qu'on y dresserait un bûcher avec les livres. Lucas m'a demandé, fort raisonnablement, ce que je comptais en sauver. Un manuscrit unique, je le reconnais au premier coup d'œil, et je ne le confondrai jamais avec une chronique de comptoir : c'est à cela qu'on passe une vie de cloître. Mais je ne connais pas les dédales de cette bibliothèque, et j'ignore où l'on y range les ouvrages qui mériteraient d'être sauvés. Le temps de les chercher, tout aurait brûlé. Je n'ai rien trouvé à lui répondre. Savoir lire un livre ne dit pas où il est rangé.
 
-J'ai donc fait ce que je sais faire : regarder avec méthode. La marque verte n'était pas un dessin dans le ciel, mais le croisement de quatre faisceaux de lumière, partis des quatre édifices qui couronnent les collines : le grand temple de Torm, la bibliothèque d'Oghma, l'université des mages et le temple de Heaume. Quatre maisons du savoir et du bien, retournées contre la ville qu'elles gardaient, pour y dessiner un crâne. Leur lumière était noire et verte, et elle sentait la non-vie. Quelqu'un avait préparé cela de longue date. Je crois savoir qui.
+C'est Lucas, et non moi, qui a compris la marque verte. Je regardais le crâne ; lui a regardé d'où venait la lumière. Ce n'était pas un dessin dans le ciel, mais le croisement de quatre faisceaux de lumière, partis des quatre édifices qui couronnent les collines : le grand temple de Torm, la bibliothèque d'Oghma, l'université des mages et le temple de Heaume. Quatre maisons du savoir et du bien, retournées contre la ville qu'elles gardaient, pour y dessiner un crâne. Leur lumière était noire et verte, et elle sentait la non-vie. Quelqu'un avait préparé cela de longue date. Je crois savoir qui.
 
-Lucas a entendu, avant moi, une porte de pierre racler le sol dans la cave de Mirel. La rue s'emplissait de familles en chemise de nuit, d'enfants qu'on portait sans savoir où aller. J'ai parlé à ces gens. Certains sont rentrés se barricader, d'autres sont partis s'habiller pour fuir. Je ne sais toujours pas lesquels j'ai sauvés.
+Lucas a entendu, avant moi, une porte de pierre racler le sol dans la cave de Mirel. La rue s'emplissait de familles en chemise de nuit, d'enfants qu'on portait sans savoir où aller. J'ai parlé à ces gens. Je les ai pressés de quitter la ville et de fuir, et j'ai eu grand-peine à les en convaincre. Certains sont rentrés se barricader, d'autres sont partis s'habiller pour fuir. Je ne sais toujours pas lesquels j'ai sauvés.
 
 Une voix immense est montée des docks, enflée par un sortilège : la flotte de Mintar débarquait. Lucas m'a dit qu'il était là pour me protéger avant tout, et qu'il ne ferait d'exception que pour un enfant. Il m'appelle son « guide moral ». Je n'ai pas su s'il plaisantait. Je n'ai pas eu le temps de le lui demander.
 
@@ -48,7 +48,7 @@ Un petit squelette de rat est venu vers nous dans la rue. Mon renvoi n'a rien fa
 
 Plus loin, un nécrophage marchait vers une petite fille. Nous l'avons combattu. Il m'a touché, et j'ai senti à mon tour cette chose me quitter, un peu de la lumière qu'on m'a donnée, arrachée par une main morte. Nous l'avons abattu. La petite nous a regardés et a dit : « Vous avez tué mon papa. »
 
-C'était son père. Il ne l'était plus depuis longtemps, mais je n'ai pas trouvé les mots pour le lui dire, et je crois qu'il n'y en a pas. Elle s'appelle Isola. Elle a six ans, peut-être. Je l'ai prise dans mes bras, et je ne l'ai plus lâchée de la nuit.
+C'était son père. Il ne l'était plus depuis longtemps, mais je n'ai pas trouvé les mots pour le lui dire, et je crois qu'il n'y en a pas. Elle s'appelle Isola. Elle a six ans, peut-être. Je l'ai prise dans mes bras. Mais c'est Lucas qui l'a portée la plus grande partie de la nuit, et qui a veillé sur elle : le garde du corps qui ne faisait d'exception que pour un enfant a tenu parole mieux que moi.
 
 C'est là que j'ai renoncé à la bibliothèque. Je l'écris tel quel. Dans l'eau de l'abbaye, ce qui m'avait le plus effrayé, ce n'était ni ma mort ni mon bras : c'était un livre qui brûle, parce qu'un livre brûlé ne revient jamais. Je l'ai écrit dans le fragment précédent, et je le pensais. Mais elle non plus ne serait pas revenue. J'ai choisi. Je ne sais pas si Oghma me le pardonnera. Je crois que Lathandre, lui, l'a compris avant moi.
 
@@ -62,9 +62,9 @@ Les rats ont explosé tout autour de moi. Et les gens qui étaient près d'eux s
 
 Cinq hommes. Cinq femmes. Un enfant.
 
-Dans la rue des Tanneurs, j'ai écrit que ce n'était pas moi, mais Lui. Je n'ai pas le droit, ce soir, de me décharger sur Lui de ce qui a suivi. Le geste était le mien, et le moment, et la main. Les survivants m'ont remercié en courant, et en courant ils ont piétiné ceux qui respiraient encore.
+Je ne chercherai pas d'excuse. Le geste était le mien, et le moment, et la main. Les survivants m'ont remercié en courant, et en courant ils ont piétiné ceux qui respiraient encore.
 
-Je me suis arrêté. Lucas m'a dit que je mettais la petite en danger, qu'il fallait penser aux vivants. Il avait raison, et je ne l'ai pas écouté. Je ne pouvais pas les laisser là, à la merci de ceux qui relèvent les morts dans cette ville. J'ai caché les yeux d'Isola contre mon épaule, j'ai rassemblé les corps, ou ce qu'il en restait, et j'ai dit sur eux la prière qui interdit aux morts de se relever. Une explosion énorme a secoué les docks au milieu de l'oraison. Je l'ai terminée. C'est la seule chose de cette nuit que je crois avoir faite entièrement bien.
+Je me suis arrêté. Lucas m'a dit que je mettais la petite en danger, qu'il fallait penser aux vivants. Il avait raison, et je ne l'ai pas écouté. Je ne pouvais pas les laisser là, à la merci de ceux qui relèvent les morts dans cette ville. Lucas a caché les yeux d'Isola. Moi, j'ai rassemblé les corps, ou ce qu'il en restait, et j'ai dit sur eux la prière qui interdit aux morts de se relever. Une explosion énorme a secoué les docks au milieu de l'oraison. Je l'ai terminée. C'est la seule chose de cette nuit que je crois avoir faite entièrement bien.
 
 J'ai regardé chacun de ces visages. Je les reconnaîtrai. Je n'ai pas demandé leurs noms : il n'y avait plus personne pour me les dire.
 
@@ -88,7 +88,7 @@ Lucas les a jugés aguerris, bien plus que nous. Nous les avons laissés faire, 
 
 ## Le rempart
 
-Deux gardes zhentarim se tenaient entre le rempart et nous. J'ai caché Isola sous un tissu, contre un tonneau, en lui promettant de revenir ; il m'a fallu toute ma volonté pour m'éloigner de dix pas. Lucas et moi en sommes venus à bout. Je suis revenu la chercher. Je tenais à le noter : j'ai tenu cette promesse-là.
+Deux gardes zhentarim se tenaient entre le rempart et nous. Lucas a caché Isola sous un tissu, contre un tonneau, en lui promettant de revenir. Nous en sommes venus à bout, et il a tenu sa promesse.
 
 Du haut du rempart, j'ai regardé la ville. La bibliothèque d'Oghma commençait à brûler. À la place du temple de Torm, du temple de Heaume, de l'université et du phare, il n'y avait plus que des trous dans la nuit. Ma vision s'est accomplie jusque dans ses détails ; je l'avais consignée avec exactitude, et cela ne m'est d'aucun réconfort. J'ai senti, plus que vu, une souillure gagner les quartiers, comme une tache d'huile qui s'étend et se rejoint. J'ai eu le sentiment d'être la dernière petite lumière de cette ville. Et je m'apprêtais à la quitter.
 
@@ -96,7 +96,7 @@ Alors j'ai prié. J'ai demandé au Seigneur du Matin pourquoi il laissait cela a
 
 La descente fut ce qu'elle est toujours avec moi, en moins glorieux. Isola sur le dos, j'ai manqué ma prise ; la corde m'a brûlé les mains, la paroi m'a frappé au visage, et Lucas m'a retenu d'en haut. Je lui dois donc la vie une fois de plus, et celle de la petite par la même occasion. Elle a eu si peur qu'elle s'est oubliée sur mon dos. Je ne le lui reprocherai jamais, et je défie quiconque de le faire.
 
-Restait la douve. Je ne sais pas nager. J'ai dit à Isola de se boucher le nez, de retenir son souffle, et j'ai sauté. J'ai marché au fond, dans la vase, avec mon armure, sans respirer, tandis que les flèches crevaient la surface au-dessus de nous. Elle tapait sur mes épaules, de plus en plus fort. J'ai continué. Une flèche m'a trouvé dans le dos au moment où je sortais de l'eau. Nous nous sommes jetés dans les roseaux, et la nuit a fait le reste.
+Restait la douve. Je ne sais pas nager. Lucas a repris la petite ; c'est lui qui lui a dit de se boucher le nez et de retenir son souffle. Moi, j'ai sauté, et j'ai marché au fond, dans la vase, avec mon armure, sans respirer, tandis que les flèches crevaient la surface au-dessus de nous. En sortant de l'eau, j'ai couru à découvert : si les archers des remparts devaient tirer sur quelqu'un, qu'ils tirent sur moi, et non sur Lucas et l'enfant. Une flèche m'a trouvé dans le dos. Je ne m'en plains pas, c'était celle que j'étais venu chercher. Lucas, lui, est sorti de l'eau sans un bruit, la petite contre lui, et personne ne les a vus. Je me suis jeté dans les roseaux, et la nuit a fait le reste.
 
 À l'abbaye, je retenais mon souffle pour que la vision dure. Cette nuit, je l'ai retenu pour qu'une enfant vive. Je préfère la seconde raison.
 
@@ -104,7 +104,7 @@ Restait la douve. Je ne sais pas nager. J'ai dit à Isola de se boucher le nez, 
 
 Au camp, nous avons reconnu quatre des hommes de Kzelter parmi les réfugiés, sous leurs habits de paysans. J'ai prévenu la garde et j'ai demandé qu'on les prenne vivants : un homme mort ne dit rien, et ceux-là avaient beaucoup à dire. Lucas les a suivis, ils l'ont vu, et l'un d'eux l'a jeté à terre. J'ai crié à la foule qui ils étaient. Ce sont les réfugiés eux-mêmes qui les ont retenus, ces mêmes gens qu'ils étaient venus égarer. Interrogés, ils ont donné des adresses. L'un d'eux habiterait la rue de la Biscotte. Elle n'existe pas. J'aurais pu le lui dire : j'ai consulté le cadastre.
 
-La nuit, j'ai séché nos affaires et la petite. Elle s'est endormie contre moi. Je me suis souvenu d'un enfant qui attendait souvent un père parti au loin pour de grandes œuvres. Je ne l'ai jamais écrit. Je ne l'écrirai pas davantage ce soir. Je dirai seulement que je n'ai jamais eu de petite sœur, et qu'il me semble à présent savoir ce que c'est.
+La nuit, j'ai séché nos affaires et la petite. Elle s'est endormie contre Lucas. Je me suis souvenu d'un enfant qui attendait souvent un père parti au loin pour de grandes œuvres. Je ne l'ai jamais écrit. Je ne l'écrirai pas davantage ce soir. Je dirai seulement que je n'ai jamais eu de petite sœur, et qu'il me semble à présent savoir ce que c'est.
 
 On entendait encore la ville exploser. Sur toutes les tours du rempart flottaient les étendards du Zhentarim.
 
@@ -118,11 +118,11 @@ Il n'est pas le premier à entendre parler d'un elfe derrière les morts : on lu
 
 ## Le maréchal
 
-On nous a conduits au camp de Torm, où le seigneur de Trèfleure, puis le maréchal Sébastien de Saint-Lun nous ont reçus. Le maréchal est un cousin du comte. Il est tout ce que sa famille n'est pas, me dit-on : énergique, loyal, présent.
+On nous a conduits au camp de Torm, où le seigneur de Trèfleure, puis le maréchal Sébastien de Saint-Lun nous ont reçus. Le maréchal est de la famille régnante : celui des siens qu'on envoie commander quand vient la guerre, un ancien aventurier. Énergique, loyal, présent : tout le contraire, dit-on, d'une famille qui s'endort sur ses acquis.
 
 Les quatre prisonniers ont parlé. Ils venaient de Kzelter, sous les ordres de Garrick de Bridgestone, un cousin de la famille, avec mission de semer le désordre parmi les réfugiés. Ils ont été jugés, et l'on voit les gibets depuis la tente. J'avais demandé qu'on les prenne vivants. Je ne suis pas certain d'avoir le droit de m'en plaindre ; je le note.
 
-J'ai remis le journal de Mirel, et j'ai raconté ce qu'il contenait. J'aurais pu parler de mes visions ; j'ai préféré m'en tenir aux écrits. Un écrit se vérifie. On m'a réclamé le grimoire du magicien, cet « objet souillé » ; je l'ai rendu. Mes livres seront recopiés par un prêtre du camp, et je garderai les originaux. Voilà au moins un point sur lequel tout le monde est d'accord.
+J'ai remis le journal de Mirel, et j'ai raconté ce qu'il contenait. J'aurais pu parler de mes visions ; j'ai préféré m'en tenir aux écrits. Un écrit se vérifie. Quant au grimoire du magicien, je n'ai pas voulu le garder : c'est un livre impur. Je l'ai remis au camp, pour qu'on en fasse ce qu'il convient. Mes livres seront recopiés par un prêtre du camp, et je garderai les originaux. Voilà au moins un point sur lequel tout le monde est d'accord.
 
 La belladone de Mirel est toujours dans sa cave. C'est tout le stock de la ville, et les rats-garous ont griffé plus de réfugiés qu'on ne peut en compter. Avant la prochaine pleine lune, il faut les soigner, ou ils deviendront ce qui les a blessés. Nous y retournons ce soir.
 
