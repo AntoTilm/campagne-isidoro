@@ -38,6 +38,7 @@
 = Ménestrels, Menestrels, Harpers
 = Trône de Fer, Trone de fer, Iron Throne
 = Magiciens Rouges, Red Wizards
+= Faerûn, Faerun, Féerune, Férune, Féérune, Ferune
 = tyrannœil, tyrannoeil, tyranoïde, tyranoide, beholder
 = tyramort, death tyrant
 = nécrophage, necrophage, goule, ghoul, wight
@@ -609,3 +610,6 @@ Bern, renseignements, chiens d'ombre, docks, vignoble, nains, logistique, tyramo
 
 [documents/carnet-urth.html] @isidoro
 carnet d'Urth, livre néthérisien, livre des puits d'ombre, livre de Mirel, Gaelenath, Urth, Urth le Jeune, Nagahydra, Reine Sssila, Sseth, Ankharia, Scelptar, Mini-Mythallar, mythallar, mythal, puits d'ombres, Demi-Plan de l'Ombre, temple de Shar, temple d'Amaunator, Mhéshaa, Grand Vert, Shaar, Bois de Chondal, mer d'Arnaden, Lac de Vapeur, Lhesper, Calimshan, Calishites, Sept Brûlures, Amahl Shoon, malédiction de Qurth, nef volante, chardalyn, laboratoire du Shaar, prismes, diamants, lentilles, lumière contre l'ombre, Alcatar Livre-Gris, Arrk, Myrkul, Velsharoon, Talos, Anauroch, phylactère, âme dans le cristal, nécrophages d'orques, Famaruth, Corvus Corvath, Kaelen, emballage cacheté, 684, 1128, 1365, 1372, Nuiteuse
+
+[carte.html]
+carte, carte interactive, map, carte du monde, plan, géographie, Royaumes Oubliés, Forgotten Realms, où se trouve

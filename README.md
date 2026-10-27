@@ -71,11 +71,25 @@ Dans l'en-tête, `points:` donne les 4 ou 5 puces de la carte de la séance sur 
 
 Pour ajouter une séance : créer `src/contenu/seances/aventure-3.md` (avec `ordre: 3`, `points:` et un bloc `::: essentiel`), faire de même dans `journal/`, mettre à jour « Où nous en sommes » dans `src/contenu/pages/index.html`, le pense-bête `src/contenu/pages/prochaine-seance.md` et la chronologie, puis lancer le script.
 
+### La carte de Faerûn
+
+`carte.html` (rubrique Le monde) est une carte interactive : zoom à la molette, au pincement ou aux boutons, fiche de chaque lieu au clic, calques, recherche, et la photo de la carte du livre en surimpression. Elle respecte le point de vue.
+
+Les lieux sont la liste de `src/contenu/pages/carte.html` : chaque `<li data-carte="…">` devient un nom sur la carte et une entrée de l'index sous la carte. Pour en ajouter un, copier une ligne voisine et changer :
+
+- `data-carte` : `campagne`, `repaire`, `capitale`, `ville`, `ruine`, `region`, `mer` ou `relief` ;
+- `data-x`, `data-y` : la position (le cadre va de x = 15 à 1585, de y = 40 à 1168 ; Saelmur est en 790, 792) ;
+- `data-niv` : 1 toujours visible, 2, 3 ou 4 à mesure qu'on zoome ;
+- au besoin `data-pos="g|d|h|b"` (côté du nom), `data-rot` (inclinaison en degrés), `data-approx` (position supposée) et `data-savoir`.
+
+Le fond illustré (côtes, reliefs, forêts) se régénère avec les scripts de `src/carte/` (voir leur README).
+
 ## Structure
 
 - `assets/css`, `assets/js` : style et recherche ; `assets/js/recherche-index.js` est généré
 - `assets/img` : cartes, plans, fiche du personnage, photos du Manuel des Joueurs
 - `assets/pdf` : documents d'origine (polices allégées, texte identique)
+- `assets/carte` : fond de la carte de Faerûn (aperçu, tuiles, photo de la carte du livre redressée) ; `assets/css/carte.css` et `assets/js/carte.js`
 - `assets/fonts` : IM Fell English, Spectral et Spectral SC (licence SIL OFL)
 - `pages/le-persistant.html` : le guide de build « Le Persistant » d'origine, repris en entier dans la page `progression.html`
 

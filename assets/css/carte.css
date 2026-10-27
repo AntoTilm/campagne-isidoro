@@ -1,0 +1,157 @@
+/* Le Registre d'Isidoro — carte interactive de Faerûn */
+.page--carte { max-width: 1400px; }
+.page--carte .entete { padding-bottom: 1rem; }
+
+.carte {
+  --parchemin: #f3e6c4; --encre-carte: #3b2c1c; --rouge-carte: #7a2e22; --mer-carte: #2f5d68; --or-carte: #b8892e;
+  position: relative; margin: 0 0 1rem;
+  border-radius: 6px; overflow: hidden;
+  background: #d9c9a3;
+  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset, 0 10px 30px -12px rgba(43, 34, 40, .45), 0 0 0 1px rgba(59, 44, 28, .25);
+}
+.carte__vue {
+  position: relative; height: min(78vh, 860px); min-height: 420px; overflow: hidden;
+  cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none;
+  outline: none; background: #b9cfc8;
+}
+.carte__vue:active { cursor: grabbing; }
+.carte__vue:focus-visible { box-shadow: inset 0 0 0 3px var(--or-carte); }
+.carte__plan { position: absolute; left: 0; top: 0; width: 1570px; height: 1128px; transform-origin: 0 0; overflow: hidden; }
+.carte__tuiles, .carte__couche { position: absolute; inset: 0; }
+.carte__tuile { position: absolute; max-width: none; opacity: 0; transition: opacity .2s; pointer-events: none; image-rendering: auto; }
+.carte__tuile--ok { opacity: 1; }
+.carte--bouge .carte__plan { will-change: transform; }
+.carte__fond, .carte__livre { position: absolute; left: 0; top: 0; width: 1570px; height: 1128px; max-width: none; pointer-events: none; }
+.carte__livre { z-index: 10; opacity: 0; transition: opacity .3s; mix-blend-mode: multiply; }
+.avec-livre .carte__livre { opacity: .85; }
+.carte__calque { position: absolute; inset: 0; pointer-events: none; }
+
+/* ------------------------------------------------ étiquettes */
+.etiquette {
+  position: absolute; left: 0; top: 0; padding: 0; margin: 0; border: 0; background: none;
+  font: inherit; color: var(--encre-carte); cursor: pointer; pointer-events: auto;
+  white-space: nowrap; line-height: 1; opacity: 0; transition: opacity .25s;
+}
+.carte--prete .etiquette { opacity: 1; }
+.etiquette--dehors { display: none; }
+.etiquette__nom {
+  position: absolute; display: block; font-family: var(--texte); font-size: calc(12.5px * var(--e, 1)); letter-spacing: .01em;
+  text-shadow: 0 0 2px var(--parchemin), 0 0 3px var(--parchemin), 0 0 5px var(--parchemin), 0 0 8px rgba(243, 230, 196, .9);
+  transform: rotate(var(--rot, 0deg));
+}
+.etiquette__point { position: absolute; left: -4px; top: -4px; width: 8px; height: 8px; border-radius: 50%; background: var(--parchemin); border: 1.6px solid var(--encre-carte); box-shadow: 0 0 0 1.5px rgba(243, 230, 196, .8); }
+/* position du nom par rapport au point */
+.etiquette--d .etiquette__nom { left: 8px; top: -.55em; transform-origin: 0 50%; }
+.etiquette--g .etiquette__nom { right: 8px; top: -.55em; transform-origin: 100% 50%; }
+.etiquette--h .etiquette__nom { left: 0; bottom: 8px; translate: -50% 0; }
+.etiquette--b .etiquette__nom { left: 0; top: 9px; translate: -50% 0; }
+.etiquette--c .etiquette__nom { left: 0; top: 0; translate: -50% -50%; }
+.etiquette--c .etiquette__point { display: none; }
+
+.etiquette--capitale .etiquette__point { width: 10px; height: 10px; left: -5px; top: -5px; background: radial-gradient(circle, var(--encre-carte) 0 2px, var(--parchemin) 2.5px); }
+.etiquette--capitale .etiquette__nom { font-size: calc(13.5px * var(--e, 1)); font-weight: 600; }
+.etiquette--ruine .etiquette__point { border-radius: 1px; transform: rotate(45deg); background: #e8d8b4; border-style: dashed; }
+.etiquette--ruine .etiquette__nom { font-style: italic; }
+.etiquette--campagne .etiquette__point {
+  width: 14px; height: 14px; left: -7px; top: -7px; border: 0;
+  background: radial-gradient(circle, #f5d27a 0 3px, var(--or-carte) 3.5px 4.5px, transparent 5px),
+    repeating-conic-gradient(from 0deg, var(--rouge-carte) 0 12deg, transparent 12deg 45deg);
+  box-shadow: none; -webkit-mask: radial-gradient(circle, #000 6.5px, transparent 7px); mask: radial-gradient(circle, #000 6.5px, transparent 7px);
+}
+.etiquette--campagne .etiquette__nom { font-family: var(--display); font-size: calc(14.5px * var(--e, 1)); color: var(--rouge-carte); }
+.etiquette--campagne.etiquette--d .etiquette__nom, .etiquette--campagne.etiquette--g .etiquette__nom { top: -.6em; }
+.etiquette--campagne[data-niv="1"] .etiquette__nom { font-size: calc(16px * var(--e, 1)); }
+.etiquette--repaire .etiquette__point { width: 9px; height: 9px; left: -4.5px; top: -4.5px; border-radius: 1px; transform: rotate(45deg); background: #5a3f7a; border-color: #2a1d3a; }
+.etiquette--repaire .etiquette__nom { font-style: italic; color: #4a2f68; }
+
+.etiquette--region .etiquette__nom {
+  font-family: 'IM Fell English SC', var(--display); font-size: calc(16px * var(--e, 1)); letter-spacing: .2em; text-transform: none;
+  color: rgba(122, 46, 34, .9); text-align: center;
+}
+.carte[data-niveau="1"] .etiquette--region .etiquette__nom { font-size: calc(14px * var(--e, 1)); letter-spacing: .16em; }
+.etiquette--mer .etiquette__nom {
+  font-family: var(--display); font-style: italic; font-size: calc(15px * var(--e, 1)); letter-spacing: .14em; color: var(--mer-carte);
+  text-shadow: 0 0 3px rgba(197, 216, 208, .95), 0 0 6px rgba(197, 216, 208, .9);
+}
+.etiquette--relief .etiquette__nom { font-family: var(--display); font-style: italic; font-size: calc(12.5px * var(--e, 1)); letter-spacing: .06em; color: #4f4128; }
+
+.etiquette:hover .etiquette__nom, .etiquette:focus-visible .etiquette__nom { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.etiquette:focus-visible { outline: none; }
+.etiquette:focus-visible .etiquette__point { box-shadow: 0 0 0 3px var(--or-carte); }
+.etiquette--actif .etiquette__point { box-shadow: 0 0 0 3px rgba(184, 137, 46, .85), 0 0 12px 3px rgba(245, 210, 122, .9); }
+.etiquette--actif .etiquette__nom { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+
+/* niveaux de détail selon le zoom */
+.carte[data-niveau="1"] .etiquette[data-niv="2"], .carte[data-niveau="1"] .etiquette[data-niv="3"], .carte[data-niveau="1"] .etiquette[data-niv="4"],
+.carte[data-niveau="2"] .etiquette[data-niv="3"], .carte[data-niveau="2"] .etiquette[data-niv="4"],
+.carte[data-niveau="3"] .etiquette[data-niv="4"] { display: none; }
+.carte[data-niveau="4"] .etiquette--region { opacity: .55; }
+.carte[data-niveau="4"] .etiquette--region .etiquette__nom { font-size: calc(20px * var(--e, 1)); letter-spacing: .3em; }
+
+/* calques */
+.sans-campagne .etiquette[data-calque="campagne"], .sans-villes .etiquette[data-calque="villes"],
+.sans-regions .etiquette[data-calque="regions"], .sans-nature .etiquette[data-calque="nature"] { display: none; }
+
+/* ------------------------------------------------ barre d'outils */
+.carte__barre {
+  position: absolute; left: 12px; top: 12px; right: 12px; display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-start;
+  pointer-events: none; font-family: var(--texte); font-size: .92rem;
+}
+.carte__barre > * { pointer-events: auto; }
+.carte__barre button, .carte__calques summary, .carte__cherche input {
+  font: inherit; color: var(--encre-carte); background: rgba(246, 238, 218, .94); border: 1px solid rgba(59, 44, 28, .35);
+  border-radius: 4px; padding: .35rem .7rem; cursor: pointer; box-shadow: 0 2px 6px -2px rgba(43, 34, 40, .35);
+}
+.carte__barre button:hover, .carte__calques summary:hover { background: #fffaf0; }
+.carte__barre button:focus-visible, .carte__calques summary:focus-visible, .carte__cherche input:focus-visible { outline: 2px solid var(--or-carte); outline-offset: 1px; }
+.carte__zoom { display: flex; flex-direction: column; gap: 4px; }
+.carte__zoom button { width: 2.2rem; height: 2.2rem; padding: 0; font-size: 1.25rem; line-height: 1; }
+.carte__aller { display: flex; gap: 4px; }
+.carte__cherche input { cursor: text; width: 13rem; }
+.carte__calques { position: relative; }
+.carte__calques summary { list-style: none; }
+.carte__calques summary::-webkit-details-marker { display: none; }
+.carte__calques[open] { background: rgba(246, 238, 218, .97); border: 1px solid rgba(59, 44, 28, .35); border-radius: 4px; padding: 0 .7rem .5rem; box-shadow: 0 6px 16px -6px rgba(43, 34, 40, .45); }
+.carte__calques[open] summary { border: 0; box-shadow: none; background: none; padding-left: 0; }
+.carte__calques label { display: block; padding: .2rem 0; color: var(--encre-carte); cursor: pointer; }
+
+/* ------------------------------------------------ fiche */
+.carte__fiche {
+  position: absolute; right: 12px; top: 12px; width: min(340px, calc(100% - 24px)); max-height: calc(100% - 24px); overflow: auto;
+  background: rgba(250, 244, 230, .97); color: #2a1e16; border: 1px solid rgba(59, 44, 28, .35); border-radius: 6px;
+  padding: 1rem 1.1rem 1.1rem; box-shadow: 0 12px 30px -10px rgba(43, 34, 40, .55); font-family: var(--texte);
+}
+.carte__fiche[hidden] { display: none; }
+.carte__fermer { position: absolute; right: .4rem; top: .3rem; border: 0; background: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: #6b5644; padding: .2rem .4rem; }
+.carte__fiche-type { margin: 0; font-family: var(--capitales); font-size: .78rem; letter-spacing: .08em; color: #8a3a2a; }
+.carte__fiche-titre { margin: .15rem 0 .2rem; font-family: var(--display); font-size: 1.6rem; font-weight: 400; line-height: 1.15; padding-right: 1.4rem; }
+.carte__fiche-vo { margin: 0 0 .6rem; font-size: .85rem; color: #6b5644; font-style: italic; }
+.carte__fiche-desc { margin: 0 0 .6rem; font-size: .98rem; line-height: 1.5; }
+.carte__fiche-liens { margin: 0; font-size: .88rem; color: #6b5644; }
+.carte__fiche a { color: #8a3a2a; }
+
+.carte__note { font-size: .92rem; color: var(--encre-douce); font-style: italic; max-width: 80ch; }
+.carte__echelle { display: none; }
+
+@media (max-width: 720px) {
+  .carte__vue { height: 72vh; }
+  .carte__barre { left: 8px; top: 8px; right: 8px; gap: 5px; font-size: .82rem; }
+  .carte__barre button, .carte__calques summary, .carte__cherche input { padding: .28rem .5rem; }
+  .carte__zoom button { width: 1.9rem; height: 1.9rem; }
+  .carte__aller { order: 3; }
+  .carte__cherche { flex: 1; }
+  .carte__cherche input { width: 100%; min-width: 7rem; }
+  .carte__fiche { top: auto; bottom: 0; right: 0; left: 0; width: auto; max-height: 55%; border-radius: 10px 10px 0 0; }
+}
+
+/* ------------------------------------------------ index des lieux */
+.lieux-index h2 { margin-top: 2.4rem; }
+.lieux-carte { list-style: none; padding: 0; margin: .6rem 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: .3rem 2rem; }
+.lieux-carte li { padding: .55rem 0; border-bottom: 1px solid var(--filet); line-height: 1.45; }
+.lieu__nom { font-family: var(--display); font-weight: 400; font-size: 1.15rem; }
+.lieu__vo { font-size: .82rem; color: var(--encre-douce); font-style: italic; margin-left: .3rem; }
+.lieu__approx { font-size: .75rem; font-family: var(--capitales); letter-spacing: .05em; color: var(--encre-douce); margin-left: .4rem; }
+.lieu__desc { display: block; font-size: .95rem; margin-top: .15rem; }
+.lieu__liens { display: inline; font-size: .85rem; color: var(--encre-douce); }
+.lieu__voir { display: inline-block; font-size: .82rem; margin-left: .5rem; font-family: var(--capitales); letter-spacing: .04em; }
+.lieux-carte--non-places li { color: var(--encre); }

@@ -5,3 +5,7 @@ desktop.ini
 .vscode/
 .idea/
 node_modules/
+
+# Carte : fond SVG intermédiaire (régénéré par src/carte/rendu.py)
+src/carte/faerun.svg
+src/carte/_c.*
