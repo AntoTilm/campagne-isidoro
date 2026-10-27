@@ -1,21 +1,25 @@
 # Fond de carte illustré de Faerûn (SVG, sans texte) : côtes, reliefs, forêts, fleuves, décor.
 import cv2, numpy as np, base64, math, random, json, sys, os
-from geo import masque_eau, CADRE
-from terrain import ZONES, FLEUVES
+from geo import geographie, CADRE, ECH
+from skimage.morphology import skeletonize
 
 random.seed(7); np.random.seed(7)
 X0, Y0, X1, Y1 = CADRE
-eau = masque_eau()
-H, W = eau.shape
+eau_r, fleuves_r, zones_r = geographie()
+Hr, Wr = eau_r.shape
+W, H = int(round(Wr * ECH)), int(round(Hr * ECH))
+eau = (cv2.resize(eau_r.astype(np.float32), (W, H), interpolation=cv2.INTER_LINEAR) > 0.5).astype(np.uint8)
 
 # ------------------------------------------------------------ côtes lissées
 S = 4
 big = cv2.resize(eau.astype(np.float32), (W * S, H * S), interpolation=cv2.INTER_LINEAR)
-big = cv2.GaussianBlur(big, (0, 0), 2.0 * S)
+big = cv2.GaussianBlur(big, (0, 0), 1.3 * S)
 bm = (big > 0.5).astype(np.uint8)
 terre = (1 - bm).astype(np.uint8)
 terre1 = cv2.resize(terre, (W, H), interpolation=cv2.INTER_AREA)
+
 dist = cv2.distanceTransform(terre1, cv2.DIST_L2, 5)  # distance à la mer (en px)
+
 
 def bruit1d(n, amp, seed):
     rng = np.random.default_rng(seed)
@@ -101,47 +105,42 @@ teintes = []
 occupe = np.zeros((H, W), np.uint8)
 
 PARAMS = {
-    'montagne': dict(r=8.5, marge=4), 'colline': dict(r=7.5, marge=3), 'foret': dict(r=4.6, marge=2.5),
+    'montagne': dict(r=7.4, marge=3), 'colline': dict(r=7.5, marge=3), 'foret': dict(r=4.6, marge=2.5),
     'resineux': dict(r=4.4, marge=2.5), 'jungle': dict(r=4.8, marge=2.5), 'desert': dict(r=6.5, marge=2),
     'lande': dict(r=7, marge=2), 'marais': dict(r=6, marge=2),
 }
 TEINTE = {'foret': '#a9b77c', 'resineux': '#9aac78', 'jungle': '#93ab6c', 'montagne': '#c8b48c', 'colline': '#d6c296',
           'desert': '#e6c98a', 'lande': '#cfc79a', 'marais': '#b6bf96'}
-ordre = ['montagne', 'colline', 'desert', 'lande', 'marais', 'resineux', 'foret', 'jungle']
-for typ in ordre:
-    for k, (t, nom, pts) in enumerate([z for z in ZONES if z[0] == typ]):
-        P = PARAMS[t]
-        zone, Q = masque_poly(pts, seed=100 + k + 37 * ordre.index(typ))
-        ok = zone & (dist > P['marge']).astype(np.uint8)
-        if t in ('foret', 'resineux', 'jungle', 'lande', 'marais', 'desert'):
-            ok = ok & (occupe == 0)
-        teintes.append(f'<path d="{chemin(Q)}" fill="{TEINTE[t]}" opacity="{.3 if t != "desert" else .5}"/>')
-        bord = cv2.distanceTransform(zone, cv2.DIST_L2, 5)
-        for (x, y) in poisson(ok, P['r']):
-            pr = min(1, .2 + bord[int(y), int(x)] / (2.4 * P['r']))
-            if random.random() > pr: continue
-            s = random.uniform(.85, 1.2) * (0.8 + 0.2 * pr)
-            if t == 'montagne':
-                v = random.randint(1, 3); s *= 1.15
-                glyphes.append((y, f'<use href="#mt{v}" transform="translate({x:.1f} {y:.1f}) scale({s:.2f})"/>'))
-            elif t == 'colline':
-                glyphes.append((y, f'<use href="#co" transform="translate({x:.1f} {y:.1f}) scale({s:.2f})"/>'))
-            elif t == 'foret':
-                v = random.randint(1, 2)
-                glyphes.append((y, f'<use href="#ar{v}" transform="translate({x:.1f} {y:.1f}) scale({s:.2f})"/>'))
-            elif t == 'resineux':
-                v = 'sa' if random.random() < .75 else 'ar1'
-                glyphes.append((y, f'<use href="#{v}" transform="translate({x:.1f} {y:.1f}) scale({s:.2f})"/>'))
-            elif t == 'jungle':
-                v = 'pa' if random.random() < .3 else 'ju'
-                glyphes.append((y, f'<use href="#{v}" transform="translate({x:.1f} {y:.1f}) scale({s:.2f})"/>'))
-            elif t == 'desert':
-                glyphes.append((y, f'<use href="#{"du" if random.random() < .35 else "pt"}" transform="translate({x:.1f} {y:.1f}) scale({s:.2f})"/>'))
-            elif t == 'lande':
-                glyphes.append((y, f'<use href="#to" transform="translate({x:.1f} {y:.1f}) scale({s:.2f})"/>'))
-            elif t == 'marais':
-                glyphes.append((y, f'<use href="#ma" transform="translate({x:.1f} {y:.1f}) scale({s:.2f})"/>'))
-        occupe |= zone
+ordre = ['montagne', 'desert', 'resineux', 'jungle']
+for ti, t in enumerate(ordre):
+    P = PARAMS[t]
+    zr = cv2.resize(zones_r[t].astype(np.float32), (W, H), interpolation=cv2.INTER_LINEAR)
+    zone = (cv2.GaussianBlur(zr, (0, 0), 1.6) > 0.45).astype(np.uint8) & terre1
+    cs_, _ = cv2.findContours(zone, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
+    for k, c in enumerate(cs_):
+        if cv2.contourArea(c) < 20: continue
+        ap = cv2.approxPolyDP(c, 0.8, True)[:, 0, :].astype(float)
+        if len(ap) < 3: continue
+        teintes.append(f'<path d="{chemin(ondule(ap, amp=1.6, pas=2, seed=1000 * ti + k))}" fill="{TEINTE[t]}" opacity="{.32 if t != "desert" else .55}"/>')
+    ok = zone & (dist > P['marge']).astype(np.uint8)
+    if t != 'montagne': ok = ok & (occupe == 0)
+    bord = cv2.distanceTransform(zone, cv2.DIST_L2, 5)
+    for (x, y) in poisson(ok, P['r']):
+        pr = min(1, .3 + bord[int(y), int(x)] / (2.2 * P['r']))
+        if random.random() > pr: continue
+        s_ = random.uniform(.85, 1.2) * (0.8 + 0.2 * pr)
+        if t == 'montagne':
+            v = random.randint(1, 3); s_ *= 1.1
+            glyphes.append((y, f'<use href="#mt{v}" transform="translate({x:.1f} {y:.1f}) scale({s_:.2f})"/>'))
+        elif t == 'resineux':
+            v = 'sa' if (y < 500 and random.random() < .7) else ('ar1' if random.random() < .5 else 'ar2')
+            glyphes.append((y, f'<use href="#{v}" transform="translate({x:.1f} {y:.1f}) scale({s_:.2f})"/>'))
+        elif t == 'jungle':
+            v = 'pa' if random.random() < .3 else 'ju'
+            glyphes.append((y, f'<use href="#{v}" transform="translate({x:.1f} {y:.1f}) scale({s_:.2f})"/>'))
+        elif t == 'desert':
+            glyphes.append((y, f'<use href="#{"du" if random.random() < .35 else "pt"}" transform="translate({x:.1f} {y:.1f}) scale({s_:.2f})"/>'))
+    occupe |= zone
 libre = ((occupe == 0) & (dist > 6)).astype(np.uint8)
 for (x, y) in poisson(libre, 16):
     r = random.random()
@@ -149,34 +148,62 @@ for (x, y) in poisson(libre, 16):
     elif r < .58: glyphes.append((y, f'<use href="#co" transform="translate({x:.1f} {y:.1f}) scale({random.uniform(.7,.95):.2f})" opacity=".8"/>'))
 glyphes.sort(key=lambda g: g[0])
 
-# ------------------------------------------------------------ fleuves
-def prolonge_jusqu_a_la_mer(pts):
-    P = [np.array(p, float) for p in pts]
-    d = P[-1] - P[-2]; d /= np.hypot(*d)
-    q = P[-1].copy()
-    for _ in range(60):
-        xi, yi = int(round(q[0])), int(round(q[1]))
-        if 0 <= xi < W and 0 <= yi < H and terre1[yi, xi] == 0: break
-        q = q + d
-    P.append(q)
-    return P
+# ------------------------------------------------------------ fleuves (squelette des traits bleus de la référence)
+def chaines(sq):
+    ys, xs = np.nonzero(sq)
+    pts = set(zip(ys.tolist(), xs.tolist()))
+    V = [(-1,-1),(-1,0),(-1,1),(0,-1),(0,1),(1,-1),(1,0),(1,1)]
+    voisins = lambda p: [(p[0]+a, p[1]+b) for a, b in V if (p[0]+a, p[1]+b) in pts]
+    deg = {p: len(voisins(p)) for p in pts}
+    vu = set(); res = []
+    departs = [p for p in pts if deg[p] != 2] + list(pts)
+    for d in departs:
+        for n in voisins(d):
+            if (d, n) in vu or (n, d) in vu: continue
+            ch = [d, n]; vu.add((d, n))
+            prev, cur = d, n
+            while deg[cur] == 2:
+                nx = [q for q in voisins(cur) if q != prev]
+                if not nx or (cur, nx[0]) in vu: break
+                vu.add((cur, nx[0])); prev, cur = cur, nx[0]; ch.append(cur)
+                if cur == d: break
+            res.append(ch)
+    return res
 
 def lisse_ouvert(P):
     P = np.array(P, float)
-    for _ in range(3):
+    for _ in range(2):
         Q = [P[0]]
         for a, b in zip(P[:-1], P[1:]):
             Q += [0.75 * a + 0.25 * b, 0.25 * a + 0.75 * b]
         Q.append(P[-1]); P = np.array(Q)
     return P
 
+sq = skeletonize(fleuves_r > 0).astype(np.uint8)
+# raccords : chaque extrémité est reliée à l'eau ou au fleuve le plus proche (moins de 7 px de la référence)
+cible = np.maximum(eau_r, 0).astype(np.uint8)
+voisins8 = cv2.filter2D(sq, -1, np.ones((3, 3), np.float32)) * sq
+ys_, xs_ = np.nonzero(voisins8 == 2)
+lbl_n, lbl = cv2.connectedComponents(sq, 8)
+for y, x in zip(ys_, xs_):
+    best = None
+    for yy in range(max(0, y - 7), min(sq.shape[0], y + 8)):
+        for xx in range(max(0, x - 7), min(sq.shape[1], x + 8)):
+            d = (yy - y) ** 2 + (xx - x) ** 2
+            if d < 4 or d > 49: continue
+            ok = cible[yy, xx] or (sq[yy, xx] and lbl[yy, xx] != lbl[y, x])
+            if ok and (best is None or d < best[0]): best = (d, yy, xx)
+    if best: cv2.line(sq, (int(x), int(y)), (int(best[2]), int(best[1])), 1, 1)
+sq = skeletonize(sq > 0)
 fleuves = []
-for i, (nom, pts) in enumerate(FLEUVES):
-    P = prolonge_jusqu_a_la_mer(pts)
-    Q = ondule(lisse_ouvert(P), amp=1.6, pas=1.2, seed=500 + i, ferme=False)
-    m = len(Q)
-    for a, b, w in [(0, m // 3 + 1, .6), (m // 3, 2 * m // 3 + 1, .9), (2 * m // 3, m, 1.25)]:
-        fleuves.append(f'<path d="{chemin(Q[a:b], False)}" stroke-width="{w}"/>')
+for i, ch in enumerate(chaines(sq)):
+    if len(ch) < 4: continue
+    P = np.array([(x * ECH + ECH / 2, y * ECH + ECH / 2) for y, x in ch], float)
+    P = cv2.approxPolyDP(P.astype(np.float32).reshape(-1, 1, 2), 0.6, False)[:, 0, :]
+    if len(P) < 2: continue
+    Q = ondule(lisse_ouvert(P), amp=0.5, pas=1.0, seed=500 + i, ferme=False)
+    w = .8 if len(ch) < 25 else 1.15
+    fleuves.append(f'<path d="{chemin(Q, False)}" stroke-width="{w}"/>')
 
 # ------------------------------------------------------------ texture du papier
 def texture(n=384, seed=3):
@@ -282,10 +309,10 @@ out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{X0} {Y0} {X1-X0} {Y1-
        # terre
        f'<path d="{d_terre}" fill="#efe0bb" fill-rule="evenodd"/>',
        f'<g clip-path="url(#terre)">{"".join(teintes)}</g>',
-       f'<g fill="none" stroke="#4c7884" stroke-linecap="round" stroke-linejoin="round">{"".join(fleuves)}</g>',
+       f'<g fill="none" stroke="#3f6f7c" stroke-linecap="round" stroke-linejoin="round">{"".join(fleuves)}</g>',
        f'<path d="{d_terre}" fill="none" stroke="{ENCRE}" stroke-width=".65" stroke-linejoin="round"/>',
        f'<g>{"".join(g for _, g in glyphes)}</g>',
-       rose(470, 985, 46), navire(205, 330, .85), navire(1010, 455, .6), serpent(640, 975, .9), serpent(60, 770, .7),
+       rose(110, 860, 50), navire(215, 640, .95), navire(1195, 578, .6), serpent(590, 1085, .9), serpent(70, 330, .7),
        f'<rect x="{X0}" y="{Y0}" width="{X1-X0}" height="{Y1-Y0}" fill="url(#papier)" style="mix-blend-mode:multiply" opacity=".55"/>',
        f'<rect x="{X0}" y="{Y0}" width="{X1-X0}" height="{Y1-Y0}" fill="url(#vignette)"/>',
        '</g>', cadre(), '</svg>']

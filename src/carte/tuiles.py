@@ -2,12 +2,12 @@
 import os, sys, re, math, json, shutil
 from PIL import Image
 from playwright.sync_api import sync_playwright
-X0, Y0, CW, CH = 15, 40, 1570, 1128
+X0, Y0, CW, CH = 0, 0, 1585, 1194
 T = 512
 ICI = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ICI, 'faerun.svg')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ICI, '..', '..', 'assets', 'carte', 'tuiles')
-NIVEAUX = {0: None, 1: None, 2: None, 3: None, 4: (600, 660, 1000, 905)}   # niveau 4 : seulement autour du Lac de Vapeur
+NIVEAUX = {0: None, 1: None, 2: None, 3: None, 4: (780, 830, 1130, 1030)}
 svg = open(SRC).read()
 shutil.rmtree(OUT, ignore_errors=True)
 index = {}
@@ -43,7 +43,7 @@ with sync_playwright() as p:
                         im.crop((i * T, j * T, (i + 1) * T, (j + 1) * T)).save(f'{OUT}/{L}/{tx}_{ty}.webp', 'WEBP', quality=80, method=5)
         print('niveau', L, index[L])
     b.close()
-json.dump({k: v for k, v in index.items() if k}, open(f'{OUT}/index.json', 'w'))
+json.dump({k: v for k, v in index.items() if k}, open(f'{OUT}/index.json', 'w'), separators=(',', ':'))
 # Le niveau 0 devient l'image d'aperçu, toujours affichée sous les tuiles
 apercu = Image.new('RGB', (index[0][2] * T, index[0][3] * T))
 for i in range(index[0][2]):

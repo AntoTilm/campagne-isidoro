@@ -16,14 +16,14 @@
 }
 .carte__vue:active { cursor: grabbing; }
 .carte__vue:focus-visible { box-shadow: inset 0 0 0 3px var(--or-carte); }
-.carte__plan { position: absolute; left: 0; top: 0; width: 1570px; height: 1128px; transform-origin: 0 0; overflow: hidden; }
+.carte__plan { position: absolute; left: 0; top: 0; width: 1585px; height: 1194px; transform-origin: 0 0; overflow: hidden; }
 .carte__tuiles, .carte__couche { position: absolute; inset: 0; }
 .carte__tuile { position: absolute; max-width: none; opacity: 0; transition: opacity .2s; pointer-events: none; image-rendering: auto; }
 .carte__tuile--ok { opacity: 1; }
 .carte--bouge .carte__plan { will-change: transform; }
-.carte__fond, .carte__livre { position: absolute; left: 0; top: 0; width: 1570px; height: 1128px; max-width: none; pointer-events: none; }
-.carte__livre { z-index: 10; opacity: 0; transition: opacity .3s; mix-blend-mode: multiply; }
-.avec-livre .carte__livre { opacity: .85; }
+.carte__fond, .carte__livre { position: absolute; left: 0; top: 0; width: 1585px; height: 1194px; max-width: none; pointer-events: none; }
+.carte__livre { z-index: 10; opacity: 0; transition: opacity .3s; }
+.avec-livre .carte__livre { opacity: .92; }
 .carte__calque { position: absolute; inset: 0; pointer-events: none; }
 
 /* ------------------------------------------------ étiquettes */
@@ -155,3 +155,9 @@
 .lieu__liens { display: inline; font-size: .85rem; color: var(--encre-douce); }
 .lieu__voir { display: inline-block; font-size: .82rem; margin-left: .5rem; font-family: var(--capitales); letter-spacing: .04em; }
 .lieux-carte--non-places li { color: var(--encre); }
+
+/* les lieux ponctuels passent devant les noms de régions et de mers */
+.etiquette--region, .etiquette--mer, .etiquette--relief { z-index: 1; }
+.etiquette--ville, .etiquette--capitale, .etiquette--ruine, .etiquette--repaire { z-index: 2; }
+.etiquette--campagne { z-index: 3; }
+.etiquette--actif { z-index: 4; }

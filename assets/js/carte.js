@@ -288,7 +288,7 @@
   });
   carte.querySelectorAll('[data-aller]').forEach(function (b) {
     b.addEventListener('click', function () {
-      if (b.getAttribute('data-aller') === 'vapeur') cadrer(600, 670, 975, 900);
+      if (b.getAttribute('data-aller') === 'vapeur') cadrer(790, 845, 1120, 1020);
       else vole(kmin, X0 + CW / 2, Y0 + CH / 2);
     });
   });
