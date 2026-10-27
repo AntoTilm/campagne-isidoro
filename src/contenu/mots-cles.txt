@@ -212,8 +212,8 @@ père Damino, rats-garous, hospice, doute, faiblesse, Alcatar, elfes d'or, île,
 [journal/aventure-3.html#le-marechal] @isidoro
 maréchal, Sébastien de Saint-Lun, seigneur de Trèfleure, prisonniers pendus, gibets, Garrick, journal de Mirel, grimoire, copies, belladone, pleine lune, mission, Théodoric de Bridgestone, Lames de Tymora, Pinte sans Fond, Chope sans Fond, Isola, cuisines, Patrick, soins, niveau 3
 
-[journal/aventure-3.html#ce-que-dit-le-livre] @isidoro
-mot de Kaelen, Kaelen, cachet, emballage, Corvus Corvath, boîte aux lettres, courrier, livre néthérisien, forêt de Qurth, avant-poste, Derlusk, bardes, archives, temple de Shar, temple d'Amaunator, mythal, puits d'ombre, Myrkul, Velsharoon, Élu, passé effacé, réécrire l'histoire, âme, phylactère, contrebandier, nécrophages, Urs, prismes, lumière
+[journal/aventure-3.html#le-livre-et-les-dieux] @isidoro
+livre néthérisien, carnet d'Urth, Kaelen, Corvus Corvath, Famaruth, dieux, Temps des Troubles, Myrkul, Cyric, le Fou, Kelemvor, Minuit, Mystra, Baine, Talos, vassal, Azuth, Savras, Velsharoon, demi-dieu, écoles de magie, Shar, Toile d'ombre, entre plusieurs chaises, Élu, passé effacé, réécrire l'histoire, marché, Pénombre, Karsus, cités volantes, Urth, prismes, lumière
 
 
 # ============================================================ séances
@@ -299,8 +299,8 @@ camp de Torm, armée, siège, échelles, béliers, bois, logistique, nourriture,
 [seances/aventure-3.html#etape-14-patrick-le-niveau-3-et-les-achats] @isidoro
 Patrick, soins, niveaux rendus, restauration, niveau 3, level up, achats, Arme alignée, Extérieurs, réduction des dégâts, Protection contre le Mal, potions, potion de force, université, objets profanes
 
-[seances/aventure-3.html#le-livre-netherisien-des-puits-d-ombre] @isidoro
-livre néthérisien, volume III, puits d'ombre, original, patois, trois auteurs, Urs, Ursulin, Derlusk, bardes, avant-poste, Ankaria, forêt de Qurth, malédiction, désertification, elfes sauvages, naga-hydre, Néthéril, Karsus, déchirure de la Toile, cités volantes, caste, rivière, Selta, temple de Shar, temple d'Amaunator, zone d'ombre, folie, mythal, plan de l'Ombre, sacrifices, culte, 1128, 1365, Arrk, troll, momie, Myrkul, Trame, Cyric, Shaar, 1368, Velsharoon, Élu, passé effacé, télescopes, prismes, lumière, 1372, Anauroch, bibliothèque, phylactères, essence, chapitre VI, humain raturé, rétablir l'équilibre, Famaruth, contrebandier, Corvus Corvette, orques, bas-fonds, Pénombre, cité volante, Temps des Troubles, Kelemvor, Minuit, Mystra, Baine, Talos, Azuth, Savras, demi-dieu, écoles de magie
+[seances/aventure-3.html#le-livre-netherisien-et-la-guerre-des-dieux] @isidoro
+livre néthérisien, carnet d'Urth, Kaelen, guerre des dieux, politique divine, panthéon, Temps des Troubles, 1358, Myrkul, Cyric, le Fou, Kelemvor, Minuit, Mystra, Baine, prêtres de Myrkul pourchassés, Velsharoon, liche, Magicien Rouge, Talos, vassal, Azuth, Savras, Alaundo, demi-dieu, écoles de magie, hiérarchie, Trame, Shar, Toile d'ombre, domaines convoités, mort, morts-vivants, opportuniste, entre plusieurs chaises, Anauroch, Pénombre, Karsus, cités volantes, plan de l'Ombre, Néthéril
 
 [seances/aventure-3.html#noms-et-lieux] @isidoro
 index, glossaire, liste des noms, liste des lieux, PNJ

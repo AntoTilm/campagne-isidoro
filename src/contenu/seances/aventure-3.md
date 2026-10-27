@@ -31,7 +31,7 @@ resume: La nuit de la chute de Saelmur, Isola, le renvoi qui tue, les hommes de 
 - Les génasi de Radagar étaient des rats-garous.
 - Garrick de Bridgestone commande une centaine d'hommes de Kzelter, cité tenue par **Brixen Sombrespoir**. Leurs ordres : semer le désordre parmi les réfugiés, puis rentrer à Kzelter. Leur tatouage : un poing noir et une rose rouge, avec un chiffre romain.
 - Le maréchal tient Alcatar pour un sous-traitant du seigneur Sombrespoir. Il a promis à **Théodoric de Bridgestone**, cinquième fils de la famille, de lui envoyer ceux qui savent quelque chose d'Alcatar : Théodoric fonde les **Lames de Tymora** à la **Pinte sans Fond**, dans le comté du Clos.
-- Le livre de Mirel parle d'Alcatar : prêtre de Myrkul en 1365, Élu de Velsharoon en 1368, une part de son âme dans le Mini-Mythallar d'Ankharia, dans la forêt de Qurth, et l'attaque de Saelmur préparée dès la fin de 1372. Voir [le livre néthérisien des puits d'ombre](#le-livre-netherisien-des-puits-d-ombre) et son texte intégral, [le carnet d'Urth](../documents/carnet-urth.html).
+- Le livre de Mirel parle d'Alcatar : prêtre de Myrkul en 1365, Élu de Velsharoon en 1368, une part de son âme dans le Mini-Mythallar d'Ankharia, dans la forêt de Qurth, et l'attaque de Saelmur préparée dès la fin de 1372. Voir [le livre néthérisien des puits d'ombre](#le-livre-netherisien-et-la-guerre-des-dieux) et son texte intégral, [le carnet d'Urth](../documents/carnet-urth.html).
 - La belladone est toujours dans la cave de Mirel, intacte. Il faut la rapporter avant la prochaine pleine lune.
 
 ::: vision
@@ -267,78 +267,59 @@ Au matin, le père Damino quitte un groupe d'aventuriers et les reçoit.
 - **Achats** : Isidoro regarde Arme alignée. Le MJ rappelle qu'elle sert surtout contre les Extérieurs mauvais, pour passer leur réduction de dégâts, et n'ajoute aucun dégât. Lucas envisage des potions de Protection contre le Mal. Le budget ne permet pas de potion de force.
 - Les objets profanes se vendaient à l'université des mages : il n'en reste qu'un trou.
 
-## Le livre néthérisien des puits d'ombre
+## Le livre néthérisien et la guerre des dieux
 
 ::: note
-Résumé de la lecture faite par le MJ en fin de séance, corrigé d'après l'original reçu ensuite. Le texte intégral est retranscrit dans [le carnet d'Urth](../documents/carnet-urth.html).
+**Le livre** : le carnet d'Urth, trouvé chez Mirel dans un emballage cacheté signé Kaelen. Il raconte l'avant-poste néthérisien de la forêt de Qurth, ses temples de Shar et d'Amaunator, et la venue d'Alcatar jusqu'aux nécrophages livrés à Saelmur. Le texte intégral est dans [le carnet d'Urth](../documents/carnet-urth.html) ; on ne le résume pas ici.
 :::
 
-**Le livre**
+Après la lecture, le MJ a expliqué ce que sait Isidoro (Histoire 20, Religion 14) pour situer le livre. Ce qui suit ne figure pas dans le carnet.
 
-- C'est le carnet d'Urth, ouvert au chapitre des puits d'ombre. Un original, pas une copie.
-- Il est écrit dans un néthérisien appris par des elfes sauvages et réécrit à leur manière, comme un patois : Isidoro le comprend avec un peu d'ouverture d'esprit.
-- Trois auteurs s'y succèdent, à des siècles d'intervalle : **Gaelenath**, son fils **Urth**, puis son petit-fils **Urth le Jeune**, Grand Prêtre d'Ankharia.
-- Il était dans un emballage cacheté, avec un mot signé **Kaelen** : « Chère Mirel, ce livre a été repris aux mains de Corvus Corvath. Remets cet ouvrage à Famaruth dès que possible. »
+**Le Temps des Troubles (1358 CV)**
 
-**Derlusk, la forêt de Qurth et l'avant-poste**
+- Les dieux descendent sur terre et en profitent pour se battre. **Myrkul**, vieux dieu mauvais de la mort et des morts-vivants, y est tué. Baine aussi tombe.
+- Ses domaines, la mort et les morts-vivants, reviennent à **Cyric**, l'humain qui l'a terrassé.
+- Trois humains sont alors élevés au rang de dieux : **Cyric**, **Kelemvor** et **Minuit**, devenue **Mystra**, la nouvelle déesse de la magie.
+- **Cyric** sombre ensuite dans la folie : on l'appelle le Fou.
+- **Kelemvor** devient le dieu des morts, au sens de leur protection : il veille à ce qu'ils ne deviennent pas des morts-vivants. C'est l'antithèse exacte de la non-vie.
+- Beaucoup de prêtres de Myrkul refusent de se convertir à Cyric, et ils sont pourchassés à mort. Alcatar était de ceux-là. En 1365, sept ans après la mort de son dieu, il obtenait encore ses sorts : signe, pour le MJ, d'un prêtre déjà très puissant, peut-être d'une classe de prestige.
 
-- Histoire 14 : des bardes racontent que Derlusk fut un avant-poste néthérisien. Isidoro sait par les archives de son temple que c'est faux : c'était une ville marchande.
-- En revanche, dans la forêt de Qurth, près de Derlusk, il y eut bien un avant-poste néthérisien, Ankharia. La ville est interdite aux humains à cause d'une malédiction, et la forêt est déserte.
+**Comment Velsharoon est devenu dieu**
 
-**Les elfes sauvages et la Nagahydra**
+- Velsharoon, ancien Magicien Rouge (?) devenu liche, doit son ascension à **Talos**. Celui-ci a négocié avec Mystra et soulagé **Kelemvor**, qui avait hérité des domaines des morts-vivants et n'en voulait pas.
+- Talos pensait faire de Velsharoon son vassal. Velsharoon s'est très vite rangé sous l'aile d'**Azuth**.
+- Velsharoon n'est qu'un demi-dieu, quand Talos, Mystra et Cyric sont de grands dieux.
 
-- Entre −300 et −200 CV, une « grande désertification » fait reculer la grande forêt qui couvrait la région ; il n'en reste que la forêt de Qurth.
-- Des elfes sauvages y migrent sous la protection de la **Nagahydra**, l'« Ombre aux Cinq Têtes », créature presque légendaire ; le pacte est scellé vers −210.
-- L'avant-poste néthérisien existait depuis −2500 environ. En −339, une « grande déchirure de la Toile » survient : un grand savant néthérisien combat des créatures venues d'ailleurs, toute la magie de Néthéril s'effondre et ses cités volantes s'écrasent.
-- L'avant-poste est abandonné ; la Nagahydra s'y installe avec eux. Elle leur fait fouiller les bibliothèques, toujours en place.
-- Les elfes trouvent la langue néthérisienne bien plus riche que la leur en mots de magie, et passent des siècles à l'apprendre. Leurs érudits forment une caste qui ne parle plus que néthérisien entre soi.
+**La hiérarchie de la magie**
 
-**Les deux temples**
+| Rang | Dieu | Rôle |
+| --- | --- | --- |
+| Grande divinité | Mystra | La Trame, la magie et le savoir |
+| Divinité intermédiaire | Azuth | Dieu des magiciens, garant des écoles de magie |
+| Demi-dieux | Un par école | Savras pour la divination, Velsharoon pour la nécromancie |
 
-- La ville est coupée par une rivière, le **Scelptar**. Sur la rive ouest, un temple de Shar : l'ombre, la tromperie, le mal. Sur la rive est, un temple d'Amaunator, dieu néthérisien du soleil, dont procède Lathandre.
-- Une zone d'ombre part du temple de Shar et progresse de quelques centimètres, de quelques mètres. Au moment où les auteurs écrivent, elle s'étend depuis près de mille ans et gagne les deux rives. Ceux qui y restent trop longtemps deviennent fous.
-- Le temple d'Amaunator abrite un **Mini-Mythallar**, un globe de cristal néthérisien ; celui de Shar, un **puits d'ombres**.
-- Connaissance des mystères 21 et Histoire 16 : les mythals sont des reliques légendaires, liées au culte d'Amaunator et à la haute magie elfique, ou à des arcanes néthérisiens extrêmement puissants. La lumière repousse l'ombre, mais pour un temps seulement.
-- Le Mini-Mythallar s'affaiblit : les fidèles d'Amaunator ont disparu, quand Shar est toujours là et gagne en puissance.
-- Les puits d'ombre semblent être des portails ouverts sur le plan de l'Ombre.
+- Pour Isidoro, d'après les écrits de son temple, Savras pourrait être l'enseignement d'Alaundo, devenu dieu de la divination (?).
+- Velsharoon se trouve ainsi, sous Mystra et Azuth, du côté du bien de la magie, tout en restant une divinité mauvaise.
 
-**La dérive**
+**Qui convoite ses domaines**
 
-- En 684, **Urth** puise dans le Mini-Mythallar pour faire reverdir la forêt de Qurth et le Shaar, et le vide de sa puissance ; le puits d'ombres déborde sur la rive ouest. La Nagahydra fait cesser ces expériences et étudie elle-même le puits.
-- Elle passe son temps du côté de l'ombre, se dit Élue des Dieux-Serpents, exige des sacrifices d'elfes et se veut divinité.
-- En 1128 CV, Urth meurt ; son fils **Urth le Jeune** reprend le flambeau et devient Grand Prêtre de la Nagahydra, la « Reine Sssila ». La communauté, plusieurs milliers d'elfes, décline sous les sacrifices : les elfes n'ont un enfant qu'une fois tous les cinquante ans.
+| Dieu | Pourquoi |
+| --- | --- |
+| Cyric | On les lui a pris : il s'estime volé. |
+| Baine | Il les a toujours voulus. Il estimait déjà que Cyric les lui avait volés, et, mort au Temps des Troubles, il n'a pas pu les reprendre. Baine et Cyric ne sont pas faits pour s'entendre. |
+| Shar | La mort et les morts-vivants font partie des trois écoles qu'elle veut dans sa Toile d'ombre. |
+| Talos | Il comptait en faire son vassal, et se retrouve floué. |
 
-**Alcatar**
+- Aucun dieu bon n'apprécie Velsharoon, et peu de dieux mauvais. Il a, selon le MJ, « le cul entre plusieurs chaises ».
+- C'est un opportuniste : il cherche à se faire des amis partout, avec un succès mitigé. Il espère monter en puissance, mais les grandes divinités le courtisent autant qu'elles cherchent à le détruire.
+- **Le lien avec Alcatar** : son Élu a négocié avec Talos l'ouverture d'une bibliothèque néthérisienne dans l'Anauroch, contre la destruction d'une cité. Le MJ y voit la même politique entre les dieux.
+- Ce jeu change chaque année : le MJ suit pour cela les suppléments officiels.
 
-- **1365 CV** : Alcatar, « un elfe d'or des temps anciens », arrive avec un guerrier troll, **Arrk**. La Nagahydra meurt sous sa nécromancie ; Alcatar la momifie et la ramène pour protéger la communauté, avec les pouvoirs d'une momie en plus de ceux d'hydre et de naga.
-- Il se présente comme prêtre de **Myrkul**, le dieu de la mort détruit au Temps des Troubles. Il continue pourtant d'obtenir ses sorts.
-- Une note dit qu'il restait selon lui assez de résidus de Myrkul dans la Trame pour canaliser son énergie divine. Il interdisait d'écouter les prêtres de Cyric, l'usurpateur devenu fou. Et si la Trame restait sourde, il fallait prier par son intermédiaire à lui.
-- Il fait poursuivre les recherches sur le puits d'ombres et le Mini-Mythallar, et revient plusieurs fois dans la forêt de Qurth pour les étudier.
-- **Les notes** : d'autres temples d'Amaunator font face à des temples de Shar, notamment dans le Shaar, au sud. L'avant-poste fournissait en matériaux un grand temple du Shaar. Le Shaar, la région, n'a rien à voir avec Shar, la déesse.
-- **1368 CV** : Velsharoon devient dieu, et Alcatar devient presque aussitôt son Élu. Il exige que l'on efface partout la mention de son passé de prêtre de Myrkul, comme s'il avait toujours servi Velsharoon.
-- **Le projet d'Urth le Jeune** : un système de télescopes, de prismes et d'amplificateurs de lumière qui, avec des sorts de lumière assez puissants, devait en théorie détruire le puits d'ombre. Alcatar s'y oppose : il veut l'étudier.
-- **1372 CV** : grâce à une grande bibliothèque trouvée dans l'Anauroch, Alcatar apprend à répartir l'essence d'une personne entre plusieurs phylactères ou objets.
-- Il place une part de son essence dans le Mini-Mythallar de Qurth : la pure lumière vire au vert et au violet, et le cristal lui sert aussi de réserve de puissance. Le puits est repoussé jusqu'au fleuve et comprimé à moins d'un kilomètre autour de son centre. Le livre cite deux bibliothèques, l'une dans l'Anauroch, l'autre dans le Shaar.
+**Pénombre**
 
-**Chapitre VI, fin de l'année 1372 CV**
-
-- Alcatar revient du nord avec un humain dont le nom a été raturé. Il annonce un grand projet contre Saelmur, « riche cité humaine du nord du Lac de Vapeur », où il dit vouloir rétablir l'équilibre.
-- Il exige un prêtre et un fort contingent de nécrophages : on lui envoie **Famaruth**, l'un des disciples les plus fidèles.
-- Les nécrophages doivent gagner Saelmur discrètement, par le lac. Une première expédition échoue, interceptée par les autorités ; une seconde est massacrée par des orques en forêt.
-- Enfin, un contrebandier humain, Corvus Corvath, accepte le contrat et passe à travers les mailles du filet : plusieurs dizaines de nécrophages sont livrés dans les bas-fonds de Saelmur. Famaruth les multiplie et attend les ordres d'Alcatar.
-- Le récit s'arrête en décembre 1372, sur une invocation à la volonté de Velsharoon.
-
-**Pénombre** : la seule cité volante de Néthéril à avoir échappé à la chute s'était réfugiée dans le plan de l'Ombre. Elle est revenue en 1372, au-dessus de l'Anauroch. On n'en sait encore que des rumeurs : une montagne renversée portant une cité d'archimages, qui voudrait restaurer l'empire néthérisien.
-
-**Ce qu'Isidoro en sait** (Histoire 20, Religion 14)
-
-- **1358, le Temps des Troubles** : les dieux marchent sur la terre et se combattent. Myrkul, dieu de la mort et des morts-vivants, meurt. Ses domaines passent à Cyric, un humain élevé au rang de dieu, comme Kelemvor et comme Minuit devenue Mystra.
-- **Cyric**, pris de folie, est surnommé le Fou. Beaucoup de prêtres de Myrkul refusent de le servir et sont pourchassés ; Alcatar en était.
-- **Kelemvor**, dieu des morts, protège les morts pour qu'ils ne deviennent pas des morts-vivants : l'exact contraire de la non-vie.
-- **Les rivaux de Velsharoon** : plusieurs dieux convoitent ses domaines. Cyric, qui s'estime volé ; Baine, qui les a toujours voulus ; Shar, qui veut la nécromancie dans sa Toile d'ombre.
-- **Talos** avait permis à Velsharoon, une liche, de devenir dieu en négociant avec Mystra et en soulageant Kelemvor, qui n'en voulait pas. Il le croyait son vassal ; Velsharoon s'est rangé sous Azuth.
-- **La hiérarchie de la magie** : Mystra tient la Trame. Azuth, sous elle, est le dieu des magiciens. Sous lui, un demi-dieu par école : Savras la divination, Velsharoon la nécromancie.
-- Courtisé par les uns, menacé par les autres, Velsharoon est assis entre plusieurs chaises.
+- Quand Karsus a brisé la Trame, toutes les cités volantes de Néthéril se sont écrasées, sauf une, qui s'est réfugiée dans le plan de l'Ombre.
+- C'est **Pénombre**, revenue en 1372 au-dessus de l'Anauroch. Les puits d'ombre semblent des portails vers ce plan, en général maléfique.
+- On n'en sait encore que des rumeurs : une montagne renversée portant une immense cité d'archimages, qui ferait la loi dans la région et voudrait rétablir l'empire néthérisien.
 
 ## Butin, finances et suite
 
