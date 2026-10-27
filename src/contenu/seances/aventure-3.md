@@ -14,14 +14,14 @@ resume: La nuit de la chute de Saelmur, Isola, le renvoi qui tue, les hommes de 
 
 **Ce qui s'est passé**
 
-- **Minuit, chez Mirel** : le grand crâne vert qui domine la ville naît de quatre faisceaux partis des quatre collines (Détection 17) : grand temple de Torm, bibliothèque d'Oghma, université des mages, temple de Heaume. L'énergie est nécromantique.
+- **Minuit, chez Mirel** : Lucas comprend que le grand crâne vert qui domine la ville naît de quatre faisceaux partis des quatre collines (Détection 17) : grand temple de Torm, bibliothèque d'Oghma, université des mages, temple de Heaume. L'énergie est nécromantique.
 - **Les nécrophages de la cave** : six remontent par la porte de pierre, d'autres suivent. Le renvoi d'Isidoro ne les touche pas ; Lucas leur jette de l'eau bénite, puis ils fuient avec la foule. Lucas y gagne un niveau négatif. **300 XP**.
 - **La garde de Heaume** : en route vers les docks, Isidoro reconnaît dans une troupe de Heaume les **génasi de Radagar**, entrés dans la garde grâce à sa lettre. Une cinquantaine de soldats se changent en **rats-garous**.
 - **Les rats explosifs** : un rat mort-vivant abattu par Lucas explose comme un boulet ; plus d'une centaine d'explosions secouent la ville.
-- **Isola** : ils tuent un nécrophage qui attaquait une fillette. C'était son père. Isidoro prend à son tour un niveau négatif, puis porte **Isola**, environ six ans. Ils renoncent à la bibliothèque d'Oghma. **300 XP**.
+- **Isola** : ils tuent un nécrophage qui attaquait une fillette. C'était son père. Isidoro prend à son tour un niveau négatif et prend **Isola**, environ six ans, dans ses bras ; c'est Lucas qui la portera et veillera sur elle l'essentiel de la nuit. Ils renoncent à la bibliothèque d'Oghma. **300 XP**.
 - **Le renvoi qui tue** : dans la foule qui fuit, Isidoro renvoie des rats : ils explosent et tuent **onze fuyards**, cinq hommes, cinq femmes et un enfant. Il prie sur leurs corps jusqu'au bout pour qu'ils ne se relèvent pas.
 - **Garrick de Bridgestone** : derrière les lignes ennemies, un cousin Bridgestone passé à Baine fait déguiser ses hommes de **Kzelter** en réfugiés : « Alcatar nous a trahis. »
-- **La sortie** : deux gardes zhentarim abattus, une descente en rappel ratée puis rattrapée par Lucas, la douve traversée à pied, au fond de l'eau, sous les flèches. Du rempart, Isidoro voit la bibliothèque d'Oghma brûler et croise un instant le regard de l'elfe d'or. **300 XP**.
+- **La sortie** : deux gardes zhentarim abattus, une descente en rappel ratée puis rattrapée par Lucas, la douve traversée à pied, au fond de l'eau, sous les flèches ; Isidoro sort en courant pour attirer les tirs, Lucas s'éclipse avec Isola. Du rempart, Isidoro voit la bibliothèque d'Oghma brûler et croise un instant le regard de l'elfe d'or. **300 XP**.
 - **Le camp** : ils reconnaissent quatre hommes de Garrick parmi les réfugiés et les font arrêter vivants. **200 XP**.
 - **Le 21 Ches** : le père Damino, le seigneur de Trèfleure (?), puis le **maréchal Sébastien de Saint-Lun**. Patrick, un prêtre du camp, leur rend leurs niveaux perdus ; Isidoro passe au **niveau 3**.
 
@@ -66,19 +66,19 @@ Isidoro et Lucas sortent de l'atelier de Mirel, les sacs pleins : dix livres de 
 **La ville bascule**
 
 - Grondements au-delà des murs, coups de tonnerre, bâtiments qui s'effondrent ; les cloches sonnent depuis les docks. Il est minuit.
-- Isidoro voudrait courir à la bibliothèque d'Oghma : dans sa vision, on brûlait les livres sur un immense bûcher. Le MJ rappelle qu'il ne saurait pas distinguer les ouvrages rares des autres. Lucas, lui, fait valoir qu'il est irresponsable de sortir.
+- Isidoro voudrait courir à la bibliothèque d'Oghma : dans sa vision, on brûlait les livres sur un immense bûcher. Il saurait reconnaître un ouvrage rare au premier coup d'œil, mais le MJ rappelle qu'il ne connaît pas les dédales de la bibliothèque et ignore où y sont rangés les livres qui mériteraient d'être sauvés. Lucas, lui, fait valoir qu'il est irresponsable de sortir.
 - Pour Isidoro, Alcatar est l'ennemi par excellence : la lumière contre la non-vie, et une liche qui rêve de devenir dieu.
 
 **Le crâne vert**
 
-- Détection 17 : la marque verte, un crâne immense, est formée par quatre faisceaux lumineux qui se croisent dans le ciel. Ils partent des quatre édifices qui couronnent les collines : le grand temple de Torm, la bibliothèque d'Oghma, l'université des mages et le temple de Heaume.
+- Lucas (Détection 17) : la marque verte, un crâne immense, est formée par quatre faisceaux lumineux qui se croisent dans le ciel. Ils partent des quatre édifices qui couronnent les collines : le grand temple de Torm, la bibliothèque d'Oghma, l'université des mages et le temple de Heaume.
 - Connaissance des mystères 12 : cette lumière vert sombre puise dans l'énergie nécromantique. Peut-être des objets déclenchés à distance.
 
 **La cave**
 
 - Lucas (Perception auditive 17) entend une porte de pierre racler le sol, dans la cave de Mirel. Quelque chose remonte de sous la ville.
 - La rue se remplit : des familles sortent en chemise de nuit, des enfants dans les bras. Lucas annonce sa règle : il est là pour protéger Isidoro avant tout, mais il interviendra si un enfant est menacé.
-- Isidoro harangue la foule (Diplomatie 18) : certains rentrent se barricader, d'autres s'habillent pour quitter la ville.
+- Isidoro harangue la foule (Diplomatie 18) : un grand mal arrive, la ville va être prise ou détruite, il faut absolument la fuir. Certains rentrent se barricader, d'autres s'habillent pour quitter la ville.
 - Il lance Bouclier de la foi.
 - Une voix magiquement amplifiée monte des docks (Volonté 17 : Isidoro comprend que c'est un sort et ne cède pas à la peur) : « La flotte de Mintar débarque aux docks ! Combattants, sortez vos armes ; les autres, fuyez la ville ! »
 
@@ -130,7 +130,7 @@ Près de l'avenue centrale qui mène à la porte ouest, un bataillon de Tyr mont
 - Des rats-garous semblent rabattre la foule. Un petit rat arrive entre deux fuyards.
 - Isidoro le renvoie (test 11). Dans un rayon de dix mètres, les rats explosent à la lumière de son symbole, et les gens autour d'eux meurent aussi. L'explosion a lieu au bord de la foule ; au milieu, c'eût été bien pire.
 - Volonté 10 : Isidoro est saisi d'une culpabilité profonde. Cinq hommes, cinq femmes et un enfant, déchiquetés. Les survivants le remercient en courant, et piétinent des blessés qui n'étaient pas encore morts.
-- Il cache les yeux d'Isola. Lucas le presse de partir : il met la petite en danger, il faut penser aux vivants.
+- Lucas cache les yeux d'Isola et presse Isidoro de partir : il met la petite en danger, il faut penser aux vivants.
 - Isidoro refuse de les laisser aux nécromanciens de la ville. Religion 14 : rassembler les corps et prier pour qu'ils ne se relèvent pas, cinq minutes. Une immense explosion aux docks le trouble, mais il va au bout de la prière.
 
 ## Étape 7 — La débâcle
@@ -156,7 +156,7 @@ Une boucle pour éviter le combat les égare : une troupe de Bainiens passe en c
 **Les deux gardes**
 
 - Survie 18 : voici le rempart, mais une patrouille de deux gardes zhentarim se tient entre eux et lui.
-- Isidoro cache Isola sous un tissu, contre un tonneau : « Je reviens. » Il lance Bouclier de la foi.
+- Lucas cache Isola sous un tissu, contre un tonneau : « Je reviens. » Isidoro lance Bouclier de la foi.
 - Lucas charge ; Isidoro charge aussi. Lucas, en tenaille, frappe en traître : les deux gardes tombent.
 - Sur eux : quelques dizaines de pièces d'or et d'argent, deux chemises de mailles (100 po pièce) et une arme de maître (montants à vérifier).
 
@@ -174,9 +174,9 @@ Une boucle pour éviter le combat les égare : une troupe de Bainiens passe en c
 
 **La douve**
 
-- Un demi-mètre de terre ferme, puis l'eau. Isidoro dit à Isola de se boucher le nez et de retenir sa respiration, puis saute.
-- Il ne sait pas nager : il marche au fond, dans la vase, en apnée. Lucas nage. Les flèches pleuvent.
-- Isidoro sort de l'eau et prend une flèche dans le dos (7 dégâts), plonge dans les roseaux et s'éclipse (Discrétion 23). Lucas se soigne et s'éloigne sans être vu.
+- Un demi-mètre de terre ferme, puis l'eau. Lucas reprend Isola et lui dit de se boucher le nez et de retenir sa respiration. Isidoro saute.
+- Il ne sait pas nager : il marche au fond, dans la vase, en apnée. Lucas nage avec la petite. Les flèches pleuvent.
+- Isidoro sort de l'eau en courant, à découvert, pour attirer sur lui les flèches des remparts et protéger Lucas et Isola. Il prend une flèche dans le dos (7 dégâts), plonge dans les roseaux et s'éclipse (Discrétion 23). Lucas sort discrètement avec Isola, se soigne et s'éloigne sans être vu.
 - **300 XP.** Le MJ résume la nuit : tout le bestiaire y est passé, et ils n'ont sauvé qu'une vie, celle d'une enfant qui n'avait rien demandé.
 
 ## Étape 10 — Le camp de réfugiés et les infiltrés
@@ -203,7 +203,7 @@ Une boucle pour éviter le combat les égare : une troupe de Bainiens passe en c
 
 ## Étape 11 — La nuit au camp
 
-- Isidoro fait sécher son matériel, trempé par la douve, trouve à manger pour Isola et la sèche. Elle s'accroche à lui.
+- Isidoro fait sécher son matériel, trempé par la douve, trouve à manger pour Isola et la sèche. Elle s'endort contre Lucas.
 - Il reconnaît en elle un sentiment qu'il a connu enfant, celui d'un père souvent au loin. Elle devient pour lui comme la petite sœur qu'il n'a jamais eue.
 - Toute la nuit, des explosions secouent la ville ; des bâtiments s'effondrent encore. Les étendards zhentarim flottent sur toutes les tours du rempart.
 - Les explosions nécrotiques et les visages des onze morts le hantent. Nuit agitée ; au réveil, une certitude : un grand acte maléfique a été commis ici.
@@ -241,14 +241,14 @@ Au matin, le père Damino quitte un groupe d'aventuriers et les reçoit.
 
 - Les prisonniers ont parlé. Ils venaient de Kzelter, « apporter la sainte foi bainienne » à Saelmur. Leurs ordres : fuir la ville en civil, semer un maximum de désordre, puis regagner Kzelter. Pas de rendez-vous. Leur chef : **Garrick de Bridgestone**, un cousin de la famille. Ils ont été jugés et pendus : on voit les gibets plus loin.
 - Ils portaient tous un tatouage sur le flanc droit : un poing et une rose rouge, avec un chiffre romain. Lucas propose de dessiner le visage de Garrick, qu'il a vu.
-- Isidoro raconte Mirel. Le seigneur en a déjà entendu parler (Psychologie 17). Il réclame le grimoire de Mirel, « objet souillé », pour en faire ce qu'il convient : Isidoro le lui remet.
+- Isidoro raconte Mirel. Le seigneur en a déjà entendu parler (Psychologie 17). Isidoro ne veut pas garder le grimoire de Mirel, un livre impur : il le remet au camp, pour qu'on en fasse ce qu'il convient.
 - **La belladone** : d'après ses informations, Mirel avait vidé les stocks de la ville. Isidoro décrit les tonneaux de sa cave : c'est elle. Les rats-garous ont griffé un nombre incalculable de réfugiés, et il faut les soigner avant la prochaine pleine lune. Si l'ennemi la trouve et la brûle, tous ces gens sont condamnés.
 - Isidoro et Lucas acceptent d'y retourner et demandent des soins, un sac sans fond pour trois tonneaux, une gouvernante pour Isola, des vivres et des armes d'argent contre les rats-garous.
 - **Les livres** : un prêtre recopiera les ouvrages d'Isidoro ; il garde les originaux, le camp une copie.
 
 **Isola** : Isidoro la prépare à son départ. Une femme des cuisines du camp veillera sur elle. Il lui propose de prier avec lui pour son père, et d'organiser une cérémonie en son honneur.
 
-**Le maréchal Sébastien de Saint-Lun**, cousin du comte, maréchal des armées de Torm
+**Le maréchal Sébastien de Saint-Lun**, de la famille régnante, maréchal des armées de Torm
 
 - **Ce qu'en sait Isidoro** (Histoire) : un ancien aventurier, le membre de la famille régnante que l'on envoie commander en temps de guerre. Le culte de Torm est celui de la noblesse ; celui de Heaume, celui des gens du peuple montés en grade, qui forment l'essentiel du camp malgré les bannières de Torm.
 - **L'homme** : 35 à 40 ans, une petite moustache, loyal et bon, énergique et engagé. Tout le contraire de sa famille, qui s'endort sur ses acquis.
@@ -380,8 +380,8 @@ Repères pour relire la séance ; les noms suivis d'un (?) restent à confirmer.
 
 | PNJ | Lieu | Rôle |
 | --- | --- | --- |
-| Isola | Camp de Torm | Fillette d'environ six ans sauvée par Isidoro ; son père était devenu nécrophage |
-| Sébastien de Saint-Lun | Camp de Torm | Cousin du comte, maréchal des armées de Torm |
+| Isola | Camp de Torm | Fillette d'environ six ans sauvée par Isidoro et Lucas ; son père était devenu nécrophage |
+| Sébastien de Saint-Lun | Camp de Torm | De la famille régnante, maréchal des armées de Torm |
 | Le seigneur de Trèfleure (?) | Camp de Torm | Baron voisin ; interroge les prisonniers, confie la mission de la belladone |
 | Patrick | Camp de Torm | Prêtre du camp ; soigne Isidoro et Lucas |
 | Garrick de Bridgestone | En fuite parmi les réfugiés | Cousin Bridgestone passé à Baine, chef des hommes de Kzelter |
