@@ -1,11 +1,11 @@
 ---
-savoir: theodoric
+savoir: theodoric isidoro
 titre: Le journal de Vandor
 sous-titre: « Chroniques de l'Ombre et de la Cendre »
 ordre: 6
 auteur: Vandor d'Hauterive, vampire, bras armé d'Alcatar
 periode: 1355 – 20 Ches 1373 CV
-provenance: Journal personnel en trois parties. Le document ne dit pas comment il a été récupéré.
+provenance: Journal personnel en trois parties, pris par Théodoric de Bridgestone et laissé à la Pinte sans Fond, où Isidoro le lit (aventure 4).
 regard: Ennemi, témoin direct de l'entourage d'Alcatar ; vaniteux, il se donne le beau rôle.
 pdf: journal-vandor.pdf
 resume: Trente ans aux côtés d'Alcatar, de la crypte des Monts Nethéres jusqu'au sac de Saelmur.
