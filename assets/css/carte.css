@@ -202,5 +202,9 @@
 .etiquette--mine .etiquette__nom { font-size: calc(11.5px * var(--e, 1)); }
 .etiquette--lieudit .etiquette__nom { font-family: var(--display); font-style: italic; font-size: calc(11.5px * var(--e, 1)); letter-spacing: .04em; color: #5b4a30; }
 .carte[data-niveau="6"] .etiquette--comte { opacity: .45; }
-.etiquette--bourg, .etiquette--hameau, .etiquette--fort, .etiquette--auberge, .etiquette--mine { z-index: 2; }
+.etiquette--site .etiquette__point { width: 9px; height: 9px; left: -4.5px; top: -4.5px; border: 0; border-radius: 0; background: none; box-shadow: none; }
+.etiquette--site .etiquette__point::before, .etiquette--site .etiquette__point::after { content: ""; position: absolute; left: 3.5px; top: -1px; width: 2px; height: 11px; background: #4a3424; transform: rotate(45deg); box-shadow: 0 0 0 1px rgba(246, 238, 220, .7); }
+.etiquette--site .etiquette__point::after { transform: rotate(-45deg); }
+.etiquette--site .etiquette__nom { font-size: calc(11.5px * var(--e, 1)); font-style: italic; }
+.etiquette--bourg, .etiquette--hameau, .etiquette--fort, .etiquette--auberge, .etiquette--mine, .etiquette--site { z-index: 2; }
 .etiquette--comte, .etiquette--eau, .etiquette--route { z-index: 1; }

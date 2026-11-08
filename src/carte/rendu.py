@@ -15,6 +15,7 @@ eau = (cv2.resize(eau_r.astype(np.float32), (W, H), interpolation=cv2.INTER_LINE
 # dans sa zone, l'eau, les forêts et les déserts tirés de la référence ; les montagnes de la référence restent sur la terre.
 DETAIL = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'detail')
 zone_det = np.zeros((H, W), np.uint8); cls_det = np.zeros((H, W), np.uint8)
+mont_det = np.zeros((H, W), bool)   # régions qui fournissent leurs propres montagnes (classe 5)
 for reg in json.load(open(os.path.join(DETAIL, 'regions.json')))['regions']:
     c = cv2.imread(os.path.join(DETAIL, reg['classes']), 0)
     x0, y0, x1, y1 = reg['cadre']
@@ -24,6 +25,7 @@ for reg in json.load(open(os.path.join(DETAIL, 'regions.json')))['regions']:
     e = cv2.resize((c == 2).astype(np.float32), (w_, h_), interpolation=cv2.INTER_AREA) > 0.5
     k = cv2.resize(c, (w_, h_), interpolation=cv2.INTER_NEAREST)
     zone_det[j0:j1, i0:i1][z] = 1
+    if reg.get('montagnes'): mont_det[j0:j1, i0:i1][z] = True
     cls_det[j0:j1, i0:i1][z] = np.where(e[z], 2, k[z])
     eau[j0:j1, i0:i1][z] = e[z]
 
@@ -165,8 +167,10 @@ for ti, t in enumerate(ordre):
     zd = zone_det == 1
     if t == 'resineux': zr[zd] = (cls_det[zd] == 3)
     elif t == 'jungle': zr[zd] = (cls_det[zd] == 4)
-    elif t == 'desert': zr[zd] = 0
-    elif t == 'montagne': zr[zd] = zr[zd] * (cls_det[zd] == 1)
+    elif t == 'desert': zr[zd] = (cls_det[zd] == 6)
+    elif t == 'montagne':
+        zr[zd] = zr[zd] * (cls_det[zd] == 1)
+        zr[mont_det] = (cls_det[mont_det] == 5)
     zone = (cv2.GaussianBlur(zr, (0, 0), 1.6) > 0.45).astype(np.uint8) & terre1
     cs_, _ = cv2.findContours(zone, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
     for k, c in enumerate(cs_):

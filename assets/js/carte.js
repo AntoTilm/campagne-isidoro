@@ -72,9 +72,9 @@
   var SEUILS = [0, 0, 1.7, 3, 5.2, 11, 19];
   var TYPES = { region: 'Région', mer: 'Mer et lac', relief: 'Relief et forêt', capitale: 'Capitale', ville: 'Cité',
     ruine: 'Ruines', campagne: 'Lieu de la campagne', repaire: 'Repaire' };
-  TYPES.bourg = 'Bourg'; TYPES.hameau = 'Hameau'; TYPES.fort = 'Fort'; TYPES.auberge = 'Auberge'; TYPES.comte = 'Comté'; TYPES.eau = 'Rivière'; TYPES.route = 'Route'; TYPES.mine = 'Mine'; TYPES.lieudit = 'Lieu-dit';
+  TYPES.bourg = 'Bourg'; TYPES.hameau = 'Hameau'; TYPES.fort = 'Fort'; TYPES.auberge = 'Auberge'; TYPES.comte = 'Comté'; TYPES.eau = 'Rivière'; TYPES.route = 'Route'; TYPES.mine = 'Mine'; TYPES.lieudit = 'Lieu-dit'; TYPES.site = 'Site';
   var CALQUE_DE = { campagne: 'campagne', repaire: 'campagne', capitale: 'villes', ville: 'villes', ruine: 'villes', region: 'regions', mer: 'nature', relief: 'nature',
-    bourg: 'villes', hameau: 'villes', fort: 'villes', auberge: 'villes', mine: 'villes', comte: 'regions', eau: 'nature', route: 'nature', lieudit: 'nature' };
+    bourg: 'villes', hameau: 'villes', fort: 'villes', auberge: 'villes', mine: 'villes', site: 'villes', comte: 'regions', eau: 'nature', route: 'nature', lieudit: 'nature' };
 
   // ------------------------------------------------------------ étiquettes
   var lieux = [];
@@ -305,7 +305,7 @@
   carte.querySelectorAll('[data-aller]').forEach(function (b) {
     b.addEventListener('click', function () {
       var cible = b.getAttribute('data-aller');
-      var cadres = { vapeur: [770, 790, 1190, 1090], comtes: [815, 842, 935, 926], 'haute-foret': [420, 50, 790, 330], cormyr: [780, 260, 1130, 520] };
+      var cadres = { vapeur: [770, 790, 1190, 1090], comtes: [815, 842, 935, 926], 'haute-foret': [430, 60, 760, 330], cormyr: [780, 260, 1130, 520] };
       if (cadres[cible]) cadrer.apply(null, cadres[cible]);
       else vole(kmin, X0 + CW / 2, Y0 + CH / 2);
     });

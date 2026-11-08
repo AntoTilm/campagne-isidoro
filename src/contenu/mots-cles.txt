@@ -386,6 +386,12 @@ plans, cartes dessinées, Mintar, égouts, collecteur, citadelle, château de Te
 [carte.html#lac-de-vapeur]
 Lac de Vapeur, carte imprimée, Yeshpek, Tulmon, Suldolphor, Yallasch, Arnroc, Yhep, Valperdu, Kagarr, Ormpetarr, Sespech, Fort Arran, Mare au Naga, Route dorée, Plaine dorée, Elbulder, Shaarmid, Lhesper, Ormspur, Bois d'Hiver, Bois d'Ankh, Bois du Crépuscule, Bois de Jundar, Marécage de They, Neth, Scelptar
 
+[carte.html#haute-foret]
+Haute-Forêt, le Nord, Evereska, Everesque, Lunargent, Sundabar, Everlund, Castelmithral, Citadelle de Felbarr, Citadelle d'Adbar, Fort des Portes de l'Enfer, Nesmé, Longueselle, Yartar, Triverrat, Rougemélèze, Gué de la Dague, Sécombre, Llorkh, Euaforte, Bois Tapi, Boilune, Landes Éternelles, Monts Étoilés, Pics Perdus, Pics Gris, Haute Lande, Forêt Oubliée, Bataille des Ossements, Delimbiyr, Rauvin, Surbrin, Dessarin, Longue Route, Route Noire
+
+[carte.html#cormyr-et-vaux]
+Cormyr, les Vaux, Cormanthor, Mer de Lune, Empire des Ombres, Pénombre, Mer de la Soif, Tilverton, Arabel, Suzail, Marsembre, Château-Zhentil, Phlan, Melvonte, Thentia, Hulbourg, Hillsfar, Montélor, Voonlar, Myth Drannor, Valombre, Semberloge, Valprofond, Valplume, Valbalafre, Valmoisson, Ordulin, Yhaunne, Selgonte, Saerloune, Daerlune, Urmlaspyre, Forêt de l'Orée, Pics du Tonnerre, Grand Marais
+
 [carte.html#carte-des-dons-regionaux]
 Faerûn, carte du monde, dons régionaux, Calimshan, Téthyr, Shaar, Royaumes Oubliés, Forgotten Realms
 

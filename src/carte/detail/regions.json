@@ -29,7 +29,50 @@
     826,
     938,
     926
-   ]
+   ],
+   "montagnes": false
+  },
+  {
+   "nom": "Haute-Forêt",
+   "classes": "haute-foret.png",
+   "cadre": [
+    385,
+    0,
+    850,
+    415
+   ],
+   "px_par_unite": 5,
+   "montagnes": true,
+   "source": "Carte régionale officielle de la Haute-Forêt et du Nord (photo d'Antoine), redressée par plaque mince sur Eauprofonde, Lunargent, Sundabar, Everlund, Longueselle, Évereska, le Fort des Portes de l'Enfer et le Gué de la Dague ; forêts, montagnes, eaux et désert relevés à la main (haute-foret-sources.json).",
+   "codes": {
+    "0": "hors zone (carte de référence)",
+    "1": "terre",
+    "2": "eau",
+    "3": "forêt",
+    "5": "montagnes et collines",
+    "6": "désert"
+   }
+  },
+  {
+   "nom": "Cormyr",
+   "classes": "cormyr.png",
+   "cadre": [
+    830,
+    180,
+    1160,
+    610
+   ],
+   "px_par_unite": 5,
+   "montagnes": true,
+   "source": "Carte régionale officielle du Cormyr, des Vaux, du Cormanthor et de la Mer de Lune (photo d'Antoine), redressée par plaque mince sur Suzail, Marsembre, Arabel, Urmlaspyre, Saerloune, Selgonte, Yhaunne, Ordulin, Château-Zhentil, Montélor (Hillsfar), Melvonte, Myth Drannor et Voonlar ; forêts, montagnes, eaux et désert relevés à la main (cormyr-sources.json).",
+   "codes": {
+    "0": "hors zone (carte de référence)",
+    "1": "terre",
+    "2": "eau",
+    "3": "forêt",
+    "5": "montagnes et collines",
+    "6": "désert"
+   }
   }
  ]
 }
