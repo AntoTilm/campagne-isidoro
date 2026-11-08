@@ -1,0 +1,35 @@
+{
+ "regions": [
+  {
+   "nom": "Lac de Vapeur",
+   "classes": "lac-vapeur.png",
+   "cadre": [
+    760,
+    760,
+    1180,
+    1100
+   ],
+   "px_par_unite": 5,
+   "source": "Carte imprimée du Lac de Vapeur (photo d'Antoine), redressée par plaque mince sur Mintar, Saelmur, Ankhapur, Arnroc, Yhep, Derlusk, Innarlith, Suldolphor, Yallasch, Ormspur, Shaarmid et Ormpetarr.",
+   "codes": {
+    "0": "hors zone (carte de référence)",
+    "1": "terre",
+    "2": "eau",
+    "3": "forêt",
+    "4": "forêt du sud (jungle)"
+   },
+   "zoom": [
+    790,
+    820,
+    960,
+    930
+   ],
+   "glyphes_fins": [
+    796,
+    826,
+    938,
+    926
+   ]
+  }
+ ]
+}

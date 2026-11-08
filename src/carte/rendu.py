@@ -10,6 +10,23 @@ Hr, Wr = eau_r.shape
 W, H = int(round(Wr * ECH)), int(round(Hr * ECH))
 eau = (cv2.resize(eau_r.astype(np.float32), (W, H), interpolation=cv2.INTER_LINEAR) > 0.5).astype(np.uint8)
 
+# ------------------------------------------------------------ régions redessinées d'après les cartes détaillées (detail/regions.json)
+# Chaque région fournit une carte de classes (0 hors zone, 1 terre, 2 eau, 3 forêt, 4 forêt du sud) qui remplace,
+# dans sa zone, l'eau, les forêts et les déserts tirés de la référence ; les montagnes de la référence restent sur la terre.
+DETAIL = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'detail')
+zone_det = np.zeros((H, W), np.uint8); cls_det = np.zeros((H, W), np.uint8)
+for reg in json.load(open(os.path.join(DETAIL, 'regions.json')))['regions']:
+    c = cv2.imread(os.path.join(DETAIL, reg['classes']), 0)
+    x0, y0, x1, y1 = reg['cadre']
+    i0, j0, i1, j1 = int(x0 - X0), int(y0 - Y0), int(x1 - X0), int(y1 - Y0)
+    w_, h_ = i1 - i0, j1 - j0
+    z = cv2.resize((c > 0).astype(np.float32), (w_, h_), interpolation=cv2.INTER_AREA) > 0.5
+    e = cv2.resize((c == 2).astype(np.float32), (w_, h_), interpolation=cv2.INTER_AREA) > 0.5
+    k = cv2.resize(c, (w_, h_), interpolation=cv2.INTER_NEAREST)
+    zone_det[j0:j1, i0:i1][z] = 1
+    cls_det[j0:j1, i0:i1][z] = np.where(e[z], 2, k[z])
+    eau[j0:j1, i0:i1][z] = e[z]
+
 # ------------------------------------------------------------ côtes lissées
 S = 4
 big = cv2.resize(eau.astype(np.float32), (W * S, H * S), interpolation=cv2.INTER_LINEAR)
@@ -78,7 +95,37 @@ def masque_poly(pts, seed=0):
     cv2.fillPoly(m, [np.round(Q).astype(np.int32)], 1)
     return m, Q
 
-def poisson(m, r, essais=40):
+# Zones fines (detail/regions.json, clé « glyphes_fins ») : glyphes deux fois plus petits et plus serrés,
+# pour que les comtés restent lisibles au plus fort zoom ; transition douce sur 14 unités autour.
+FINS = [r['glyphes_fins'] for r in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'detail', 'regions.json')))['regions'] if r.get('glyphes_fins')]
+def ech(x, y):
+    e = 1.0
+    for x0, y0, x1, y1 in FINS:
+        d = math.hypot(max(x0 - x, 0, x - x1), max(y0 - y, 0, y - y1))
+        e = min(e, 0.5 + 0.5 * min(1.0, d / 14))
+    return e
+
+def poisson(m, r, essais=40, variable=False):
+    # variable : le rayon local vaut r × ech(x, y) (voir FINS)
+    if variable and FINS:
+        ys, xs = np.nonzero(m)
+        if not len(xs): return []
+        idx = np.random.permutation(len(xs))
+        pts, grille = [], {}
+        cell = r * 0.5 / math.sqrt(2)
+        for k in idx:
+            x, y = xs[k] + random.random(), ys[k] + random.random()
+            rx = r * ech(x, y)
+            gx, gy = int(x / cell), int(y / cell)
+            ok = True
+            for i in range(gx - 3, gx + 4):
+                for j in range(gy - 3, gy + 4):
+                    q = grille.get((i, j))
+                    if q and (q[0] - x) ** 2 + (q[1] - y) ** 2 < ((rx + q[2]) / 2) ** 2: ok = False; break
+                if not ok: break
+            if ok:
+                grille[(gx, gy)] = (x, y, rx); pts.append((x, y))
+        return pts
     ys, xs = np.nonzero(m)
     if not len(xs): return []
     idx = np.random.permutation(len(xs))
@@ -115,6 +162,11 @@ ordre = ['montagne', 'desert', 'resineux', 'jungle']
 for ti, t in enumerate(ordre):
     P = PARAMS[t]
     zr = cv2.resize(zones_r[t].astype(np.float32), (W, H), interpolation=cv2.INTER_LINEAR)
+    zd = zone_det == 1
+    if t == 'resineux': zr[zd] = (cls_det[zd] == 3)
+    elif t == 'jungle': zr[zd] = (cls_det[zd] == 4)
+    elif t == 'desert': zr[zd] = 0
+    elif t == 'montagne': zr[zd] = zr[zd] * (cls_det[zd] == 1)
     zone = (cv2.GaussianBlur(zr, (0, 0), 1.6) > 0.45).astype(np.uint8) & terre1
     cs_, _ = cv2.findContours(zone, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
     for k, c in enumerate(cs_):
@@ -125,10 +177,11 @@ for ti, t in enumerate(ordre):
     ok = zone & (dist > P['marge']).astype(np.uint8)
     if t != 'montagne': ok = ok & (occupe == 0)
     bord = cv2.distanceTransform(zone, cv2.DIST_L2, 5)
-    for (x, y) in poisson(ok, P['r']):
-        pr = min(1, .3 + bord[int(y), int(x)] / (2.2 * P['r']))
+    for (x, y) in poisson(ok, P['r'], variable=True):
+        e_ = ech(x, y)
+        pr = min(1, .3 + bord[int(y), int(x)] / (2.2 * P['r'] * e_))
         if random.random() > pr: continue
-        s_ = random.uniform(.85, 1.2) * (0.8 + 0.2 * pr)
+        s_ = random.uniform(.85, 1.2) * (0.8 + 0.2 * pr) * e_
         if t == 'montagne':
             v = random.randint(1, 3); s_ *= 1.1
             glyphes.append((y, f'<use href="#mt{v}" transform="translate({x:.1f} {y:.1f}) scale({s_:.2f})"/>'))
@@ -142,10 +195,10 @@ for ti, t in enumerate(ordre):
             glyphes.append((y, f'<use href="#{"du" if random.random() < .35 else "pt"}" transform="translate({x:.1f} {y:.1f}) scale({s_:.2f})"/>'))
     occupe |= zone
 libre = ((occupe == 0) & (dist > 6)).astype(np.uint8)
-for (x, y) in poisson(libre, 16):
-    r = random.random()
-    if r < .5: glyphes.append((y, f'<use href="#to" transform="translate({x:.1f} {y:.1f}) scale({random.uniform(.7,1):.2f})" opacity=".55"/>'))
-    elif r < .58: glyphes.append((y, f'<use href="#co" transform="translate({x:.1f} {y:.1f}) scale({random.uniform(.7,.95):.2f})" opacity=".8"/>'))
+for (x, y) in poisson(libre, 16, variable=True):
+    r = random.random(); e_ = ech(x, y)
+    if r < .5: glyphes.append((y, f'<use href="#to" transform="translate({x:.1f} {y:.1f}) scale({random.uniform(.7,1) * e_:.2f})" opacity=".55"/>'))
+    elif r < .58: glyphes.append((y, f'<use href="#co" transform="translate({x:.1f} {y:.1f}) scale({random.uniform(.7,.95) * e_:.2f})" opacity=".8"/>'))
 glyphes.sort(key=lambda g: g[0])
 
 # ------------------------------------------------------------ fleuves (squelette des traits bleus de la référence)
@@ -179,6 +232,8 @@ def lisse_ouvert(P):
         Q.append(P[-1]); P = np.array(Q)
     return P
 
+zone_r = cv2.resize(zone_det, (Wr, Hr), interpolation=cv2.INTER_NEAREST)
+fleuves_r = (fleuves_r > 0) & (cv2.dilate(zone_r, np.ones((3, 3), np.uint8)) == 0)
 sq = skeletonize(fleuves_r > 0).astype(np.uint8)
 # raccords : chaque extrémité est reliée à l'eau ou au fleuve le plus proche (moins de 7 px de la référence)
 cible = np.maximum(eau_r, 0).astype(np.uint8)
@@ -204,6 +259,15 @@ for i, ch in enumerate(chaines(sq)):
     Q = ondule(lisse_ouvert(P), amp=0.5, pas=1.0, seed=500 + i, ferme=False)
     w = .8 if len(ch) < 25 else 1.15
     fleuves.append(f'<path d="{chemin(Q, False)}" stroke-width="{w}"/>')
+
+# rivières tracées d'après les cartes détaillées (detail/*.json, couche « rivieres »)
+for f_ in sorted(os.listdir(DETAIL)):
+    if not f_.endswith('.json') or f_ in ('regions.json',) or f_.endswith('-sources.json'): continue
+    for i, riv in enumerate(json.load(open(os.path.join(DETAIL, f_))).get('rivieres', [])):
+        P = np.array(riv['pts'], float)
+        if len(P) < 2 or np.linalg.norm(np.diff(P, axis=0), axis=1).sum() < 8: continue   # bouts isolés
+        Q = ondule(lisse_ouvert(P), amp=0.35, pas=0.8, seed=900 + i, ferme=False)
+        fleuves.append(f'<path d="{chemin(Q, False)}" stroke-width="{riv.get("ep", 1.1)}"/>')
 
 # ------------------------------------------------------------ texture du papier
 def texture(n=384, seed=3):

@@ -25,6 +25,7 @@
 .carte__livre { z-index: 10; opacity: 0; transition: opacity .3s; }
 .avec-livre .carte__livre { opacity: .92; }
 .carte__calque { position: absolute; inset: 0; pointer-events: none; }
+.carte__vue { isolation: isolate; }   /* les noms restent sous la fiche et la barre */
 
 /* ------------------------------------------------ étiquettes */
 .etiquette {
@@ -82,9 +83,11 @@
 .etiquette--actif .etiquette__nom { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
 
 /* niveaux de détail selon le zoom */
-.carte[data-niveau="1"] .etiquette[data-niv="2"], .carte[data-niveau="1"] .etiquette[data-niv="3"], .carte[data-niveau="1"] .etiquette[data-niv="4"],
-.carte[data-niveau="2"] .etiquette[data-niv="3"], .carte[data-niveau="2"] .etiquette[data-niv="4"],
-.carte[data-niveau="3"] .etiquette[data-niv="4"] { display: none; }
+.carte[data-niveau="1"] .etiquette:is([data-niv="2"], [data-niv="3"], [data-niv="4"], [data-niv="5"], [data-niv="6"]),
+.carte[data-niveau="2"] .etiquette:is([data-niv="3"], [data-niv="4"], [data-niv="5"], [data-niv="6"]),
+.carte[data-niveau="3"] .etiquette:is([data-niv="4"], [data-niv="5"], [data-niv="6"]),
+.carte[data-niveau="4"] .etiquette:is([data-niv="5"], [data-niv="6"]),
+.carte[data-niveau="5"] .etiquette[data-niv="6"] { display: none; }
 .carte[data-niveau="4"] .etiquette--region { opacity: .55; }
 .carte[data-niveau="4"] .etiquette--region .etiquette__nom { font-size: calc(20px * var(--e, 1)); letter-spacing: .3em; }
 
@@ -155,9 +158,49 @@
 .lieu__liens { display: inline; font-size: .85rem; color: var(--encre-douce); }
 .lieu__voir { display: inline-block; font-size: .82rem; margin-left: .5rem; font-family: var(--capitales); letter-spacing: .04em; }
 .lieux-carte--non-places li { color: var(--encre); }
+.lieux-index h3 { margin-top: 1.6rem; }
+.lieux-intro { max-width: 46rem; color: var(--encre-douce); margin: .4rem 0 .2rem; }
 
 /* les lieux ponctuels passent devant les noms de régions et de mers */
 .etiquette--region, .etiquette--mer, .etiquette--relief { z-index: 1; }
 .etiquette--ville, .etiquette--capitale, .etiquette--ruine, .etiquette--repaire { z-index: 2; }
 .etiquette--campagne { z-index: 3; }
 .etiquette--actif { z-index: 4; }
+
+/* ------------------------------------------------ calque vectoriel : routes, pistes, frontières, ruisseaux (traits d'épaisseur constante à l'écran) */
+.carte { --u: 1px; }
+.carte__traces { position: absolute; left: 0; top: 0; width: 1585px; height: 1194px; overflow: visible; pointer-events: none; z-index: 5; }
+.carte__traces path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.tr-route { stroke: #6e3f1f; stroke-width: calc(var(--u) * 1.9); }
+.tr-chemin { stroke: #6e3f1f; stroke-width: calc(var(--u) * 1.3); stroke-dasharray: calc(var(--u) * 5) calc(var(--u) * 4); }
+.tr-frontiere { stroke: #7a2e5e; stroke-width: calc(var(--u) * 1.2); stroke-dasharray: calc(var(--u) * 1) calc(var(--u) * 4.5); opacity: .85; }
+.tr-ruisseau { stroke: #3f6f7c; stroke-width: calc(var(--u) * 1.1); opacity: .9; }
+.tr-lisiere { stroke: #3d5a2c; stroke-width: calc(var(--u) * 1.1); stroke-dasharray: calc(var(--u) * 7) calc(var(--u) * 3); opacity: .55; }
+.carte__traces .tr-bois { fill: #8fa864; fill-opacity: .4; stroke: #5c7040; stroke-width: calc(var(--u) * .9); }
+.carte__traces .tr-marais { fill: #9fb7a8; fill-opacity: .45; stroke: #4f7a80; stroke-width: calc(var(--u) * .8); }
+.carte[data-niveau="1"] .carte__traces :is(.n2, .n3, .n4, .n5, .n6),
+.carte[data-niveau="2"] .carte__traces :is(.n3, .n4, .n5, .n6),
+.carte[data-niveau="3"] .carte__traces :is(.n4, .n5, .n6),
+.carte[data-niveau="4"] .carte__traces :is(.n5, .n6),
+.carte[data-niveau="5"] .carte__traces .n6 { display: none; }
+.sans-routes .carte__traces { display: none; }
+.carte--bouge .carte__traces { will-change: transform; }
+
+/* ------------------------------------------------ étiquettes des comtés : bourgs, hameaux, forts, auberges */
+.etiquette--bourg .etiquette__point { width: 7px; height: 7px; left: -3.5px; top: -3.5px; background: var(--encre-carte); border-color: var(--parchemin); }
+.etiquette--bourg .etiquette__nom { font-size: calc(12.5px * var(--e, 1)); font-weight: 600; }
+.etiquette--hameau .etiquette__point { width: 5px; height: 5px; left: -2.5px; top: -2.5px; background: #5a4630; border-color: var(--parchemin); }
+.etiquette--hameau .etiquette__nom { font-size: calc(11.5px * var(--e, 1)); }
+.etiquette--fort .etiquette__point { width: 7px; height: 7px; left: -3.5px; top: -3.5px; border-radius: 1px; background: #8a3a2a; border-color: var(--parchemin); }
+.etiquette--fort .etiquette__nom { font-size: calc(11.5px * var(--e, 1)); font-style: italic; }
+.etiquette--auberge .etiquette__point { width: 6px; height: 6px; left: -3px; top: -3px; border-radius: 1px; transform: rotate(45deg); background: #b8892e; border-color: var(--encre-carte); }
+.etiquette--auberge .etiquette__nom { font-size: calc(11.5px * var(--e, 1)); }
+.etiquette--comte .etiquette__nom { font-family: var(--capitales); font-size: calc(12px * var(--e, 1)); letter-spacing: .14em; color: #6a2c52; opacity: .85; transform: rotate(var(--rot, 0deg)); display: inline-block; }
+.etiquette--eau .etiquette__nom { font-family: var(--display); font-style: italic; font-size: calc(12px * var(--e, 1)); color: var(--mer-carte); transform: rotate(var(--rot, 0deg)); display: inline-block; }
+.etiquette--route .etiquette__nom { font-family: var(--display); font-style: italic; font-size: calc(11.5px * var(--e, 1)); color: #6e3f1f; transform: rotate(var(--rot, 0deg)); display: inline-block; }
+.etiquette--mine .etiquette__point { width: 7px; height: 7px; left: -3.5px; top: -3.5px; border-radius: 1px; background: #3d3a36; border-color: var(--parchemin); }
+.etiquette--mine .etiquette__nom { font-size: calc(11.5px * var(--e, 1)); }
+.etiquette--lieudit .etiquette__nom { font-family: var(--display); font-style: italic; font-size: calc(11.5px * var(--e, 1)); letter-spacing: .04em; color: #5b4a30; }
+.carte[data-niveau="6"] .etiquette--comte { opacity: .45; }
+.etiquette--bourg, .etiquette--hameau, .etiquette--fort, .etiquette--auberge, .etiquette--mine { z-index: 2; }
+.etiquette--comte, .etiquette--eau, .etiquette--route { z-index: 1; }

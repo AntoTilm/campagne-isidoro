@@ -37,11 +37,15 @@
     var voulu = Math.max(1, Math.min(NMAX, Math.ceil(Math.log2(k * dpr) - 0.15)));
     var a = versCarte(-64, -64), b = versCarte(vue.clientWidth + 64, vue.clientHeight + 64);
     for (var L = 1; L <= NMAX; L++) {
-      var g = GRILLES[L];
-      var montre = L <= voulu && L >= voulu - 1;
+      var gs = GRILLES[L];
+      // Les deux niveaux voulus, plus le niveau 3 (toute la carte) dessous, là où un niveau fin n'existe pas.
+      var montre = (L <= voulu && L >= voulu - 1) || L === Math.min(3, voulu);
       if (couches[L]) couches[L].style.display = montre ? '' : 'none';
-      if (!montre || !g) continue;
+      if (!montre || !gs) continue;
+      if (typeof gs[0] === 'number') gs = [gs];   // une ou plusieurs zones par niveau
       var u = 512 / Math.pow(2, L);
+      for (var zg = 0; zg < gs.length; zg++) {
+      var g = gs[zg];
       var i0 = Math.max(g[0], Math.floor((a.x - X0) / u)), i1 = Math.min(g[2] - 1, Math.floor((b.x - X0) / u));
       var j0 = Math.max(g[1], Math.floor((a.y - Y0) / u)), j1 = Math.min(g[3] - 1, Math.floor((b.y - Y0) / u));
       for (var i = i0; i <= i1; i++) for (var j = j0; j <= j1; j++) {
@@ -56,6 +60,7 @@
         couche(L).appendChild(img);
         posees[cle] = img;
       }
+      }
     }
   }
   var attenteTuiles = null;
@@ -63,11 +68,13 @@
     if (attenteTuiles) return;
     attenteTuiles = setTimeout(function () { attenteTuiles = null; majTuiles(); }, 120);
   }
-  // Seuils de zoom (relatifs à la vue d'ensemble) pour les niveaux 2, 3 et 4.
-  var SEUILS = [0, 0, 1.7, 3, 5.2];
+  // Seuils de zoom (relatifs à la vue d'ensemble) pour les niveaux 2 à 6 (5 et 6 : les comtés de la rive nord).
+  var SEUILS = [0, 0, 1.7, 3, 5.2, 11, 19];
   var TYPES = { region: 'Région', mer: 'Mer et lac', relief: 'Relief et forêt', capitale: 'Capitale', ville: 'Cité',
     ruine: 'Ruines', campagne: 'Lieu de la campagne', repaire: 'Repaire' };
-  var CALQUE_DE = { campagne: 'campagne', repaire: 'campagne', capitale: 'villes', ville: 'villes', ruine: 'villes', region: 'regions', mer: 'nature', relief: 'nature' };
+  TYPES.bourg = 'Bourg'; TYPES.hameau = 'Hameau'; TYPES.fort = 'Fort'; TYPES.auberge = 'Auberge'; TYPES.comte = 'Comté'; TYPES.eau = 'Rivière'; TYPES.route = 'Route'; TYPES.mine = 'Mine'; TYPES.lieudit = 'Lieu-dit';
+  var CALQUE_DE = { campagne: 'campagne', repaire: 'campagne', capitale: 'villes', ville: 'villes', ruine: 'villes', region: 'regions', mer: 'nature', relief: 'nature',
+    bourg: 'villes', hameau: 'villes', fort: 'villes', auberge: 'villes', mine: 'villes', comte: 'regions', eau: 'nature', route: 'nature', lieudit: 'nature' };
 
   // ------------------------------------------------------------ étiquettes
   var lieux = [];
@@ -77,7 +84,7 @@
     var type = li.getAttribute('data-carte');
     var b = document.createElement('button');
     b.type = 'button';
-    b.className = 'etiquette etiquette--' + type + ' etiquette--' + (li.getAttribute('data-pos') || (type === 'region' || type === 'mer' || type === 'relief' ? 'c' : 'd'));
+    b.className = 'etiquette etiquette--' + type + ' etiquette--' + (li.getAttribute('data-pos') || (type === 'region' || type === 'mer' || type === 'relief' || type === 'comte' || type === 'eau' || type === 'route' || type === 'lieudit' ? 'c' : 'd'));
     b.setAttribute('data-niv', li.getAttribute('data-niv') || '1');
     b.setAttribute('data-calque', CALQUE_DE[type] || 'villes');
     if (li.hasAttribute('data-savoir')) b.setAttribute('data-savoir', li.getAttribute('data-savoir'));
@@ -96,6 +103,14 @@
     aller.addEventListener('click', function (ev) { ev.preventDefault(); history.replaceState(null, '', '#' + li.id); carte.scrollIntoView({ behavior: 'smooth', block: 'start' }); choisir(l, true); });
     li.appendChild(aller);
   });
+  // ------------------------------------------------------------ calque vectoriel (routes, pistes, frontières, ruisseaux, bois)
+  var traces = carte.getAttribute('data-traces');
+  if (traces && window.fetch) fetch(traces).then(function (r) { return r.ok ? r.text() : ''; }).then(function (t) {
+    if (!t) return;
+    var tmp = document.createElement('div'); tmp.innerHTML = t;
+    var svgT = tmp.querySelector('svg');
+    if (svgT) plan.insertBefore(svgT, tuiles.nextSibling);
+  }).catch(function () {});
   var noms = carte.querySelector('#carte-noms');
   if (noms) noms.innerHTML = lieux.map(function (l) { return '<option value="' + l.nom.replace(/"/g, '&quot;') + '">'; }).join('');
 
@@ -112,13 +127,14 @@
     tx = lw <= vw - m.d ? (vw - m.d - lw) / 2 : Math.min(0, Math.max(vw - m.d - lw, tx));
     ty = lh <= vh - m.b ? (vh - m.b - lh) / 2 : Math.min(0, Math.max(vh - m.b - lh, ty));
   }
-  var repos;
+  var repos, kTrait = 0;
   function applique(enMouvement) {
     bornes();
     plan.style.transform = 'translate(' + tx + 'px,' + ty + 'px) scale(' + k + ')';
     var z = k / kmin, niv = 1;
-    for (var n = 2; n <= 4; n++) if (z >= SEUILS[n]) niv = n;
+    for (var n = 2; n <= 6; n++) if (z >= SEUILS[n]) niv = n;
     if (carte.getAttribute('data-niveau') !== String(niv)) carte.setAttribute('data-niveau', niv);
+    if (k !== kTrait) { kTrait = k; carte.style.setProperty('--u', (1 / k).toFixed(5) + 'px'); }
     var vw = vue.clientWidth, vh = vue.clientHeight;
     for (var i = 0; i < lieux.length; i++) {
       var l = lieux[i];
@@ -141,7 +157,7 @@
     var ancienMin = kmin;
     kmin = Math.min(vw / CW, vh / CH);
     carte.style.setProperty('--e', Math.max(.72, Math.min(1, vw / 1100)).toFixed(3));
-    kmax = kmin * 10;
+    kmax = kmin * 36;
     if (!garderCentre) { k = kmin; tx = 0; ty = 0; }
     else { k = Math.max(kmin, Math.min(kmax, k * kmin / ancienMin)); centrer(centre.x, centre.y); }
     applique();
@@ -288,7 +304,9 @@
   });
   carte.querySelectorAll('[data-aller]').forEach(function (b) {
     b.addEventListener('click', function () {
-      if (b.getAttribute('data-aller') === 'vapeur') cadrer(790, 845, 1120, 1020);
+      var cible = b.getAttribute('data-aller');
+      var cadres = { vapeur: [770, 790, 1190, 1090], comtes: [815, 842, 935, 926], 'haute-foret': [420, 50, 790, 330], cormyr: [780, 260, 1130, 520] };
+      if (cadres[cible]) cadrer.apply(null, cadres[cible]);
       else vole(kmin, X0 + CW / 2, Y0 + CH / 2);
     });
   });

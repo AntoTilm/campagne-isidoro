@@ -24,7 +24,7 @@ const CONTENU = join(RACINE, 'src', 'contenu');
 // Le journal d'Isidoro est rangé avec les séances : chaque séance renvoie à son entrée de journal (même « ordre »).
 const RUBRIQUES = {
   seances: { lien: 'seances.html', titre: 'Séances', onglets: [['seances.html', 'Les séances'], ['prochaine-seance.html', 'Prochaine séance']] },
-  monde: { lien: 'personnages.html', titre: 'Le monde', onglets: [['personnages.html', 'Personnages'], ['lieux.html', 'Lieux et cartes'], ['carte.html', 'Carte de Faerûn'], ['chronologie.html', 'Chronologie'], ['recoupements.html', 'Recoupements'], ['documents.html', 'Documents']] },
+  monde: { lien: 'personnages.html', titre: 'Le monde', onglets: [['personnages.html', 'Personnages'], ['carte.html', 'Carte et lieux'], ['chronologie.html', 'Chronologie'], ['recoupements.html', 'Recoupements'], ['documents.html', 'Documents']] },
   isidoro: { lien: 'isidoro.html', titre: 'Isidoro', onglets: [['isidoro.html', 'Fiche'], ['progression.html', 'Progression'], ['regles.html', 'Règles']] },
 };
 
@@ -506,6 +506,15 @@ function liste(nom) {
 for (const f of readdirSync(join(CONTENU, 'pages')).filter((f) => /\.(html|md)$/.test(f))) {
   const { meta, corps } = lireEnTete(readFileSync(join(CONTENU, 'pages', f), 'utf8'));
   const sortie = meta.sortie || f.replace(/\.md$/, '.html');
+  if (meta.redirection) {
+    // Ancienne adresse : renvoie vers la nouvelle page, en gardant l'ancre (#…).
+    const cible = echapper(meta.redirection);
+    ecrire(sortie, `<!doctype html>\n<html lang="fr"><head><meta charset="utf-8"><title>${echapper(meta.titre || 'Redirection')}</title>` +
+      `<meta name="robots" content="noindex"><link rel="canonical" href="${cible}"><meta http-equiv="refresh" content="0; url=${cible}">` +
+      `<script>location.replace(${JSON.stringify(meta.redirection)} + location.hash);</script></head>` +
+      `<body><p>Cette page a déménagé : <a href="${cible}">${echapper(meta.titre || meta.redirection)}</a>.</p></body></html>\n`);
+    continue;
+  }
   const source = f.endsWith('.md') ? markdown(corps, []) : typoHtml(corps);
   let html = source.replace(/<!--\s*liste:(\w+)\s*-->/g, (_, n) => liste(n));
   const entete = meta.titre && meta.entete !== 'non'

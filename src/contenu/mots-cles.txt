@@ -368,22 +368,25 @@ Talos, Cyric, Myrkul, Iyachtu Xvim, Alustriel, Lunargent, Silverymoon, Elminster
 
 # ============================================================ le monde : lieux
 
-[lieux.html#la-region-en-schema]
-carte, plan, schéma, géographie, région, où se trouve, distances, routes, Lac de Vapeur, Bois d'Épines, forêt de Qurth, Minta, fleuve, Mintar, Saelmur, Ankhapur, Innarlith, Derlusk, Kzelter, Fort Corner, Le Clos, abbaye, Champ-Doré, Bridgestone
+[carte.html#les-comtes]
+carte, plan, schéma, géographie, région, où se trouve, distances, routes, sentiers, ruisseaux, frontières, comtés, comté du Clos, comté de Bridgestone, comté d'Arsogne, comté de Saelmur, comté de Mintar, villages, hameaux, forts, auberges, Bois d'Épines, Minta, Bain Épineux, Fort Corner, Le Clos, abbaye, Champ-Doré, Bridgestone, Ghlinin, Talhoux, Arsogne, Fort Mur, Bourgcavale, Dilsdeg, El Tara, mine Fertail, mont Chamat
 
-[lieux.html#les-lieux] @isidoro
+[carte.html#la-campagne] @isidoro
 villes, villages, bourgs, auberges, endroits, lieux visités, Ghlinin, Glen, Baladin Joyeux, Fort Corner, Pissenlit Bleu, Champ-Doré, rue des Tanneurs, n°6, camp de Torm, camp de réfugiés, baronnie de Trèfleure, chevaux, Ankaria, avant-poste, temple de Shar, temple d'Amaunator, mythal, puits d'ombre, Pinte sans Fond, Kzelter
 
-[lieux.html#les-lieux] @isidoro @theodoric
+[carte.html#la-campagne] @isidoro @theodoric
 cité, port, Saelmur, Mintar, Derlusk, Ankhapur, comté du Clos, abbaye du Cœur Radieux, Bridgestone, pont, Château-Suif, bibliothèque, temple, ville natale
 
-[lieux.html#les-lieux] @theodoric
+[carte.html#la-campagne] @theodoric
 Bois d'Épines, Pinte sans Fond, Kzelter, Qurth, spriggans, Innarlith, Cyric, repaires d'Alcatar, Loge de l'Ossement, Monts Nethéres, Anauroch, Grand Shaar, bastions de Baine, Pics des Crépuscules, Collines des Serpents, portails, Nord, Lunargent, Roc Noir, Château-Zhentil, Citadelle du Corbeau, Rougemélèze, Longue Route
 
-[lieux.html#les-plans-de-mintar] @theodoric
+[carte.html#les-plans-de-mintar] @theodoric
 plans, cartes dessinées, Mintar, égouts, collecteur, citadelle, château de Teldorn, chapelle, écuries, hippogriffes, docks, quai, caserne, temple de Xvim, gantelet noir, esclaves
 
-[lieux.html#faerun]
+[carte.html#lac-de-vapeur]
+Lac de Vapeur, carte imprimée, Yeshpek, Tulmon, Suldolphor, Yallasch, Arnroc, Yhep, Valperdu, Kagarr, Ormpetarr, Sespech, Fort Arran, Mare au Naga, Route dorée, Plaine dorée, Elbulder, Shaarmid, Lhesper, Ormspur, Bois d'Hiver, Bois d'Ankh, Bois du Crépuscule, Bois de Jundar, Marécage de They, Neth, Scelptar
+
+[carte.html#carte-des-dons-regionaux]
 Faerûn, carte du monde, dons régionaux, Calimshan, Téthyr, Shaar, Royaumes Oubliés, Forgotten Realms
 
 

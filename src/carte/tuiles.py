@@ -7,7 +7,11 @@ T = 512
 ICI = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ICI, 'faerun.svg')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ICI, '..', '..', 'assets', 'carte', 'tuiles')
-NIVEAUX = {0: None, 1: None, 2: None, 3: None, 4: (780, 830, 1130, 1030)}
+# Niveaux 0 à 3 : toute la carte. Au-delà : seulement les zones détaillées (cadres en unités de carte).
+REGIONS = json.load(open(os.path.join(ICI, 'detail', 'regions.json')))['regions']
+NIVEAUX = {0: None, 1: None, 2: None, 3: None,
+           4: [tuple(r['cadre']) for r in REGIONS],
+           5: [tuple(r['zoom']) for r in REGIONS if r.get('zoom')]}
 svg = open(SRC).read()
 shutil.rmtree(OUT, ignore_errors=True)
 index = {}
@@ -15,19 +19,20 @@ with sync_playwright() as p:
     b = p.chromium.launch()
     pg = b.new_page(viewport={'width': 2048, 'height': 2048})
     for L, zone in NIVEAUX.items():
+        if zone is not None and not zone: continue
         s = 2 ** L
         W, H = math.ceil(CW * s), math.ceil(CH * s)
         nx, ny = math.ceil(W / T), math.ceil(H / T)
-        if zone:
-            ix0, iy0 = int((zone[0] - X0) * s // T), int((zone[1] - Y0) * s // T)
-            ix1, iy1 = math.ceil((zone[2] - X0) * s / T), math.ceil((zone[3] - Y0) * s / T)
-        else:
-            ix0, iy0, ix1, iy1 = 0, 0, nx, ny
+        grilles = [[int((z[0] - X0) * s // T), int((z[1] - Y0) * s // T), min(nx, math.ceil((z[2] - X0) * s / T)), min(ny, math.ceil((z[3] - Y0) * s / T))]
+                   for z in zone] if zone else [[0, 0, nx, ny]]
         os.makedirs(f'{OUT}/{L}', exist_ok=True)
-        index[L] = [ix0, iy0, ix1, iy1]
+        index[L] = grilles if zone else grilles[0]
+        faites = set()
         bloc = 4  # 4 x 4 tuiles par capture
-        for by in range(iy0, iy1, bloc):
+        for ix0, iy0, ix1, iy1 in grilles:
+          for by in range(iy0, iy1, bloc):
             for bx in range(ix0, ix1, bloc):
+                if all((bx + i, by + j) in faites for i in range(min(bloc, ix1 - bx)) for j in range(min(bloc, iy1 - by))): continue
                 cw, ch = min(bloc, ix1 - bx) * T, min(bloc, iy1 - by) * T
                 vx, vy = X0 + bx * T / s, Y0 + by * T / s
                 v = re.sub(r'viewBox="[^"]+" width="[^"]+" height="[^"]+"', f'viewBox="{vx} {vy} {cw/s} {ch/s}" width="{cw}" height="{ch}"', svg, count=1)
@@ -39,7 +44,8 @@ with sync_playwright() as p:
                 for j in range(ch // T):
                     for i in range(cw // T):
                         tx, ty = bx + i, by + j
-                        if tx >= nx or ty >= ny: continue
+                        if tx >= nx or ty >= ny or tx >= ix1 or ty >= iy1: continue
+                        faites.add((tx, ty))
                         im.crop((i * T, j * T, (i + 1) * T, (j + 1) * T)).save(f'{OUT}/{L}/{tx}_{ty}.webp', 'WEBP', quality=80, method=5)
         print('niveau', L, index[L])
     b.close()

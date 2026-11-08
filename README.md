@@ -57,7 +57,7 @@ Quand Isidoro apprendra une information jusque-là réservée à Théodoric (par
 
 ### Rubriques
 
-Trois rubriques : Séances (les séances, prochaine séance ; le journal d'Isidoro y est rattaché), Le monde (personnages, lieux, chronologie, recoupements, documents de Théodoric), Isidoro (fiche, progression, règles). Une page choisit sa rubrique avec `rubrique:` dans son en-tête ; les onglets sont définis en haut de `src/build.mjs`.
+Trois rubriques : Séances (les séances, prochaine séance ; le journal d'Isidoro y est rattaché), Le monde (personnages, carte et lieux, chronologie, recoupements, documents de Théodoric), Isidoro (fiche, progression, règles). Une page choisit sa rubrique avec `rubrique:` dans son en-tête ; les onglets sont définis en haut de `src/build.mjs`. Une page qui a déménagé garde son ancienne adresse avec un en-tête `redirection: nouvelle-page.html` (voir `src/contenu/pages/lieux.html`).
 
 ### Une séance : l'essentiel, le journal, le déroulé
 
@@ -71,15 +71,15 @@ Dans l'en-tête, `points:` donne les 4 ou 5 puces de la carte de la séance sur 
 
 Pour ajouter une séance : créer `src/contenu/seances/aventure-3.md` (avec `ordre: 3`, `points:` et un bloc `::: essentiel`), faire de même dans `journal/`, mettre à jour « Où nous en sommes » dans `src/contenu/pages/index.html`, le pense-bête `src/contenu/pages/prochaine-seance.md` et la chronologie, puis lancer le script.
 
-### La carte de Faerûn
+### La carte et les lieux
 
-`carte.html` (rubrique Le monde) est une carte interactive : zoom à la molette, au pincement ou aux boutons, fiche de chaque lieu au clic, calques, recherche, et la carte de référence en surimpression. Elle respecte le point de vue.
+`carte.html` (rubrique Le monde, onglet « Carte et lieux ») réunit la carte et l'index des lieux ; l'ancienne page `lieux.html` y renvoie. C'est une carte interactive : zoom à la molette, au pincement ou aux boutons, fiche de chaque lieu au clic, calques, recherche, et la carte de référence en surimpression. Elle respecte le point de vue.
 
 Les lieux sont la liste de `src/contenu/pages/carte.html` : chaque `<li data-carte="…">` devient un nom sur la carte et une entrée de l'index sous la carte. Pour en ajouter un, copier une ligne voisine et changer :
 
-- `data-carte` : `campagne`, `repaire`, `capitale`, `ville`, `ruine`, `region`, `mer` ou `relief` ;
-- `data-x`, `data-y` : la position (le cadre fait 1585 × 1194, soit 1,5 × les pixels de `src/carte/reference.png` ; Saelmur est en 868, 920) ;
-- `data-niv` : 1 toujours visible, 2, 3 ou 4 à mesure qu'on zoome ;
+- `data-carte` : `campagne`, `repaire`, `capitale`, `ville`, `ruine`, `region`, `mer` ou `relief` ; pour les comtés de la rive nord, aussi `bourg`, `hameau`, `fort`, `auberge`, `mine`, `lieudit`, `comte`, `eau` (rivière) et `route` ;
+- `data-x`, `data-y` : la position (le cadre fait 1585 × 1194, soit 1,5 × les pixels de `src/carte/reference.png` ; Saelmur est en 865,5, 921) ;
+- `data-niv` : 1 toujours visible, 2, 3 ou 4 à mesure qu'on zoome, 5 et 6 pour les bourgs puis les hameaux des comtés ;
 - au besoin `data-pos="g|d|h|b"` (côté du nom), `data-rot` (inclinaison en degrés), `data-approx` (position supposée) et `data-savoir`.
 
 Le fond illustré (côtes, reliefs, forêts) se régénère avec les scripts de `src/carte/` (voir leur README).
